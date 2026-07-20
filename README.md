@@ -25,8 +25,11 @@ Full firm list with categories: `config/companies.yaml`.
 
 ## Where the digest goes
 
+- **Dashboard: https://calvincj.github.io/job-tracker/** - searchable, same
+  data as digest.md, regenerated every run. The main place to check.
+- Email: only today's genuinely new roles (not the whole lookback window),
+  after a quick dead-link check on that small set. See `src/notify.py`.
 - `data/digest.md`, committed every run, readable on GitHub mobile.
-- Emailed to me directly (see `src/notify.py`, on by default).
 - `data/new_jobs.csv` - full running log, never pruned.
 - `data/manual_links.md` - bookmarks for firms with no clean ATS feed, regenerated
   every run, grouped by category. My weekly eyeball-it fallback.
