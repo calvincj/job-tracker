@@ -131,7 +131,7 @@ def run():
     stats = {"checked": checked, "errors": len(errors),
              "open": len(all_open), "lookback": lookback, "error_list": errors}
     md_path, csv_path = report.write_outputs(recent, new_jobs, stats, DATA)
-    report.write_dashboard(recent, stats, ROOT)
+    report.write_dashboard(recent, new_jobs, stats, ROOT)
 
     if new_jobs and filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
         try:

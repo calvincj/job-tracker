@@ -1,6 +1,6 @@
 # Job digest - 2026-07-20
 
-**107 new roles** across 21 firms.
+**108 new roles** across 21 firms.
 
 ### New-grad / full-time (36)
 
@@ -31,7 +31,7 @@
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39993) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39995) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Business Intelligence Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Business-Intelligence-Analyst_39646) - US - DC, Washington
-- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=QLXbklGE8RGL1fT2QXZtrg&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
+- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=-LeVTWiE8RGKW5y-KTKM_g&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
 - **Administration for Strategic Preparedness and Response** (Government) - [Supervisory Management and Program Analyst](https://www.usajobs.gov:443/job/876797500) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Management and Program Analyst](https://www.usajobs.gov:443/job/876217000) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Budget Analyst](https://www.usajobs.gov:443/job/877109900) - Richland, Washington
@@ -82,7 +82,7 @@
 - **Guidehouse** (Environmental Consulting) - [Part-Time Oncology Data Specialist - Certified (remote)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Part-Time-Oncology-Data-Specialist---Certified--remote-_38252) - REMOTE
 - **Guidehouse** (Environmental Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (36)
+### Other matches (37)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Field Quality Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5835346004?gh_jid=5835346004) - San Francisco, California, United States
@@ -97,6 +97,7 @@
 - **Redwood Materials** (Cleantech) - [Software Engineer - ML/Computer Vision (Battery Sorting)](https://boards.greenhouse.io/redwoodmaterials/jobs/6099577004?gh_jid=6099577004) - McCarran, NV; San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Software Engineer - Site Controller, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6097367004?gh_jid=6097367004) - San Francisco, California, United States
 - **ERM** (Environmental Consulting) - [Managing Consultant, Heath and Safety](https://www.adzuna.com/details/5721325974?utm_medium=api&utm_source=7de842cf) - Manhattan, New York City
+- **Guidehouse** (Environmental Consulting) - [Federal Financial Management, Managing Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management--Managing-Consultant_42214) - US - GA, Atlanta
 - **Guidehouse** (Environmental Consulting) - [UAS Policy Support](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/UAS-Policy-Support_41915) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Managing Consultant – Digital Assets Strategy & Transformation](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Managing-Consultant---Digital-Assets-Strategy---Transformation_41641-1) - US - NY, New York
 - **Guidehouse** (Environmental Consulting) - [Operational Effectiveness Audit Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Operational-Effectiveness-Audit-Consultant_41445) - US - DC, Washington
@@ -122,4 +123,4 @@
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 
 ---
-_Window: last 30h. Companies checked: 12, errors: 0, total open matches: 107._
+_Window: last 30h. Companies checked: 12, errors: 0, total open matches: 108._
