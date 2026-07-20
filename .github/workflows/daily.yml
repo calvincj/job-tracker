@@ -43,6 +43,6 @@ jobs:
                 "checking jobs" "asdf" "update jobs" "new roles maybe" "ok" \
                 "fix" "ugh" "the usual" "commit" "adding stuff")
           MSG=${MSGS[$RANDOM % ${#MSGS[@]}]}
-          git add data/
+          git add data/ docs/
           git diff --staged --quiet || git commit -m "$MSG"
           git push

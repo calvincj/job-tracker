@@ -2,7 +2,9 @@
 
 Loads config/companies.yaml and config/filters.yaml, pulls each company from
 its ATS, filters and tags the postings, diffs against data/seen.json, and writes
-data/digest.md + data/new_jobs.csv.
+data/digest.md + data/new_jobs.csv + docs/index.html (GitHub Pages dashboard).
+If email delivery is on, sends only today's genuinely-new roles (not the full
+digest), after a quick liveness check on that small set.
 """
 
 import os
@@ -129,13 +131,14 @@ def run():
     stats = {"checked": checked, "errors": len(errors),
              "open": len(all_open), "lookback": lookback, "error_list": errors}
     md_path, csv_path = report.write_outputs(recent, new_jobs, stats, DATA)
+    report.write_dashboard(recent, stats, ROOT)
 
-    if filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
+    if new_jobs and filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
         try:
-            with open(md_path) as f:
-                digest_body = f.read()
-            subject = f"Job digest - {len(recent)} roles" if recent else "Job digest - nothing new"
-            notify.send_digest(subject, digest_body)
+            live_jobs = notify.filter_live(new_jobs)
+            if live_jobs:
+                subject = f"{len(live_jobs)} new job{'s' if len(live_jobs) != 1 else ''} today"
+                notify.send_digest(subject, report.render_email_body(live_jobs))
         except Exception as e:
             errors.append(("email delivery", f"{type(e).__name__}: {e}"))
 
