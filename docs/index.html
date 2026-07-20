@@ -3,40 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Job digest - 2026-07-20</title>
+<title>Job Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
     color-scheme: light dark;
     --bg: #ffffff; --card: #f8fafc; --text: #14181f; --muted: #6b7280;
     --border: #e5e7eb; --accent: #2563eb; --new-bg: #eff6ff; --new-border: #bfdbfe;
-    --grad-bg: #dbeafe; --grad-text: #1e40af;
-    --intern-bg: #dcfce7; --intern-text: #166534;
-    --other-bg: #f1f5f9; --other-text: #475569;
+    --t-grad-bg: #dbeafe; --t-grad-fg: #1e40af;
+    --t-intern-bg: #dcfce7; --t-intern-fg: #166534;
+    --t-other-bg: #f1f5f9; --t-other-fg: #475569;
   }
+  .cat-0 { background:#fee2e2; color:#991b1b; }
+  .cat-1 { background:#ffedd5; color:#9a3412; }
+  .cat-2 { background:#fef3c7; color:#92400e; }
+  .cat-3 { background:#ecfccb; color:#3f6212; }
+  .cat-4 { background:#ccfbf1; color:#115e59; }
+  .cat-5 { background:#cffafe; color:#155e75; }
+  .cat-6 { background:#dbeafe; color:#1e40af; }
+  .cat-7 { background:#e0e7ff; color:#3730a3; }
+  .cat-8 { background:#ede9fe; color:#5b21b6; }
+  .cat-9 { background:#fce7f3; color:#9d174d; }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #0b0f17; --card: #10151f; --text: #e6e8eb; --muted: #9aa4b2;
       --border: #232a36; --accent: #60a5fa; --new-bg: #0f1c33; --new-border: #1e3a5f;
-      --grad-bg: #1e3a5f; --grad-text: #93c5fd;
-      --intern-bg: #14352380; --intern-text: #86efac;
-      --other-bg: #1a2130; --other-text: #9aa4b2;
+      --t-grad-bg: #1e3a5f; --t-grad-fg: #93c5fd;
+      --t-intern-bg: #14352380; --t-intern-fg: #86efac;
+      --t-other-bg: #1a2130; --t-other-fg: #9aa4b2;
     }
+    .cat-0 { background:#451a1a; color:#fca5a5; }
+    .cat-1 { background:#431407; color:#fdba74; }
+    .cat-2 { background:#451a03; color:#fcd34d; }
+    .cat-3 { background:#1a2e05; color:#bef264; }
+    .cat-4 { background:#042f2e; color:#5eead4; }
+    .cat-5 { background:#083344; color:#67e8f9; }
+    .cat-6 { background:#1e3a5f; color:#93c5fd; }
+    .cat-7 { background:#1e1b4b; color:#a5b4fc; }
+    .cat-8 { background:#2e1065; color:#c4b5fd; }
+    .cat-9 { background:#500724; color:#f9a8d4; }
   }
   * { box-sizing: border-box; }
   body {
-    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    max-width: 980px; margin: 0 auto; padding: 1.75rem 1.25rem 4rem;
+    font-family: 'Inter', ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 1040px; margin: 0 auto; padding: 1.75rem 1.25rem 4rem;
     line-height: 1.45; background: var(--bg); color: var(--text);
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased; font-feature-settings: "cv11", "ss01";
   }
-  h1 { font-size: 1.55rem; font-weight: 750; letter-spacing: -0.02em; margin: 0 0 0.2rem; }
-  .stats { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.4rem; }
-  input#q {
-    width: 100%; box-sizing: border-box; padding: 0.7rem 0.9rem; font-size: 0.95rem;
-    border: 1px solid var(--border); border-radius: 10px; margin-bottom: 1.8rem;
-    background: var(--card); color: var(--text); outline: none;
-  }
-  input#q:focus { border-color: var(--accent); }
+  h1 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 1.6rem; }
   h2 {
     font-size: 1.05rem; font-weight: 700; margin: 2.2rem 0 0.7rem;
     display: flex; align-items: baseline; gap: 0.5rem;
@@ -51,826 +67,1224 @@
     background: var(--card);
   }
   .new .table-wrap { background: var(--new-bg); border-color: var(--new-border); }
-  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; table-layout: fixed; }
+  th:nth-child(1), td:nth-child(1) { width: 32%; }
+  th:nth-child(2), td:nth-child(2) { width: 19%; }
+  th:nth-child(3), td:nth-child(3) { width: 17%; }
+  th:nth-child(4), td:nth-child(4) { width: 15%; }
+  th:nth-child(5), td:nth-child(5) { width: 10%; }
+  th:nth-child(6), td:nth-child(6) { width: 7%; }
   thead th {
     text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em;
     color: var(--muted); font-weight: 650; padding: 0.65rem 0.9rem; border-bottom: 1px solid var(--border);
   }
-  tbody td { padding: 0.65rem 0.9rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tbody td { padding: 0.65rem 0.9rem; border-bottom: 1px solid var(--border); vertical-align: top;
+              overflow-wrap: break-word; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
   .c-role a { font-weight: 620; text-decoration: none; color: var(--text); }
   .c-role a:hover { color: var(--accent); text-decoration: underline; }
+  .applied-date { color: var(--muted); font-size: 0.78rem; margin-top: 0.15rem; }
   .badge {
     display: inline-block; font-size: 0.72rem; font-weight: 650; padding: 0.15rem 0.55rem;
     border-radius: 999px; white-space: nowrap;
   }
-  .t-grad { background: var(--grad-bg); color: var(--grad-text); }
-  .t-intern { background: var(--intern-bg); color: var(--intern-text); }
-  .t-other { background: var(--other-bg); color: var(--other-text); }
+  .t-grad { background: var(--t-grad-bg); color: var(--t-grad-fg); }
+  .t-intern { background: var(--t-intern-bg); color: var(--t-intern-fg); }
+  .t-other { background: var(--t-other-bg); color: var(--t-other-fg); }
+  .apply-btn {
+    font-family: inherit; font-size: 0.76rem; font-weight: 600; padding: 0.3rem 0.6rem;
+    border-radius: 7px; border: 1px solid var(--border); background: var(--bg);
+    color: var(--text); cursor: pointer; white-space: nowrap;
+  }
+  .apply-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .apply-btn.remove { color: #b91c1c; }
+  .apply-btn.remove:hover { border-color: #b91c1c; }
   .empty { color: var(--muted); font-size: 0.9rem; padding: 0.5rem 0; }
   .job.hide { display: none; }
   details { margin-top: 2.5rem; font-size: 0.85rem; color: #b45309; }
   details summary { cursor: pointer; }
   @media (max-width: 680px) {
     thead { display: none; }
-    table, tbody, tr, td { display: block; width: 100%; }
+    table, tbody, tr, td { display: block; width: 100% !important; }
     tbody tr { padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--border); }
     tbody tr:last-child { border-bottom: none; }
-    tbody td { border: none; padding: 0.12rem 0; }
-    tbody td[data-label]:not(.c-role)::before {
+    tbody td { border: none; padding: 0.15rem 0; }
+    tbody td[data-label]:not([data-label=""])::before {
       content: attr(data-label) ": "; color: var(--muted); font-size: 0.78rem;
     }
-    .c-role { padding-bottom: 0.25rem !important; font-size: 1rem; }
+    .c-role { padding-bottom: 0.3rem !important; font-size: 1rem; }
+    .c-apply { padding-top: 0.4rem !important; }
   }
 </style>
 </head>
 <body>
-<h1>Job digest - 2026-07-20</h1>
-<div class="stats">Window: last 30h &middot;
-  companies checked: 12 &middot;
-  errors: 0 &middot;
-  total open matches: 108</div>
-<input id="q" type="search" placeholder="Filter by company, title, or location&hellip;" oninput="filterJobs(this.value)">
+<h1>Job Tracker</h1>
 
 <section class="new">
-  <h2>New today <span class="count">1</span></h2>
-  <div class="table-wrap"><table>
-<thead><tr><th>Role</th><th>Company</th><th>Sector</th><th>Location</th><th>Track</th></tr></thead>
-<tbody><tr class="job" data-q="guidehouse federal financial management, managing consultant environmental consulting us - ga, atlanta">
-  <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management--Managing-Consultant_42214" target="_blank" rel="noopener">Federal Financial Management, Managing Consultant</a></td>
-  <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
-  <td data-label="Location">US - GA, Atlanta</td>
-  <td data-label="Track"><span class="badge t-other">Other</span></td>
-</tr></tbody>
-</table></div>
+  <h2>New today <span class="count" id="new-count">0</span></h2>
+  <p class="empty">Nothing new since the last check.</p>
 </section>
 
 <section>
-  <h2>Rest of the window <span class="count">107</span></h2>
+  <h2>Rest of the window <span class="count" id="rest-count">107</span></h2>
   <div class="table-wrap"><table>
-<thead><tr><th>Role</th><th>Company</th><th>Sector</th><th>Location</th><th>Track</th></tr></thead>
-<tbody><tr class="job" data-q="form energy supply chain logistics analyst  cleantech remote">
+<thead><tr><th>Role</th><th>Company</th><th>Sector</th><th>Location</th><th>Track</th><th></th></tr></thead>
+<tbody><tr class="job" data-uid="ashby:Form Energy:5592f375-8718-4d2e-9617-3ee6a044ebd0" data-title="Supply Chain Logistics Analyst "
+    data-company="Form Energy" data-sector="Cleantech"
+    data-location="Remote" data-track="Full-time" data-url="https://jobs.ashbyhq.com/formenergy/5592f375-8718-4d2e-9617-3ee6a044ebd0">
   <td class="c-role" data-label="Role"><a href="https://jobs.ashbyhq.com/formenergy/5592f375-8718-4d2e-9617-3ee6a044ebd0" target="_blank" rel="noopener">Supply Chain Logistics Analyst </a></td>
   <td data-label="Company">Form Energy</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials business development analyst, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5817897004" data-title="Business Development Analyst, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Full-time" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004" target="_blank" rel="noopener">Business Development Analyst, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="baker tilly valuation analyst - real estate advisory consulting usa il chicago 205 n michigan ave">
+<tr class="job" data-uid="workday:Baker Tilly:/job/USA-IL-Chicago-205-N-Michigan-Ave/Valuation-Analyst---Real-Estate-Advisory_JR106916" data-title="Valuation Analyst - Real Estate Advisory"
+    data-company="Baker Tilly" data-sector="Consulting"
+    data-location="USA IL Chicago 205 N Michigan Ave" data-track="Full-time" data-url="https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-IL-Chicago-205-N-Michigan-Ave/Valuation-Analyst---Real-Estate-Advisory_JR106916">
   <td class="c-role" data-label="Role"><a href="https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-IL-Chicago-205-N-Michigan-Ave/Valuation-Analyst---Real-Estate-Advisory_JR106916" target="_blank" rel="noopener">Valuation Analyst - Real Estate Advisory</a></td>
   <td data-label="Company">Baker Tilly</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">USA IL Chicago 205 N Michigan Ave</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf associate data analyst - remote consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Reston-VA/Associate-Data-Analyst---Remote_R2602459" data-title="Associate Data Analyst - Remote"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Associate-Data-Analyst---Remote_R2602459">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Associate-Data-Analyst---Remote_R2602459" target="_blank" rel="noopener">Associate Data Analyst - Remote</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf business analyst (servicenow) - (high level clearance - remote us) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Reston-VA/Business-Analyst--ServiceNow-----High-Level-Clearance---Remote-US-_R2602444" data-title="Business Analyst (ServiceNow) - (High Level Clearance - Remote US)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Business-Analyst--ServiceNow-----High-Level-Clearance---Remote-US-_R2602444">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Business-Analyst--ServiceNow-----High-Level-Clearance---Remote-US-_R2602444" target="_blank" rel="noopener">Business Analyst (ServiceNow) - (High Level Clearance - Remote US)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf research analyst- remote consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Reston-VA/Research-Analyst--REMOTE_R2602436" data-title="Research Analyst- REMOTE"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Research-Analyst--REMOTE_R2602436">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Research-Analyst--REMOTE_R2602436" target="_blank" rel="noopener">Research Analyst- REMOTE</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf it business analyst consulting atlanta, ga">
+<tr class="job" data-uid="workday:ICF:/job/Atlanta-GA/IT-Business-Analyst_R2602328-1" data-title="IT Business Analyst"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Atlanta, GA" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Atlanta-GA/IT-Business-Analyst_R2602328-1">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Atlanta-GA/IT-Business-Analyst_R2602328-1" target="_blank" rel="noopener">IT Business Analyst</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Atlanta, GA</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf public health data analyst (atlanta, georgia remote role) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Atlanta-GA/Public-Health-Data-Analyst--Atlanta--Georgia-REMOTE-ROLE-_R2602333" data-title="Public Health Data Analyst (Atlanta, Georgia REMOTE ROLE)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Atlanta-GA/Public-Health-Data-Analyst--Atlanta--Georgia-REMOTE-ROLE-_R2602333">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Atlanta-GA/Public-Health-Data-Analyst--Atlanta--Georgia-REMOTE-ROLE-_R2602333" target="_blank" rel="noopener">Public Health Data Analyst (Atlanta, Georgia REMOTE ROLE)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf rural health program data analyst (remote) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Albuquerque-NM/Rural-Health-Program-Data-Analyst--REMOTE-_R2602268" data-title="Rural Health Program Data Analyst (REMOTE)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Albuquerque-NM/Rural-Health-Program-Data-Analyst--REMOTE-_R2602268">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Albuquerque-NM/Rural-Health-Program-Data-Analyst--REMOTE-_R2602268" target="_blank" rel="noopener">Rural Health Program Data Analyst (REMOTE)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf business systems analyst - (remote - us) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Reston-VA/Business-Systems-Analyst----Remote---US-_R2602034" data-title="Business Systems Analyst - (Remote - US)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Business-Systems-Analyst----Remote---US-_R2602034">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Business-Systems-Analyst----Remote---US-_R2602034" target="_blank" rel="noopener">Business Systems Analyst - (Remote - US)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf business analyst (top secret cleared) consulting washington, dc">
+<tr class="job" data-uid="workday:ICF:/job/Washington-DC/Business-Analyst--Top-Secret-cleared-_R2601615" data-title="Business Analyst (Top Secret cleared)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Washington, DC" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/Business-Analyst--Top-Secret-cleared-_R2601615">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/Business-Analyst--Top-Secret-cleared-_R2601615" target="_blank" rel="noopener">Business Analyst (Top Secret cleared)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Washington, DC</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf marketing and communications data analyst (top secret cleared) consulting washington, dc">
+<tr class="job" data-uid="workday:ICF:/job/Washington-DC/Marketing-and-Communications-Data-Analyst--Top-Secret-cleared-_R2601401" data-title="Marketing and Communications Data Analyst (Top Secret cleared)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Washington, DC" data-track="Full-time" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/Marketing-and-Communications-Data-Analyst--Top-Secret-cleared-_R2601401">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/Marketing-and-Communications-Data-Analyst--Top-Secret-cleared-_R2601401" target="_blank" rel="noopener">Marketing and Communications Data Analyst (Top Secret cleared)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Washington, DC</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse bioinformatics support analyst environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Bioinformatics-Support-Analyst_39666" data-title="Bioinformatics Support Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Bioinformatics-Support-Analyst_39666">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Bioinformatics-Support-Analyst_39666" target="_blank" rel="noopener">Bioinformatics Support Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse salesforce solution consultant: business analyst environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948" data-title="Salesforce Solution Consultant: Business Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948" target="_blank" rel="noopener">Salesforce Solution Consultant: Business Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse salesforce business analyst environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Salesforce-Business-Analyst_41484" data-title="Salesforce Business Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Business-Analyst_41484">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Business-Analyst_41484" target="_blank" rel="noopener">Salesforce Business Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse business analyst- child welfare environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Business-Analyst--Child-Welfare_41964" data-title="Business Analyst- Child Welfare"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Business-Analyst--Child-Welfare_41964">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Business-Analyst--Child-Welfare_41964" target="_blank" rel="noopener">Business Analyst- Child Welfare</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse data analyst environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Data-Analyst_40807" data-title="Data Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Analyst_40807">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Analyst_40807" target="_blank" rel="noopener">Data Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse salesforce solution consultant - business analyst environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Salesforce-Solution-Consultant---Business-Analyst_41253" data-title="Salesforce Solution Consultant - Business Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant---Business-Analyst_41253">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant---Business-Analyst_41253" target="_blank" rel="noopener">Salesforce Solution Consultant - Business Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse cyber fincrime analyst environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Cyber-FinCrime-Analyst_41096-1" data-title="Cyber FinCrime Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Cyber-FinCrime-Analyst_41096-1">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Cyber-FinCrime-Analyst_41096-1" target="_blank" rel="noopener">Cyber FinCrime Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse talent management data analyst environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Talent-Management-Data-Analyst_41142" data-title="Talent Management Data Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Talent-Management-Data-Analyst_41142">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Talent-Management-Data-Analyst_41142" target="_blank" rel="noopener">Talent Management Data Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse osint analyst environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/OSINT-Analyst_40623" data-title="OSINT Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/OSINT-Analyst_40623">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/OSINT-Analyst_40623" target="_blank" rel="noopener">OSINT Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse litigation support &amp; case management analyst environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Litigation-Support---Case-Management-Analyst_40413" data-title="Litigation Support &amp; Case Management Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Litigation-Support---Case-Management-Analyst_40413">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Litigation-Support---Case-Management-Analyst_40413" target="_blank" rel="noopener">Litigation Support &amp; Case Management Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse technical business analyst - mid environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Technical-Business-Analyst---MID_40419" data-title="Technical Business Analyst - MID"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Technical-Business-Analyst---MID_40419">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Technical-Business-Analyst---MID_40419" target="_blank" rel="noopener">Technical Business Analyst - MID</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse partner success analyst environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Partner-Success-Analyst_40431" data-title="Partner Success Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Partner-Success-Analyst_40431">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Partner-Success-Analyst_40431" target="_blank" rel="noopener">Partner Success Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse border security program management analyst environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39993" data-title="Border Security Program Management Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39993">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39993" target="_blank" rel="noopener">Border Security Program Management Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse border security program management analyst environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39995" data-title="Border Security Program Management Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39995">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39995" target="_blank" rel="noopener">Border Security Program Management Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse business intelligence analyst environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Business-Intelligence-Analyst_39646" data-title="Business Intelligence Analyst"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Full-time" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Business-Intelligence-Analyst_39646">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Business-Intelligence-Analyst_39646" target="_blank" rel="noopener">Business Intelligence Analyst</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="kaiser permanente supply chain analyst ii environmental consulting atlanta, fulton county">
-  <td class="c-role" data-label="Role"><a href="https://www.adzuna.com/land/ad/5778542678?se=-LeVTWiE8RGKW5y-KTKM_g&amp;utm_medium=api&amp;utm_source=7de842cf&amp;v=D3697325E156F8379F000DDB096D36884A396B27" target="_blank" rel="noopener">Supply Chain Analyst II</a></td>
+<tr class="job" data-uid="adzuna:Kaiser Permanente:5778542678" data-title="Supply Chain Analyst II"
+    data-company="Kaiser Permanente" data-sector="Environmental Consulting"
+    data-location="Atlanta, Fulton County" data-track="Full-time" data-url="https://www.adzuna.com/land/ad/5778542678?se=Tks2QGmE8RGJqeygZ7Riog&amp;utm_medium=api&amp;utm_source=7de842cf&amp;v=D3697325E156F8379F000DDB096D36884A396B27">
+  <td class="c-role" data-label="Role"><a href="https://www.adzuna.com/land/ad/5778542678?se=Tks2QGmE8RGJqeygZ7Riog&amp;utm_medium=api&amp;utm_source=7de842cf&amp;v=D3697325E156F8379F000DDB096D36884A396B27" target="_blank" rel="noopener">Supply Chain Analyst II</a></td>
   <td data-label="Company">Kaiser Permanente</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Atlanta, Fulton County</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="administration for strategic preparedness and response supervisory management and program analyst government washington, district of columbia">
+<tr class="job" data-uid="usajobs:Administration for Strategic Preparedness and Response:HHS-ASPR-MP-26-12987594" data-title="Supervisory Management and Program Analyst"
+    data-company="Administration for Strategic Preparedness and Response" data-sector="Government"
+    data-location="Washington, District of Columbia" data-track="Full-time" data-url="https://www.usajobs.gov:443/job/876797500">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876797500" target="_blank" rel="noopener">Supervisory Management and Program Analyst</a></td>
   <td data-label="Company">Administration for Strategic Preparedness and Response</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Washington, District of Columbia</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="department of energy - agency wide management and program analyst government washington, district of columbia">
+<tr class="job" data-uid="usajobs:Department of Energy - Agency Wide:26-CR-13003555-IMP" data-title="Management and Program Analyst"
+    data-company="Department of Energy - Agency Wide" data-sector="Government"
+    data-location="Washington, District of Columbia" data-track="Full-time" data-url="https://www.usajobs.gov:443/job/876217000">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876217000" target="_blank" rel="noopener">Management and Program Analyst</a></td>
   <td data-label="Company">Department of Energy - Agency Wide</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Washington, District of Columbia</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="department of energy - agency wide budget analyst government richland, washington">
+<tr class="job" data-uid="usajobs:Department of Energy - Agency Wide:26-IG-13003488-MP-LO" data-title="Budget Analyst"
+    data-company="Department of Energy - Agency Wide" data-sector="Government"
+    data-location="Richland, Washington" data-track="Full-time" data-url="https://www.usajobs.gov:443/job/877109900">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/877109900" target="_blank" rel="noopener">Budget Analyst</a></td>
   <td data-label="Company">Department of Energy - Agency Wide</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Richland, Washington</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="executive director, office of acquisition, logistics and construction procurement analyst (compliance &amp; risk management) government multiple locations">
+<tr class="job" data-uid="usajobs:Executive Director, Office of Acquisition, Logistics and Construction:CCLQ-12999733-26-DB" data-title="Procurement Analyst (Compliance &amp; Risk Management)"
+    data-company="Executive Director, Office of Acquisition, Logistics and Construction" data-sector="Government"
+    data-location="Multiple Locations" data-track="Full-time" data-url="https://www.usajobs.gov:443/job/876245000">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876245000" target="_blank" rel="noopener">Procurement Analyst (Compliance &amp; Risk Management)</a></td>
   <td data-label="Company">Executive Director, Office of Acquisition, Logistics and Construction</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Multiple Locations</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="national nuclear security administration program analyst government multiple locations">
+<tr class="job" data-uid="usajobs:National Nuclear Security Administration:26-NA-10-XA-00807-GOV" data-title="Program Analyst"
+    data-company="National Nuclear Security Administration" data-sector="Government"
+    data-location="Multiple Locations" data-track="Full-time" data-url="https://www.usajobs.gov:443/job/875437500">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/875437500" target="_blank" rel="noopener">Program Analyst</a></td>
   <td data-label="Company">National Nuclear Security Administration</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Multiple Locations</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="occupational safety and health administration recent graduate - program analyst government washington, district of columbia">
+<tr class="job" data-uid="usajobs:Occupational Safety and Health Administration:PW-26-BOS-OSHA-13007589-JSE" data-title="Recent Graduate - Program Analyst"
+    data-company="Occupational Safety and Health Administration" data-sector="Government"
+    data-location="Washington, District of Columbia" data-track="Full-time" data-url="https://www.usajobs.gov:443/job/876660800">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876660800" target="_blank" rel="noopener">Recent Graduate - Program Analyst</a></td>
   <td data-label="Company">Occupational Safety and Health Administration</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Washington, District of Columbia</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="offices, boards and divisions budget analyst government washington, district of columbia">
+<tr class="job" data-uid="usajobs:Offices, Boards and Divisions:JMD-BS-26-13007519-DE" data-title="Budget Analyst"
+    data-company="Offices, Boards and Divisions" data-sector="Government"
+    data-location="Washington, District of Columbia" data-track="Full-time" data-url="https://www.usajobs.gov:443/job/876969300">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876969300" target="_blank" rel="noopener">Budget Analyst</a></td>
   <td data-label="Company">Offices, Boards and Divisions</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Washington, District of Columbia</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="veterans health administration supply systems analyst government multiple locations">
+<tr class="job" data-uid="usajobs:Veterans Health Administration:CBTE-13004103-26-DMB" data-title="Supply Systems Analyst"
+    data-company="Veterans Health Administration" data-sector="Government"
+    data-location="Multiple Locations" data-track="Full-time" data-url="https://www.usajobs.gov:443/job/876333500">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876333500" target="_blank" rel="noopener">Supply Systems Analyst</a></td>
   <td data-label="Company">Veterans Health Administration</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Multiple Locations</td>
   <td data-label="Track"><span class="badge t-grad">Full-time</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse financial auditor/internal audit consultant environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Financial-Auditor-Internal-Audit-Consultant_40018" data-title="Financial Auditor/Internal Audit Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Internship" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Auditor-Internal-Audit-Consultant_40018">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Auditor-Internal-Audit-Consultant_40018" target="_blank" rel="noopener">Financial Auditor/Internal Audit Consultant</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-intern">Internship</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="national laboratory of the rockies (nlr, formerly nrel) los angeles based graduate intern - building energy modeling and analysis national lab los angeles, ca">
+<tr class="job" data-uid="workday:National Laboratory of the Rockies (NLR, formerly NREL):/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264" data-title="Los Angeles Based Graduate Intern - Building Energy Modeling and Analysis"
+    data-company="National Laboratory of the Rockies (NLR, formerly NREL)" data-sector="National Lab"
+    data-location="Los Angeles, CA" data-track="Internship" data-url="https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264">
   <td class="c-role" data-label="Role"><a href="https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264" target="_blank" rel="noopener">Los Angeles Based Graduate Intern - Building Energy Modeling and Analysis</a></td>
   <td data-label="Company">National Laboratory of the Rockies (NLR, formerly NREL)</td>
-  <td data-label="Sector">National Lab</td>
+  <td data-label="Sector"><span class="badge cat-5">National Lab</span></td>
   <td data-label="Location">Los Angeles, CA</td>
   <td data-label="Track"><span class="badge t-intern">Internship</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="form energy software engineer ii, power plant software cleantech remote">
+<tr class="job" data-uid="ashby:Form Energy:91b5121f-ae4c-4ea1-8abd-9234353807d7" data-title="Software Engineer II, Power Plant Software"
+    data-company="Form Energy" data-sector="Cleantech"
+    data-location="Remote" data-track="Other" data-url="https://jobs.ashbyhq.com/formenergy/91b5121f-ae4c-4ea1-8abd-9234353807d7">
   <td class="c-role" data-label="Role"><a href="https://jobs.ashbyhq.com/formenergy/91b5121f-ae4c-4ea1-8abd-9234353807d7" target="_blank" rel="noopener">Software Engineer II, Power Plant Software</a></td>
   <td data-label="Company">Form Energy</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials embedded software engineer – power electronics, energy storage  cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:6003203004" data-title="Embedded Software Engineer – Power Electronics, Energy Storage "
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004" target="_blank" rel="noopener">Embedded Software Engineer – Power Electronics, Energy Storage </a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials field quality engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5835346004" data-title="Field Quality Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5835346004?gh_jid=5835346004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5835346004?gh_jid=5835346004" target="_blank" rel="noopener">Field Quality Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials functional safety engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5978342004" data-title="Functional Safety Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5978342004?gh_jid=5978342004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5978342004?gh_jid=5978342004" target="_blank" rel="noopener">Functional Safety Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials infrastructure software engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5737879004" data-title="Infrastructure Software Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5737879004?gh_jid=5737879004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5737879004?gh_jid=5737879004" target="_blank" rel="noopener">Infrastructure Software Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials mechanical design engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5835808004" data-title="Mechanical Design Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5835808004?gh_jid=5835808004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5835808004?gh_jid=5835808004" target="_blank" rel="noopener">Mechanical Design Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials microgrid controls engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5731003004" data-title="Microgrid Controls Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5731003004?gh_jid=5731003004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5731003004?gh_jid=5731003004" target="_blank" rel="noopener">Microgrid Controls Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials power electronics controls engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5737875004" data-title="Power Electronics Controls Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5737875004?gh_jid=5737875004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5737875004?gh_jid=5737875004" target="_blank" rel="noopener">Power Electronics Controls Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials power electronics engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5737886004" data-title="Power Electronics Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5737886004?gh_jid=5737886004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5737886004?gh_jid=5737886004" target="_blank" rel="noopener">Power Electronics Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials reliability engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5836554004" data-title="Reliability Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5836554004?gh_jid=5836554004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5836554004?gh_jid=5836554004" target="_blank" rel="noopener">Reliability Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials service engineer, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:5823618004" data-title="Service Engineer, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/5823618004?gh_jid=5823618004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/5823618004?gh_jid=5823618004" target="_blank" rel="noopener">Service Engineer, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials software engineer - ml/computer vision (battery sorting) cleantech mccarran, nv; san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:6099577004" data-title="Software Engineer - ML/Computer Vision (Battery Sorting)"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="McCarran, NV; San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/6099577004?gh_jid=6099577004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/6099577004?gh_jid=6099577004" target="_blank" rel="noopener">Software Engineer - ML/Computer Vision (Battery Sorting)</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">McCarran, NV; San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="redwood materials software engineer - site controller, energy storage cleantech san francisco, california, united states">
+<tr class="job" data-uid="greenhouse:Redwood Materials:6097367004" data-title="Software Engineer - Site Controller, Energy Storage"
+    data-company="Redwood Materials" data-sector="Cleantech"
+    data-location="San Francisco, California, United States" data-track="Other" data-url="https://boards.greenhouse.io/redwoodmaterials/jobs/6097367004?gh_jid=6097367004">
   <td class="c-role" data-label="Role"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/6097367004?gh_jid=6097367004" target="_blank" rel="noopener">Software Engineer - Site Controller, Energy Storage</a></td>
   <td data-label="Company">Redwood Materials</td>
-  <td data-label="Sector">Cleantech</td>
+  <td data-label="Sector"><span class="badge cat-3">Cleantech</span></td>
   <td data-label="Location">San Francisco, California, United States</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf public policy specialist - energy and environment (remote role or hybrid role based in reston, virginia) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Reston-VA/Public-Policy-Specialist---Energy-and-Environment--Hybrid-Remote-role-based-in-Reston--Virginia-_R2601938-1" data-title="Public Policy Specialist - Energy and Environment (REMOTE role or Hybrid role based in Reston, Virginia)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist---Energy-and-Environment--Hybrid-Remote-role-based-in-Reston--Virginia-_R2601938-1">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist---Energy-and-Environment--Hybrid-Remote-role-based-in-Reston--Virginia-_R2601938-1" target="_blank" rel="noopener">Public Policy Specialist - Energy and Environment (REMOTE role or Hybrid role based in Reston, Virginia)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf public policy researcher (remote or reston, va) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Reston-VA/Public-Policy-Researcher--Remote-or-Reston--VA-_R2602401" data-title="Public Policy Researcher (Remote or Reston, VA)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Researcher--Remote-or-Reston--VA-_R2602401">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Researcher--Remote-or-Reston--VA-_R2602401" target="_blank" rel="noopener">Public Policy Researcher (Remote or Reston, VA)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf public policy specialist (remote role or hybrid role based in reston, virginia) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Reston-VA/Public-Policy-Specialist--REMOTE-role-or-Hybrid-role-based-in-Reston--Virginia-_R2602373" data-title="Public Policy Specialist (REMOTE role or Hybrid role based in Reston, Virginia)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist--REMOTE-role-or-Hybrid-role-based-in-Reston--Virginia-_R2602373">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist--REMOTE-role-or-Hybrid-role-based-in-Reston--Virginia-_R2602373" target="_blank" rel="noopener">Public Policy Specialist (REMOTE role or Hybrid role based in Reston, Virginia)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf data engineer (remote) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/West-Virginia-Field-Office-WV66/Data-Engineer--Remote-_R2602263" data-title="Data Engineer (Remote)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/West-Virginia-Field-Office-WV66/Data-Engineer--Remote-_R2602263">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/West-Virginia-Field-Office-WV66/Data-Engineer--Remote-_R2602263" target="_blank" rel="noopener">Data Engineer (Remote)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf public health research scientist (atlanta, georgia remote role) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Atlanta-GA/Public-Health-Research-Scientist--Atlanta--Georgia-REMOTE-ROLE-_R2602332" data-title="Public Health Research Scientist (Atlanta, Georgia REMOTE ROLE)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Atlanta-GA/Public-Health-Research-Scientist--Atlanta--Georgia-REMOTE-ROLE-_R2602332">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Atlanta-GA/Public-Health-Research-Scientist--Atlanta--Georgia-REMOTE-ROLE-_R2602332" target="_blank" rel="noopener">Public Health Research Scientist (Atlanta, Georgia REMOTE ROLE)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf rural health program data scientist (remote) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Albuquerque-NM/Rural-Health-Program-Data-Scientist--REMOTE-_R2602267" data-title="Rural Health Program Data Scientist (REMOTE)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Albuquerque-NM/Rural-Health-Program-Data-Scientist--REMOTE-_R2602267">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Albuquerque-NM/Rural-Health-Program-Data-Scientist--REMOTE-_R2602267" target="_blank" rel="noopener">Rural Health Program Data Scientist (REMOTE)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf data engineer (remote) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/West-Virginia-Field-Office-WV66/Data-Engineer--Remote-_R2602049" data-title="Data Engineer (Remote)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/West-Virginia-Field-Office-WV66/Data-Engineer--Remote-_R2602049">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/West-Virginia-Field-Office-WV66/Data-Engineer--Remote-_R2602049" target="_blank" rel="noopener">Data Engineer (Remote)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf management consultant, strategic resilience - fema hmgp - remote (us) consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632" data-title="Management Consultant, Strategic Resilience - FEMA HMGP - Remote (US)"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632" target="_blank" rel="noopener">Management Consultant, Strategic Resilience - FEMA HMGP - Remote (US)</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="icf on call critical minerals expert - remote consulting remote">
+<tr class="job" data-uid="workday:ICF:/job/Washington-DC/On-Call-Critical-Minerals-Expert---Remote_R2600659" data-title="On Call Critical Minerals Expert - Remote"
+    data-company="ICF" data-sector="Consulting"
+    data-location="Remote" data-track="Other" data-url="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/On-Call-Critical-Minerals-Expert---Remote_R2600659">
   <td class="c-role" data-label="Role"><a href="https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/On-Call-Critical-Minerals-Expert---Remote_R2600659" target="_blank" rel="noopener">On Call Critical Minerals Expert - Remote</a></td>
   <td data-label="Company">ICF</td>
-  <td data-label="Sector">Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="kobold metals data scientist - (global) critical minerals remote">
+<tr class="job" data-uid="greenhouse:KoBold Metals:4305917005" data-title="Data Scientist - (Global)"
+    data-company="KoBold Metals" data-sector="Critical Minerals"
+    data-location="Remote" data-track="Other" data-url="https://job-boards.greenhouse.io/koboldmetals/jobs/4305917005">
   <td class="c-role" data-label="Role"><a href="https://job-boards.greenhouse.io/koboldmetals/jobs/4305917005" target="_blank" rel="noopener">Data Scientist - (Global)</a></td>
   <td data-label="Company">KoBold Metals</td>
-  <td data-label="Sector">Critical Minerals</td>
+  <td data-label="Sector"><span class="badge cat-0">Critical Minerals</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="kobold metals postdoctoral scholar — ai researcher for critical mineral discovery critical minerals remote">
+<tr class="job" data-uid="greenhouse:KoBold Metals:4702493005" data-title="Postdoctoral Scholar — AI Researcher for Critical Mineral Discovery"
+    data-company="KoBold Metals" data-sector="Critical Minerals"
+    data-location="Remote" data-track="Other" data-url="https://job-boards.greenhouse.io/koboldmetals/jobs/4702493005">
   <td class="c-role" data-label="Role"><a href="https://job-boards.greenhouse.io/koboldmetals/jobs/4702493005" target="_blank" rel="noopener">Postdoctoral Scholar — AI Researcher for Critical Mineral Discovery</a></td>
   <td data-label="Company">KoBold Metals</td>
-  <td data-label="Sector">Critical Minerals</td>
+  <td data-label="Sector"><span class="badge cat-0">Critical Minerals</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="erm managing consultant, heath and safety environmental consulting manhattan, new york city">
+<tr class="job" data-uid="adzuna:ERM:5721325974" data-title="Managing Consultant, Heath and Safety"
+    data-company="ERM" data-sector="Environmental Consulting"
+    data-location="Manhattan, New York City" data-track="Other" data-url="https://www.adzuna.com/details/5721325974?utm_medium=api&amp;utm_source=7de842cf">
   <td class="c-role" data-label="Role"><a href="https://www.adzuna.com/details/5721325974?utm_medium=api&amp;utm_source=7de842cf" target="_blank" rel="noopener">Managing Consultant, Heath and Safety</a></td>
   <td data-label="Company">ERM</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Manhattan, New York City</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse managing consultant, clinical and operational improvement environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---GA-Atlanta/Federal-Financial-Management--Managing-Consultant_42214" data-title="Federal Financial Management, Managing Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - GA, Atlanta" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management--Managing-Consultant_42214">
+  <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management--Managing-Consultant_42214" target="_blank" rel="noopener">Federal Financial Management, Managing Consultant</a></td>
+  <td data-label="Company">Guidehouse</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
+  <td data-label="Location">US - GA, Atlanta</td>
+  <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
+</tr>
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Managing-Consultant--Clinical-and-Operational-Improvement_42098" data-title="Managing Consultant, Clinical and Operational Improvement"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant--Clinical-and-Operational-Improvement_42098">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant--Clinical-and-Operational-Improvement_42098" target="_blank" rel="noopener">Managing Consultant, Clinical and Operational Improvement</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse healthcare financial transformation, managing consultant - back-end revenue cycle environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Healthcare-Financial-Transformation--Managing-Consultant---Back-End-Revenue-Cycle_36177" data-title="Healthcare Financial Transformation, Managing Consultant - Back-End Revenue Cycle"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Financial-Transformation--Managing-Consultant---Back-End-Revenue-Cycle_36177">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Financial-Transformation--Managing-Consultant---Back-End-Revenue-Cycle_36177" target="_blank" rel="noopener">Healthcare Financial Transformation, Managing Consultant - Back-End Revenue Cycle</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse healthcare financial transformation, managing consultant - front-end revenue cycle/patient access environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Healthcare-Financial-Transformation--Managing-Consultant---Front-End-Revenue-Cycle-Patient-Access_36173" data-title="Healthcare Financial Transformation, Managing Consultant - Front-End Revenue Cycle/Patient Access"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Financial-Transformation--Managing-Consultant---Front-End-Revenue-Cycle-Patient-Access_36173">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Financial-Transformation--Managing-Consultant---Front-End-Revenue-Cycle-Patient-Access_36173" target="_blank" rel="noopener">Healthcare Financial Transformation, Managing Consultant - Front-End Revenue Cycle/Patient Access</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse uas policy support environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/UAS-Policy-Support_41915" data-title="UAS Policy Support"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/UAS-Policy-Support_41915">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/UAS-Policy-Support_41915" target="_blank" rel="noopener">UAS Policy Support</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse power platform architect environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Power-Platform-Architect_41944" data-title="Power Platform Architect"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_41944">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_41944" target="_blank" rel="noopener">Power Platform Architect</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse managing consultant - post-acute services environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Managing-Consultant---Post-Acute-Services_42097" data-title="Managing Consultant - Post-Acute Services"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant---Post-Acute-Services_42097">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant---Post-Acute-Services_42097" target="_blank" rel="noopener">Managing Consultant - Post-Acute Services</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse managing consultant – digital assets strategy &amp; transformation environmental consulting us - ny, new york">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---NY-New-York/Managing-Consultant---Digital-Assets-Strategy---Transformation_41641-1" data-title="Managing Consultant – Digital Assets Strategy &amp; Transformation"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - NY, New York" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Managing-Consultant---Digital-Assets-Strategy---Transformation_41641-1">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Managing-Consultant---Digital-Assets-Strategy---Transformation_41641-1" target="_blank" rel="noopener">Managing Consultant – Digital Assets Strategy &amp; Transformation</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - NY, New York</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse operational effectiveness audit consultant environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Operational-Effectiveness-Audit-Consultant_41445" data-title="Operational Effectiveness Audit Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Operational-Effectiveness-Audit-Consultant_41445">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Operational-Effectiveness-Audit-Consultant_41445" target="_blank" rel="noopener">Operational Effectiveness Audit Consultant</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse managing consultant- infrastructure resilience environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Managing-Consultant--Infrastructure-Resilience_38722" data-title="Managing Consultant- Infrastructure Resilience"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant--Infrastructure-Resilience_38722">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant--Infrastructure-Resilience_38722" target="_blank" rel="noopener">Managing Consultant- Infrastructure Resilience</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse power platform developer environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Power-Platform-Developer_41231" data-title="Power Platform Developer"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Developer_41231">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Developer_41231" target="_blank" rel="noopener">Power Platform Developer</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse power platform developer environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Power-Platform-Developer_41514-1" data-title="Power Platform Developer"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Developer_41514-1">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Developer_41514-1" target="_blank" rel="noopener">Power Platform Developer</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse health ai ml data scientist environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Health-AI-ML-Data-Scientist_41653" data-title="Health AI ML Data Scientist"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Health-AI-ML-Data-Scientist_41653">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Health-AI-ML-Data-Scientist_41653" target="_blank" rel="noopener">Health AI ML Data Scientist</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse epidemiologist data scientist environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Epidemiologist-Data-Scientist_41640" data-title="Epidemiologist Data Scientist"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Epidemiologist-Data-Scientist_41640">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Epidemiologist-Data-Scientist_41640" target="_blank" rel="noopener">Epidemiologist Data Scientist</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse managing consultant - epic revenue cycle - healthcare technology environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Managing-Consultant---Epic-Revenue-Cycle---Healthcare-Technology_41520" data-title="Managing Consultant - Epic Revenue Cycle - Healthcare Technology"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant---Epic-Revenue-Cycle---Healthcare-Technology_41520">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant---Epic-Revenue-Cycle---Healthcare-Technology_41520" target="_blank" rel="noopener">Managing Consultant - Epic Revenue Cycle - Healthcare Technology</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse consultant ii - epic revenue cycle - healthcare technology environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Consultant-II---Epic-Revenue-Cycle---Healthcare-Technology_41516" data-title="Consultant II - Epic Revenue Cycle - Healthcare Technology"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Consultant-II---Epic-Revenue-Cycle---Healthcare-Technology_41516">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Consultant-II---Epic-Revenue-Cycle---Healthcare-Technology_41516" target="_blank" rel="noopener">Consultant II - Epic Revenue Cycle - Healthcare Technology</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse qa database administrator environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/QA-Database-Administrator_40961" data-title="QA Database Administrator"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/QA-Database-Administrator_40961">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/QA-Database-Administrator_40961" target="_blank" rel="noopener">QA Database Administrator</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse data infrastructure engineer environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Data-Infrastructure-Engineer_37773" data-title="Data Infrastructure Engineer"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_37773">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_37773" target="_blank" rel="noopener">Data Infrastructure Engineer</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse palantir data engineer environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Palantir-Data-Engineer_41109-1" data-title="Palantir Data Engineer"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Palantir-Data-Engineer_41109-1">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Palantir-Data-Engineer_41109-1" target="_blank" rel="noopener">Palantir Data Engineer</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse strategy and transformation consultant environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Strategy-and-Transformation-Consultant_40785-1" data-title="Strategy and Transformation Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Strategy-and-Transformation-Consultant_40785-1">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Strategy-and-Transformation-Consultant_40785-1" target="_blank" rel="noopener">Strategy and Transformation Consultant</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse data scientist (analytics &amp; automation) environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Data-Scientist--Analytics---Automation-_40970" data-title="Data Scientist (Analytics &amp; Automation)"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Scientist--Analytics---Automation-_40970">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Scientist--Analytics---Automation-_40970" target="_blank" rel="noopener">Data Scientist (Analytics &amp; Automation)</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse cloud infrastructure &amp; automation engineer environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Cloud-Infrastructure---Automation-Engineer_37772-1" data-title="Cloud Infrastructure &amp; Automation Engineer"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Cloud-Infrastructure---Automation-Engineer_37772-1">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Cloud-Infrastructure---Automation-Engineer_37772-1" target="_blank" rel="noopener">Cloud Infrastructure &amp; Automation Engineer</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse consultant ii - epic/meditech revenue cycle - healthcare technology environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Consultant-II---Epic-Meditech-Revenue-Cycle---Healthcare-Technology_40995" data-title="Consultant II - Epic/Meditech Revenue Cycle - Healthcare Technology"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Consultant-II---Epic-Meditech-Revenue-Cycle---Healthcare-Technology_40995">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Consultant-II---Epic-Meditech-Revenue-Cycle---Healthcare-Technology_40995" target="_blank" rel="noopener">Consultant II - Epic/Meditech Revenue Cycle - Healthcare Technology</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse policy and law sme environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Policy-and-Law-SME_40687" data-title="Policy and Law SME"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-and-Law-SME_40687">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-and-Law-SME_40687" target="_blank" rel="noopener">Policy and Law SME</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse data scientist environmental consulting us - tx, houston">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---TX-Houston/Data-Scientist_40756" data-title="Data Scientist"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - TX, Houston" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---TX-Houston/Data-Scientist_40756">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---TX-Houston/Data-Scientist_40756" target="_blank" rel="noopener">Data Scientist</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - TX, Houston</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse financial management/accounting consultant environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Financial-Management-Accounting-Consultant_40022" data-title="Financial Management/Accounting Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Management-Accounting-Consultant_40022">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Management-Accounting-Consultant_40022" target="_blank" rel="noopener">Financial Management/Accounting Consultant</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse financial management consultant environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Financial-Management-Consultant_39556" data-title="Financial Management Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Management-Consultant_39556">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Management-Consultant_39556" target="_blank" rel="noopener">Financial Management Consultant</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse sr microsoft dynamics and power platform developer environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Sr-Microsoft-Dynamics-and-Power-Platform-Developer_40514" data-title="Sr Microsoft Dynamics and Power Platform Developer"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Sr-Microsoft-Dynamics-and-Power-Platform-Developer_40514">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Sr-Microsoft-Dynamics-and-Power-Platform-Developer_40514" target="_blank" rel="noopener">Sr Microsoft Dynamics and Power Platform Developer</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse federal financial management transformation consultant environmental consulting us - ga, atlanta">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---GA-Atlanta/Federal-Financial-Management-Transformation-Consultant_40070" data-title="Federal Financial Management Transformation Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - GA, Atlanta" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management-Transformation-Consultant_40070">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management-Transformation-Consultant_40070" target="_blank" rel="noopener">Federal Financial Management Transformation Consultant</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - GA, Atlanta</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse purchasing specialist/procurement coordinator environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Purchasing-Specialist-Procurement-Coordinator_39353-1" data-title="Purchasing Specialist/Procurement Coordinator"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Purchasing-Specialist-Procurement-Coordinator_39353-1">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Purchasing-Specialist-Procurement-Coordinator_39353-1" target="_blank" rel="noopener">Purchasing Specialist/Procurement Coordinator</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse healthcare technology consultant (epic/meditech revenue cycle) environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Healthcare-Technology-Consultant--Epic-Meditech-Revenue-Cycle-_40041" data-title="Healthcare Technology Consultant (Epic/Meditech Revenue Cycle)"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Technology-Consultant--Epic-Meditech-Revenue-Cycle-_40041">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Technology-Consultant--Epic-Meditech-Revenue-Cycle-_40041" target="_blank" rel="noopener">Healthcare Technology Consultant (Epic/Meditech Revenue Cycle)</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse federal grants management transformation consultant environmental consulting us - ga, atlanta">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---GA-Atlanta/Federal-Grants-Management-Transformation-Consultant_40066" data-title="Federal Grants Management Transformation Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - GA, Atlanta" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Grants-Management-Transformation-Consultant_40066">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Grants-Management-Transformation-Consultant_40066" target="_blank" rel="noopener">Federal Grants Management Transformation Consultant</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - GA, Atlanta</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse power apps &amp; it consultant - real estate portfolio environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Power-Apps---IT-Consultant---Real-Estate-Portfolio_39921" data-title="Power Apps &amp; IT Consultant - Real Estate Portfolio"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Power-Apps---IT-Consultant---Real-Estate-Portfolio_39921">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Power-Apps---IT-Consultant---Real-Estate-Portfolio_39921" target="_blank" rel="noopener">Power Apps &amp; IT Consultant - Real Estate Portfolio</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse border security data management specialist environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Border-Security-Data-Management-Specialist_39719" data-title="Border Security Data Management Specialist"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Data-Management-Specialist_39719">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Data-Management-Specialist_39719" target="_blank" rel="noopener">Border Security Data Management Specialist</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse part-time oncology data specialist - certified (remote) environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Part-Time-Oncology-Data-Specialist---Certified--remote-_38252" data-title="Part-Time Oncology Data Specialist - Certified (remote)"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Part-Time-Oncology-Data-Specialist---Certified--remote-_38252">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Part-Time-Oncology-Data-Specialist---Certified--remote-_38252" target="_blank" rel="noopener">Part-Time Oncology Data Specialist - Certified (remote)</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse power apps developer environmental consulting remote">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---Remote-Any-location/Power-Apps-Developer_37549" data-title="Power Apps Developer"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="Remote" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549" target="_blank" rel="noopener">Power Apps Developer</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">Remote</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse strategy and technology leader - new york, ny environmental consulting us - ny, new york">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258" data-title="Strategy and Technology Leader - New York, NY"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - NY, New York" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258" target="_blank" rel="noopener">Strategy and Technology Leader - New York, NY</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - NY, New York</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse law enforcement strategy and technology specialist environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Law-Enforcement-Strategy-and-Technology-Specialist_38916" data-title="Law Enforcement Strategy and Technology Specialist"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Law-Enforcement-Strategy-and-Technology-Specialist_38916">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Law-Enforcement-Strategy-and-Technology-Specialist_38916" target="_blank" rel="noopener">Law Enforcement Strategy and Technology Specialist</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="guidehouse data collection consultant environmental consulting us - dc, washington">
+<tr class="job" data-uid="workday:Guidehouse:/job/US---DC-Washington/Data-Collection-Consultant_38440" data-title="Data Collection Consultant"
+    data-company="Guidehouse" data-sector="Environmental Consulting"
+    data-location="US - DC, Washington" data-track="Other" data-url="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440">
   <td class="c-role" data-label="Role"><a href="https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440" target="_blank" rel="noopener">Data Collection Consultant</a></td>
   <td data-label="Company">Guidehouse</td>
-  <td data-label="Sector">Environmental Consulting</td>
+  <td data-label="Sector"><span class="badge cat-2">Environmental Consulting</span></td>
   <td data-label="Location">US - DC, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="bonneville power administration asset management specialist (data management) government vancouver, washington">
+<tr class="job" data-uid="usajobs:Bonneville Power Administration:26-BPA-52097-13007767-BPA" data-title="Asset Management Specialist (Data Management)"
+    data-company="Bonneville Power Administration" data-sector="Government"
+    data-location="Vancouver, Washington" data-track="Other" data-url="https://www.usajobs.gov:443/job/876717200">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876717200" target="_blank" rel="noopener">Asset Management Specialist (Data Management)</a></td>
   <td data-label="Company">Bonneville Power Administration</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Vancouver, Washington</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="customs and border protection supervisory supply chain security specialist (trade) government houston, texas">
+<tr class="job" data-uid="usajobs:Customs and Border Protection:OFO-IMP-13002713-TTL" data-title="Supervisory Supply Chain Security Specialist (Trade)"
+    data-company="Customs and Border Protection" data-sector="Government"
+    data-location="Houston, Texas" data-track="Other" data-url="https://www.usajobs.gov:443/job/876767700">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876767700" target="_blank" rel="noopener">Supervisory Supply Chain Security Specialist (Trade)</a></td>
   <td data-label="Company">Customs and Border Protection</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Houston, Texas</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="office of the secretary attorney-advisor (power and data centers) public notice flyer government washington, district of columbia">
+<tr class="job" data-uid="usajobs:Office of the Secretary:OS-OGC-PNF-26-13002394" data-title="Attorney-Advisor (Power and Data Centers) Public Notice Flyer"
+    data-company="Office of the Secretary" data-sector="Government"
+    data-location="Washington, District of Columbia" data-track="Other" data-url="https://www.usajobs.gov:443/job/876011600">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876011600" target="_blank" rel="noopener">Attorney-Advisor (Power and Data Centers) Public Notice Flyer</a></td>
   <td data-label="Company">Office of the Secretary</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Washington, District of Columbia</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="u.s. army corps of engineers power plant trainee government multiple locations">
+<tr class="job" data-uid="usajobs:U.S. Army Corps of Engineers:CEDE-26-12996966 DHA" data-title="Power Plant Trainee"
+    data-company="U.S. Army Corps of Engineers" data-sector="Government"
+    data-location="Multiple Locations" data-track="Other" data-url="https://www.usajobs.gov:443/job/875305900">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/875305900" target="_blank" rel="noopener">Power Plant Trainee</a></td>
   <td data-label="Company">U.S. Army Corps of Engineers</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Multiple Locations</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr>
-<tr class="job" data-q="veterans health administration healthcare engineer (energy) government dallas, texas">
+<tr class="job" data-uid="usajobs:Veterans Health Administration:CAZM-13003301-26-CRW" data-title="Healthcare Engineer (Energy)"
+    data-company="Veterans Health Administration" data-sector="Government"
+    data-location="Dallas, Texas" data-track="Other" data-url="https://www.usajobs.gov:443/job/876521300">
   <td class="c-role" data-label="Role"><a href="https://www.usajobs.gov:443/job/876521300" target="_blank" rel="noopener">Healthcare Engineer (Energy)</a></td>
   <td data-label="Company">Veterans Health Administration</td>
-  <td data-label="Sector">Government</td>
+  <td data-label="Sector"><span class="badge cat-1">Government</span></td>
   <td data-label="Location">Dallas, Texas</td>
   <td data-label="Track"><span class="badge t-other">Other</span></td>
-</tr>
-<tr class="job" data-q="nexamp energy storage project developer renewable developer chicago, il">
-  <td class="c-role" data-label="Role"><a href="https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles" target="_blank" rel="noopener">Energy Storage Project Developer</a></td>
-  <td data-label="Company">Nexamp</td>
-  <td data-label="Sector">Renewable Developer</td>
-  <td data-label="Location">Chicago, IL</td>
-  <td data-label="Track"><span class="badge t-other">Other</span></td>
+  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
 </tr></tbody>
 </table></div>
 </section>
 
+<section id="applied-section">
+  <h2>Applied <span class="count" id="applied-count">0</span></h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Role</th><th>Company</th><th>Sector</th><th>Location</th><th>Track</th><th></th></tr></thead>
+    <tbody id="applied-tbody"></tbody>
+  </table></div>
+  <p class="empty" id="applied-empty">Nothing marked as applied yet.</p>
+</section>
 
+<details><summary>Companies that failed this run (1)</summary><ul><li>Nexamp: ReadTimeout: HTTPSConnectionPool(host=&#x27;boards-api.greenhouse.io&#x27;, port=443): Read timed out. (read timeout=20)</li></ul></details>
 <script>
-function filterJobs(q) {
-  q = q.trim().toLowerCase();
-  document.querySelectorAll('tr.job').forEach(function(tr) {
-    tr.classList.toggle('hide', q && tr.dataset.q.indexOf(q) === -1);
+var STORE_KEY = 'jobtracker_applied_v1';
+
+function getApplied() {
+  try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+  catch (e) { return {}; }
+}
+function saveApplied(obj) { localStorage.setItem(STORE_KEY, JSON.stringify(obj)); }
+
+function renderApplied() {
+  var applied = getApplied();
+  var uids = Object.keys(applied);
+  var tbody = document.getElementById('applied-tbody');
+  var empty = document.getElementById('applied-empty');
+  document.getElementById('applied-count').textContent = uids.length;
+  if (uids.length === 0) {
+    tbody.innerHTML = '';
+    empty.style.display = '';
+    return;
+  }
+  empty.style.display = 'none';
+  uids.sort(function(a, b) { return (applied[b].at || '').localeCompare(applied[a].at || ''); });
+  tbody.innerHTML = uids.map(function(uid) {
+    var j = applied[uid];
+    return '<tr>' +
+      '<td class="c-role"><a href="' + j.url + '" target="_blank" rel="noopener">' + j.title + '</a>' +
+      '<div class="applied-date">Applied ' + j.at + '</div></td>' +
+      '<td>' + j.company + '</td>' +
+      '<td><span class="badge ' + j.catCls + '">' + j.sector + '</span></td>' +
+      '<td>' + j.location + '</td>' +
+      '<td><span class="badge ' + j.trackCls + '">' + j.track + '</span></td>' +
+      '<td><button class="apply-btn remove" type="button" data-unmark="' + uid + '">Remove</button></td>' +
+      '</tr>';
+  }).join('');
+}
+
+function syncJobVisibility() {
+  var applied = getApplied();
+  document.querySelectorAll('tr.job[data-uid]').forEach(function(tr) {
+    tr.classList.toggle('hide', !!applied[tr.dataset.uid]);
   });
 }
+
+document.addEventListener('click', function(e) {
+  var markBtn = e.target.closest('.apply-btn:not(.remove)');
+  if (markBtn) {
+    var tr = markBtn.closest('tr.job');
+    var applied = getApplied();
+    applied[tr.dataset.uid] = {
+      title: tr.dataset.title, company: tr.dataset.company, sector: tr.dataset.sector,
+      location: tr.dataset.location, track: tr.dataset.track, url: tr.dataset.url,
+      catCls: [].find.call(tr.querySelectorAll('.badge'), function(b) { return b.className.indexOf('cat-') !== -1; }).className.replace('badge ', ''),
+      trackCls: [].find.call(tr.querySelectorAll('.badge'), function(b) { return b.className.indexOf('t-') !== -1; }).className.replace('badge ', ''),
+      at: new Date().toISOString().slice(0, 10)
+    };
+    saveApplied(applied);
+    tr.classList.add('hide');
+    renderApplied();
+    return;
+  }
+  var unmarkUid = e.target.getAttribute && e.target.getAttribute('data-unmark');
+  if (unmarkUid) {
+    var applied = getApplied();
+    delete applied[unmarkUid];
+    saveApplied(applied);
+    renderApplied();
+    syncJobVisibility();
+  }
+});
+
+syncJobVisibility();
+renderApplied();
 </script>
 </body>
 </html>
