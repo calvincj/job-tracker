@@ -1,0 +1,48 @@
+name: job-tracker
+
+on:
+  schedule:
+    # every 6 hours. More frequent polling = shorter window for a role to open
+    # and close unseen. The committed digest still shows a rolling ~day, so you
+    # only need to read it once each morning.
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}   # manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run tracker
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          USAJOBS_KEY: ${{ secrets.USAJOBS_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_TO_EMAIL: ${{ secrets.DIGEST_TO_EMAIL }}
+        run: python -m src.tracker
+
+      - name: Commit results
+        run: |
+          git config user.name "Calvin"                          # change to your name
+          git config user.email "cac028@ucsd.edu"   # change to your noreply email
+          MSGS=("update" "more jobs" "job stuff" "daily grind" "pls hire me" \
+                "checking jobs" "asdf" "update jobs" "new roles maybe" "ok" \
+                "fix" "ugh" "the usual" "commit" "adding stuff")
+          MSG=${MSGS[$RANDOM % ${#MSGS[@]}]}
+          git add data/
+          git diff --staged --quiet || git commit -m "$MSG"
+          git push
