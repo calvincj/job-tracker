@@ -30,5 +30,6 @@ def fetch(slug):
             "posted": j.get("publishedAt", "") or "",
             "source": "ashby",
             "_remote": bool(j.get("isRemote")),
+            "_description": j.get("descriptionPlain") or j.get("descriptionHtml", "") or "",
         })
     return out

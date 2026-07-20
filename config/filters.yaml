@@ -77,9 +77,39 @@ exclude_title:
   - lead
   - manager
   - phd
+  - expert              # "X Expert" titles are consistently senior/specialist
+  - managing consultant # a specific rung above plain "Consultant" at firms
+                         # like Guidehouse/Deloitte, not an entry title
   # "ii" / "iii" removed: utility career ladders (Duke, etc.) use Analyst
   # I/II/III and Engineer I/II/III as their normal entry-to-mid grades, so
   # excluding "ii"/"iii" silently hid near-entry roles. Recall > noise here.
+
+  # Not your field - healthcare/clinical consulting practice roles (Guidehouse
+  # etc. run large healthcare practices that otherwise pass on "consultant").
+  - healthcare
+  - health care
+  - clinical
+  - patient
+  - medical
+  - hospital
+  - physician
+  - nursing
+  - pharma
+  - oncology
+  - epidemiology
+  - epidemiologist
+  - bioinformatics
+  - biomedical
+  - dental
+  - veterinary
+  - revenue cycle
+  - public health
+
+# Best-effort: drop a job if its own description states a minimum years of
+# experience above this. Only checked for sources that give us the full
+# description for free (Greenhouse, Ashby) - others are left unfiltered on
+# this dimension since we have nothing to check (recall > false confidence).
+max_years_experience: 3
 
 # Role-type tagging drives how the digest is grouped.
 role_types:
@@ -99,6 +129,9 @@ role_types:
     - early career
     - associate
     - analyst        # entry title in consulting/finance
+    - consultant     # bare "Consultant" (not "Managing/Senior Consultant",
+                      # both excluded above) is the entry rung at firms like
+                      # Guidehouse/ICF
 
 # Optional broad net for the many big firms with no clean ATS API.
 # Requires free Adzuna keys as env vars ADZUNA_APP_ID / ADZUNA_APP_KEY.

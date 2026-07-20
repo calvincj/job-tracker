@@ -19,6 +19,30 @@ VAGUE_LOCATIONS = ("", "us", "usa", "united states", "multiple locations",
                    "various", "various locations", "nationwide", "flexible",
                    "hybrid", "on-site", "onsite")
 
+_TAG_RE = re.compile(r"<[^>]+>")
+# First number in a "3-5 years" / "5+ years" / "3 to 5 years" phrase - takes
+# the lower bound of a range on purpose (recall > precision: a posting that
+# accepts 3-5 years shouldn't be dropped for someone with 3).
+_YEARS_RE = re.compile(r"(\d{1,2})\+?\s*(?:[-–]|to)?\s*(?:\d{1,2}\+?\s*)?years?",
+                       re.IGNORECASE)
+
+
+def _min_years_required(description, max_years):
+    """Best-effort read of a job description: does it explicitly ask for more
+    than max_years of experience? Only returns True on a clear numeric match
+    with "experience" nearby - no match at all is NOT treated as a fail, since
+    that just means we can't verify (most sources don't give us a description
+    at all), and silently dropping unverifiable jobs would hurt recall."""
+    if not description or not max_years:
+        return False
+    text = _TAG_RE.sub(" ", description)
+    for m in _YEARS_RE.finditer(text):
+        window = text[max(0, m.start() - 40):min(len(text), m.end() + 40)].lower()
+        if "experience" in window or "exp." in window:
+            if int(m.group(1)) > max_years:
+                return True
+    return False
+
 
 def _lower(s):
     return (s or "").lower()
@@ -75,6 +99,11 @@ def passes(job, filters):
         if not (job["remote"] or vague or any(l in loc for l in locs)):
             return False
 
+    # experience-level gate (only where we actually have a description)
+    max_years = filters.get("max_years_experience")
+    if _min_years_required(job.get("_description", ""), max_years):
+        return False
+
     return True
 
 
@@ -89,6 +118,7 @@ def build_job(raw, company, category, filters):
         "url": raw.get("url", ""),
         "posted": raw.get("posted", ""),
         "source": raw.get("source", ""),
+        "_description": raw.get("_description", ""),
     }
     job["remote"] = is_remote(job["location"], job["title"], raw)
     job["role_type"] = detect_role_type(job["title"], filters)
@@ -100,5 +130,6 @@ def filter_jobs(raw_list, company, category, filters):
     for raw in raw_list:
         job = build_job(raw, company, category, filters)
         if passes(job, filters):
+            job.pop("_description", None)  # only needed for the gate above
             out.append(job)
     return out

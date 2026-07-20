@@ -127,6 +127,52 @@ def _posted_label(posted):
     return f"{days}{'+' if is_floor else ''}d ago"
 
 
+_STATE_CODES = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+    "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+    "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+    "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+    "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+    "massachusetts": "MA", "michigan": "MI", "minnesota": "MN",
+    "mississippi": "MS", "missouri": "MO", "montana": "MT", "nebraska": "NE",
+    "nevada": "NV", "new hampshire": "NH", "new jersey": "NJ",
+    "new mexico": "NM", "new york": "NY", "north carolina": "NC",
+    "north dakota": "ND", "ohio": "OH", "oklahoma": "OK", "oregon": "OR",
+    "pennsylvania": "PA", "rhode island": "RI", "south carolina": "SC",
+    "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT",
+    "vermont": "VT", "virginia": "VA", "washington": "WA",
+    "west virginia": "WV", "wisconsin": "WI", "wyoming": "WY",
+}
+# Longest names first so "West Virginia" matches before a hypothetical
+# shorter overlapping name would.
+_STATE_RE = re.compile(
+    r",\s*(" + "|".join(re.escape(n) for n in
+                        sorted(_STATE_CODES, key=len, reverse=True)) + r")\s*(?=,|$)",
+    re.IGNORECASE)
+_DC_RE = re.compile(r"washington,\s*(?:d\.?c\.?|district of columbia)\.?(?=[,\s]|$)",
+                    re.IGNORECASE)
+_DC_REVERSED_RE = re.compile(r"(?<!\w)(?:d\.?c\.?|district of columbia),\s*washington(?!\w)",
+                             re.IGNORECASE)
+_US_RE = re.compile(r"(?<!\w)(united states of america|united states|u\.s\.a\.|u\.s\.|usa)(?!\w)",
+                    re.IGNORECASE)
+_CITY_NICKNAMES = {"san francisco": "SF", "los angeles": "LA"}
+
+
+def _shorten_location(loc):
+    """Cosmetic only: California -> CA, United States -> US, etc. Anchored to
+    comma-delimited segments (", California," not bare "California") so it
+    doesn't mangle street addresses like "205 N Michigan Ave"."""
+    if not loc:
+        return loc
+    s = _DC_RE.sub("DC", loc)
+    s = _DC_REVERSED_RE.sub("DC", s)
+    s = _STATE_RE.sub(lambda m: ", " + _STATE_CODES[m.group(1).lower()], s)
+    s = _US_RE.sub("US", s)
+    for name, nick in _CITY_NICKNAMES.items():
+        s = re.sub(r"(?<!\w)" + re.escape(name) + r"(?!\w)", nick, s, flags=re.IGNORECASE)
+    return re.sub(r"\s+", " ", s).strip(" ,")
+
+
 def _avatar_class(company):
     idx = sum(ord(c) for c in company) % AVATAR_PALETTE_SIZE
     return f"av-{idx}"
@@ -156,7 +202,7 @@ _PALETTE = [
 
 
 def _row(j, applied=False):
-    loc = "Remote" if j["remote"] else (j["location"].strip() or "Unclear")
+    loc = "Remote" if j["remote"] else _shorten_location(j["location"].strip()) or "Unclear"
     track = TRACK_LABEL.get(j["role_type"], "Other")
     track_cls = TRACK_CLASS.get(j["role_type"], "t-other")
     cat_cls = _category_class(j["category"])

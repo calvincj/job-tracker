@@ -202,6 +202,77 @@ companies:
     ats: manual
     careers_url: https://www.rystadenergy.com/careers
 
+  # ---- Energy/climate policy think tanks + advocacy (previously zero here) ----
+  - name: RMI
+    category: Energy Policy
+    ats: workday
+    workday:
+      host: rockymountain.wd1.myworkdayjobs.com   # confirmed
+      tenant: rockymountain
+      site: RMI
+
+  - name: World Resources Institute
+    category: Energy Policy
+    ats: workday
+    workday:
+      host: wri.wd501.myworkdayjobs.com   # confirmed
+      tenant: wri
+      site: WRI
+
+  - name: Environmental Defense Fund
+    category: Energy Policy
+    ats: workday
+    workday:
+      host: osv-edf.wd5.myworkdayjobs.com   # confirmed; hosted via OneSource Virtual
+      tenant: osv_edf                       # note underscore, not hyphen
+      site: EDF_External_Careers
+
+  - name: Resources for the Future
+    category: Energy Policy
+    ats: manual
+    careers_url: https://www.rff.org/careers/
+
+  - name: Third Way
+    category: Energy Policy
+    ats: manual                 # runs on Recruitee, no clean public API
+    careers_url: https://www.thirdway.org/careers
+
+  - name: ACORE
+    category: Energy Policy
+    ats: manual                 # runs on JazzHR/applytojob.com, no clean public API
+    careers_url: https://acore.org/about/careers/
+
+  - name: NRDC
+    category: Energy Policy
+    ats: manual                 # runs on iCIMS, no clean public API
+    careers_url: https://careers-nrdc.icims.com/
+
+  - name: Bipartisan Policy Center
+    category: Energy Policy
+    ats: manual                 # runs on Freshteam, no clean public API
+    careers_url: https://bipartisanpolicy.org/about-us/careers/
+
+  - name: Clean Air Task Force
+    category: Energy Policy
+    ats: manual                 # runs on Breezy HR, no clean public API
+    careers_url: https://clean-air-task-force.breezy.hr/
+
+  - name: Advanced Energy United
+    category: Energy Policy
+    ats: manual
+    careers_url: https://advancedenergyunited.org/about/careers/
+
+  # ---- More cleantech (industrial decarbonization, carbon removal) ----
+  - name: Rondo Energy
+    category: Cleantech
+    ats: greenhouse
+    slug: rondoenergy            # confirmed
+
+  - name: Climeworks
+    category: Cleantech
+    ats: manual                  # runs on Recruitee, no clean public API
+    careers_url: https://climeworks.com/careers-search
+
   # ---- National Labs (contractor-run, mostly bespoke HR systems) ----
   - name: National Laboratory of the Rockies (NLR, formerly NREL)
     category: National Lab

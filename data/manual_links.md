@@ -5,6 +5,7 @@ postings from these; check by hand weekly regardless.
 
 ### Cleantech
 
+- [Climeworks](https://climeworks.com/careers-search)
 - [EN Engineering](https://www.enengineering.com/careers)
 - [Fervo Energy](https://fervoenergy.com/careers/)
 - [Iberdrola](https://www.iberdrola.com/careers)
@@ -29,6 +30,16 @@ postings from these; check by hand weekly regardless.
 - [MP Materials](https://mpmaterials.com/careers/)
 - [Talon Metals](https://talonmetals.com/job-opportunities/)
 - [USA Rare Earth](https://careers.usare.com/)
+
+### Energy Policy
+
+- [ACORE](https://acore.org/about/careers/)
+- [Advanced Energy United](https://advancedenergyunited.org/about/careers/)
+- [Bipartisan Policy Center](https://bipartisanpolicy.org/about-us/careers/)
+- [Clean Air Task Force](https://clean-air-task-force.breezy.hr/)
+- [NRDC](https://careers-nrdc.icims.com/)
+- [Resources for the Future](https://www.rff.org/careers/)
+- [Third Way](https://www.thirdway.org/careers)
 
 ### Env Consulting
 
