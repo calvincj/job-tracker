@@ -1,0 +1,130 @@
+# Tune these freely. A job must match keywords_any AND (locations_any OR remote
+# OR unknown location), and must NOT contain an exclude_title term (whole-word).
+
+# The digest shows every role first seen in this many hours. Set a bit over 24
+# so a slightly-late morning check still catches the whole prior day. The tracker
+# polls more often than this (see the workflow); this is just the read window.
+digest_lookback_hours: 30
+
+# Title must contain at least one of these (case-insensitive substring).
+keywords_any:
+  - energy
+  - clean
+  - climate
+  - renewable
+  - grid
+  - power
+  - solar
+  - wind
+  - battery
+  - storage
+  - sustainab       # sustainable, sustainability
+  - decarbon
+  - transition
+  - policy
+  - regulat
+  - supply chain
+  - procurement
+  - analyst
+  - data
+  - econom          # economist, economics
+  - strategy
+  - consultant
+  - research
+  - infrastructure
+  - utility
+  - carbon
+
+# Location must contain one of these, OR the job is remote. Big US cities +
+# San Diego (for school-year roles). Add or trim as you like.
+locations_any:
+  - remote
+  - san diego
+  - san francisco
+  - bay area
+  - los angeles
+  - new york
+  - washington
+  - boston
+  - chicago
+  - seattle
+  - austin
+  - houston
+  - denver
+  - atlanta
+  - philadelphia
+  - dallas
+
+# Drop senior / leadership roles you can't apply to as an undergrad.
+exclude_title:
+  - senior
+  - sr.
+  - staff
+  - principal
+  - director
+  - vp
+  - vice president
+  - head of
+  - chief
+  - lead
+  - manager
+  - phd
+  # "ii" / "iii" removed: utility career ladders (Duke, etc.) use Analyst
+  # I/II/III and Engineer I/II/III as their normal entry-to-mid grades, so
+  # excluding "ii"/"iii" silently hid near-entry roles. Recall > noise here.
+
+# Role-type tagging drives how the digest is grouped.
+role_types:
+  intern:
+    - intern
+    - internship
+    - co-op
+    - co op
+    - coop
+  new_grad:
+    - new grad
+    - new graduate
+    - entry level
+    - entry-level
+    - university
+    - campus
+    - early career
+    - associate
+    - analyst        # entry title in consulting/finance
+
+# Optional broad net for the many big firms with no clean ATS API.
+# Requires free Adzuna keys as env vars ADZUNA_APP_ID / ADZUNA_APP_KEY.
+adzuna:
+  enabled: true      # only fires if ADZUNA_APP_ID/ADZUNA_APP_KEY env vars are set
+  queries:
+    - what: clean energy analyst
+      where: ""
+    - what: energy policy analyst
+      where: ""
+    - what: sustainability consultant
+      where: ""
+    - what: supply chain analyst
+      where: ""
+    - what: renewable energy internship
+      where: ""
+    - what: energy analyst
+      where: san diego
+
+# Optional: push the digest to your inbox instead of just checking the repo.
+# Requires free env vars GMAIL_USER / GMAIL_APP_PASSWORD (+ optional
+# DIGEST_TO_EMAIL). See src/notify.py.
+delivery:
+  email:
+    enabled: false   # flip to true after adding Gmail app-password secrets
+
+# Optional federal source for the energy-policy track (DOE, FERC, EPA, EIA).
+# Free key from https://developer.usajobs.gov/apirequest/. Set env vars
+# USAJOBS_KEY and USAJOBS_EMAIL (GitHub secrets).
+usajobs:
+  enabled: false     # flip to true after adding keys
+  keywords:
+    - energy policy
+    - clean energy
+    - energy analyst
+    - electricity markets
+    - climate

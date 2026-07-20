@@ -1,0 +1,203 @@
+# Your firm list, seeded from Firms_I_Like.
+#
+# ats: greenhouse | lever | ashby | workday | manual
+#   - greenhouse/lever/ashby: set `slug`. Verify with:  python -m src.discover "Name"
+#   - workday: set the `workday` block (host, tenant, site). See PROJECT.md.
+#   - manual: no clean public API. Left for the Adzuna broad net + a bookmarked
+#     careers_url you check by hand. Convert to a real ats once you find one.
+#
+# The slugs below are BEST-GUESSES. Run discover.py to confirm before trusting.
+# Startups are most likely on greenhouse/lever/ashby; big firms on workday.
+
+companies:
+  # ---- Cleantech startups (most likely clean ATS APIs) ----
+  - name: Fervo Energy
+    category: Cleantech
+    ats: manual                 # runs on Paylocity, no clean public API
+    careers_url: https://fervoenergy.com/careers/
+
+  - name: Form Energy
+    category: Cleantech
+    ats: ashby
+    slug: formenergy            # confirmed
+
+  - name: Lilac Solutions
+    category: Cleantech
+    ats: manual                 # runs on Rippling, no clean public API
+    careers_url: https://lilacsolutions.com/careers
+
+  - name: Redwood Materials
+    category: Cleantech
+    ats: greenhouse
+    slug: redwoodmaterials      # confirmed
+
+  - name: Nexamp
+    category: Renewable Developer
+    ats: greenhouse
+    slug: nexamp                # confirmed
+
+  - name: Qcells
+    category: Renewable Developer
+    ats: manual                 # bespoke board (not Workday), no clean public API
+    careers_url: https://careers.qcells.com/search/jobs
+
+  # ---- Utilities / grid (mostly Workday, some bespoke) ----
+  - name: NextEra Energy
+    category: Cleantech
+    ats: manual                 # runs on Avature, no clean public API
+    careers_url: https://jobs.nexteraenergy.com/
+
+  - name: Duke Energy
+    category: Cleantech
+    ats: workday
+    workday:
+      host: dukeenergy.wd1.myworkdayjobs.com   # confirmed
+      tenant: dukeenergy
+      site: Search
+
+  - name: Dominion Energy
+    category: Grid
+    ats: manual
+    careers_url: https://careers.dominionenergy.com
+
+  - name: EDP Renewables
+    category: Renewable Developer
+    ats: manual
+    careers_url: https://www.edpr.com/en/careers
+
+  - name: PJM
+    category: Grid
+    ats: manual
+    careers_url: https://careers.pjm.com
+
+  - name: CAISO
+    category: Grid
+    ats: manual
+    careers_url: https://www.caiso.com/about/careers
+
+  - name: ERCOT
+    category: Grid
+    ats: manual
+    careers_url: https://www.ercot.com/about/careers
+
+  - name: Iberdrola
+    category: Cleantech
+    ats: manual
+    careers_url: https://www.iberdrola.com/careers
+
+  - name: EN Engineering
+    category: Cleantech
+    ats: manual
+    careers_url: https://www.enengineering.com/careers
+
+  # ---- Consulting (bespoke or Workday; mostly manual to start) ----
+  - name: McKinsey & Company
+    category: Consulting
+    ats: manual
+    careers_url: https://www.mckinsey.com/careers/search-jobs
+
+  - name: BCG
+    category: Consulting
+    ats: manual
+    careers_url: https://careers.bcg.com/global
+
+  - name: Bain & Company
+    category: Consulting
+    ats: manual
+    careers_url: https://www.bain.com/careers/find-a-role/
+
+  - name: Deloitte
+    category: Consulting
+    ats: manual
+    careers_url: https://apply.deloitte.com
+
+  - name: EY-Parthenon
+    category: Consulting
+    ats: manual
+    careers_url: https://careers.ey.com
+
+  - name: PwC
+    category: Consulting
+    ats: manual
+    careers_url: https://jobs.us.pwc.com
+
+  - name: Baker Tilly
+    category: Consulting
+    ats: workday
+    workday:
+      host: bakertilly.wd5.myworkdayjobs.com   # confirmed (was wd1, actually wd5)
+      tenant: bakertilly
+      site: BTCareers
+
+  - name: ICF
+    category: Consulting
+    ats: workday
+    workday:
+      host: icf.wd5.myworkdayjobs.com          # confirmed
+      tenant: icf
+      site: ICFExternal_Career_Site
+
+  # ---- Environmental consulting (mostly Workday) ----
+  - name: Guidehouse
+    category: Environmental Consulting
+    ats: workday
+    workday:
+      host: guidehouse.wd1.myworkdayjobs.com   # confirmed
+      tenant: guidehouse
+      site: External
+
+  - name: Tetra Tech
+    category: Environmental Consulting
+    ats: manual
+    careers_url: https://www.tetratech.com/careers
+
+  - name: Booz Allen Hamilton
+    category: Environmental Consulting
+    ats: manual
+    careers_url: https://careers.boozallen.com
+
+  - name: AECOM
+    category: Environmental Consulting
+    ats: manual
+    careers_url: https://aecom.jobs
+
+  - name: WSP
+    category: Environmental Consulting
+    ats: manual
+    careers_url: https://www.wsp.com/en-us/careers
+
+  - name: ERM
+    category: Environmental Consulting
+    ats: manual
+    careers_url: https://www.erm.com/careers/
+
+  - name: SWCA Environmental Consultants
+    category: Environmental Consulting
+    ats: manual                 # runs on iCIMS, no clean public API
+    careers_url: https://careers.swca.com/jobs
+
+  - name: HELIX Environmental Planning
+    category: Environmental Consulting
+    ats: manual
+    careers_url: https://www.helixepi.com/careers/
+
+  - name: Rincon Consultants
+    category: Environmental Consulting
+    ats: manual
+    careers_url: https://www.rinconconsultants.com/careers
+
+  # ---- Market intelligence ----
+  - name: BloombergNEF
+    category: Market Intelligence
+    ats: manual
+    careers_url: https://careers.bloomberg.com
+
+  - name: Wood Mackenzie
+    category: Market Intelligence
+    ats: manual
+    careers_url: https://www.woodmac.com/careers/
+
+  - name: Rystad Energy
+    category: Market Intelligence
+    ats: manual
+    careers_url: https://www.rystadenergy.com/careers
