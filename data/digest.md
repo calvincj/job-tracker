@@ -1,8 +1,8 @@
 # Job digest - 2026-07-20
 
-**88 new roles** across 6 firms.
+**99 new roles** across 16 firms.
 
-### New-grad / full-time (27)
+### New-grad / full-time (33)
 
 - **Form Energy** (Cleantech) - [Supply Chain Logistics Analyst ](https://jobs.ashbyhq.com/formenergy/5592f375-8718-4d2e-9617-3ee6a044ebd0) - REMOTE
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
@@ -31,6 +31,12 @@
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39993) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39995) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Business Intelligence Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Business-Intelligence-Analyst_39646) - US - DC, Washington
+- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=Zp_OY0aE8RGyZZjbuTUUEg&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
+- **Department of Energy - Agency Wide** (Government) - [Management and Program Analyst](https://www.usajobs.gov:443/job/876217000) - Washington, District of Columbia
+- **Department of Energy - Agency Wide** (Government) - [Budget Analyst](https://www.usajobs.gov:443/job/877109900) - Richland, Washington
+- **National Nuclear Security Administration** (Government) - [Program Analyst](https://www.usajobs.gov:443/job/875437500) - Multiple Locations
+- **Occupational Safety and Health Administration** (Government) - [Recent Graduate - Program Analyst](https://www.usajobs.gov:443/job/876660800) - Washington, District of Columbia
+- **Offices, Boards and Divisions** (Government) - [Budget Analyst](https://www.usajobs.gov:443/job/876969300) - Washington, District of Columbia
 
 ### Internships (1)
 
@@ -69,7 +75,7 @@
 - **Guidehouse** (Environmental Consulting) - [Part-Time Oncology Data Specialist - Certified (remote)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Part-Time-Oncology-Data-Specialist---Certified--remote-_38252) - REMOTE
 - **Guidehouse** (Environmental Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (30)
+### Other matches (35)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Field Quality Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5835346004?gh_jid=5835346004) - San Francisco, California, United States
@@ -83,6 +89,7 @@
 - **Redwood Materials** (Cleantech) - [Service Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5823618004?gh_jid=5823618004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Software Engineer - ML/Computer Vision (Battery Sorting)](https://boards.greenhouse.io/redwoodmaterials/jobs/6099577004?gh_jid=6099577004) - McCarran, NV; San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Software Engineer - Site Controller, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6097367004?gh_jid=6097367004) - San Francisco, California, United States
+- **ERM** (Environmental Consulting) - [Managing Consultant, Heath and Safety](https://www.adzuna.com/details/5721325974?utm_medium=api&utm_source=7de842cf) - Manhattan, New York City
 - **Guidehouse** (Environmental Consulting) - [UAS Policy Support](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/UAS-Policy-Support_41915) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Managing Consultant – Digital Assets Strategy & Transformation](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Managing-Consultant---Digital-Assets-Strategy---Transformation_41641-1) - US - NY, New York
 - **Guidehouse** (Environmental Consulting) - [Operational Effectiveness Audit Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Operational-Effectiveness-Audit-Consultant_41445) - US - DC, Washington
@@ -100,7 +107,11 @@
 - **Guidehouse** (Environmental Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
 - **Guidehouse** (Environmental Consulting) - [Law Enforcement Strategy and Technology Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Law-Enforcement-Strategy-and-Technology-Specialist_38916) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Data Collection Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440) - US - DC, Washington
+- **Bonneville Power Administration** (Government) - [Asset Management Specialist (Data Management)](https://www.usajobs.gov:443/job/876717200) - Vancouver, Washington
+- **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
+- **U.S. Army Corps of Engineers** (Government) - [Power Plant Trainee](https://www.usajobs.gov:443/job/875305900) - Multiple Locations
+- **Veterans Health Administration** (Government) - [Healthcare Engineer (Energy)](https://www.usajobs.gov:443/job/876521300) - Dallas, Texas
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 
 ---
-_Window: last 30h. Companies checked: 7, errors: 0, total open matches: 88._
+_Window: last 30h. Companies checked: 7, errors: 0, total open matches: 99._

@@ -115,13 +115,13 @@ adzuna:
 # DIGEST_TO_EMAIL). See src/notify.py.
 delivery:
   email:
-    enabled: false   # flip to true after adding Gmail app-password secrets
+    enabled: true
 
 # Optional federal source for the energy-policy track (DOE, FERC, EPA, EIA).
 # Free key from https://developer.usajobs.gov/apirequest/. Set env vars
 # USAJOBS_KEY and USAJOBS_EMAIL (GitHub secrets).
 usajobs:
-  enabled: false     # flip to true after adding keys
+  enabled: true
   keywords:
     - energy policy
     - clean energy
