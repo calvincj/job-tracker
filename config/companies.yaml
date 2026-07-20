@@ -262,6 +262,50 @@ companies:
     ats: manual
     careers_url: https://advancedenergyunited.org/about/careers/
 
+  # ---- Foreign policy / China / industrial policy & supply chains ----
+  # Nonpartisan or center-left leaning by design, per your steer away from
+  # AEI-style shops.
+  - name: CSIS
+    category: Foreign Policy
+    ats: manual
+    careers_url: https://careers.csis.org/
+
+  - name: Atlantic Council
+    category: Foreign Policy
+    ats: manual
+    careers_url: https://www.atlanticcouncil.org/careers/
+
+  - name: Peterson Institute for International Economics
+    category: Foreign Policy
+    ats: manual
+    careers_url: https://www.piie.com/careers
+
+  - name: Center for a New American Security
+    category: Foreign Policy
+    ats: manual                 # runs on Trakstar, no clean public API
+    careers_url: https://www.cnas.org/careers
+
+  - name: Carnegie Endowment for International Peace
+    category: Foreign Policy
+    ats: manual
+    careers_url: https://carnegieendowment.org/employment-opportunities-at-the-carnegie-endowment-for-international-peace
+
+  - name: Council on Foreign Relations
+    category: Foreign Policy
+    ats: manual                 # runs on iCIMS, no clean public API
+    careers_url: https://www.cfr.org/career-opportunities
+
+  - name: Rhodium Group
+    category: Foreign Policy
+    ats: manual                 # China-focused economic research; runs on
+                                 # JazzHR/applytojob.com, no clean public API
+    careers_url: https://rhodiumgroup.applytojob.com/
+
+  - name: Information Technology and Innovation Foundation
+    category: Foreign Policy
+    ats: manual                 # runs on Freshteam, no clean public API
+    careers_url: https://itif.org/jobs/
+
   # ---- More cleantech (industrial decarbonization, carbon removal) ----
   - name: Rondo Energy
     category: Cleantech

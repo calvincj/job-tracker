@@ -52,6 +52,17 @@ postings from these; check by hand weekly regardless.
 - [Tetra Tech](https://www.tetratech.com/careers)
 - [WSP](https://www.wsp.com/en-us/careers)
 
+### Foreign Policy
+
+- [Atlantic Council](https://www.atlanticcouncil.org/careers/)
+- [CSIS](https://careers.csis.org/)
+- [Carnegie Endowment for International Peace](https://carnegieendowment.org/employment-opportunities-at-the-carnegie-endowment-for-international-peace)
+- [Center for a New American Security](https://www.cnas.org/careers)
+- [Council on Foreign Relations](https://www.cfr.org/career-opportunities)
+- [Information Technology and Innovation Foundation](https://itif.org/jobs/)
+- [Peterson Institute for International Economics](https://www.piie.com/careers)
+- [Rhodium Group](https://rhodiumgroup.applytojob.com/)
+
 ### Grid
 
 - [CAISO](https://www.caiso.com/about/careers)

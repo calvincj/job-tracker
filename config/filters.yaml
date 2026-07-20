@@ -152,6 +152,10 @@ adzuna:
       where: san diego
     - what: critical minerals
       where: ""
+    - what: China industrial policy
+      where: ""
+    - what: foreign policy research
+      where: ""
 
 # Optional: push the digest to your inbox instead of just checking the repo.
 # Requires free env vars GMAIL_USER / GMAIL_APP_PASSWORD (+ optional
