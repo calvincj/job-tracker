@@ -31,7 +31,7 @@
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39993) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39995) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Business Intelligence Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Business-Intelligence-Analyst_39646) - US - DC, Washington
-- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=jp3pZ0yE8RGyZZjbuTUUEg&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
+- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=bEj7wkyE8RGtsJmdS9THBg&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
 - **Administration for Strategic Preparedness and Response** (Government) - [Supervisory Management and Program Analyst](https://www.usajobs.gov:443/job/876797500) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Management and Program Analyst](https://www.usajobs.gov:443/job/876217000) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Budget Analyst](https://www.usajobs.gov:443/job/877109900) - Richland, Washington
