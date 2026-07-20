@@ -16,6 +16,23 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG = os.path.join(ROOT, "config")
 DATA = os.path.join(ROOT, "data")
 SEEN = os.path.join(DATA, "seen.json")
+DOTENV = os.path.join(ROOT, ".env")
+
+
+def load_dotenv():
+    """Load KEY=VALUE lines from .env into os.environ, for local runs. Never
+    overrides a var already set (so real secrets in Actions always win)."""
+    if not os.path.exists(DOTENV):
+        return
+    with open(DOTENV) as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, value = line.partition("=")
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            os.environ.setdefault(key, value)
 
 
 def load_yaml(name):
@@ -39,6 +56,7 @@ def pull_company(c):
 
 
 def run():
+    load_dotenv()
     companies = load_yaml("companies.yaml")["companies"]
     filters = load_yaml("filters.yaml")
 
