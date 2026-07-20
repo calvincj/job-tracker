@@ -201,3 +201,104 @@ companies:
     category: Market Intelligence
     ats: manual
     careers_url: https://www.rystadenergy.com/careers
+
+  # ---- National Labs (contractor-run, mostly bespoke HR systems) ----
+  - name: National Laboratory of the Rockies (NLR, formerly NREL)
+    category: National Lab
+    ats: workday
+    workday:
+      host: nrel.wd5.myworkdayjobs.com   # confirmed; DOE renamed NREL to NLR Dec 2025
+      tenant: nrel
+      site: NLR
+
+  - name: Lawrence Berkeley National Laboratory
+    category: National Lab
+    ats: manual                 # runs on SelectMinds, no clean public API
+    careers_url: https://careers.lbl.gov/
+
+  - name: Pacific Northwest National Laboratory
+    category: National Lab
+    ats: manual                 # runs on iCIMS, no clean public API
+    careers_url: https://careers.pnnl.gov/jobs
+
+  - name: Oak Ridge National Laboratory
+    category: National Lab
+    ats: manual                 # runs on SAP SuccessFactors, no clean public API
+    careers_url: https://jobs.ornl.gov/
+
+  - name: Sandia National Laboratories
+    category: National Lab
+    ats: manual                 # runs on PeopleSoft, no clean public API
+    careers_url: https://sandia.jobs/jobs/
+
+  - name: Idaho National Laboratory
+    category: National Lab
+    ats: manual                 # runs on SelectMinds, no clean public API
+    careers_url: https://inl.gov/careers-and-job-openings/
+
+  - name: Lawrence Livermore National Laboratory
+    category: National Lab
+    ats: manual                 # bespoke, no clean public API
+    careers_url: https://www.llnl.gov/join-our-team/careers/find-your-job
+
+  # ---- Critical minerals / clean-tech supply chain ----
+  - name: MP Materials
+    category: Critical Minerals
+    ats: manual                 # runs on ADP Workforce Now, no clean public API
+    careers_url: https://mpmaterials.com/careers/
+
+  - name: Albemarle
+    category: Critical Minerals
+    ats: workday
+    workday:
+      host: albemarle.wd5.myworkdayjobs.com   # confirmed
+      tenant: albemarle
+      site: External
+
+  - name: Elevra Lithium (formerly Piedmont Lithium)
+    category: Critical Minerals
+    ats: manual                 # merged with Sayona Mining mid-2025, bespoke site
+    careers_url: https://www.elevra.com/careers/
+
+  - name: Lithium Americas
+    category: Critical Minerals
+    ats: workday
+    workday:
+      host: lithiumamericas.wd108.myworkdayjobs.com   # confirmed
+      tenant: lithiumamericas
+      site: External_Careers_SG
+
+  - name: American Battery Technology Company
+    category: Critical Minerals
+    ats: manual
+    careers_url: https://americanbatterytechnology.com/joinus/
+
+  - name: Ascend Elements
+    category: Critical Minerals
+    ats: manual                 # bespoke site; the "ascend" Greenhouse slug is a
+    careers_url: https://ascendelements.com/careers/  # different company, verified
+
+  - name: KoBold Metals
+    category: Critical Minerals
+    ats: greenhouse
+    slug: koboldmetals          # confirmed
+
+  - name: Vulcan Elements
+    category: Critical Minerals
+    ats: greenhouse
+    slug: vulcanelements        # confirmed
+
+  - name: Talon Metals
+    category: Critical Minerals
+    ats: manual
+    careers_url: https://talonmetals.com/job-opportunities/
+
+  - name: USA Rare Earth
+    category: Critical Minerals
+    ats: manual                 # runs on Rippling, no clean public API
+    careers_url: https://careers.usare.com/
+
+  - name: Energy Fuels
+    category: Critical Minerals
+    ats: manual
+    careers_url: https://www.energyfuels.com/careers/

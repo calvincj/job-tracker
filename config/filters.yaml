@@ -34,6 +34,13 @@ keywords_any:
   - infrastructure
   - utility
   - carbon
+  - critical mineral
+  - rare earth
+  - lithium
+  - battery materials
+  - mining
+  - magnet
+  - mineral
 
 # Location must contain one of these, OR the job is remote. Big US cities +
 # San Diego (for school-year roles). Add or trim as you like.
@@ -109,6 +116,8 @@ adzuna:
       where: ""
     - what: energy analyst
       where: san diego
+    - what: critical minerals
+      where: ""
 
 # Optional: push the digest to your inbox instead of just checking the repo.
 # Requires free env vars GMAIL_USER / GMAIL_APP_PASSWORD (+ optional
@@ -128,3 +137,5 @@ usajobs:
     - energy analyst
     - electricity markets
     - climate
+    - critical minerals
+    - supply chain

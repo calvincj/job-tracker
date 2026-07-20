@@ -20,6 +20,16 @@ postings from these; check by hand weekly regardless.
 - [McKinsey & Company](https://www.mckinsey.com/careers/search-jobs)
 - [PwC](https://jobs.us.pwc.com)
 
+### Critical Minerals
+
+- [American Battery Technology Company](https://americanbatterytechnology.com/joinus/)
+- [Ascend Elements](https://ascendelements.com/careers/)
+- [Elevra Lithium (formerly Piedmont Lithium)](https://www.elevra.com/careers/)
+- [Energy Fuels](https://www.energyfuels.com/careers/)
+- [MP Materials](https://mpmaterials.com/careers/)
+- [Talon Metals](https://talonmetals.com/job-opportunities/)
+- [USA Rare Earth](https://careers.usare.com/)
+
 ### Environmental Consulting
 
 - [AECOM](https://aecom.jobs)
@@ -43,6 +53,15 @@ postings from these; check by hand weekly regardless.
 - [BloombergNEF](https://careers.bloomberg.com)
 - [Rystad Energy](https://www.rystadenergy.com/careers)
 - [Wood Mackenzie](https://www.woodmac.com/careers/)
+
+### National Lab
+
+- [Idaho National Laboratory](https://inl.gov/careers-and-job-openings/)
+- [Lawrence Berkeley National Laboratory](https://careers.lbl.gov/)
+- [Lawrence Livermore National Laboratory](https://www.llnl.gov/join-our-team/careers/find-your-job)
+- [Oak Ridge National Laboratory](https://jobs.ornl.gov/)
+- [Pacific Northwest National Laboratory](https://careers.pnnl.gov/jobs)
+- [Sandia National Laboratories](https://sandia.jobs/jobs/)
 
 ### Renewable Developer
 

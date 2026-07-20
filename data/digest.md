@@ -1,8 +1,8 @@
 # Job digest - 2026-07-20
 
-**99 new roles** across 16 firms.
+**107 new roles** across 21 firms.
 
-### New-grad / full-time (33)
+### New-grad / full-time (36)
 
 - **Form Energy** (Cleantech) - [Supply Chain Logistics Analyst ](https://jobs.ashbyhq.com/formenergy/5592f375-8718-4d2e-9617-3ee6a044ebd0) - REMOTE
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
@@ -31,18 +31,22 @@
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39993) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39995) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Business Intelligence Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Business-Intelligence-Analyst_39646) - US - DC, Washington
-- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=liyYoEaE8RGcM-ppp_7oUQ&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
+- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=jp3pZ0yE8RGyZZjbuTUUEg&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
+- **Administration for Strategic Preparedness and Response** (Government) - [Supervisory Management and Program Analyst](https://www.usajobs.gov:443/job/876797500) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Management and Program Analyst](https://www.usajobs.gov:443/job/876217000) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Budget Analyst](https://www.usajobs.gov:443/job/877109900) - Richland, Washington
+- **Executive Director, Office of Acquisition, Logistics and Construction** (Government) - [Procurement Analyst (Compliance & Risk Management)](https://www.usajobs.gov:443/job/876245000) - Multiple Locations
 - **National Nuclear Security Administration** (Government) - [Program Analyst](https://www.usajobs.gov:443/job/875437500) - Multiple Locations
 - **Occupational Safety and Health Administration** (Government) - [Recent Graduate - Program Analyst](https://www.usajobs.gov:443/job/876660800) - Washington, District of Columbia
 - **Offices, Boards and Divisions** (Government) - [Budget Analyst](https://www.usajobs.gov:443/job/876969300) - Washington, District of Columbia
+- **Veterans Health Administration** (Government) - [Supply Systems Analyst](https://www.usajobs.gov:443/job/876333500) - Multiple Locations
 
-### Internships (1)
+### Internships (2)
 
 - **Guidehouse** (Environmental Consulting) - [Financial Auditor/Internal Audit Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Auditor-Internal-Audit-Consultant_40018) - US - DC, Washington
+- **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Los Angeles Based Graduate Intern - Building Energy Modeling and Analysis](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264) - Los Angeles, CA
 
-### Remote (school-year workable) (30)
+### Remote (school-year workable) (33)
 
 - **Form Energy** (Cleantech) - [Software Engineer II, Power Plant Software](https://jobs.ashbyhq.com/formenergy/91b5121f-ae4c-4ea1-8abd-9234353807d7) - REMOTE
 - **ICF** (Consulting) - [Public Policy Specialist - Energy and Environment (REMOTE role or Hybrid role based in Reston, Virginia)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist---Energy-and-Environment--Hybrid-Remote-role-based-in-Reston--Virginia-_R2601938-1) - REMOTE
@@ -53,6 +57,9 @@
 - **ICF** (Consulting) - [Rural Health Program Data Scientist (REMOTE)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Albuquerque-NM/Rural-Health-Program-Data-Scientist--REMOTE-_R2602267) - REMOTE
 - **ICF** (Consulting) - [Data Engineer (Remote)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/West-Virginia-Field-Office-WV66/Data-Engineer--Remote-_R2602049) - REMOTE
 - **ICF** (Consulting) - [Management Consultant, Strategic Resilience - FEMA HMGP - Remote (US)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632) - REMOTE
+- **ICF** (Consulting) - [On Call Critical Minerals Expert - Remote](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/On-Call-Critical-Minerals-Expert---Remote_R2600659) - REMOTE
+- **KoBold Metals** (Critical Minerals) - [Data Scientist - (Global)](https://job-boards.greenhouse.io/koboldmetals/jobs/4305917005) - REMOTE
+- **KoBold Metals** (Critical Minerals) - [Postdoctoral Scholar — AI Researcher for Critical Mineral Discovery](https://job-boards.greenhouse.io/koboldmetals/jobs/4702493005) - REMOTE
 - **Guidehouse** (Environmental Consulting) - [Managing Consultant, Clinical and Operational Improvement](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant--Clinical-and-Operational-Improvement_42098) - REMOTE
 - **Guidehouse** (Environmental Consulting) - [Healthcare Financial Transformation, Managing Consultant - Back-End Revenue Cycle](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Financial-Transformation--Managing-Consultant---Back-End-Revenue-Cycle_36177) - REMOTE
 - **Guidehouse** (Environmental Consulting) - [Healthcare Financial Transformation, Managing Consultant - Front-End Revenue Cycle/Patient Access](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Financial-Transformation--Managing-Consultant---Front-End-Revenue-Cycle-Patient-Access_36173) - REMOTE
@@ -75,7 +82,7 @@
 - **Guidehouse** (Environmental Consulting) - [Part-Time Oncology Data Specialist - Certified (remote)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Part-Time-Oncology-Data-Specialist---Certified--remote-_38252) - REMOTE
 - **Guidehouse** (Environmental Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (35)
+### Other matches (36)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Field Quality Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5835346004?gh_jid=5835346004) - San Francisco, California, United States
@@ -108,10 +115,11 @@
 - **Guidehouse** (Environmental Consulting) - [Law Enforcement Strategy and Technology Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Law-Enforcement-Strategy-and-Technology-Specialist_38916) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Data Collection Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440) - US - DC, Washington
 - **Bonneville Power Administration** (Government) - [Asset Management Specialist (Data Management)](https://www.usajobs.gov:443/job/876717200) - Vancouver, Washington
+- **Customs and Border Protection** (Government) - [Supervisory Supply Chain Security Specialist (Trade)](https://www.usajobs.gov:443/job/876767700) - Houston, Texas
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **U.S. Army Corps of Engineers** (Government) - [Power Plant Trainee](https://www.usajobs.gov:443/job/875305900) - Multiple Locations
 - **Veterans Health Administration** (Government) - [Healthcare Engineer (Energy)](https://www.usajobs.gov:443/job/876521300) - Dallas, Texas
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 
 ---
-_Window: last 30h. Companies checked: 7, errors: 0, total open matches: 99._
+_Window: last 30h. Companies checked: 12, errors: 0, total open matches: 107._
