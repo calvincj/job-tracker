@@ -1,6 +1,6 @@
 # Job digest - 2026-07-20
 
-**107 new roles** across 20 firms.
+**108 new roles** across 21 firms.
 
 ### New-grad / full-time (36)
 
@@ -31,7 +31,7 @@
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39993) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Border Security Program Management Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Border-Security-Program-Management-Analyst_39995) - US - DC, Washington
 - **Guidehouse** (Environmental Consulting) - [Business Intelligence Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Business-Intelligence-Analyst_39646) - US - DC, Washington
-- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=Tks2QGmE8RGJqeygZ7Riog&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
+- **Kaiser Permanente** (Environmental Consulting) - [Supply Chain Analyst II](https://www.adzuna.com/land/ad/5778542678?se=bpSGrWqE8RGJqeygZ7Riog&utm_medium=api&utm_source=7de842cf&v=D3697325E156F8379F000DDB096D36884A396B27) - Atlanta, Fulton County
 - **Administration for Strategic Preparedness and Response** (Government) - [Supervisory Management and Program Analyst](https://www.usajobs.gov:443/job/876797500) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Management and Program Analyst](https://www.usajobs.gov:443/job/876217000) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Budget Analyst](https://www.usajobs.gov:443/job/877109900) - Richland, Washington
@@ -82,7 +82,7 @@
 - **Guidehouse** (Environmental Consulting) - [Part-Time Oncology Data Specialist - Certified (remote)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Part-Time-Oncology-Data-Specialist---Certified--remote-_38252) - REMOTE
 - **Guidehouse** (Environmental Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (36)
+### Other matches (37)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Field Quality Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5835346004?gh_jid=5835346004) - San Francisco, California, United States
@@ -120,9 +120,7 @@
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **U.S. Army Corps of Engineers** (Government) - [Power Plant Trainee](https://www.usajobs.gov:443/job/875305900) - Multiple Locations
 - **Veterans Health Administration** (Government) - [Healthcare Engineer (Energy)](https://www.usajobs.gov:443/job/876521300) - Dallas, Texas
+- **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 
 ---
-_Window: last 30h. Companies checked: 12, errors: 1, total open matches: 107._
-
-Companies that failed this run (check slug/config):
-- Nexamp: ReadTimeout: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=20)
+_Window: last 30h. Companies checked: 12, errors: 0, total open matches: 108._

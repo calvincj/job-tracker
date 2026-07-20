@@ -19,6 +19,7 @@ import csv
 import datetime
 import html
 import os
+import re
 
 
 def _group(jobs):
@@ -83,6 +84,52 @@ TRACK_LABEL = {"new_grad": "Full-time", "intern": "Internship", "other": "Other"
 TRACK_ORDER = {"new_grad": 0, "intern": 1, "other": 2}
 TRACK_CLASS = {"new_grad": "t-grad", "intern": "t-intern", "other": "t-other"}
 CATEGORY_PALETTE_SIZE = 10
+AVATAR_PALETTE_SIZE = 10
+
+_WORKDAY_AGO_RE = re.compile(r"posted\s+(\d+)(\+?)\s+days?\s+ago", re.I)
+
+
+def _days_ago(posted):
+    """Best-effort (days_since_posted, is_lower_bound) from whatever format
+    the source gave us. Workday sends relative text ("Posted 3 Days Ago"),
+    everything else sends a real ISO date/datetime."""
+    if not posted:
+        return None, False
+    p = posted.strip()
+    low = p.lower()
+    if low == "posted today":
+        return 0, False
+    if low == "posted yesterday":
+        return 1, False
+    m = _WORKDAY_AGO_RE.search(p)
+    if m:
+        return int(m.group(1)), bool(m.group(2))
+    try:
+        s = p.replace("Z", "+00:00")
+        dt = datetime.datetime.fromisoformat(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        now = datetime.datetime.now(datetime.timezone.utc)
+        delta = (now.date() - dt.astimezone(datetime.timezone.utc).date()).days
+        return max(delta, 0), False
+    except (ValueError, TypeError):
+        return None, False
+
+
+def _posted_label(posted):
+    days, is_floor = _days_ago(posted)
+    if days is None:
+        return "—"
+    if days == 0:
+        return "Today"
+    if days == 1:
+        return "Yesterday"
+    return f"{days}{'+' if is_floor else ''}d ago"
+
+
+def _avatar_class(company):
+    idx = sum(ord(c) for c in company) % AVATAR_PALETTE_SIZE
+    return f"av-{idx}"
 
 
 def _category_class(category):
@@ -92,38 +139,73 @@ def _category_class(category):
     return f"cat-{idx}"
 
 
-def _table_rows(jobs):
-    rows = []
-    for j in sorted(jobs, key=lambda x: (TRACK_ORDER.get(x["role_type"], 9),
-                                          x["category"], x["company"])):
-        loc = "Remote" if j["remote"] else (j["location"].strip() or "Unclear")
-        track = TRACK_LABEL.get(j["role_type"], "Other")
-        track_cls = TRACK_CLASS.get(j["role_type"], "t-other")
-        cat_cls = _category_class(j["category"])
-        rows.append(f"""<tr class="job" data-uid="{_esc(j['uid'])}" data-title="{_esc(j['title'])}"
-    data-company="{_esc(j['company'])}" data-sector="{_esc(j['category'])}"
-    data-location="{_esc(loc)}" data-track="{track}" data-url="{_esc(j['url'])}">
-  <td class="c-role" data-label="Role"><a href="{_esc(j['url'])}" target="_blank" rel="noopener">{_esc(j['title'])}</a></td>
-  <td data-label="Company">{_esc(j['company'])}</td>
-  <td data-label="Sector"><span class="badge {cat_cls}">{_esc(j['category'])}</span></td>
-  <td data-label="Location">{_esc(loc)}</td>
-  <td data-label="Track"><span class="badge {track_cls}">{track}</span></td>
-  <td class="c-apply" data-label=""><button class="apply-btn" type="button">Mark applied</button></td>
-</tr>""")
-    return "\n".join(rows)
+# 10-hue categorical palette, pastel-on-light / desaturated-on-dark.
+# Reused for both sector badges and company avatars (different hash offsets).
+_PALETTE = [
+    ("#fee2e2", "#991b1b", "#3a1414", "#fca5a5"),
+    ("#ffedd5", "#9a3412", "#3a1a06", "#fdba74"),
+    ("#fef3c7", "#92400e", "#3a1a03", "#fcd34d"),
+    ("#ecfccb", "#3f6212", "#1a2a05", "#bef264"),
+    ("#ccfbf1", "#115e59", "#042b2a", "#5eead4"),
+    ("#cffafe", "#155e75", "#07303e", "#67e8f9"),
+    ("#dbeafe", "#1e40af", "#1c3455", "#93c5fd"),
+    ("#e0e7ff", "#3730a3", "#221e54", "#a5b4fc"),
+    ("#ede9fe", "#5b21b6", "#2c1760", "#c4b5fd"),
+    ("#fce7f3", "#9d174d", "#3f0a24", "#f9a8d4"),
+]
 
 
-def _table(jobs, empty_msg):
+def _row(j, applied=False):
+    loc = "Remote" if j["remote"] else (j["location"].strip() or "Unclear")
+    track = TRACK_LABEL.get(j["role_type"], "Other")
+    track_cls = TRACK_CLASS.get(j["role_type"], "t-other")
+    cat_cls = _category_class(j["category"])
+    av_cls = _avatar_class(j["company"])
+    initial = _esc(j["company"][:1].upper() or "?")
+    posted = _esc(_posted_label(j.get("posted", "")))
+    action = ('<button class="apply-btn remove" type="button" data-unmark="1">Remove</button>'
+             if applied else '<button class="apply-btn" type="button">Mark applied</button>')
+    return f"""<div class="row{' is-applied' if applied else ' job'}" data-uid="{_esc(j['uid'])}"
+     data-title="{_esc(j['title'])}" data-company="{_esc(j['company'])}"
+     data-sector="{_esc(j['category'])}" data-location="{_esc(loc)}"
+     data-posted="{posted}" data-track="{track}" data-url="{_esc(j['url'])}"
+     data-cat-cls="{cat_cls}" data-track-cls="{track_cls}">
+  <div class="c-role">
+    <span class="avatar {av_cls}">{initial}</span>
+    <div class="role-text">
+      <a href="{_esc(j['url'])}" target="_blank" rel="noopener">{_esc(j['title'])}</a>
+      <div class="row-meta">{_esc(j['company'])} &middot; <span class="badge {cat_cls}">{_esc(j['category'])}</span>
+        &middot; {_esc(loc)} &middot; {posted}</div>
+    </div>
+  </div>
+  <div class="c-company">{_esc(j['company'])}</div>
+  <div class="c-sector"><span class="badge {cat_cls}">{_esc(j['category'])}</span></div>
+  <div class="c-location">{_esc(loc)}</div>
+  <div class="c-posted">{posted}</div>
+  <div class="c-bottom">
+    <span class="badge {track_cls}">{track}</span>
+    {action}
+  </div>
+</div>"""
+
+
+def _header_row():
+    return ('<div class="row row-head"><div class="c-role">Role</div>'
+            '<div class="c-company">Company</div><div class="c-sector">Sector</div>'
+            '<div class="c-location">Location</div><div class="c-posted">Posted</div>'
+            '<div class="c-bottom">Type</div></div>')
+
+
+def _list(jobs, empty_msg, applied=False):
     if not jobs:
         return f'<p class="empty">{_esc(empty_msg)}</p>'
-    return f"""<div class="table-wrap"><table>
-<thead><tr><th>Role</th><th>Company</th><th>Sector</th><th>Location</th><th>Track</th><th></th></tr></thead>
-<tbody>{_table_rows(jobs)}</tbody>
-</table></div>"""
+    sorted_jobs = sorted(jobs, key=lambda x: (TRACK_ORDER.get(x["role_type"], 9),
+                                              x["category"], x["company"]))
+    rows = "\n".join(_row(j, applied=applied) for j in sorted_jobs)
+    return f'<div class="list">{_header_row()}{rows}</div>'
 
 
 def render_html(recent_jobs, new_jobs, stats):
-    today = datetime.date.today().isoformat()
     new_uids = {j["uid"] for j in new_jobs}
     rest = [j for j in recent_jobs if j["uid"] not in new_uids]
 
@@ -133,25 +215,14 @@ def render_html(recent_jobs, new_jobs, stats):
         errors_html = (f'<details><summary>Companies that failed this run '
                        f'({stats.get("errors", 0)})</summary><ul>{items}</ul></details>')
 
-    cat_vars_light = []
-    cat_vars_dark = []
-    # 10-hue categorical palette, pastel-on-light / desaturated-on-dark.
-    palette = [
-        ("#fee2e2", "#991b1b", "#451a1a", "#fca5a5"),
-        ("#ffedd5", "#9a3412", "#431407", "#fdba74"),
-        ("#fef3c7", "#92400e", "#451a03", "#fcd34d"),
-        ("#ecfccb", "#3f6212", "#1a2e05", "#bef264"),
-        ("#ccfbf1", "#115e59", "#042f2e", "#5eead4"),
-        ("#cffafe", "#155e75", "#083344", "#67e8f9"),
-        ("#dbeafe", "#1e40af", "#1e3a5f", "#93c5fd"),
-        ("#e0e7ff", "#3730a3", "#1e1b4b", "#a5b4fc"),
-        ("#ede9fe", "#5b21b6", "#2e1065", "#c4b5fd"),
-        ("#fce7f3", "#9d174d", "#500724", "#f9a8d4"),
-    ]
     cat_css_light = "\n".join(f"  .cat-{i} {{ background:{bg}; color:{fg}; }}"
-                              for i, (bg, fg, _, _) in enumerate(palette))
+                              for i, (bg, fg, _, _) in enumerate(_PALETTE))
     cat_css_dark = "\n".join(f"    .cat-{i} {{ background:{bg}; color:{fg}; }}"
-                             for i, (_, _, bg, fg) in enumerate(palette))
+                             for i, (_, _, bg, fg) in enumerate(_PALETTE))
+    av_css_light = "\n".join(f"  .av-{i} {{ background:{bg}; color:{fg}; }}"
+                             for i, (bg, fg, _, _) in enumerate(_PALETTE))
+    av_css_dark = "\n".join(f"    .av-{i} {{ background:{bg}; color:{fg}; }}"
+                            for i, (_, _, bg, fg) in enumerate(_PALETTE))
 
     return f"""<!doctype html>
 <html lang="en">
@@ -161,97 +232,107 @@ def render_html(recent_jobs, new_jobs, stats):
 <title>Job Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {{
     color-scheme: light dark;
-    --bg: #ffffff; --card: #f8fafc; --text: #14181f; --muted: #6b7280;
-    --border: #e5e7eb; --accent: #2563eb; --new-bg: #eff6ff; --new-border: #bfdbfe;
+    --bg: #f4f5f7; --card: #ffffff; --text: #16181d; --muted: #6b7280;
+    --border: #e7e8ec; --accent: #2f5fe0; --new-bg: #eef3ff; --new-border: #cddcfb;
+    --shadow: 0 1px 2px rgba(16,24,40,.04);
     --t-grad-bg: #dbeafe; --t-grad-fg: #1e40af;
     --t-intern-bg: #dcfce7; --t-intern-fg: #166534;
     --t-other-bg: #f1f5f9; --t-other-fg: #475569;
   }}
 {cat_css_light}
+{av_css_light}
   @media (prefers-color-scheme: dark) {{
     :root {{
-      --bg: #0b0f17; --card: #10151f; --text: #e6e8eb; --muted: #9aa4b2;
-      --border: #232a36; --accent: #60a5fa; --new-bg: #0f1c33; --new-border: #1e3a5f;
+      --bg: #0a0d13; --card: #12151d; --text: #e7e9ed; --muted: #939aa8;
+      --border: #232733; --accent: #7ba1f7; --new-bg: #101a2e; --new-border: #21365c;
+      --shadow: 0 1px 2px rgba(0,0,0,.3);
       --t-grad-bg: #1e3a5f; --t-grad-fg: #93c5fd;
-      --t-intern-bg: #14352380; --t-intern-fg: #86efac;
+      --t-intern-bg: #143523; --t-intern-fg: #86efac;
       --t-other-bg: #1a2130; --t-other-fg: #9aa4b2;
     }}
 {cat_css_dark}
+{av_css_dark}
   }}
   * {{ box-sizing: border-box; }}
   body {{
-    font-family: 'Inter', ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
-    max-width: 1040px; margin: 0 auto; padding: 1.75rem 1.25rem 4rem;
+    font-family: 'Plus Jakarta Sans', ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 1180px; margin: 0 auto; padding: 2rem 1.5rem 4rem;
     line-height: 1.45; background: var(--bg); color: var(--text);
-    -webkit-font-smoothing: antialiased; font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
   }}
-  h1 {{ font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 1.6rem; }}
+  h1 {{ font-size: 1.6rem; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 1.75rem; }}
   h2 {{
-    font-size: 1.05rem; font-weight: 700; margin: 2.2rem 0 0.7rem;
-    display: flex; align-items: baseline; gap: 0.5rem;
+    font-size: 1.05rem; font-weight: 700; margin: 2.4rem 0 0.8rem;
+    display: flex; align-items: baseline; gap: 0.55rem;
   }}
   h2 .count {{
-    color: var(--muted); font-weight: 600; font-size: 0.8rem; background: var(--card);
-    border: 1px solid var(--border); border-radius: 999px; padding: 0.1rem 0.55rem;
+    color: var(--muted); font-weight: 600; font-size: 0.78rem; background: var(--card);
+    border: 1px solid var(--border); border-radius: 999px; padding: 0.1rem 0.6rem;
   }}
   .new h2 {{ color: var(--accent); }}
-  .table-wrap {{
-    border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
-    background: var(--card);
+  .list {{ display: flex; flex-direction: column; gap: 0.5rem; }}
+  .row {{
+    display: grid; align-items: center; gap: 0.75rem;
+    grid-template-columns: minmax(220px,2.3fr) minmax(120px,1.1fr) minmax(110px,1fr) minmax(100px,1fr) 78px 168px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 0.85rem 1.1rem; box-shadow: var(--shadow);
   }}
-  .new .table-wrap {{ background: var(--new-bg); border-color: var(--new-border); }}
-  table {{ width: 100%; border-collapse: collapse; font-size: 0.9rem; table-layout: fixed; }}
-  th:nth-child(1), td:nth-child(1) {{ width: 32%; }}
-  th:nth-child(2), td:nth-child(2) {{ width: 19%; }}
-  th:nth-child(3), td:nth-child(3) {{ width: 17%; }}
-  th:nth-child(4), td:nth-child(4) {{ width: 15%; }}
-  th:nth-child(5), td:nth-child(5) {{ width: 10%; }}
-  th:nth-child(6), td:nth-child(6) {{ width: 7%; }}
-  thead th {{
-    text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em;
-    color: var(--muted); font-weight: 650; padding: 0.65rem 0.9rem; border-bottom: 1px solid var(--border);
+  .new .row {{ background: var(--new-bg); border-color: var(--new-border); }}
+  .row-head {{
+    background: transparent; border: none; box-shadow: none; padding: 0 1.1rem;
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); font-weight: 650;
   }}
-  tbody td {{ padding: 0.65rem 0.9rem; border-bottom: 1px solid var(--border); vertical-align: top;
-              overflow-wrap: break-word; }}
-  tbody tr:last-child td {{ border-bottom: none; }}
-  tbody tr:hover {{ background: color-mix(in srgb, var(--accent) 6%, transparent); }}
-  .c-role a {{ font-weight: 620; text-decoration: none; color: var(--text); }}
+  .row:not(.row-head):hover {{ border-color: var(--accent); }}
+  .c-role {{ display: flex; align-items: center; gap: 0.7rem; min-width: 0; }}
+  .avatar {{
+    flex: none; width: 2.1rem; height: 2.1rem; border-radius: 9px; display: flex;
+    align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem;
+  }}
+  .role-text {{ min-width: 0; }}
+  .row-head .c-role {{ padding-left: calc(2.1rem + 0.7rem); }}
+  .c-role a {{
+    font-weight: 650; text-decoration: none; color: var(--text); font-size: 0.95rem;
+    display: block; overflow-wrap: break-word;
+  }}
   .c-role a:hover {{ color: var(--accent); text-decoration: underline; }}
-  .applied-date {{ color: var(--muted); font-size: 0.78rem; margin-top: 0.15rem; }}
+  .row-meta {{ display: none; color: var(--muted); font-size: 0.8rem; margin-top: 0.2rem; }}
+  .row > div {{ min-width: 0; }}
+  .c-company, .c-location, .c-posted {{ color: var(--text); font-size: 0.88rem; overflow-wrap: break-word; }}
+  .c-posted {{ color: var(--muted); font-size: 0.83rem; }}
+  .applied-date {{ color: var(--muted); font-size: 0.78rem; margin-top: 0.2rem; }}
   .badge {{
-    display: inline-block; font-size: 0.72rem; font-weight: 650; padding: 0.15rem 0.55rem;
-    border-radius: 999px; white-space: nowrap;
+    display: inline-block; font-size: 0.72rem; font-weight: 650; padding: 0.18rem 0.6rem;
+    border-radius: 999px; overflow-wrap: break-word; max-width: 100%;
   }}
+  .c-bottom .badge {{ white-space: nowrap; }}
   .t-grad {{ background: var(--t-grad-bg); color: var(--t-grad-fg); }}
   .t-intern {{ background: var(--t-intern-bg); color: var(--t-intern-fg); }}
   .t-other {{ background: var(--t-other-bg); color: var(--t-other-fg); }}
+  .c-bottom {{ display: flex; align-items: center; justify-content: flex-end; gap: 0.6rem; }}
+  .row-head .c-bottom {{ justify-content: flex-start; }}
   .apply-btn {{
-    font-family: inherit; font-size: 0.76rem; font-weight: 600; padding: 0.3rem 0.6rem;
-    border-radius: 7px; border: 1px solid var(--border); background: var(--bg);
+    font-family: inherit; font-size: 0.78rem; font-weight: 600; padding: 0.35rem 0.7rem;
+    border-radius: 8px; border: 1px solid var(--border); background: var(--bg);
     color: var(--text); cursor: pointer; white-space: nowrap;
   }}
   .apply-btn:hover {{ border-color: var(--accent); color: var(--accent); }}
-  .apply-btn.remove {{ color: #b91c1c; }}
-  .apply-btn.remove:hover {{ border-color: #b91c1c; }}
+  .apply-btn.remove {{ color: #dc2626; }}
+  .apply-btn.remove:hover {{ border-color: #dc2626; }}
   .empty {{ color: var(--muted); font-size: 0.9rem; padding: 0.5rem 0; }}
-  .job.hide {{ display: none; }}
+  .row.hide {{ display: none; }}
   details {{ margin-top: 2.5rem; font-size: 0.85rem; color: #b45309; }}
   details summary {{ cursor: pointer; }}
-  @media (max-width: 680px) {{
-    thead {{ display: none; }}
-    table, tbody, tr, td {{ display: block; width: 100% !important; }}
-    tbody tr {{ padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--border); }}
-    tbody tr:last-child {{ border-bottom: none; }}
-    tbody td {{ border: none; padding: 0.15rem 0; }}
-    tbody td[data-label]:not([data-label=""])::before {{
-      content: attr(data-label) ": "; color: var(--muted); font-size: 0.78rem;
-    }}
-    .c-role {{ padding-bottom: 0.3rem !important; font-size: 1rem; }}
-    .c-apply {{ padding-top: 0.4rem !important; }}
+  @media (max-width: 760px) {{
+    .row-head {{ display: none; }}
+    .row {{ grid-template-columns: 1fr; gap: 0; }}
+    .c-company, .c-sector, .c-location, .c-posted {{ display: none; }}
+    .row-meta {{ display: block; }}
+    .c-bottom {{ justify-content: space-between; margin-top: 0.65rem; }}
   }}
 </style>
 </head>
@@ -260,20 +341,17 @@ def render_html(recent_jobs, new_jobs, stats):
 
 <section class="new">
   <h2>New today <span class="count" id="new-count">{len(new_jobs)}</span></h2>
-  {_table(new_jobs, "Nothing new since the last check.")}
+  {_list(new_jobs, "Nothing new since the last check.")}
 </section>
 
 <section>
   <h2>Rest of the window <span class="count" id="rest-count">{len(rest)}</span></h2>
-  {_table(rest, "Nothing else in the current window.")}
+  {_list(rest, "Nothing else in the current window.")}
 </section>
 
 <section id="applied-section">
   <h2>Applied <span class="count" id="applied-count">0</span></h2>
-  <div class="table-wrap"><table>
-    <thead><tr><th>Role</th><th>Company</th><th>Sector</th><th>Location</th><th>Track</th><th></th></tr></thead>
-    <tbody id="applied-tbody"></tbody>
-  </table></div>
+  <div id="applied-list" class="list">{_header_row()}</div>
   <p class="empty" id="applied-empty">Nothing marked as applied yet.</p>
 </section>
 
@@ -290,51 +368,55 @@ function saveApplied(obj) {{ localStorage.setItem(STORE_KEY, JSON.stringify(obj)
 function renderApplied() {{
   var applied = getApplied();
   var uids = Object.keys(applied);
-  var tbody = document.getElementById('applied-tbody');
+  var list = document.getElementById('applied-list');
   var empty = document.getElementById('applied-empty');
   document.getElementById('applied-count').textContent = uids.length;
-  if (uids.length === 0) {{
-    tbody.innerHTML = '';
-    empty.style.display = '';
-    return;
-  }}
+  // wipe everything except the header row
+  Array.prototype.slice.call(list.querySelectorAll('.row:not(.row-head)')).forEach(function(r) {{ r.remove(); }});
+  if (uids.length === 0) {{ empty.style.display = ''; return; }}
   empty.style.display = 'none';
   uids.sort(function(a, b) {{ return (applied[b].at || '').localeCompare(applied[a].at || ''); }});
-  tbody.innerHTML = uids.map(function(uid) {{
+  uids.forEach(function(uid) {{
     var j = applied[uid];
-    return '<tr>' +
-      '<td class="c-role"><a href="' + j.url + '" target="_blank" rel="noopener">' + j.title + '</a>' +
-      '<div class="applied-date">Applied ' + j.at + '</div></td>' +
-      '<td>' + j.company + '</td>' +
-      '<td><span class="badge ' + j.catCls + '">' + j.sector + '</span></td>' +
-      '<td>' + j.location + '</td>' +
-      '<td><span class="badge ' + j.trackCls + '">' + j.track + '</span></td>' +
-      '<td><button class="apply-btn remove" type="button" data-unmark="' + uid + '">Remove</button></td>' +
-      '</tr>';
-  }}).join('');
+    var row = document.createElement('div');
+    row.className = 'row is-applied';
+    row.innerHTML =
+      '<div class="c-role"><span class="avatar ' + j.avCls + '">' + (j.company.slice(0,1).toUpperCase() || '?') + '</span>' +
+      '<div class="role-text"><a href="' + j.url + '" target="_blank" rel="noopener">' + j.title + '</a>' +
+      '<div class="row-meta">' + j.company + ' &middot; <span class="badge ' + j.catCls + '">' + j.sector + '</span> &middot; ' + j.location + '</div>' +
+      '<div class="applied-date">Applied ' + j.at + '</div></div></div>' +
+      '<div class="c-company">' + j.company + '</div>' +
+      '<div class="c-sector"><span class="badge ' + j.catCls + '">' + j.sector + '</span></div>' +
+      '<div class="c-location">' + j.location + '</div>' +
+      '<div class="c-posted"></div>' +
+      '<div class="c-bottom"><span class="badge ' + j.trackCls + '">' + j.track + '</span>' +
+      '<button class="apply-btn remove" type="button" data-unmark="' + uid + '">Remove</button></div>';
+    list.appendChild(row);
+  }});
 }}
 
 function syncJobVisibility() {{
   var applied = getApplied();
-  document.querySelectorAll('tr.job[data-uid]').forEach(function(tr) {{
-    tr.classList.toggle('hide', !!applied[tr.dataset.uid]);
+  document.querySelectorAll('.row.job[data-uid]').forEach(function(row) {{
+    row.classList.toggle('hide', !!applied[row.dataset.uid]);
   }});
 }}
 
 document.addEventListener('click', function(e) {{
   var markBtn = e.target.closest('.apply-btn:not(.remove)');
   if (markBtn) {{
-    var tr = markBtn.closest('tr.job');
+    var row = markBtn.closest('.row[data-uid]');
     var applied = getApplied();
-    applied[tr.dataset.uid] = {{
-      title: tr.dataset.title, company: tr.dataset.company, sector: tr.dataset.sector,
-      location: tr.dataset.location, track: tr.dataset.track, url: tr.dataset.url,
-      catCls: [].find.call(tr.querySelectorAll('.badge'), function(b) {{ return b.className.indexOf('cat-') !== -1; }}).className.replace('badge ', ''),
-      trackCls: [].find.call(tr.querySelectorAll('.badge'), function(b) {{ return b.className.indexOf('t-') !== -1; }}).className.replace('badge ', ''),
+    applied[row.dataset.uid] = {{
+      title: row.dataset.title, company: row.dataset.company, sector: row.dataset.sector,
+      location: row.dataset.location, track: row.dataset.track, url: row.dataset.url,
+      catCls: row.dataset.catCls, trackCls: row.dataset.trackCls,
+      avCls: [].find.call(row.querySelectorAll('.avatar'), function() {{ return true; }})
+             ? row.querySelector('.avatar').className.replace('avatar ', '') : 'av-0',
       at: new Date().toISOString().slice(0, 10)
     }};
     saveApplied(applied);
-    tr.classList.add('hide');
+    row.classList.add('hide');
     renderApplied();
     return;
   }}

@@ -5,7 +5,7 @@ Free, no auth. Endpoint:
 
 Returns {"jobs": [...]}. Field names to VERIFY against a live response (Ashby
 has changed these before): title, location, employmentType, jobUrl / applyUrl,
-publishedDate, isRemote. If a field is missing, inspect one response and adjust.
+publishedAt, isRemote. If a field is missing, inspect one response and adjust.
 """
 
 import requests
@@ -27,7 +27,7 @@ def fetch(slug):
             "title": j.get("title", "") or "",
             "location": j.get("location", "") or "",
             "url": j.get("jobUrl") or j.get("applyUrl", "") or "",
-            "posted": j.get("publishedDate", "") or "",
+            "posted": j.get("publishedAt", "") or "",
             "source": "ashby",
             "_remote": bool(j.get("isRemote")),
         })
