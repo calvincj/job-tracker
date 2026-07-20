@@ -1,6 +1,6 @@
 # Job digest - 2026-07-20
 
-**64 new roles** across 13 firms.
+**62 new roles** across 13 firms.
 
 ### New-grad / full-time (6)
 
@@ -16,7 +16,7 @@
 - **Guidehouse** (Env Consulting) - [Financial Auditor/Internal Audit Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Auditor-Internal-Audit-Consultant_40018) - US - DC, Washington
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Los Angeles Based Graduate Intern - Building Energy Modeling and Analysis](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264) - Los Angeles, CA
 
-### Remote (school-year workable) (23)
+### Remote (school-year workable) (22)
 
 - **Form Energy** (Cleantech) - [Software Engineer II, Power Plant Software](https://jobs.ashbyhq.com/formenergy/91b5121f-ae4c-4ea1-8abd-9234353807d7) - REMOTE
 - **ICF** (Consulting) - [Public Policy Specialist - Energy and Environment (REMOTE role or Hybrid role based in Reston, Virginia)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist---Energy-and-Environment--Hybrid-Remote-role-based-in-Reston--Virginia-_R2601938-1) - REMOTE
@@ -31,7 +31,6 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_41944) - REMOTE
 - **Guidehouse** (Env Consulting) - [Managing Consultant - Post-Acute Services](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant---Post-Acute-Services_42097) - REMOTE
 - **Guidehouse** (Env Consulting) - [Managing Consultant- Infrastructure Resilience](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant--Infrastructure-Resilience_38722) - REMOTE
-- **Guidehouse** (Env Consulting) - [Power Platform Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Developer_41231) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Platform Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Developer_41514-1) - REMOTE
 - **Guidehouse** (Env Consulting) - [Managing Consultant - Epic Revenue Cycle - Healthcare Technology](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Managing-Consultant---Epic-Revenue-Cycle---Healthcare-Technology_41520) - REMOTE
 - **Guidehouse** (Env Consulting) - [Consultant II - Epic Revenue Cycle - Healthcare Technology](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Consultant-II---Epic-Revenue-Cycle---Healthcare-Technology_41516) - REMOTE
@@ -42,7 +41,7 @@
 - **Guidehouse** (Env Consulting) - [Healthcare Technology Consultant (Epic/Meditech Revenue Cycle)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Healthcare-Technology-Consultant--Epic-Meditech-Revenue-Cycle-_40041) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (33)
+### Other matches (32)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Field Quality Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5835346004?gh_jid=5835346004) - San Francisco, California, United States
@@ -65,7 +64,6 @@
 - **Guidehouse** (Env Consulting) - [Policy and Law SME](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-and-Law-SME_40687) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Financial Management/Accounting Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Management-Accounting-Consultant_40022) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Financial Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Management-Consultant_39556) - US - DC, Washington
-- **Guidehouse** (Env Consulting) - [Federal Financial Management Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management-Transformation-Consultant_40070) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Purchasing Specialist/Procurement Coordinator](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Purchasing-Specialist-Procurement-Coordinator_39353-1) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Federal Grants Management Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Grants-Management-Transformation-Consultant_40066) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Power Apps & IT Consultant - Real Estate Portfolio](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Power-Apps---IT-Consultant---Real-Estate-Portfolio_39921) - US - DC, Washington
