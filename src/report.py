@@ -213,7 +213,15 @@ def _list(jobs, empty_msg, applied=False, sortable=False):
 
 
 def render_html(recent_jobs, new_jobs, stats):
-    new_uids = {j["uid"] for j in new_jobs}
+    # "New today" = genuinely new to the tracker this run, OR the source's own
+    # posted date is today - a job posted this morning and first caught by an
+    # earlier poll today is still "today" even once it's no longer new-to-us.
+    never_seen_uids = {j["uid"] for j in new_jobs}
+    def _posted_today(j):
+        days, _ = _days_ago(j.get("posted", ""))
+        return days == 0
+    new_today = [j for j in recent_jobs if j["uid"] in never_seen_uids or _posted_today(j)]
+    new_uids = {j["uid"] for j in new_today}
     rest = [j for j in recent_jobs if j["uid"] not in new_uids]
 
     errors_html = ""
@@ -369,8 +377,8 @@ def render_html(recent_jobs, new_jobs, stats):
 </div>
 
 <section class="new">
-  <h2>New today <span class="count" id="new-count">{len(new_jobs)}</span></h2>
-  {_list(new_jobs, "Nothing new since the last check.", sortable=True)}
+  <h2>New today <span class="count" id="new-count">{len(new_today)}</span></h2>
+  {_list(new_today, "Nothing new since the last check.", sortable=True)}
 </section>
 
 <section>
