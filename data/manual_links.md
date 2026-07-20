@@ -30,7 +30,7 @@ postings from these; check by hand weekly regardless.
 - [Talon Metals](https://talonmetals.com/job-opportunities/)
 - [USA Rare Earth](https://careers.usare.com/)
 
-### Environmental Consulting
+### Env Consulting
 
 - [AECOM](https://aecom.jobs)
 - [Booz Allen Hamilton](https://careers.boozallen.com)

@@ -11,6 +11,7 @@ Uses Gmail's SMTP relay (smtp.gmail.com:587, STARTTLS) - no third-party API,
 no cost.
 """
 
+import concurrent.futures
 import os
 import smtplib
 import requests
@@ -19,6 +20,7 @@ from email.message import EmailMessage
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 LINK_CHECK_TIMEOUT = 10
+LINK_CHECK_WORKERS = 12
 
 
 def available():
@@ -26,11 +28,16 @@ def available():
 
 
 def is_link_live(url):
-    """Cheap liveness check for a single job URL. Only meant to be called on
-    small lists (e.g. today's new postings before emailing them) - not the
-    full open-jobs set, which would mean hundreds of extra requests per run.
-    Fails open (treats errors/timeouts as live) so a flaky network check
-    never silently drops a good link."""
+    """HTTP-level liveness check for a single job URL: drops hard 404s/dead
+    domains. Fails open (treats errors/timeouts as live) so a flaky network
+    blip never silently drops a good link.
+
+    Known gap: Ashby-hosted postings are a client-rendered SPA that returns
+    200 for any URL shape, including ones that render "Page not found" in
+    the browser - their server and their own listing API can disagree with
+    each other. Catching that specific case would need a real browser (e.g.
+    headless Chrome) rendering every link, which is a meaningfully heavier
+    and slower pipeline; skipped for now as a known, occasional false-live."""
     headers = {"User-Agent": "personal-job-tracker"}
     try:
         r = requests.head(url, timeout=LINK_CHECK_TIMEOUT, allow_redirects=True,
@@ -44,7 +51,13 @@ def is_link_live(url):
 
 
 def filter_live(jobs):
-    return [j for j in jobs if is_link_live(j["url"])]
+    """Checks links in parallel - meant for the full open-jobs set (can be a
+    few hundred), so a sequential pass would be too slow."""
+    if not jobs:
+        return []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=LINK_CHECK_WORKERS) as ex:
+        live = list(ex.map(lambda j: is_link_live(j["url"]), jobs))
+    return [j for j, ok in zip(jobs, live) if ok]
 
 
 def send_digest(subject, body_markdown):

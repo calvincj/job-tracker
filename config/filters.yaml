@@ -7,6 +7,9 @@
 digest_lookback_hours: 30
 
 # Title must contain at least one of these (case-insensitive substring).
+# "analyst" and "data" used to be here but got dropped - they're generic enough
+# to match any domain (bioinformatics, HR, healthcare data) with zero sector
+# signal, and were the main source of off-target noise.
 keywords_any:
   - energy
   - clean
@@ -25,8 +28,6 @@ keywords_any:
   - regulat
   - supply chain
   - procurement
-  - analyst
-  - data
   - econom          # economist, economics
   - strategy
   - consultant

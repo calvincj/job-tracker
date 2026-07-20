@@ -162,13 +162,15 @@ def _row(j, applied=False):
     cat_cls = _category_class(j["category"])
     av_cls = _avatar_class(j["company"])
     initial = _esc(j["company"][:1].upper() or "?")
+    days, _ = _days_ago(j.get("posted", ""))
+    days_val = days if days is not None else 99999
     posted = _esc(_posted_label(j.get("posted", "")))
     action = ('<button class="apply-btn remove" type="button" data-unmark="1">Remove</button>'
              if applied else '<button class="apply-btn" type="button">Mark applied</button>')
     return f"""<div class="row{' is-applied' if applied else ' job'}" data-uid="{_esc(j['uid'])}"
      data-title="{_esc(j['title'])}" data-company="{_esc(j['company'])}"
      data-sector="{_esc(j['category'])}" data-location="{_esc(loc)}"
-     data-posted="{posted}" data-track="{track}" data-url="{_esc(j['url'])}"
+     data-posted="{posted}" data-days="{days_val}" data-track="{track}" data-url="{_esc(j['url'])}"
      data-cat-cls="{cat_cls}" data-track-cls="{track_cls}">
   <div class="c-role">
     <span class="avatar {av_cls}">{initial}</span>
@@ -196,13 +198,18 @@ def _header_row():
             '<div class="c-bottom">Type</div></div>')
 
 
-def _list(jobs, empty_msg, applied=False):
+def _list(jobs, empty_msg, applied=False, sortable=False):
+    header = _header_row()
     if not jobs:
-        return f'<p class="empty">{_esc(empty_msg)}</p>'
-    sorted_jobs = sorted(jobs, key=lambda x: (TRACK_ORDER.get(x["role_type"], 9),
-                                              x["category"], x["company"]))
+        return f'<div class="list">{header}<p class="empty">{_esc(empty_msg)}</p></div>'
+    # default: most recently posted first (ties broken by company, for a
+    # stable order); the client-side sort toggle re-sorts from here.
+    sorted_jobs = sorted(jobs, key=lambda x: (_days_ago(x.get("posted", ""))[0]
+                                              if _days_ago(x.get("posted", ""))[0] is not None
+                                              else 99999, x["company"]))
     rows = "\n".join(_row(j, applied=applied) for j in sorted_jobs)
-    return f'<div class="list">{_header_row()}{rows}</div>'
+    cls = "list sortable-list" if sortable else "list"
+    return f'<div class="{cls}">{header}{rows}</div>'
 
 
 def render_html(recent_jobs, new_jobs, stats):
@@ -264,7 +271,20 @@ def render_html(recent_jobs, new_jobs, stats):
     line-height: 1.45; background: var(--bg); color: var(--text);
     -webkit-font-smoothing: antialiased;
   }}
-  h1 {{ font-size: 1.6rem; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 1.75rem; }}
+  h1 {{ font-size: 1.6rem; font-weight: 800; letter-spacing: -0.02em; margin: 0; }}
+  .topbar {{
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 0.8rem; margin-bottom: 1.75rem;
+  }}
+  .sort-toggle {{
+    display: inline-flex; border: 1px solid var(--border); border-radius: 9px;
+    padding: 0.2rem; background: var(--card); gap: 0.2rem;
+  }}
+  .sort-btn {{
+    font-family: inherit; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem;
+    border-radius: 6px; border: none; background: transparent; color: var(--muted); cursor: pointer;
+  }}
+  .sort-btn.active {{ background: var(--accent); color: #fff; }}
   h2 {{
     font-size: 1.05rem; font-weight: 700; margin: 2.4rem 0 0.8rem;
     display: flex; align-items: baseline; gap: 0.55rem;
@@ -284,8 +304,11 @@ def render_html(recent_jobs, new_jobs, stats):
   .new .row {{ background: var(--new-bg); border-color: var(--new-border); }}
   .row-head {{
     background: transparent; border: none; box-shadow: none; padding: 0 1.1rem;
+  }}
+  .row-head > div {{
     font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
-    color: var(--muted); font-weight: 650;
+    color: var(--muted); font-weight: 650; line-height: 1.4; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
   }}
   .row:not(.row-head):hover {{ border-color: var(--accent); }}
   .c-role {{ display: flex; align-items: center; gap: 0.7rem; min-width: 0; }}
@@ -337,16 +360,22 @@ def render_html(recent_jobs, new_jobs, stats):
 </style>
 </head>
 <body>
-<h1>Job Tracker</h1>
+<div class="topbar">
+  <h1>Job Tracker</h1>
+  <div class="sort-toggle" role="group" aria-label="Sort order">
+    <button type="button" class="sort-btn active" data-sort="recent">Most recent</button>
+    <button type="button" class="sort-btn" data-sort="firm">Firm</button>
+  </div>
+</div>
 
 <section class="new">
   <h2>New today <span class="count" id="new-count">{len(new_jobs)}</span></h2>
-  {_list(new_jobs, "Nothing new since the last check.")}
+  {_list(new_jobs, "Nothing new since the last check.", sortable=True)}
 </section>
 
 <section>
   <h2>Rest of the window <span class="count" id="rest-count">{len(rest)}</span></h2>
-  {_list(rest, "Nothing else in the current window.")}
+  {_list(rest, "Nothing else in the current window.", sortable=True)}
 </section>
 
 <section id="applied-section">
@@ -428,6 +457,29 @@ document.addEventListener('click', function(e) {{
     renderApplied();
     syncJobVisibility();
   }}
+}});
+
+function sortList(list, mode) {{
+  var rows = Array.prototype.slice.call(list.querySelectorAll('.row.job'));
+  rows.sort(function(a, b) {{
+    if (mode === 'firm') {{
+      var c = a.dataset.company.localeCompare(b.dataset.company);
+      return c !== 0 ? c : (parseFloat(a.dataset.days) - parseFloat(b.dataset.days));
+    }}
+    var d = parseFloat(a.dataset.days) - parseFloat(b.dataset.days);
+    return d !== 0 ? d : a.dataset.company.localeCompare(b.dataset.company);
+  }});
+  rows.forEach(function(row) {{ list.appendChild(row); }});
+}}
+
+document.querySelectorAll('.sort-btn').forEach(function(btn) {{
+  btn.addEventListener('click', function() {{
+    document.querySelectorAll('.sort-btn').forEach(function(b) {{ b.classList.remove('active'); }});
+    btn.classList.add('active');
+    document.querySelectorAll('.sortable-list').forEach(function(list) {{
+      sortList(list, btn.dataset.sort);
+    }});
+  }});
 }});
 
 syncJobVisibility();

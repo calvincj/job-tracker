@@ -139,7 +139,7 @@ companies:
 
   # ---- Environmental consulting (mostly Workday) ----
   - name: Guidehouse
-    category: Environmental Consulting
+    category: Env Consulting
     ats: workday
     workday:
       host: guidehouse.wd1.myworkdayjobs.com   # confirmed
@@ -147,42 +147,42 @@ companies:
       site: External
 
   - name: Tetra Tech
-    category: Environmental Consulting
+    category: Env Consulting
     ats: manual
     careers_url: https://www.tetratech.com/careers
 
   - name: Booz Allen Hamilton
-    category: Environmental Consulting
+    category: Env Consulting
     ats: manual
     careers_url: https://careers.boozallen.com
 
   - name: AECOM
-    category: Environmental Consulting
+    category: Env Consulting
     ats: manual
     careers_url: https://aecom.jobs
 
   - name: WSP
-    category: Environmental Consulting
+    category: Env Consulting
     ats: manual
     careers_url: https://www.wsp.com/en-us/careers
 
   - name: ERM
-    category: Environmental Consulting
+    category: Env Consulting
     ats: manual
     careers_url: https://www.erm.com/careers/
 
   - name: SWCA Environmental Consultants
-    category: Environmental Consulting
+    category: Env Consulting
     ats: manual                 # runs on iCIMS, no clean public API
     careers_url: https://careers.swca.com/jobs
 
   - name: HELIX Environmental Planning
-    category: Environmental Consulting
+    category: Env Consulting
     ats: manual
     careers_url: https://www.helixepi.com/careers/
 
   - name: Rincon Consultants
-    category: Environmental Consulting
+    category: Env Consulting
     ats: manual
     careers_url: https://www.rinconconsultants.com/careers
 

@@ -128,23 +128,29 @@ def run():
     new_jobs, recent, state = store.diff_and_update(state, all_open, lookback)
     store.save(SEEN, state)
 
+    # Link-check what's actually shown (dashboard + digest.md + email), not
+    # what's tracked as seen - a dead link shouldn't affect dedupe/state, only
+    # presentation. Checked in parallel since `recent` can be a few hundred.
+    recent_live = notify.filter_live(recent)
+    live_uids = {j["uid"] for j in recent_live}
+    new_jobs_live = [j for j in new_jobs if j["uid"] in live_uids]
+
     stats = {"checked": checked, "errors": len(errors),
              "open": len(all_open), "lookback": lookback, "error_list": errors}
-    md_path, csv_path = report.write_outputs(recent, new_jobs, stats, DATA)
-    report.write_dashboard(recent, new_jobs, stats, ROOT)
+    md_path, csv_path = report.write_outputs(recent_live, new_jobs, stats, DATA)
+    report.write_dashboard(recent_live, new_jobs_live, stats, ROOT)
 
-    if new_jobs and filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
+    if new_jobs_live and filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
         try:
-            live_jobs = notify.filter_live(new_jobs)
-            if live_jobs:
-                subject = f"{len(live_jobs)} new job{'s' if len(live_jobs) != 1 else ''} today"
-                notify.send_digest(subject, report.render_email_body(live_jobs))
+            subject = f"{len(new_jobs_live)} new job{'s' if len(new_jobs_live) != 1 else ''} today"
+            notify.send_digest(subject, report.render_email_body(new_jobs_live))
         except Exception as e:
             errors.append(("email delivery", f"{type(e).__name__}: {e}"))
 
+    dead = len(recent) - len(recent_live)
     print(f"Checked {checked} companies. {len(all_open)} open matches, "
-          f"{len(new_jobs)} new this run, {len(recent)} in {lookback}h window. "
-          f"{len(errors)} errors.")
+          f"{len(new_jobs_live)} new this run, {len(recent_live)} in {lookback}h window "
+          f"({dead} dropped as dead links). {len(errors)} errors.")
     print(f"Digest: {md_path}")
     if errors:
         print("Errors:")
