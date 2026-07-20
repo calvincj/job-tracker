@@ -43,23 +43,45 @@ Edit `config/companies.yaml` to add or remove firms.
 
 ## How firms map to sources
 
-- Cleantech startups (Fervo, Form Energy, Lilac, Redwood): free public ATS APIs,
-  clean and reliable.
-- Big firms on Workday (many utilities, some consultancies, env. consultants):
-  supported, but each needs host/tenant/site filled in once. See PROJECT.md.
-- Bespoke systems (McKinsey, BCG, Bloomberg, etc.): no clean feed. Covered by the
-  optional Adzuna broad net plus a bookmarked careers URL.
+- Cleantech startups (Redwood, Nexamp, Form Energy): free public ATS APIs
+  (Greenhouse/Ashby), clean and reliable.
+- Firms on Workday (Duke Energy, Baker Tilly, ICF, Guidehouse): supported, each
+  needs host/tenant/site filled in once. See PROJECT.md.
+- Bespoke systems (McKinsey, Fervo, Qcells, SWCA, Bloomberg, etc.): no clean
+  feed. Covered by the optional Adzuna broad net plus a bookmarked careers URL
+  (see `data/manual_links.md`, regenerated each run).
+
+## Optional: Adzuna broad net
+
+Catches postings from the bespoke/manual firms. Free tier.
+1. Register at https://developer.adzuna.com for an app_id + app_key.
+2. Add them as GitHub repo secrets: `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`.
+3. `adzuna.enabled` is already `true` in `filters.yaml` - it just no-ops until
+   the two secrets exist (locally or in Actions).
+
+## Optional: email delivery
+
+Off by default. To get the digest emailed instead of just reading it on
+GitHub:
+1. Generate a Gmail app password: https://myaccount.google.com/apppasswords
+2. Add repo secrets: `GMAIL_USER`, `GMAIL_APP_PASSWORD`, and optionally
+   `DIGEST_TO_EMAIL` (defaults to `GMAIL_USER`).
+3. Set `delivery.email.enabled: true` in `config/filters.yaml`.
+
+See `src/notify.py` for details. A failed send never breaks the run.
 
 ## Files
 
 ```
 config/companies.yaml   your firms, categorized
-config/filters.yaml     keywords, cities, role types
+config/filters.yaml     keywords, cities, role types, adzuna/email flags
 src/tracker.py          entry point
 src/ats/                one client per ATS
 src/discover.py         slug resolver
+src/notify.py           optional email delivery
 data/digest.md          latest morning digest (generated)
 data/new_jobs.csv       running log of everything surfaced (generated)
+data/manual_links.md    bookmarks for firms with no clean ATS feed (generated)
 .github/workflows/      the daily cron
 PROJECT.md              full build brief for Claude Code
 ```
