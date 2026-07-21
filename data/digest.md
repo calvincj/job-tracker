@@ -1,10 +1,9 @@
 # Job digest - 2026-07-21
 
-**48 new roles** across 11 firms.
+**46 new roles** across 10 firms.
 
-### New-grad / full-time (16)
+### New-grad / full-time (15)
 
-- **Form Energy** (Cleantech) - [Supply Chain Logistics Analyst ](https://jobs.ashbyhq.com/formenergy/5592f375-8718-4d2e-9617-3ee6a044ebd0) - REMOTE
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
 - **ICF** (Consulting) - [Research Analyst- REMOTE](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Research-Analyst--REMOTE_R2602436) - REMOTE
 - **ICF** (Consulting) - [Management Consultant, Strategic Resilience - FEMA HMGP - Remote (US)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632) - REMOTE
@@ -26,12 +25,11 @@
 - **Guidehouse** (Env Consulting) - [Financial Auditor/Internal Audit Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Auditor-Internal-Audit-Consultant_40018) - US - DC, Washington
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Los Angeles Based Graduate Intern - Building Energy Modeling and Analysis](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264) - Los Angeles, CA
 
-### Remote (school-year workable) (12)
+### Remote (school-year workable) (11)
 
 - **Form Energy** (Cleantech) - [Software Engineer II, Power Plant Software](https://jobs.ashbyhq.com/formenergy/91b5121f-ae4c-4ea1-8abd-9234353807d7) - REMOTE
 - **ICF** (Consulting) - [Public Policy Specialist - Energy and Environment (REMOTE role or Hybrid role based in Reston, Virginia)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist---Energy-and-Environment--Hybrid-Remote-role-based-in-Reston--Virginia-_R2601938-1) - REMOTE
 - **ICF** (Consulting) - [Public Policy Specialist (REMOTE role or Hybrid role based in Reston, Virginia)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist--REMOTE-role-or-Hybrid-role-based-in-Reston--Virginia-_R2602373) - REMOTE
-- **KoBold Metals** (Critical Minerals) - [Postdoctoral Scholar — AI Researcher for Critical Mineral Discovery](https://job-boards.greenhouse.io/koboldmetals/jobs/4702493005) - REMOTE
 - **Guidehouse** (Env Consulting) - [Data Engineer (IE / Ops Research)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Engineer--IE---Ops-Research-_41652) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_41944) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Platform Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Developer_41231) - REMOTE
@@ -63,4 +61,4 @@
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 
 ---
-_Window: last 30h. Companies checked: 16, errors: 0, total open matches: 49._
+_Window: last 30h. Companies checked: 16, errors: 0, total open matches: 47._

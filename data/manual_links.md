@@ -90,3 +90,13 @@ postings from these; check by hand weekly regardless.
 - [EDP Renewables](https://www.edpr.com/en/careers)
 - [Qcells](https://careers.qcells.com/search/jobs)
 
+### LinkedIn (no free API - saved searches instead)
+
+LinkedIn has no public API for jobs or feed posts, and scraping it isn't
+something this tracker does (against their ToS, real account-ban risk).
+These are just pre-built search links - one click, no automation:
+
+- [Jobs - energy/cleantech/critical minerals (entry-level, US)](https://www.linkedin.com/jobs/search/?keywords=energy%20policy%20OR%20clean%20energy%20OR%20critical%20minerals%20OR%20supply%20chain&f_E=1%2C2&location=United%20States)
+- [Jobs - foreign policy/China (entry-level, US)](https://www.linkedin.com/jobs/search/?keywords=China%20OR%20foreign%20policy%20OR%20industrial%20policy&f_E=1%2C2&location=United%20States)
+- [Posts - people announcing they're hiring (sorted by recent)](https://www.linkedin.com/search/results/content/?keywords=hiring%20energy%20OR%20policy%20OR%20supply%20chain%20analyst&sortBy=%22date_posted%22)
+

@@ -80,6 +80,9 @@ def passes(job, filters):
     title = _lower(job["title"])
     loc = _lower(job["location"]).strip()
 
+    if job["uid"] in filters.get("known_dead_uids", []):
+        return False
+
     # exclude senior / leadership titles (whole-word match)
     for bad in filters.get("exclude_title", []):
         if _has_word(title, _lower(bad)):

@@ -77,6 +77,9 @@ exclude_title:
   - lead
   - manager
   - phd
+  - postdoc              # requires an already-completed PhD
+  - postdoctoral
+  - doctoral
   - expert              # "X Expert" titles are consistently senior/specialist
   - managing consultant # a specific rung above plain "Consultant" at firms
                          # like Guidehouse/Deloitte, not an entry title
@@ -110,6 +113,14 @@ exclude_title:
 # description for free (Greenhouse, Ashby) - others are left unfiltered on
 # this dimension since we have nothing to check (recall > false confidence).
 max_years_experience: 3
+
+# One-off patches for specific postings our automatic dead-link check can't
+# catch (e.g. Ashby's list API says a job is live while its own detail page
+# renders "not found" - a client-side SPA quirk, not something an HTTP status
+# check can see). uid format is {source}:{company}:{job_id}, e.g.
+# "ashby:Form Energy:...". Add here if the same broken link keeps recurring.
+known_dead_uids:
+  - "ashby:Form Energy:5592f375-8718-4d2e-9617-3ee6a044ebd0"  # Supply Chain Logistics Analyst - Ashby list/detail mismatch
 
 # Role-type tagging drives how the digest is grouped.
 role_types:

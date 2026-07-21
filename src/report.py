@@ -566,6 +566,20 @@ def render_email_body(new_jobs):
     return "\n".join(out) + "\n"
 
 
+_LINKEDIN_LINKS = [
+    # f_E=1,2 = Internship + Entry level only, so this stays undergrad-relevant.
+    ("Jobs - energy/cleantech/critical minerals (entry-level, US)",
+     "https://www.linkedin.com/jobs/search/?keywords=energy%20policy%20OR%20clean%20energy%20OR%20"
+     "critical%20minerals%20OR%20supply%20chain&f_E=1%2C2&location=United%20States"),
+    ("Jobs - foreign policy/China (entry-level, US)",
+     "https://www.linkedin.com/jobs/search/?keywords=China%20OR%20foreign%20policy%20OR%20industrial%20policy&"
+     "f_E=1%2C2&location=United%20States"),
+    ("Posts - people announcing they're hiring (sorted by recent)",
+     "https://www.linkedin.com/search/results/content/?keywords=hiring%20energy%20OR%20policy%20OR%20"
+     "supply%20chain%20analyst&sortBy=%22date_posted%22"),
+]
+
+
 def render_manual_links(companies):
     manual = [c for c in companies if (c.get("ats") or "manual").lower() == "manual"]
     out = ["# Manual bookmarks", "",
@@ -580,6 +594,16 @@ def render_manual_links(companies):
         for c in sorted(by_cat[cat], key=lambda x: x["name"]):
             out.append(f"- [{c['name']}]({c.get('careers_url', '')})")
         out.append("")
+
+    out.append("### LinkedIn (no free API - saved searches instead)")
+    out.append("")
+    out.append("LinkedIn has no public API for jobs or feed posts, and scraping it isn't")
+    out.append("something this tracker does (against their ToS, real account-ban risk).")
+    out.append("These are just pre-built search links - one click, no automation:")
+    out.append("")
+    for label, url in _LINKEDIN_LINKS:
+        out.append(f"- [{label}]({url})")
+    out.append("")
     return "\n".join(out) + "\n"
 
 
