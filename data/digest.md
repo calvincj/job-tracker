@@ -1,8 +1,8 @@
 # Job digest - 2026-07-21
 
-**48 new roles** across 12 firms.
+**48 new roles** across 11 firms.
 
-### New-grad / full-time (17)
+### New-grad / full-time (16)
 
 - **Form Energy** (Cleantech) - [Supply Chain Logistics Analyst ](https://jobs.ashbyhq.com/formenergy/5592f375-8718-4d2e-9617-3ee6a044ebd0) - REMOTE
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
@@ -20,7 +20,6 @@
 - **Guidehouse** (Env Consulting) - [Federal Grants Management Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Grants-Management-Transformation-Consultant_40066) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Power Apps & IT Consultant - Real Estate Portfolio](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Power-Apps---IT-Consultant---Real-Estate-Portfolio_39921) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Data Collection Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440) - US - DC, Washington
-- **Executive Director, Office of Acquisition, Logistics and Construction** (Government) - [Procurement Analyst (Compliance & Risk Management)](https://www.usajobs.gov:443/job/876245000) - Multiple Locations
 
 ### Internships (2)
 
@@ -42,7 +41,7 @@
 - **Guidehouse** (Env Consulting) - [Sr Microsoft Dynamics and Power Platform Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Sr-Microsoft-Dynamics-and-Power-Platform-Developer_40514) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (17)
+### Other matches (18)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Functional Safety Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5978342004?gh_jid=5978342004) - San Francisco, California, United States
@@ -57,6 +56,7 @@
 - **Guidehouse** (Env Consulting) - [Policy and Law SME](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-and-Law-SME_40687) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Purchasing Specialist/Procurement Coordinator](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Purchasing-Specialist-Procurement-Coordinator_39353-1) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
+- **Customs and Border Protection** (Government) - [Supply Chain Security Specialist](https://www.usajobs.gov:443/job/877237900) - Multiple Locations
 - **Customs and Border Protection** (Government) - [Supervisory Supply Chain Security Specialist (Trade)](https://www.usajobs.gov:443/job/876767700) - Houston, Texas
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **U.S. Army Corps of Engineers** (Government) - [Power Plant Trainee](https://www.usajobs.gov:443/job/875305900) - Multiple Locations
