@@ -2,12 +2,15 @@
 
 Three outputs:
   data/digest.md    readable on phone / in the repo, grouped for a morning skim.
-                    Shows every role first seen in the last `lookback` hours, so
-                    one morning read captures the whole prior day across polls.
+                    Shows every currently-open job matching your filters, not
+                    just recently-found ones - it's a live snapshot, not a
+                    rolling window, so nothing disappears while it's still open.
   data/new_jobs.csv appendable log of every role ever surfaced (never lost, even
                     if you skip a day).
   docs/index.html   same data as digest.md, styled + searchable, served free via
                     GitHub Pages so there's a live link instead of a repo file.
+                    Splits out "new today" (never seen before, or the source's
+                    own posted date is today) from the rest.
 
 The digest leads with the three tracks that matter:
   1. Full-time / new-grad roles
@@ -46,17 +49,17 @@ def _section(title, jobs):
     return "\n".join(lines)
 
 
-def render_markdown(recent_jobs, stats):
+def render_markdown(open_jobs, stats):
     today = datetime.date.today().isoformat()
-    grads, interns, remote, other = _group(recent_jobs)
+    grads, interns, remote, other = _group(open_jobs)
 
     out = [f"# Job digest - {today}", ""]
-    if not recent_jobs:
-        out.append("No new roles in the window. Boards checked, nothing new passed filters.")
+    if not open_jobs:
+        out.append("No open roles matching your filters right now.")
         out.append("")
     else:
-        out.append(f"**{len(recent_jobs)} new roles** across "
-                   f"{len({j['company'] for j in recent_jobs})} firms.")
+        out.append(f"**{len(open_jobs)} open roles** across "
+                   f"{len({j['company'] for j in open_jobs})} firms.")
         out.append("")
         out.append(_section("New-grad / full-time", grads))
         out.append(_section("Internships", interns))
@@ -64,8 +67,7 @@ def render_markdown(recent_jobs, stats):
         out.append(_section("Other matches", other))
 
     out.append("---")
-    out.append(f"_Window: last {stats.get('lookback', 30)}h. "
-               f"Companies checked: {stats.get('checked', 0)}, "
+    out.append(f"_Companies checked: {stats.get('checked', 0)}, "
                f"errors: {stats.get('errors', 0)}, "
                f"total open matches: {stats.get('open', 0)}._")
     if stats.get("error_list"):
@@ -258,7 +260,7 @@ def _list(jobs, empty_msg, applied=False, sortable=False):
     return f'<div class="{cls}">{header}{rows}</div>'
 
 
-def render_html(recent_jobs, new_jobs, stats):
+def render_html(open_jobs, new_jobs, stats):
     # "New today" = genuinely new to the tracker this run, OR the source's own
     # posted date is today - a job posted this morning and first caught by an
     # earlier poll today is still "today" even once it's no longer new-to-us.
@@ -266,9 +268,9 @@ def render_html(recent_jobs, new_jobs, stats):
     def _posted_today(j):
         days, _ = _days_ago(j.get("posted", ""))
         return days == 0
-    new_today = [j for j in recent_jobs if j["uid"] in never_seen_uids or _posted_today(j)]
+    new_today = [j for j in open_jobs if j["uid"] in never_seen_uids or _posted_today(j)]
     new_uids = {j["uid"] for j in new_today}
-    rest = [j for j in recent_jobs if j["uid"] not in new_uids]
+    rest = [j for j in open_jobs if j["uid"] not in new_uids]
 
     errors_html = ""
     if stats.get("error_list"):
@@ -544,18 +546,18 @@ renderApplied();
 """
 
 
-def write_dashboard(recent_jobs, new_jobs, stats, root_dir):
+def write_dashboard(open_jobs, new_jobs, stats, root_dir):
     docs_dir = os.path.join(root_dir, "docs")
     os.makedirs(docs_dir, exist_ok=True)
     path = os.path.join(docs_dir, "index.html")
     with open(path, "w") as f:
-        f.write(render_html(recent_jobs, new_jobs, stats))
+        f.write(render_html(open_jobs, new_jobs, stats))
     return path
 
 
 def render_email_body(new_jobs):
     """Plain-text body for the 'just today's new roles' email - a small
-    subset of what digest.md/index.html show, not the full lookback window."""
+    subset of what digest.md/index.html show (which list every open match)."""
     today = datetime.date.today().isoformat()
     grads, interns, remote, other = _group(new_jobs)
     out = [f"New roles - {today}", ""]
@@ -615,12 +617,12 @@ def write_manual_links(companies, data_dir):
     return path
 
 
-def write_outputs(recent_jobs, new_this_run, stats, data_dir):
+def write_outputs(open_jobs, new_this_run, stats, data_dir):
     os.makedirs(data_dir, exist_ok=True)
 
     md_path = os.path.join(data_dir, "digest.md")
     with open(md_path, "w") as f:
-        f.write(render_markdown(recent_jobs, stats))
+        f.write(render_markdown(open_jobs, stats))
 
     # CSV logs only genuinely-new roles, so no duplicates across intraday polls
     csv_path = os.path.join(data_dir, "new_jobs.csv")

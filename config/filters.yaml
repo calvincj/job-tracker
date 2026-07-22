@@ -1,10 +1,9 @@
 # Tune these freely. A job must match keywords_any AND (locations_any OR remote
 # OR unknown location), and must NOT contain an exclude_title term (whole-word).
 
-# The digest shows every role first seen in this many hours. Set a bit over 24
-# so a slightly-late morning check still catches the whole prior day. The tracker
-# polls more often than this (see the workflow); this is just the read window.
-digest_lookback_hours: 30
+# Note: the digest/dashboard show every currently-open match, full stop - no
+# rolling time window. "New today" (dashboard) is its own thing: genuinely new
+# to the tracker, or the source's own posted date is today.
 
 # Title must contain at least one of these (case-insensitive substring).
 # "analyst" and "data" used to be here but got dropped - they're generic enough

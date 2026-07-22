@@ -3,8 +3,10 @@
 Loads config/companies.yaml and config/filters.yaml, pulls each company from
 its ATS, filters and tags the postings, diffs against data/seen.json, and writes
 data/digest.md + data/new_jobs.csv + docs/index.html (GitHub Pages dashboard).
-If email delivery is on, sends only today's genuinely-new roles (not the full
-digest), after a quick liveness check on that small set.
+digest.md and the dashboard both show every currently-open matching job, not
+just ones seen recently - state (data/seen.json) is only used to tell which
+ones are genuinely new since the last run. If email delivery is on, it sends
+just that new-this-run set, after a quick liveness check.
 """
 
 import os
@@ -123,22 +125,21 @@ def run():
         seen_uid[j["uid"]] = j
     all_open = list(seen_uid.values())
 
-    lookback = filters.get("digest_lookback_hours", 30)
     state = store.load(SEEN)
-    new_jobs, recent, state = store.diff_and_update(state, all_open, lookback)
+    new_jobs, state = store.diff_and_update(state, all_open)
     store.save(SEEN, state)
 
-    # Link-check what's actually shown (dashboard + digest.md + email), not
-    # what's tracked as seen - a dead link shouldn't affect dedupe/state, only
-    # presentation. Checked in parallel since `recent` can be a few hundred.
-    recent_live = notify.filter_live(recent)
-    live_uids = {j["uid"] for j in recent_live}
+    # Link-check everything actually shown (dashboard + digest.md + email),
+    # not what's tracked as seen - a dead link shouldn't affect dedupe/state,
+    # only presentation. Checked in parallel since this can be a few hundred.
+    open_live = notify.filter_live(all_open)
+    live_uids = {j["uid"] for j in open_live}
     new_jobs_live = [j for j in new_jobs if j["uid"] in live_uids]
 
     stats = {"checked": checked, "errors": len(errors),
-             "open": len(all_open), "lookback": lookback, "error_list": errors}
-    md_path, csv_path = report.write_outputs(recent_live, new_jobs, stats, DATA)
-    report.write_dashboard(recent_live, new_jobs_live, stats, ROOT)
+             "open": len(all_open), "error_list": errors}
+    md_path, csv_path = report.write_outputs(open_live, new_jobs, stats, DATA)
+    report.write_dashboard(open_live, new_jobs_live, stats, ROOT)
 
     if new_jobs_live and filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
         try:
@@ -147,10 +148,10 @@ def run():
         except Exception as e:
             errors.append(("email delivery", f"{type(e).__name__}: {e}"))
 
-    dead = len(recent) - len(recent_live)
-    print(f"Checked {checked} companies. {len(all_open)} open matches, "
-          f"{len(new_jobs_live)} new this run, {len(recent_live)} in {lookback}h window "
-          f"({dead} dropped as dead links). {len(errors)} errors.")
+    dead = len(all_open) - len(open_live)
+    print(f"Checked {checked} companies. {len(open_live)} open matches "
+          f"({dead} dropped as dead links), {len(new_jobs_live)} new this run. "
+          f"{len(errors)} errors.")
     print(f"Digest: {md_path}")
     if errors:
         print("Errors:")
