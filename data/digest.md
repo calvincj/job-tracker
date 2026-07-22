@@ -14,4 +14,4 @@
 - **Customs and Border Protection** (Government) - [Supply Chain Security Specialist](https://www.usajobs.gov:443/job/877237900) - Multiple Locations
 
 ---
-_Window: last 30h. Companies checked: 16, errors: 0, total open matches: 49._
+_Window: last 30h. Companies checked: 16, errors: 0, total open matches: 48._
