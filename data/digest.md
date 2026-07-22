@@ -1,12 +1,11 @@
 # Job digest - 2026-07-22
 
-**45 open roles** across 9 firms.
+**44 open roles** across 9 firms.
 
-### New-grad / full-time (16)
+### New-grad / full-time (15)
 
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
-- **ICF** (Consulting) - [Research Analyst- REMOTE](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Research-Analyst--REMOTE_R2602436) - REMOTE
 - **ICF** (Consulting) - [Management Consultant, Strategic Resilience - FEMA HMGP - Remote (US)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632) - REMOTE
 - **World Resources Institute** (Energy Policy) - [Research Analyst, Power Sector Transition](https://wri.wd501.myworkdayjobs.com/en-US/WRI/job/Washington-DC-United-States/Internal--Research-Analyst--Power-Sector-Transition_2026-JR100383-1) - Washington, D.C., United States
 - **Guidehouse** (Env Consulting) - [Salesforce Solution Consultant: Business Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948) - REMOTE
@@ -60,4 +59,4 @@
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 
 ---
-_Companies checked: 16, errors: 0, total open matches: 48._
+_Companies checked: 16, errors: 0, total open matches: 47._
