@@ -85,8 +85,18 @@ def _esc(s):
 TRACK_LABEL = {"new_grad": "Full-time", "intern": "Internship", "other": "Other"}
 TRACK_ORDER = {"new_grad": 0, "intern": 1, "other": 2}
 TRACK_CLASS = {"new_grad": "t-grad", "intern": "t-intern", "other": "t-other"}
-CATEGORY_PALETTE_SIZE = 10
+CATEGORY_PALETTE_SIZE = 16
 AVATAR_PALETTE_SIZE = 10
+
+# Every category currently in companies.yaml (plus "Government" from USAJobs),
+# in a fixed order, so each gets a permanently unique, stable color slot.
+# Update this list when you add a new category to companies.yaml, or it'll
+# just fall back to a hashed (collision-possible) slot below.
+_KNOWN_CATEGORIES = [
+    "Cleantech", "Renewable Developer", "Grid", "Consulting", "Env Consulting",
+    "Energy Consulting", "Market Intelligence", "National Lab",
+    "Critical Minerals", "Energy Policy", "Foreign Policy", "Government",
+]
 
 _WORKDAY_AGO_RE = re.compile(r"posted\s+(\d+)(\+?)\s+days?\s+ago", re.I)
 
@@ -181,25 +191,37 @@ def _avatar_class(company):
 
 
 def _category_class(category):
-    # Deterministic (not Python's randomized hash()) so colors are stable run
-    # to run instead of reshuffling every time the tracker restarts.
-    idx = sum(ord(c) for c in category) % CATEGORY_PALETTE_SIZE
-    return f"cat-{idx}"
+    if category in _KNOWN_CATEGORIES:
+        # guaranteed-unique slot - this is the common case, zero collision risk
+        idx = _KNOWN_CATEGORIES.index(category)
+    else:
+        # unrecognized category (companies.yaml grew and this list didn't):
+        # hash into the leftover slots so it at least can't collide with a
+        # known one, only (rarely) with another unrecognized category.
+        spare = CATEGORY_PALETTE_SIZE - len(_KNOWN_CATEGORIES)
+        idx = len(_KNOWN_CATEGORIES) + (sum(ord(c) for c in category) % max(spare, 1))
+    return f"cat-{idx % CATEGORY_PALETTE_SIZE}"
 
 
-# 10-hue categorical palette, pastel-on-light / desaturated-on-dark.
-# Reused for both sector badges and company avatars (different hash offsets).
+# 16-hue categorical palette, pastel-on-light / desaturated-on-dark. Also
+# reused (via a separate hash) for company avatars.
 _PALETTE = [
-    ("#fee2e2", "#991b1b", "#3a1414", "#fca5a5"),
-    ("#ffedd5", "#9a3412", "#3a1a06", "#fdba74"),
-    ("#fef3c7", "#92400e", "#3a1a03", "#fcd34d"),
-    ("#ecfccb", "#3f6212", "#1a2a05", "#bef264"),
-    ("#ccfbf1", "#115e59", "#042b2a", "#5eead4"),
-    ("#cffafe", "#155e75", "#07303e", "#67e8f9"),
-    ("#dbeafe", "#1e40af", "#1c3455", "#93c5fd"),
-    ("#e0e7ff", "#3730a3", "#221e54", "#a5b4fc"),
-    ("#ede9fe", "#5b21b6", "#2c1760", "#c4b5fd"),
-    ("#fce7f3", "#9d174d", "#3f0a24", "#f9a8d4"),
+    ("#fee2e2", "#991b1b", "#3a1414", "#fca5a5"),  # red
+    ("#ffedd5", "#9a3412", "#3a1a06", "#fdba74"),  # orange
+    ("#fef3c7", "#92400e", "#3a1a03", "#fcd34d"),  # amber
+    ("#fef9c3", "#854d0e", "#3a2e03", "#fde047"),  # yellow
+    ("#ecfccb", "#3f6212", "#1a2a05", "#bef264"),  # lime
+    ("#d1fae5", "#065f46", "#052e21", "#6ee7b7"),  # emerald
+    ("#ccfbf1", "#115e59", "#042b2a", "#5eead4"),  # teal
+    ("#cffafe", "#155e75", "#07303e", "#67e8f9"),  # cyan
+    ("#e0f2fe", "#075985", "#0c2d40", "#7dd3fc"),  # sky
+    ("#dbeafe", "#1e40af", "#1c3455", "#93c5fd"),  # blue
+    ("#e0e7ff", "#3730a3", "#221e54", "#a5b4fc"),  # indigo
+    ("#ede9fe", "#5b21b6", "#2c1760", "#c4b5fd"),  # violet
+    ("#f3e8ff", "#6b21a8", "#33165a", "#d8b4fe"),  # purple
+    ("#fae8ff", "#86198f", "#3d1440", "#f0abfc"),  # fuchsia
+    ("#fce7f3", "#9d174d", "#3f0a24", "#f9a8d4"),  # pink
+    ("#ffe4e6", "#9f1239", "#3a1220", "#fda4af"),  # rose
 ]
 
 
