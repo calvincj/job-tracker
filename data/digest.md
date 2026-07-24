@@ -1,11 +1,12 @@
 # Job digest - 2026-07-24
 
-**55 open roles** across 11 firms.
+**57 open roles** across 12 firms.
 
-### New-grad / full-time (19)
+### New-grad / full-time (20)
 
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
+- **ICF** (Consulting) - [Community Development Consultant - ON CALL PART TIME (REMOTE ROLE)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Community-Development-Consultant---ON-CALL-PART-TIME--REMOTE-ROLE-_R2602492) - REMOTE
 - **ICF** (Consulting) - [Management Consultant, Strategic Resilience - FEMA HMGP - Remote (US)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632) - REMOTE
 - **World Resources Institute** (Energy Policy) - [Research Analyst, Power Sector Transition](https://wri.wd501.myworkdayjobs.com/en-US/WRI/job/Washington-DC-United-States/Internal--Research-Analyst--Power-Sector-Transition_2026-JR100383-1) - Washington, D.C., United States
 - **Guidehouse** (Env Consulting) - [Policy Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-Analyst_42033) - US - DC, Washington
@@ -44,7 +45,7 @@
 - **Guidehouse** (Env Consulting) - [Sr Microsoft Dynamics and Power Platform Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Sr-Microsoft-Dynamics-and-Power-Platform-Developer_40514) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (22)
+### Other matches (23)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Functional Safety Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5978342004?gh_jid=5978342004) - San Francisco, California, United States
@@ -57,6 +58,7 @@
 - **Redwood Materials** (Cleantech) - [Software Engineer - Site Controller, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6097367004?gh_jid=6097367004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Systems Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6007517004?gh_jid=6007517004) - San Francisco, California, United States
 - **ICF** (Consulting) - [Sustainable Mobility Specialist](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/New-York-NY/Sustainable-Mobility-Specialist_R2602480) - New York, NY
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451720?utm_medium=api&utm_source=7de842cf) - Denver, Colorado
 - **Guidehouse** (Env Consulting) - [UAS Policy Support Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/UAS-Policy-Support-Specialist_42442) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Open Source Intelligence (OSINT) Policy and Governance Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Open-Source-Intelligence--OSINT--Policy-and-Governance-Specialist_41821) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [UAS Policy Support](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/UAS-Policy-Support_41915) - US - DC, Washington
@@ -70,7 +72,4 @@
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 
 ---
-_Companies checked: 16, errors: 1, total open matches: 58._
-
-Companies that failed this run (check slug/config):
-- Baker Tilly: HTTPError: 520 Server Error: <none> for url: https://bakertilly.wd5.myworkdayjobs.com/wday/cxs/bakertilly/BTCareers/jobs
+_Companies checked: 16, errors: 0, total open matches: 61._
