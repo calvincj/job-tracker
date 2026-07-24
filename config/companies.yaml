@@ -202,6 +202,66 @@ companies:
     ats: manual
     careers_url: https://www.rystadenergy.com/careers
 
+  # ---- Energy consulting/advisory (heavy Houston/Texas presence) ----
+  - name: The Brattle Group
+    category: Energy Consulting
+    ats: greenhouse
+    slug: thebrattlegroup           # confirmed
+
+  - name: Charles River Associates
+    category: Energy Consulting
+    ats: greenhouse
+    slug: charlesriverassociates    # confirmed; has an explicit Energy track
+                                     # in its 2027-grad hiring
+
+  - name: FTI Consulting
+    category: Energy Consulting
+    ats: workday
+    workday:
+      host: fticonsulting.wd108.myworkdayjobs.com   # confirmed
+      tenant: fticonsulting
+      site: FTIConsultingCareers
+
+  - name: NERA Economic Consulting
+    category: Energy Consulting
+    ats: manual                 # part of Marsh McLennan, bespoke career site
+    careers_url: https://careers.marsh.com/global/en/nera-search
+
+  - name: Concentric Energy Advisors
+    category: Energy Consulting
+    ats: manual                 # runs on HRMDirect, no clean public API
+    careers_url: https://ceadvisors.com/careers/
+
+  - name: Enverus
+    category: Energy Consulting
+    ats: manual                 # runs on Jobvite, no clean public API; Austin, TX
+    careers_url: https://jobs.jobvite.com/enverus
+
+  - name: Berkeley Research Group
+    category: Energy Consulting
+    ats: manual                 # runs on Jobvite, no clean public API
+    careers_url: https://jobs.jobvite.com/brg/jobs
+
+  - name: ADI Analytics
+    category: Energy Consulting
+    ats: manual                 # Houston, TX
+    careers_url: https://adi-analytics.com/about/careers/
+
+  - name: Opportune LLP
+    category: Energy Consulting
+    ats: manual                 # Houston, TX
+    careers_url: https://opportune.com/about/careers
+
+  - name: Ryder Scott
+    category: Energy Consulting
+    ats: manual                 # runs on Paycom, no clean public API; Houston, TX
+    careers_url: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=5BF5DB1F98DC044CF0891D6B5C74AAFE
+
+  - name: KPMG
+    category: Energy Consulting
+    ats: manual                 # bespoke career site, no clean public API
+    careers_url: https://www.kpmguscareers.com/job-search/
+
   # ---- Energy/climate policy think tanks + advocacy (previously zero here) ----
   - name: RMI
     category: Energy Policy

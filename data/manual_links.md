@@ -31,6 +31,17 @@ postings from these; check by hand weekly regardless.
 - [Talon Metals](https://talonmetals.com/job-opportunities/)
 - [USA Rare Earth](https://careers.usare.com/)
 
+### Energy Consulting
+
+- [ADI Analytics](https://adi-analytics.com/about/careers/)
+- [Berkeley Research Group](https://jobs.jobvite.com/brg/jobs)
+- [Concentric Energy Advisors](https://ceadvisors.com/careers/)
+- [Enverus](https://jobs.jobvite.com/enverus)
+- [KPMG](https://www.kpmguscareers.com/job-search/)
+- [NERA Economic Consulting](https://careers.marsh.com/global/en/nera-search)
+- [Opportune LLP](https://opportune.com/about/careers)
+- [Ryder Scott](https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=5BF5DB1F98DC044CF0891D6B5C74AAFE)
+
 ### Energy Policy
 
 - [ACORE](https://acore.org/about/careers/)
