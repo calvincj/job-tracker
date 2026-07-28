@@ -1,6 +1,6 @@
 # Job digest - 2026-07-28
 
-**73 open roles** across 15 firms.
+**73 open roles** across 16 firms.
 
 ### New-grad / full-time (30)
 
@@ -82,10 +82,10 @@
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/877994800) - Multiple Locations
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/877786000) - Multiple Locations
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/877784200) - Multiple Locations
-- **Customs and Border Protection** (Government) - [Supply Chain Security Specialist](https://www.usajobs.gov:443/job/877237900) - Multiple Locations
 - **Customs and Border Protection** (Government) - [Supervisory Supply Chain Security Specialist (Trade)](https://www.usajobs.gov:443/job/876767700) - Houston, Texas
+- **Naval Facilities Engineering Systems Command** (Government) - [ELECTRIC POWER CONTROLLER](https://www.usajobs.gov:443/job/878157200) - Naval Station Complex, San Diego, California
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 
 ---
-_Companies checked: 19, errors: 0, total open matches: 73._
+_Companies checked: 19, errors: 0, total open matches: 75._
