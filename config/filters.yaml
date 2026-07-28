@@ -6,9 +6,11 @@
 # to the tracker, or the source's own posted date is today.
 
 # Title must contain at least one of these (case-insensitive substring).
-# "analyst" and "data" used to be here but got dropped - they're generic enough
-# to match any domain (bioinformatics, HR, healthcare data) with zero sector
-# signal, and were the main source of off-target noise.
+# Bare "analyst" and "data" are NOT here - they're generic enough to match any
+# domain (bioinformatics, HR, healthcare data) with zero sector signal, and
+# were the main source of off-target noise. The scoped phrases below ("data
+# analyst", "data analytics", etc.) are narrow enough to keep, since a title
+# has to actually say the compound phrase, not just contain "data" alone.
 keywords_any:
   - energy
   - clean
@@ -41,6 +43,12 @@ keywords_any:
   - mining
   - magnet
   - mineral
+  - data analyst       # scoped, not bare "data" - see note above
+  - data analytics
+  - market intelligence
+  - trade              # trade policy, trade compliance, international trade
+  - logistics
+  - esg                # ESG analyst / ESG data roles at climate-data shops
 
 # Location must contain one of these, OR the job is remote. Big US cities +
 # San Diego (for school-year roles). Add or trim as you like.
@@ -166,6 +174,14 @@ adzuna:
       where: ""
     - what: foreign policy research
       where: ""
+    - what: data analyst clean energy
+      where: ""
+    - what: trade analyst supply chain
+      where: ""
+    - what: think tank research analyst
+      where: ""
+    - what: ESG data analyst
+      where: ""
 
 # Optional: push the digest to your inbox instead of just checking the repo.
 # Requires free env vars GMAIL_USER / GMAIL_APP_PASSWORD (+ optional
@@ -187,3 +203,5 @@ usajobs:
     - climate
     - critical minerals
     - supply chain
+    - international trade
+    - economist

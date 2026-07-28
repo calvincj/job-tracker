@@ -96,6 +96,7 @@ _KNOWN_CATEGORIES = [
     "Cleantech", "Renewable Developer", "Grid", "Consulting", "Env Consulting",
     "Energy Consulting", "Market Intelligence", "National Lab",
     "Critical Minerals", "Energy Policy", "Foreign Policy", "Government",
+    "Climate Data", "Trade & Supply Chain", "Think Tank",
 ]
 
 _WORKDAY_AGO_RE = re.compile(r"posted\s+(\d+)(\+?)\s+days?\s+ago", re.I)

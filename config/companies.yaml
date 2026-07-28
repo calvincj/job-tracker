@@ -477,3 +477,112 @@ companies:
     category: Critical Minerals
     ats: manual
     careers_url: https://www.energyfuels.com/careers/
+
+  # ---- Climate data & analytics (carbon accounting, ESG, climate risk) ----
+  - name: Sylvera
+    category: Climate Data
+    ats: ashby
+    slug: sylvera                # confirmed; has an actual "Carbon Analyst" title
+
+  - name: Watershed
+    category: Climate Data
+    ats: ashby
+    slug: watershed               # confirmed (also on greenhouse, ashby has more)
+
+  - name: Cloverly
+    category: Climate Data
+    ats: greenhouse
+    slug: cloverly                # confirmed
+
+  - name: ClimateAI
+    category: Climate Data
+    ats: greenhouse
+    slug: climateai               # confirmed
+
+  - name: Persefoni
+    category: Climate Data
+    ats: manual                   # no clean public ATS API found
+    careers_url: https://www.persefoni.com/careers
+
+  - name: Kayrros
+    category: Climate Data
+    ats: manual                   # satellite-based climate/energy data; no clean public API
+    careers_url: https://www.kayrros.com/careers/
+
+  # ---- Trade / supply-chain data & intelligence ----
+  - name: Altana AI
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: altanaai                # confirmed; supply chain intelligence platform
+
+  - name: Sayari
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: sayari                  # confirmed; trade/supply-chain risk data
+
+  - name: Everstream Analytics
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: everstreamanalytics     # confirmed; has run supply-chain intern roles
+
+  - name: project44
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: project44               # confirmed
+
+  - name: FourKites
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: fourkites               # confirmed
+
+  - name: Interos
+    category: Trade & Supply Chain
+    ats: manual                   # no clean public ATS API found
+    careers_url: https://www.interos.ai/careers/
+
+  # ---- Think tanks (broad policy mandate, not energy-specific) ----
+  - name: Brookings Institution
+    category: Think Tank
+    ats: lever
+    slug: brookings                # confirmed; has Research Assistant/Analyst titles
+
+  - name: Energy Innovation
+    category: Energy Policy         # energy/climate-specific, fits the existing bucket
+    ats: greenhouse
+    slug: energyinnovation          # confirmed; has "Analyst (Energy and Climate Modeling)"
+
+  - name: Center for American Progress
+    category: Think Tank
+    ats: manual
+    careers_url: https://www.americanprogress.org/about-us/careers/
+
+  - name: Niskanen Center
+    category: Think Tank
+    ats: manual
+    careers_url: https://www.niskanencenter.org/about-us/careers/
+
+  - name: Urban Institute
+    category: Think Tank
+    ats: manual
+    careers_url: https://www.urban.org/about/careers
+
+  # ---- More economic/strategy consulting (entry-level analyst titles) ----
+  - name: Compass Lexecon
+    category: Energy Consulting     # same genre as Brattle/CRA/NERA already here
+    ats: lever
+    slug: compasslexecon            # confirmed (0 open roles right now, still worth tracking)
+
+  - name: Analysis Group
+    category: Energy Consulting
+    ats: manual
+    careers_url: https://www.analysisgroup.com/careers/
+
+  - name: Cornerstone Research
+    category: Energy Consulting
+    ats: manual
+    careers_url: https://www.cornerstone.com/careers/
+
+  - name: L.E.K. Consulting
+    category: Consulting
+    ats: manual
+    careers_url: https://www.lek.com/careers

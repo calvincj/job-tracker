@@ -12,9 +12,18 @@ Three tracks, always split:
 
 - Cleantech / renewables: Redwood, Nexamp, Form Energy, Qcells, etc.
 - Utilities and grid: Duke Energy, NextEra, PJM, CAISO, ERCOT
-- Consulting: McKinsey, BCG, Bain, Deloitte, EY-P, PwC, Baker Tilly, ICF
+- Consulting: McKinsey, BCG, Bain, Deloitte, EY-P, PwC, Baker Tilly, ICF, L.E.K.
+- Economic/energy consulting: Brattle, CRA, FTI, NERA, Compass Lexecon,
+  Analysis Group, Cornerstone Research, plus Houston/TX boutiques
 - Environmental consulting: Guidehouse, AECOM, WSP, ERM, Tetra Tech, SWCA
 - Market intelligence: BloombergNEF, Wood Mackenzie, Rystad
+- Climate data & analytics: Sylvera, Watershed, Cloverly, ClimateAI, Persefoni,
+  Kayrros (carbon accounting, ESG, climate risk)
+- Trade / supply-chain data: Altana AI, Sayari, Everstream Analytics,
+  project44, FourKites, Interos
+- Think tanks: Brookings, Energy Innovation, Center for American Progress,
+  Niskanen Center, Urban Institute, plus foreign-policy shops (CSIS, Atlantic
+  Council, Rhodium Group, etc.)
 - National labs: NLR (formerly NREL), LBNL, PNNL, ORNL, Sandia, INL, LLNL
 - Critical minerals / battery supply chain: MP Materials, Albemarle, Lithium
   Americas, KoBold Metals, Vulcan Elements, Ascend Elements, USA Rare Earth,
@@ -33,6 +42,10 @@ Full firm list with categories: `config/companies.yaml`.
 - `data/new_jobs.csv` - full running log, never pruned.
 - `data/manual_links.md` - bookmarks for firms with no clean ATS feed, regenerated
   every run, grouped by category. My weekly eyeball-it fallback.
+
+"New today" dedup: keyed by uid, but also by a company+title fingerprint
+(`src/store.py`), so a source reposting the same role under a fresh job_id
+(closes/reopens a req, etc.) doesn't ping as new again for 14 days.
 
 ## Tuning
 

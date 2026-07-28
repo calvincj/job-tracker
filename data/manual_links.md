@@ -12,12 +12,18 @@ postings from these; check by hand weekly regardless.
 - [Lilac Solutions](https://lilacsolutions.com/careers)
 - [NextEra Energy](https://jobs.nexteraenergy.com/)
 
+### Climate Data
+
+- [Kayrros](https://www.kayrros.com/careers/)
+- [Persefoni](https://www.persefoni.com/careers)
+
 ### Consulting
 
 - [BCG](https://careers.bcg.com/global)
 - [Bain & Company](https://www.bain.com/careers/find-a-role/)
 - [Deloitte](https://apply.deloitte.com)
 - [EY-Parthenon](https://careers.ey.com)
+- [L.E.K. Consulting](https://www.lek.com/careers)
 - [McKinsey & Company](https://www.mckinsey.com/careers/search-jobs)
 - [PwC](https://jobs.us.pwc.com)
 
@@ -34,8 +40,10 @@ postings from these; check by hand weekly regardless.
 ### Energy Consulting
 
 - [ADI Analytics](https://adi-analytics.com/about/careers/)
+- [Analysis Group](https://www.analysisgroup.com/careers/)
 - [Berkeley Research Group](https://jobs.jobvite.com/brg/jobs)
 - [Concentric Energy Advisors](https://ceadvisors.com/careers/)
+- [Cornerstone Research](https://www.cornerstone.com/careers/)
 - [Enverus](https://jobs.jobvite.com/enverus)
 - [KPMG](https://www.kpmguscareers.com/job-search/)
 - [NERA Economic Consulting](https://careers.marsh.com/global/en/nera-search)
@@ -100,6 +108,16 @@ postings from these; check by hand weekly regardless.
 
 - [EDP Renewables](https://www.edpr.com/en/careers)
 - [Qcells](https://careers.qcells.com/search/jobs)
+
+### Think Tank
+
+- [Center for American Progress](https://www.americanprogress.org/about-us/careers/)
+- [Niskanen Center](https://www.niskanencenter.org/about-us/careers/)
+- [Urban Institute](https://www.urban.org/about/careers)
+
+### Trade & Supply Chain
+
+- [Interos](https://www.interos.ai/careers/)
 
 ### LinkedIn (no free API - saved searches instead)
 
