@@ -1,11 +1,12 @@
-# Job digest - 2026-07-28
+# Job digest - 2026-07-29
 
-**92 open roles** across 28 firms.
+**94 open roles** across 29 firms.
 
-### New-grad / full-time (34)
+### New-grad / full-time (36)
 
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
+- **ICF** (Consulting) - [Housing Finance Consultant - ON CALL PART TIME (REMOTE ROLE)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Lead-Housing-Counseling-Specialist---ON-CALL-PART-TIME--REMOTE-ROLE-_R2602494) - REMOTE
 - **ICF** (Consulting) - [Community Development Consultant - ON CALL PART TIME (REMOTE ROLE)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Community-Development-Consultant---ON-CALL-PART-TIME--REMOTE-ROLE-_R2602492) - REMOTE
 - **ICF** (Consulting) - [Management Consultant, Strategic Resilience - FEMA HMGP - Remote (US)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632) - REMOTE
 - **ICF** (Consulting) - [Marketing and Communications Data Analyst (Top Secret cleared)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/Marketing-and-Communications-Data-Analyst--Top-Secret-cleared-_R2601401) - Washington, DC
@@ -19,8 +20,9 @@
 - **FTI Consulting** (Energy Consulting) - [2027 Entry-Level Consultant - Corporate Finance](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Entry-Level-Consultant---Corporate-Finance_JR260335) - United States
 - **FTI Consulting** (Energy Consulting) - [Consultant, Financial Communications - Capital Markets](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/New-York-NY/Consultant--Financial-Communications---Capital-Markets_JR260OP-TEE) - New York, NY
 - **Energy Innovation** (Energy Policy) - [Analyst (Energy and Climate Modeling)](http://www.energyinnovation.org/about/careers?gh_jid=4715664005) - REMOTE
+- **World Resources Institute** (Energy Policy) - [Research Analyst, Power Sector Transition](https://wri.wd501.myworkdayjobs.com/en-US/WRI/job/Washington-DC-United-States/Internal--Research-Analyst--Power-Sector-Transition_2026-JR100383-1) - Washington, D.C., United States
 - **ERM** (Env Consulting) - [Consultant, Technical Due Diligence / Infrastructure](https://www.adzuna.com/details/5816248725?utm_medium=api&utm_source=7de842cf) - US
-- **Guidehouse** (Env Consulting) - [Policy Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-Analyst_42033) - US - DC, Washington
+- **Guidehouse** (Env Consulting) - [Databricks Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Databricks-Data-Analyst_42290) - REMOTE
 - **Guidehouse** (Env Consulting) - [Communications Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Communications-Consultant_42029) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Salesforce Solution Consultant: Business Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948) - REMOTE
 - **Guidehouse** (Env Consulting) - [Strategy & Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Strategy---Transformation-Consultant_38765) - US - GA, Atlanta
@@ -107,4 +109,4 @@
 - **Brookings Institution** (Think Tank) - [Research Assistant ES](https://jobs.lever.co/brookings/ccb5a600-8a34-4431-9afa-300bffd1f010) - Multiple Locations
 
 ---
-_Companies checked: 31, errors: 0, total open matches: 94._
+_Companies checked: 31, errors: 0, total open matches: 96._
