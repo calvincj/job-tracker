@@ -2,11 +2,10 @@
 
 **96 open roles** across 30 firms.
 
-### New-grad / full-time (36)
+### New-grad / full-time (35)
 
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
-- **ICF** (Consulting) - [Housing Finance Consultant - ON CALL PART TIME (REMOTE ROLE)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Lead-Housing-Counseling-Specialist---ON-CALL-PART-TIME--REMOTE-ROLE-_R2602494) - REMOTE
 - **ICF** (Consulting) - [Community Development Consultant - ON CALL PART TIME (REMOTE ROLE)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Community-Development-Consultant---ON-CALL-PART-TIME--REMOTE-ROLE-_R2602492) - REMOTE
 - **ICF** (Consulting) - [Management Consultant, Strategic Resilience - FEMA HMGP - Remote (US)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Management-Consultant--Strategic-Resilience---FEMA-HMGP---Remote--US-_R2601632) - REMOTE
 - **ICF** (Consulting) - [Marketing and Communications Data Analyst (Top Secret cleared)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/Marketing-and-Communications-Data-Analyst--Top-Secret-cleared-_R2601401) - Washington, DC
@@ -22,7 +21,7 @@
 - **Energy Innovation** (Energy Policy) - [Analyst (Energy and Climate Modeling)](http://www.energyinnovation.org/about/careers?gh_jid=4715664005) - REMOTE
 - **World Resources Institute** (Energy Policy) - [Research Analyst, Power Sector Transition](https://wri.wd501.myworkdayjobs.com/en-US/WRI/job/Washington-DC-United-States/Internal--Research-Analyst--Power-Sector-Transition_2026-JR100383-1) - Washington, D.C., United States
 - **ERM** (Env Consulting) - [Consultant, Technical Due Diligence / Infrastructure](https://www.adzuna.com/details/5816248725?utm_medium=api&utm_source=7de842cf) - US
-- **Guidehouse** (Env Consulting) - [Databricks Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Databricks-Data-Analyst_42290) - REMOTE
+- **ERM** (Env Consulting) - [Consultant, Transactions](https://www.adzuna.com/details/5813451648?utm_medium=api&utm_source=7de842cf) - Houston, Harris County
 - **Guidehouse** (Env Consulting) - [Communications Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Communications-Consultant_42029) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Salesforce Solution Consultant: Business Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948) - REMOTE
 - **Guidehouse** (Env Consulting) - [Strategy & Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Strategy---Transformation-Consultant_38765) - US - GA, Atlanta
@@ -49,9 +48,10 @@
 - **Treasury, Departmental Offices** (Government) - [Deputy Assistant Secretary (International Monetary and Financial Policy)](https://www.usajobs.gov:443/job/877431000) - Washington, District of Columbia
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Los Angeles Based Graduate Intern - Building Energy Modeling and Analysis](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264) - Los Angeles, CA
 
-### Remote (school-year workable) (12)
+### Remote (school-year workable) (13)
 
 - **Form Energy** (Cleantech) - [Software Engineer II, Power Plant Software](https://jobs.ashbyhq.com/formenergy/91b5121f-ae4c-4ea1-8abd-9234353807d7) - REMOTE
+- **ICF** (Consulting) - [Public Policy Researcher (Waltham, MA; Reston, VA; Remote)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Researcher--Waltham--MA--Reston--VA--Remote-_R2602583) - REMOTE
 - **ICF** (Consulting) - [Public Policy Specialist - Energy and Environment (REMOTE role or Hybrid role based in Reston, Virginia)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist---Energy-and-Environment--Hybrid-Remote-role-based-in-Reston--Virginia-_R2601938-1) - REMOTE
 - **ICF** (Consulting) - [Public Policy Specialist (REMOTE role or Hybrid role based in Reston, Virginia)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist--REMOTE-role-or-Hybrid-role-based-in-Reston--Virginia-_R2602373) - REMOTE
 - **Guidehouse** (Env Consulting) - [Regulatory Chemical Researcher](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Regulatory-Chemical-Researcher_41262) - REMOTE
