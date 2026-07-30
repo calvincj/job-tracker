@@ -1,6 +1,6 @@
 # Job digest - 2026-07-30
 
-**93 open roles** across 30 firms.
+**94 open roles** across 30 firms.
 
 ### New-grad / full-time (33)
 
@@ -21,6 +21,7 @@
 - **FTI Consulting** (Energy Consulting) - [Consultant, Financial Communications - Capital Markets](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/New-York-NY/Consultant--Financial-Communications---Capital-Markets_JR260OP-TEE) - New York, NY
 - **Energy Innovation** (Energy Policy) - [Analyst (Energy and Climate Modeling)](http://www.energyinnovation.org/about/careers?gh_jid=4715664005) - REMOTE
 - **ERM** (Env Consulting) - [Consultant, Technical Due Diligence / Infrastructure](https://www.adzuna.com/details/5816248725?utm_medium=api&utm_source=7de842cf) - US
+- **Guidehouse** (Env Consulting) - [Federal Financial Management Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management-Transformation-Consultant_40070) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Human Capital Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Human-Capital-Consultant_42557) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Salesforce Solution Consultant: Business Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948) - REMOTE
 - **Guidehouse** (Env Consulting) - [Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Analyst_40807) - US - DC, Washington
@@ -28,7 +29,6 @@
 - **Guidehouse** (Env Consulting) - [Strategy and Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Strategy-and-Transformation-Consultant_40785-1) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Talent Management Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Talent-Management-Data-Analyst_41142) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Financial Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Management-Consultant_39556) - US - DC, Washington
-- **Guidehouse** (Env Consulting) - [Federal Financial Management Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management-Transformation-Consultant_40070) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Federal Grants Management Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Grants-Management-Transformation-Consultant_40066) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Data Collection Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440) - US - DC, Washington
 - **DHS Headquarters** (Government) - [Policy Analyst](https://www.usajobs.gov:443/job/878444500) - Washington, District of Columbia
@@ -63,7 +63,7 @@
 - **Guidehouse** (Env Consulting) - [Sr Microsoft Dynamics and Power Platform Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Sr-Microsoft-Dynamics-and-Power-Platform-Developer_40514) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (41)
+### Other matches (42)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Functional Safety Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5978342004?gh_jid=5978342004) - San Francisco, California, United States
@@ -74,6 +74,7 @@
 - **Redwood Materials** (Cleantech) - [Reliability Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5836554004?gh_jid=5836554004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Software Engineer - ML/Computer Vision (Battery Sorting)](https://boards.greenhouse.io/redwoodmaterials/jobs/6099577004?gh_jid=6099577004) - McCarran, NV; San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Software Engineer - Site Controller, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6097367004?gh_jid=6097367004) - San Francisco, California, United States
+- **Redwood Materials** (Cleantech) - [Solutions Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5998458004?gh_jid=5998458004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Systems Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6007517004?gh_jid=6007517004) - San Francisco, California, United States
 - **Watershed** (Climate Data) - [GTM operations, sustainability advisory & services](https://jobs.ashbyhq.com/watershed/f021f8e6-2807-4184-964d-eb8f61bc0453) - San Francisco
 - **Charles River Associates** (Energy Consulting) - [Executive Assistant (Antitrust & Competition Economics)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/7232494) - Washington, DC, United States
@@ -101,11 +102,11 @@
 - **Naval Facilities Engineering Systems Command** (Government) - [ELECTRIC POWER CONTROLLER](https://www.usajobs.gov:443/job/878157200) - Naval Station Complex, San Diego, California
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **US Army Civilian Human Resources Agency** (Government) - [Economist](https://www.usajobs.gov:443/job/877373200) - Multiple Locations
-- **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878337900) - San Diego, California
 - **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878339100) - San Diego, California
+- **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878337900) - San Diego, California
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
 - **Brookings Institution** (Think Tank) - [Research Assistant](https://jobs.lever.co/brookings/dff823cf-5c78-43e6-94df-5cec7f2d73c3) - Multiple Locations
 - **Brookings Institution** (Think Tank) - [Research Assistant ES](https://jobs.lever.co/brookings/ccb5a600-8a34-4431-9afa-300bffd1f010) - Multiple Locations
 
 ---
-_Companies checked: 31, errors: 0, total open matches: 95._
+_Companies checked: 31, errors: 0, total open matches: 96._
