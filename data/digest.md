@@ -1,8 +1,8 @@
 # Job digest - 2026-07-30
 
-**92 open roles** across 29 firms.
+**93 open roles** across 30 firms.
 
-### New-grad / full-time (32)
+### New-grad / full-time (33)
 
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
@@ -34,6 +34,7 @@
 - **DHS Headquarters** (Government) - [Policy Analyst](https://www.usajobs.gov:443/job/878444500) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Operations Research Analyst](https://www.usajobs.gov:443/job/877603700) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Operations Research Analyst (Recent Graduate)](https://www.usajobs.gov:443/job/877949200) - Washington, District of Columbia
+- **Federal Energy Regulatory Commission** (Government) - [SUPERVISORY ENERGY INDUSTRY ANALYST](https://www.usajobs.gov:443/job/878563300) - Washington, District of Columbia
 - **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Chicago, IL
 - **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645811002#Open%20Roles) - Austin, TX
 
@@ -107,4 +108,4 @@
 - **Brookings Institution** (Think Tank) - [Research Assistant ES](https://jobs.lever.co/brookings/ccb5a600-8a34-4431-9afa-300bffd1f010) - Multiple Locations
 
 ---
-_Companies checked: 31, errors: 0, total open matches: 94._
+_Companies checked: 31, errors: 0, total open matches: 95._
