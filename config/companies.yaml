@@ -514,8 +514,9 @@ companies:
 
   - name: ClimateAI
     category: Climate Data
-    ats: greenhouse
-    slug: climateai               # confirmed
+    ats: manual                   # old greenhouse slug now 404s - board appears gone;
+                                   # no replacement ATS found on climateai.com/careers
+    careers_url: https://climateai.com/careers
 
   - name: Persefoni
     category: Climate Data
