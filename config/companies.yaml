@@ -202,15 +202,23 @@ companies:
     ats: manual
     careers_url: https://careers.bloomberg.com
 
+  - name: Kpler
+    category: Market Intelligence
+    ats: lever
+    slug: kpler                # confirmed; energy/commodity/maritime tracking data
+
   - name: Wood Mackenzie
     category: Market Intelligence
-    ats: manual
-    careers_url: https://www.woodmac.com/careers/
+    ats: workday
+    workday:
+      host: woodmac.wd3.myworkdayjobs.com   # confirmed
+      tenant: woodmac
+      site: woodmaccareers
 
   - name: Rystad Energy
     category: Market Intelligence
-    ats: manual
-    careers_url: https://www.rystadenergy.com/careers
+    ats: workable
+    slug: rystad-energy        # confirmed
 
   # ---- Energy consulting/advisory (heavy Houston/Texas presence) ----
   - name: The Brattle Group
@@ -549,6 +557,16 @@ companies:
     category: Trade & Supply Chain
     ats: manual                   # no clean public ATS API found
     careers_url: https://www.interos.ai/careers/
+
+  - name: Exiger
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: exiger                  # confirmed; supply chain risk/compliance (KYC, due diligence)
+
+  - name: Resilinc
+    category: Trade & Supply Chain
+    ats: lever
+    slug: resilinc                # confirmed; supply chain risk monitoring
 
   # ---- Think tanks (broad policy mandate, not energy-specific) ----
   - name: Brookings Institution

@@ -63,9 +63,12 @@ def _try_ashby(slug):
 
 
 def _try_smartrecruiters(slug):
+    # Unlike Greenhouse/Lever/Ashby, this endpoint 200s with totalFound:0 even
+    # for a nonexistent company identifier - so require a nonzero count to
+    # count as a hit, or every guess "matches".
     u = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings"
     r = requests.get(u, timeout=TIMEOUT, headers={"User-Agent": "discover"})
-    if r.status_code == 200 and "totalFound" in r.json():
+    if r.status_code == 200 and r.json().get("totalFound"):
         return r.json()["totalFound"]
     return None
 
