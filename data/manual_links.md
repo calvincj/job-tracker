@@ -14,6 +14,7 @@ postings from these; check by hand weekly regardless.
 
 ### Climate Data
 
+- [ClimateAI](https://climateai.com/careers)
 - [Kayrros](https://www.kayrros.com/careers/)
 - [Persefoni](https://www.persefoni.com/careers)
 
