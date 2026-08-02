@@ -1,8 +1,8 @@
 # Job digest - 2026-08-02
 
-**86 open roles** across 32 firms.
+**86 open roles** across 31 firms.
 
-### New-grad / full-time (32)
+### New-grad / full-time (33)
 
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5817897004?gh_jid=5817897004) - San Francisco, California, United States
@@ -21,6 +21,7 @@
 - **FTI Consulting** (Energy Consulting) - [Consultant, Financial Communications - Capital Markets](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/New-York-NY/Consultant--Financial-Communications---Capital-Markets_JR260OP-TEE) - New York, NY
 - **Energy Innovation** (Energy Policy) - [Analyst (Energy and Climate Modeling)](http://www.energyinnovation.org/about/careers?gh_jid=4715664005) - REMOTE
 - **ERM** (Env Consulting) - [Consulting Associate, Sustainable Operations](https://www.adzuna.com/details/5813350671?utm_medium=api&utm_source=7de842cf) - Boston, Suffolk County
+- **ERM** (Env Consulting) - [Consultant, Technical Due Diligence / Infrastructure](https://www.adzuna.com/details/5816248725?utm_medium=api&utm_source=7de842cf) - US
 - **Guidehouse** (Env Consulting) - [Federal Financial Management Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Financial-Management-Transformation-Consultant_40070) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Human Capital Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Human-Capital-Consultant_42557) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Salesforce Solution Consultant: Business Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948) - REMOTE
@@ -60,7 +61,7 @@
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_37773) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Apps Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Apps-Developer_37549) - REMOTE
 
-### Other matches (37)
+### Other matches (36)
 
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Functional Safety Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5978342004?gh_jid=5978342004) - San Francisco, California, United States
@@ -88,7 +89,6 @@
 - **Department of the Air Force - Agency Wide** (Government) - [Economist](https://www.usajobs.gov:443/job/853032300) - Multiple Locations
 - **Immigration and Customs Enforcement** (Government) - [Economist](https://www.usajobs.gov:443/job/876530800) - Washington, District of Columbia
 - **Internal Revenue Service** (Government) - [Economist- Direct Hire](https://www.usajobs.gov:443/job/878529900) - Multiple Locations
-- **National Geospatial-Intelligence Agency** (Government) - [Logistics Officer (Hiring Event)](https://www.usajobs.gov:443/job/877145600) - Multiple Locations
 - **Naval Facilities Engineering Systems Command** (Government) - [ELECTRIC POWER CONTROLLER](https://www.usajobs.gov:443/job/878157200) - Naval Station Complex, San Diego, California
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **STRATEGIC SYSTEMS PROGRAMS (SSP)** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878555300) - Washington Navy Yard, District of Columbia
@@ -101,7 +101,7 @@
 - **Brookings Institution** (Think Tank) - [Research Assistant ES](https://jobs.lever.co/brookings/ccb5a600-8a34-4431-9afa-300bffd1f010) - Multiple Locations
 
 ---
-_Companies checked: 31, errors: 1, total open matches: 89._
+_Companies checked: 31, errors: 1, total open matches: 88._
 
 Companies that failed this run (check slug/config):
 - ClimateAI: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climateai/jobs?content=true
