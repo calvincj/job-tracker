@@ -297,35 +297,21 @@ def _header_row():
             '<div class="c-bottom">Type</div></div>')
 
 
-def _days_since_first_seen(uid, first_seen_map):
-    iso = first_seen_map.get(uid)
-    if not iso:
-        return None
-    try:
-        dt = datetime.datetime.fromisoformat(iso)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=datetime.timezone.utc)
-        now = datetime.datetime.now(datetime.timezone.utc)
-        return max((now.date() - dt.astimezone(datetime.timezone.utc).date()).days, 0)
-    except (ValueError, TypeError):
-        return None
-
-
-def _list(jobs, first_seen_map, empty_msg, applied=False, sortable=False):
+def _list(jobs, empty_msg, applied=False, sortable=False):
     header = _header_row()
     if not jobs:
         return f'<div class="list">{header}<p class="empty">{_esc(empty_msg)}</p></div>'
-    # default: most recently added to the tracker first (ties broken by
-    # company, for a stable order); the client-side sort toggle re-sorts from
-    # here. Deliberately keyed on our own first_seen, not the source's
-    # "posted"/updated_at field - some ATS's (e.g. Greenhouse for Redwood
-    # Materials) bump that field on unrelated re-syncs, which would otherwise
-    # pin stale postings back to the top indefinitely.
+    # default: most recently posted first (ties broken by company, for a
+    # stable order); the client-side sort toggle re-sorts from here. Safe to
+    # key on the source's own "posted" date now that greenhouse.py uses
+    # first_published instead of updated_at - updated_at was the one field
+    # that bumped on unrelated re-syncs (confirmed on Redwood Materials),
+    # which is what pinned stale postings to the top in the first place.
     def sort_key(x):
-        days = _days_since_first_seen(x["uid"], first_seen_map)
+        days, _ = days_ago(x.get("posted", ""))
         return (days if days is not None else 99999, x["company"])
     sorted_jobs = sorted(jobs, key=sort_key)
-    rows = "\n".join(_row(j, _days_since_first_seen(j["uid"], first_seen_map), applied=applied)
+    rows = "\n".join(_row(j, days_ago(j.get("posted", ""))[0], applied=applied)
                      for j in sorted_jobs)
     cls = "list sortable-list" if sortable else "list"
     return f'<div class="{cls}">{header}{rows}</div>'
@@ -514,12 +500,12 @@ def render_html(open_jobs, stats, first_seen_map=None):
 
 <section class="new">
   <h2>New today <span class="count" id="new-count">{len(new_today)}</span></h2>
-  {_list(new_today, first_seen_map, "Nothing new since the last check.", sortable=True)}
+  {_list(new_today, "Nothing new since the last check.", sortable=True)}
 </section>
 
 <section>
   <h2>Rest of the window <span class="count" id="rest-count">{len(rest)}</span></h2>
-  {_list(rest, first_seen_map, "Nothing else in the current window.", sortable=True)}
+  {_list(rest, "Nothing else in the current window.", sortable=True)}
 </section>
 
 <section id="applied-section">
