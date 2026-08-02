@@ -1,8 +1,8 @@
 # Job digest - 2026-08-02
 
-**296 open roles** across 46 firms.
+**317 open roles** across 49 firms.
 
-### New-grad / full-time (180)
+### New-grad / full-time (194)
 
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R40685-1) - 5 Locations
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
@@ -180,9 +180,23 @@
 - **CAISO** (Grid) - [Associate EMS Power Technology Engineer (Hybrid)](https://jobs.smartrecruiters.com/CaliforniaISO/744000110879746) - Folsom, CA, United States
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2289-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
+- **Kpler** (Market Intelligence) - [Market Data Analyst Metals & Minerals](https://jobs.lever.co/kpler/8c26d839-713f-4bfb-82cd-cc2a38938358) - United Kingdom
+- **Wood Mackenzie** (Market Intelligence) - [Research Associate - Alloys](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Edinburgh-GB/Research-Associate---Alloys_JR3152) - Edinburgh, GB
+- **Wood Mackenzie** (Market Intelligence) - [Market Analyst - Power Trading Analytics](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Boston-US/Market-Analyst---Power-Trading-Analytics_JR3087) - Boston, US
+- **Wood Mackenzie** (Market Intelligence) - [Research Associate - Upstream](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Gurugram-IN/Research-Associate---Upstream_JR3145) - Gurugram, IN
+- **Wood Mackenzie** (Market Intelligence) - [Market Analyst - Power Trading Analytics](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/London-GB/Market-Analyst---Power-Trading-Analytics_JR3085) - 2 Locations
+- **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
+- **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Upstream Research](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Kuala-Lumpur-MY/Research-Analyst--Upstream-Research_JR2739) - Kuala Lumpur, MY
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
 - **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Chicago, IL
 - **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645811002#Open%20Roles) - Austin, TX
+- **Exiger** (Trade & Supply Chain) - [Associate, Research & Delivery (Arabic Speaking)](https://www.exiger.com/careers/5365593004?gh_jid=5365593004) - Toronto, Ontario, Canada
+- **Exiger** (Trade & Supply Chain) - [Associate, Research & Delivery (Chinese Speaking)](https://www.exiger.com/careers/5161638004?gh_jid=5161638004) - Toronto, Ontario, Canada
+- **Exiger** (Trade & Supply Chain) - [Associate, Research & Delivery (English and Chinese language speaking)](https://www.exiger.com/careers/5224881004?gh_jid=5224881004) - Toronto, Ontario, Canada
+- **Exiger** (Trade & Supply Chain) - [Associate, Research & Delivery (English Speaking)  ](https://www.exiger.com/careers/5837028004?gh_jid=5837028004) - Toronto, Ontario, Canada; Vancouver, British Columbia, Canada
+- **Exiger** (Trade & Supply Chain) - [Associate, Research & Delivery (Kurdish - Sorani Speaking)](https://www.exiger.com/careers/4682506004?gh_jid=4682506004) - Toronto, Ontario, Canada
+- **Exiger** (Trade & Supply Chain) - [Associate, Research & Delivery (Portuguese Speaking)  ](https://www.exiger.com/careers/5351344004?gh_jid=5351344004) - Toronto, Ontario, Canada; Vancouver, British Columbia, Canada
+- **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 - **project44** (Trade & Supply Chain) - [Integration Consultant](https://job-boards.greenhouse.io/project44/jobs/8048098) - Bengaluru, India
 
 ### Internships (2)
@@ -190,14 +204,15 @@
 - **FTI Consulting** (Energy Consulting) - [2027 Intern - Economic Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Economic-Consulting_JR260359) - United States
 - **Customs and Border Protection** (Government) - [Supervisory International Trade Analyst](https://www.usajobs.gov:443/job/878510500) - Multiple Locations
 
-### Remote (school-year workable) (4)
+### Remote (school-year workable) (5)
 
 - **Form Energy** (Cleantech) - [Software Engineer II, Power Plant Software](https://jobs.ashbyhq.com/formenergy/91b5121f-ae4c-4ea1-8abd-9234353807d7) - REMOTE
 - **ICF** (Consulting) - [Public Policy Researcher (Waltham, MA; Reston, VA; Remote)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Researcher--Waltham--MA--Reston--VA--Remote-_R2602583) - REMOTE
 - **ICF** (Consulting) - [Public Policy Specialist - Energy and Environment (REMOTE role or Hybrid role based in Reston, Virginia)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist---Energy-and-Environment--Hybrid-Remote-role-based-in-Reston--Virginia-_R2601938-1) - REMOTE
 - **ICF** (Consulting) - [Public Policy Specialist (REMOTE role or Hybrid role based in Reston, Virginia)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Specialist--REMOTE-role-or-Hybrid-role-based-in-Reston--Virginia-_R2602373) - REMOTE
+- **Kpler** (Market Intelligence) - [Account Executive - Maritime/ Shipping & Logistics (New Business)](https://jobs.lever.co/kpler/a26f4209-45d6-45b0-b560-3e812e0ecb8a) - REMOTE
 
-### Other matches (110)
+### Other matches (116)
 
 - **Redwood Materials** (Cleantech) - [Abuse Test Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5894704004?gh_jid=5894704004) - McCarran, NV
 - **Redwood Materials** (Cleantech) - [Battery Disassembly Technician, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5990074004?gh_jid=5990074004) - McCarran, NV
@@ -247,14 +262,14 @@
 - **FTI Consulting** (Energy Consulting) - [2027 Graduate Program, Economic & Financial Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Melbourne-Australia/XMLNAME-2027-Graduate-Program--Economic---Financial-Consulting_JR260617) - Melbourne, Australia
 - **FTI Consulting** (Energy Consulting) - [2027 Graduate Program, Economic & Financial Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Sydney-Australia/XMLNAME-2027-Graduate-Program--Economic---Financial-Consulting_JR260615) - Sydney, Australia
 - **FTI Consulting** (Energy Consulting) - [2027 Graduate Program, Economic & Financial Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Brisbane-Australia/XMLNAME-2027-Graduate-Program--Economic---Financial-Consulting_JR260616-1) - Brisbane, Australia
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451669?utm_medium=api&utm_source=7de842cf) - Las Vegas, Clark County
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5823015972?utm_medium=api&utm_source=7de842cf) - Tampa, Hillsborough County
 - **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451557?utm_medium=api&utm_source=7de842cf) - Idaho City, Boise County
 - **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451720?utm_medium=api&utm_source=7de842cf) - Denver, Colorado
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451567?utm_medium=api&utm_source=7de842cf) - Phoenix, Maricopa County
 - **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451582?utm_medium=api&utm_source=7de842cf) - Salt Lake City, Salt Lake County
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451547?utm_medium=api&utm_source=7de842cf) - Tucson, Pima County
 - **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451596?utm_medium=api&utm_source=7de842cf) - Reno, Washoe County
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5823015972?utm_medium=api&utm_source=7de842cf) - Tampa, Hillsborough County
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451669?utm_medium=api&utm_source=7de842cf) - Las Vegas, Clark County
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451567?utm_medium=api&utm_source=7de842cf) - Phoenix, Maricopa County
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451547?utm_medium=api&utm_source=7de842cf) - Tucson, Pima County
 - **ERM** (Env Consulting) - [Partner, Low Carbon Energy and Infrastructure Consenting, UK&I](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/London-United-Kingdom/Partner--Low-Carbon-Energy-and-Infrastructure-Consenting--UK-I_R00030912-1) - London, United Kingdom
 - **ERM** (Env Consulting) - [Partner, Capital Project Development, Diversified Energy](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Calgary-Canada/Partner--Capital-Project-Development--Diversified-Energy_R00031326-1) - 4 Locations
 - **ERM** (Env Consulting) - [Regulatory Content Monitor](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Cape-Town-South-Africa/Regulatory-Content-Monitor_R00030998-1) - Cape Town, South Africa
@@ -292,6 +307,12 @@
 - **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878339100) - San Diego, California
 - **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878337900) - San Diego, California
 - **ERCOT** (Grid) - [Power Systems Engineer Sr - Grid Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Power-Systems-Engineer-Sr---Grid-Analysis_R2228-1) - Taylor, TX
+- **Kpler** (Market Intelligence) - [Account Executive - Energy](https://jobs.lever.co/kpler/c84729bc-bd8b-404c-9d04-c0a9f49c5513) - Houston
+- **Kpler** (Market Intelligence) - [Account Executive - Maritime/ Shipping & Logistics (New Business)](https://jobs.lever.co/kpler/b93250d4-23b6-496e-8483-63fbeaf8c1fa) - New York
+- **Kpler** (Market Intelligence) - [ML Engineer - Power](https://jobs.lever.co/kpler/efa90634-2e62-4ae7-9142-e9a4ecd90076) - Japan
+- **Kpler** (Market Intelligence) - [Sales Development Representative - Maritime/Logistics](https://jobs.lever.co/kpler/ebc88846-7eb7-4ade-8770-fa6572bbdbc5) - Houston
+- **Kpler** (Market Intelligence) - [Sales Specialist  - Power & European Gas (EMEA)](https://jobs.lever.co/kpler/65b8e09c-e6bc-4474-9d7e-578c464ce968) - London
+- **Wood Mackenzie** (Market Intelligence) - [Data Assistant - Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Kuala-Lumpur-MY/Data-Assistant---Power---Renewables_JR3118-1) - Kuala Lumpur, MY
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Researcher - Perovskite Packaging and Reliability](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Researcher---Perovskite-Packaging-and-Reliability_R14387) - Golden, CO
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Research Engineer - Machine learning applications to power system operations](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Research-Engineer---Machine-learning-applications-to-power-system-operations_R14435) - Golden, CO
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Linux Infrastructure Engineer II/III](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Linux-Infrastructure-Engineer-II-III_R14335-1) - Golden, CO
@@ -311,7 +332,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Housing and Communities Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Housing-and-Communities-Division-_R-801650) - The Urban Institute (DC)
 
 ---
-_Companies checked: 38, errors: 3, total open matches: 304._
+_Companies checked: 43, errors: 3, total open matches: 325._
 
 Companies that failed this run (check slug/config):
 - Guidehouse: ConnectionError: ('Connection aborted.', TimeoutError(60, 'Operation timed out'))

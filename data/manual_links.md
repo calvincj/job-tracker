@@ -86,8 +86,6 @@ postings from these; check by hand weekly regardless.
 ### Market Intelligence
 
 - [BloombergNEF](https://careers.bloomberg.com)
-- [Rystad Energy](https://www.rystadenergy.com/careers)
-- [Wood Mackenzie](https://www.woodmac.com/careers/)
 
 ### National Lab
 
