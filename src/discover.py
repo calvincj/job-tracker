@@ -1,7 +1,10 @@
 """Resolve which ATS (and slug) a company uses.
 
 Run this once per company you are unsure about. It tries a handful of slug
-guesses against Greenhouse, Lever, and Ashby and reports which respond.
+guesses against Greenhouse, Lever, Ashby, SmartRecruiters, and Workable and
+reports which respond. A hit doesn't guarantee it's the right company - short
+generic slugs can be squatted by an unrelated org, so cross-check the
+returned job titles/count before trusting it.
 
 Usage:
   python -m src.discover "Fervo Energy"
@@ -59,13 +62,32 @@ def _try_ashby(slug):
     return None
 
 
+def _try_smartrecruiters(slug):
+    u = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings"
+    r = requests.get(u, timeout=TIMEOUT, headers={"User-Agent": "discover"})
+    if r.status_code == 200 and "totalFound" in r.json():
+        return r.json()["totalFound"]
+    return None
+
+
+def _try_workable(slug):
+    u = f"https://apply.workable.com/api/v1/widget/accounts/{slug}"
+    r = requests.get(u, params={"details": "true"}, timeout=TIMEOUT,
+                     headers={"User-Agent": "discover"})
+    if r.status_code == 200 and "jobs" in r.json():
+        return len(r.json()["jobs"])
+    return None
+
+
 def discover(name, extra_slugs=None):
     slugs = _guesses(name) + list(extra_slugs or [])
     hits = []
     for slug in slugs:
         for ats, fn in [("greenhouse", _try_greenhouse),
                         ("lever", _try_lever),
-                        ("ashby", _try_ashby)]:
+                        ("ashby", _try_ashby),
+                        ("smartrecruiters", _try_smartrecruiters),
+                        ("workable", _try_workable)]:
             try:
                 n = fn(slug)
             except Exception:
@@ -84,7 +106,7 @@ if __name__ == "__main__":
     print(f"Probing for: {company}")
     results = discover(company, extras)
     if not results:
-        print("  No Greenhouse/Lever/Ashby board found. Likely Workday or bespoke.")
+        print("  No Greenhouse/Lever/Ashby/SmartRecruiters/Workable board found. Likely Workday or bespoke.")
         print("  See PROJECT.md > Resolving Workday.")
     for ats, slug, count in results:
         print(f"  FOUND  ats={ats}  slug={slug}  open_jobs={count}")

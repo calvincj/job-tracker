@@ -15,7 +15,7 @@ import re
 import sys
 import yaml
 
-from src.ats import greenhouse, lever, ashby, workday, adzuna, usajobs
+from src.ats import greenhouse, lever, ashby, workday, adzuna, usajobs, smartrecruiters, workable
 from src import filtering, store, report, notify
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -69,6 +69,10 @@ def pull_company(c):
         return ashby.fetch(c["slug"])
     if ats == "workday":
         return workday.fetch(c["workday"])
+    if ats == "smartrecruiters":
+        return smartrecruiters.fetch(c["slug"])
+    if ats == "workable":
+        return workable.fetch(c["slug"])
     # 'manual' companies are not auto-pulled; Adzuna net (below) may catch them
     return []
 

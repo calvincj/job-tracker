@@ -1,7 +1,8 @@
 # Your firm list, seeded from Firms_I_Like.
 #
-# ats: greenhouse | lever | ashby | workday | manual
-#   - greenhouse/lever/ashby: set `slug`. Verify with:  python -m src.discover "Name"
+# ats: greenhouse | lever | ashby | smartrecruiters | workable | workday | manual
+#   - greenhouse/lever/ashby/smartrecruiters/workable: set `slug`. Verify with:
+#     python -m src.discover "Name"
 #   - workday: set the `workday` block (host, tenant, site). See PROJECT.md.
 #   - manual: no clean public API. Left for the Adzuna broad net + a bookmarked
 #     careers_url you check by hand. Convert to a real ats once you find one.
@@ -72,8 +73,8 @@ companies:
 
   - name: CAISO
     category: Grid
-    ats: manual
-    careers_url: https://www.caiso.com/about/careers
+    ats: smartrecruiters
+    slug: CaliforniaISO        # confirmed
 
   - name: ERCOT
     category: Grid
@@ -454,8 +455,8 @@ companies:
 
   - name: American Battery Technology Company
     category: Critical Minerals
-    ats: manual
-    careers_url: https://americanbatterytechnology.com/joinus/
+    ats: workable
+    slug: americanbatterytechnologycompany        # confirmed - "abtc" slug is a different, unrelated company
 
   - name: Ascend Elements
     category: Critical Minerals
