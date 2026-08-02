@@ -9,8 +9,10 @@ Three outputs:
                     if you skip a day).
   docs/index.html   same data as digest.md, styled + searchable, served free via
                     GitHub Pages so there's a live link instead of a repo file.
-                    Splits out "new today" (never seen before, or the source's
-                    own posted date is today) from the rest.
+                    Splits out "new today" (first added to the tracker today
+                    AND the source's own posted date is recent - both, so a
+                    newly-onboarded company's whole old backlog doesn't flood
+                    in as "new") from the rest.
 
 The digest leads with the three tracks that matter:
   1. Full-time / new-grad roles
@@ -23,6 +25,62 @@ import datetime
 import html
 import os
 import re
+
+from src.filtering import days_ago
+
+
+_VAGUE_LOC_RE = re.compile(r"^(\d+\s+locations?|multiple locations)$", re.IGNORECASE)
+
+
+def _merge_duplicate_locations(jobs, first_seen_map=None):
+    """Collapse postings that are the same role at the same company into one
+    row with a combined location list - a company that lists "Data Analyst"
+    separately for 3 cities shouldn't read as 3 different openings. Keeps
+    every job's data (nothing is dropped, just the redundant rows), picking
+    whichever posting was first_seen most recently as the representative
+    (url/posted/uid) so a freshly-added location still surfaces as new."""
+    groups = {}
+    order = []
+    for j in jobs:
+        key = (j["company"].strip().lower(), re.sub(r"\s+", " ", j["title"].strip().lower()))
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append(j)
+
+    merged = []
+    for key in order:
+        group = groups[key]
+        if len(group) == 1:
+            merged.append(group[0])
+            continue
+        if first_seen_map:
+            rep = max(group, key=lambda j: first_seen_map.get(j["uid"], ""))
+        else:
+            rep = group[0]
+        locs, seen_locs = [], set()
+        for j in sorted(group, key=lambda j: j["location"]):
+            loc = "Remote" if j["remote"] else (j["location"].strip() or "Unclear")
+            # some Workday postings report a vague "2 Locations" placeholder
+            # instead of real city names - worthless once combined with
+            # others ("2 Locations; 3 Locations"), so skip it in favor of any
+            # real city names in the group; only fall back to it below if
+            # nothing else in the group has one.
+            if _VAGUE_LOC_RE.match(loc):
+                continue
+            if loc.lower() not in seen_locs:
+                seen_locs.add(loc.lower())
+                locs.append(loc)
+        if not locs:
+            locs = ["Multiple locations"]
+        combined = dict(rep)
+        if len(locs) > 4:
+            combined["location"] = ", ".join(locs[:3]) + f" + {len(locs) - 3} more"
+        else:
+            combined["location"] = "; ".join(locs)
+        combined["remote"] = any(j["remote"] for j in group)
+        merged.append(combined)
+    return merged
 
 
 def _group(jobs):
@@ -50,6 +108,7 @@ def _section(title, jobs):
 
 
 def render_markdown(open_jobs, stats):
+    open_jobs = _merge_duplicate_locations(open_jobs)
     today = datetime.date.today().isoformat()
     grads, interns, remote, other = _group(open_jobs)
 
@@ -99,38 +158,8 @@ _KNOWN_CATEGORIES = [
     "Climate Data", "Trade & Supply Chain", "Think Tank",
 ]
 
-_WORKDAY_AGO_RE = re.compile(r"posted\s+(\d+)(\+?)\s+days?\s+ago", re.I)
-
-
-def _days_ago(posted):
-    """Best-effort (days_since_posted, is_lower_bound) from whatever format
-    the source gave us. Workday sends relative text ("Posted 3 Days Ago"),
-    everything else sends a real ISO date/datetime."""
-    if not posted:
-        return None, False
-    p = posted.strip()
-    low = p.lower()
-    if low == "posted today":
-        return 0, False
-    if low == "posted yesterday":
-        return 1, False
-    m = _WORKDAY_AGO_RE.search(p)
-    if m:
-        return int(m.group(1)), bool(m.group(2))
-    try:
-        s = p.replace("Z", "+00:00")
-        dt = datetime.datetime.fromisoformat(s)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=datetime.timezone.utc)
-        now = datetime.datetime.now(datetime.timezone.utc)
-        delta = (now.date() - dt.astimezone(datetime.timezone.utc).date()).days
-        return max(delta, 0), False
-    except (ValueError, TypeError):
-        return None, False
-
-
 def _posted_label(posted):
-    days, is_floor = _days_ago(posted)
+    days, is_floor = days_ago(posted)
     if days is None:
         return "—"
     if days == 0:
@@ -302,19 +331,32 @@ def _list(jobs, first_seen_map, empty_msg, applied=False, sortable=False):
     return f'<div class="{cls}">{header}{rows}</div>'
 
 
-def render_html(open_jobs, new_jobs, stats, first_seen_map=None):
-    # "New today" = genuinely new to the tracker this run, OR first added to
-    # the tracker (first_seen) earlier today - a job first caught by an
-    # earlier poll today is still "today" even once it's no longer new-to-us
-    # this run. Uses our own first_seen timestamp, not the source's "posted"
-    # field, since that field isn't reliably a creation date (see sort_key
-    # note in _list).
+def filter_new_today(jobs, first_seen_map):
+    """"New today" requires BOTH: first added to the tracker (first_seen)
+    today, AND the source's own posted date is recent (<=1 day - a little
+    slack for timezone/reporting lag, not literally "today" by the clock).
+    Needing both, not either, matters: first_seen alone would flood this with
+    a newly-onboarded company's entire old backlog (all first-seen today, but
+    posted weeks/months ago); posted alone is what caused the original bug
+    (Greenhouse bumps "updated_at" on stale Redwood Materials postings
+    independent of any real repost). Shared by the dashboard's "New today"
+    section and the email trigger, so onboarding a company can't flood either.
+    """
     first_seen_map = first_seen_map or {}
-    never_seen_uids = {j["uid"] for j in new_jobs}
     today = datetime.date.today().isoformat()
-    def _first_seen_today(j):
-        return first_seen_map.get(j["uid"], "").startswith(today)
-    new_today = [j for j in open_jobs if j["uid"] in never_seen_uids or _first_seen_today(j)]
+    out = []
+    for j in jobs:
+        if not first_seen_map.get(j["uid"], "").startswith(today):
+            continue
+        age, _ = days_ago(j.get("posted", ""))
+        if age is not None and age <= 1:
+            out.append(j)
+    return out
+
+
+def render_html(open_jobs, stats, first_seen_map=None):
+    open_jobs = _merge_duplicate_locations(open_jobs, first_seen_map)
+    new_today = filter_new_today(open_jobs, first_seen_map)
     new_uids = {j["uid"] for j in new_today}
     rest = [j for j in open_jobs if j["uid"] not in new_uids]
 
@@ -592,18 +634,19 @@ renderApplied();
 """
 
 
-def write_dashboard(open_jobs, new_jobs, stats, root_dir, first_seen_map=None):
+def write_dashboard(open_jobs, stats, root_dir, first_seen_map=None):
     docs_dir = os.path.join(root_dir, "docs")
     os.makedirs(docs_dir, exist_ok=True)
     path = os.path.join(docs_dir, "index.html")
     with open(path, "w") as f:
-        f.write(render_html(open_jobs, new_jobs, stats, first_seen_map))
+        f.write(render_html(open_jobs, stats, first_seen_map))
     return path
 
 
 def render_email_body(new_jobs):
     """Plain-text body for the 'just today's new roles' email - a small
     subset of what digest.md/index.html show (which list every open match)."""
+    new_jobs = _merge_duplicate_locations(new_jobs)
     today = datetime.date.today().isoformat()
     grads, interns, remote, other = _group(new_jobs)
     out = [f"New roles - {today}", ""]

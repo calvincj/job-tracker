@@ -158,16 +158,20 @@ def run():
     open_live = notify.filter_live(all_open)
     live_uids = {j["uid"] for j in open_live}
     new_jobs_live = [j for j in new_jobs if j["uid"] in live_uids]
+    # Same "genuinely new today" test the dashboard uses (first_seen today AND
+    # posted recently) - not just new_jobs_live, or onboarding a company would
+    # blast an email full of its old backlog. See report.filter_new_today.
+    new_today_live = report.filter_new_today(open_live, first_seen_map)
 
     stats = {"checked": checked, "errors": len(errors),
              "open": len(all_open), "error_list": errors}
     md_path, csv_path = report.write_outputs(open_live, new_jobs, stats, DATA)
-    report.write_dashboard(open_live, new_jobs_live, stats, ROOT, first_seen_map)
+    report.write_dashboard(open_live, stats, ROOT, first_seen_map)
 
-    if new_jobs_live and filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
+    if new_today_live and filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
         try:
-            subject = f"{len(new_jobs_live)} new job{'s' if len(new_jobs_live) != 1 else ''} today"
-            notify.send_digest(subject, report.render_email_body(new_jobs_live))
+            subject = f"{len(new_today_live)} new job{'s' if len(new_today_live) != 1 else ''} today"
+            notify.send_digest(subject, report.render_email_body(new_today_live))
         except Exception as e:
             errors.append(("email delivery", f"{type(e).__name__}: {e}"))
 
