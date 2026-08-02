@@ -43,7 +43,6 @@ postings from these; check by hand weekly regardless.
 - [Analysis Group](https://www.analysisgroup.com/careers/)
 - [Berkeley Research Group](https://jobs.jobvite.com/brg/jobs)
 - [Concentric Energy Advisors](https://ceadvisors.com/careers/)
-- [Cornerstone Research](https://www.cornerstone.com/careers/)
 - [Enverus](https://jobs.jobvite.com/enverus)
 - [KPMG](https://www.kpmguscareers.com/job-search/)
 - [NERA Economic Consulting](https://careers.marsh.com/global/en/nera-search)
@@ -63,8 +62,6 @@ postings from these; check by hand weekly regardless.
 ### Env Consulting
 
 - [AECOM](https://aecom.jobs)
-- [Booz Allen Hamilton](https://careers.boozallen.com)
-- [ERM](https://www.erm.com/careers/)
 - [HELIX Environmental Planning](https://www.helixepi.com/careers/)
 - [Rincon Consultants](https://www.rinconconsultants.com/careers)
 - [SWCA Environmental Consultants](https://careers.swca.com/jobs)
@@ -86,7 +83,6 @@ postings from these; check by hand weekly regardless.
 
 - [CAISO](https://www.caiso.com/about/careers)
 - [Dominion Energy](https://careers.dominionenergy.com)
-- [ERCOT](https://www.ercot.com/about/careers)
 - [PJM](https://careers.pjm.com)
 
 ### Market Intelligence
@@ -113,7 +109,6 @@ postings from these; check by hand weekly regardless.
 
 - [Center for American Progress](https://www.americanprogress.org/about-us/careers/)
 - [Niskanen Center](https://www.niskanencenter.org/about-us/careers/)
-- [Urban Institute](https://www.urban.org/about/careers)
 
 ### Trade & Supply Chain
 
