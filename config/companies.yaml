@@ -77,8 +77,11 @@ companies:
 
   - name: ERCOT
     category: Grid
-    ats: manual
-    careers_url: https://www.ercot.com/about/careers
+    ats: workday
+    workday:
+      host: ercot.wd1.myworkdayjobs.com   # confirmed
+      tenant: ercot
+      site: ercot_careers
 
   - name: Iberdrola
     category: Cleantech
@@ -153,8 +156,11 @@ companies:
 
   - name: Booz Allen Hamilton
     category: Env Consulting
-    ats: manual
-    careers_url: https://careers.boozallen.com
+    ats: workday
+    workday:
+      host: bah.wd1.myworkdayjobs.com   # confirmed
+      tenant: bah
+      site: BAH_Jobs
 
   - name: AECOM
     category: Env Consulting
@@ -168,8 +174,11 @@ companies:
 
   - name: ERM
     category: Env Consulting
-    ats: manual
-    careers_url: https://www.erm.com/careers/
+    ats: workday
+    workday:
+      host: erm.wd3.myworkdayjobs.com   # confirmed
+      tenant: erm
+      site: ERM_Careers
 
   - name: SWCA Environmental Consultants
     category: Env Consulting
@@ -563,8 +572,11 @@ companies:
 
   - name: Urban Institute
     category: Think Tank
-    ats: manual
-    careers_url: https://www.urban.org/about/careers
+    ats: workday
+    workday:
+      host: urban.wd115.myworkdayjobs.com   # confirmed
+      tenant: urban
+      site: Urban-Careers
 
   # ---- More economic/strategy consulting (entry-level analyst titles) ----
   - name: Compass Lexecon
@@ -579,8 +591,11 @@ companies:
 
   - name: Cornerstone Research
     category: Energy Consulting
-    ats: manual
-    careers_url: https://www.cornerstone.com/careers/
+    ats: workday
+    workday:
+      host: cornerstone.wd501.myworkdayjobs.com   # confirmed
+      tenant: cornerstone
+      site: CornerstoneResearch_Careers
 
   - name: L.E.K. Consulting
     category: Consulting
