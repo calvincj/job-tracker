@@ -8,6 +8,10 @@ A job passes if:
     (kept on purpose so messy ATS location text doesn't cost coverage).
   - otherwise (new-grad/full-time/other): no location gate at all - willing
     to relocate anywhere once out of school.
+  the location isn't clearly outside the US (non_us_country_names/_codes),
+  AND
+  it isn't older than max_days_since_posted (a zombie req still marked open),
+  AND
   it doesn't ask for more than max_years_experience or explicitly require a
   PhD/doctorate, per the job's own description (where a source gives us one -
   see _min_years_required / _requires_phd).
@@ -16,6 +20,7 @@ Every passing job gets a role_type tag (intern / new_grad / other) and a
 remote flag, so the report can group by what the user is actually after.
 """
 
+import datetime
 import re
 
 # Locations we refuse to drop on: empty, or generic strings that carry no city
@@ -25,6 +30,37 @@ VAGUE_LOCATIONS = ("", "us", "usa", "united states", "multiple locations",
                    "hybrid", "on-site", "onsite")
 
 _TAG_RE = re.compile(r"<[^>]+>")
+
+_WORKDAY_AGO_RE = re.compile(r"posted\s+(\d+)(\+?)\s+days?\s+ago", re.I)
+
+
+def days_ago(posted):
+    """Best-effort (days_since_posted, is_lower_bound) from whatever format
+    the source gave us. Workday sends relative text ("Posted 3 Days Ago"),
+    everything else sends a real ISO date/datetime. Shared by the age-cutoff
+    gate below and report.py's display/sort - one parser, one set of quirks
+    to reason about."""
+    if not posted:
+        return None, False
+    p = posted.strip()
+    low = p.lower()
+    if low == "posted today":
+        return 0, False
+    if low == "posted yesterday":
+        return 1, False
+    m = _WORKDAY_AGO_RE.search(p)
+    if m:
+        return int(m.group(1)), bool(m.group(2))
+    try:
+        s = p.replace("Z", "+00:00")
+        dt = datetime.datetime.fromisoformat(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        now = datetime.datetime.now(datetime.timezone.utc)
+        delta = (now.date() - dt.astimezone(datetime.timezone.utc).date()).days
+        return max(delta, 0), False
+    except (ValueError, TypeError):
+        return None, False
 # First number in a "3-5 years" / "5+ years" / "3 to 5 years" phrase - takes
 # the lower bound of a range on purpose (recall > precision: a posting that
 # accepts 3-5 years shouldn't be dropped for someone with 3).
@@ -94,6 +130,20 @@ def detect_role_type(title, filters):
     return "other"
 
 
+def _is_non_us(location, filters):
+    """Full country names anywhere (whole word); short country codes only as
+    the exact LAST comma-separated segment (e.g. "Edinburgh, GB") - a bare
+    substring scan on 2-letter codes is too easy to false-positive."""
+    loc = _lower(location).strip()
+    if not loc:
+        return False
+    for name in filters.get("non_us_country_names", []):
+        if _has_word(loc, name):
+            return True
+    last = loc.split(",")[-1].strip()
+    return last in filters.get("non_us_country_codes", [])
+
+
 def is_remote(location, title, raw):
     loc = _lower(location)
     if "remote" in loc:
@@ -135,6 +185,19 @@ def passes(job, filters):
     if locs and job["role_type"] == "intern":
         vague = loc in VAGUE_LOCATIONS
         if not (job["remote"] or vague or any(l in loc for l in locs)):
+            return False
+
+    # US-only gate. Applies even to remote postings - an explicit
+    # "Remote - Canada" still isn't a US role.
+    if _is_non_us(job["location"], filters):
+        return False
+
+    # absolute age cutoff (e.g. a zombie req still marked open at 700+ days).
+    # Unparseable/unknown posted dates are NOT dropped - can't verify = kept.
+    max_days = filters.get("max_days_since_posted")
+    if max_days:
+        age, _ = days_ago(job.get("posted", ""))
+        if age is not None and age > max_days:
             return False
 
     # experience-level gate (only where we actually have a description)

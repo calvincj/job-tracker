@@ -62,6 +62,7 @@ locations_any:
 exclude_title:
   - senior
   - sr.
+  - sr             # "Sr Network Services Engineer" etc - no period, "sr." alone missed these
   - staff
   - principal
   - director
@@ -103,11 +104,142 @@ exclude_title:
   - revenue cycle
   - public health
 
+  # Not your field - "econom" (economist/economics) and "research" are broad
+  # on purpose to catch energy/climate econ roles, but that same breadth lets
+  # in agricultural/farm economics, which isn't what you're after.
+  - agricultural
+  - agriculture
+  - farm
+
 # Best-effort: drop a job if its own description states a minimum years of
 # experience above this. Only checked for sources that give us the full
 # description for free (Greenhouse, Ashby) - others are left unfiltered on
 # this dimension since we have nothing to check (recall > false confidence).
 max_years_experience: 3
+
+# Absolute age cutoff, using the source's own "posted" date - a listing this
+# old is almost certainly a zombie req still marked open, not a real live
+# opening (e.g. a Brookings RA posting that sat at 700+ days). Unparseable/
+# unknown posted dates are NOT dropped by this (can't verify = kept, same
+# recall-first stance as everything else here).
+max_days_since_posted: 100
+
+# US-only. Full country names are matched anywhere in the location text
+# (whole word); short country codes are only matched as the exact LAST
+# comma-separated segment (e.g. "Edinburgh, GB") - a bare substring scan on
+# 2-letter codes is too easy to false-positive. Applies even to remote
+# postings - an explicit "Remote - Canada" still isn't a US role. Codes that
+# collide with a US state postal abbreviation (DE/Delaware, IL/Illinois,
+# MA/Massachusetts, ID/Idaho, AR/Arkansas, CO/Colorado) are deliberately left
+# out of the code list below - rely on the full country name for those.
+non_us_country_names:
+  - canada
+  - united kingdom
+  - mexico
+  - brazil
+  - argentina
+  - chile
+  - colombia
+  - peru
+  - india
+  - china
+  - japan
+  - south korea
+  - korea
+  - singapore
+  - malaysia
+  - indonesia
+  - philippines
+  - vietnam
+  - thailand
+  - australia
+  - new zealand
+  - germany
+  - france
+  - spain
+  - italy
+  - netherlands
+  - belgium
+  - switzerland
+  - austria
+  - sweden
+  - norway
+  - denmark
+  - finland
+  - poland
+  - ireland
+  - portugal
+  - greece
+  - czech republic
+  - hungary
+  - romania
+  - ukraine
+  - russia
+  - turkey
+  - israel
+  - saudi arabia
+  - united arab emirates
+  - uae
+  - qatar
+  - south africa
+  - nigeria
+  - kenya
+  - egypt
+  - morocco
+  - hong kong
+  - taiwan
+  - pakistan
+  - bangladesh
+  - gyeonggi-do        # Korean province - seen without a country code/name attached
+
+non_us_country_codes:
+  - gb
+  - uk
+  - my
+  - jp
+  - cn
+  - kr
+  - sg
+  - au
+  - fr
+  - br
+  - mx
+  - es
+  - nl
+  - be
+  - ch
+  - at
+  - se
+  - no
+  - dk
+  - fi
+  - pl
+  - ie
+  - pt
+  - gr
+  - cz
+  - hu
+  - ro
+  - ua
+  - ru
+  - tr
+  - sa
+  - ae
+  - qa
+  - za
+  - ng
+  - ke
+  - eg
+  - hk
+  - tw
+  - pk
+  - bd
+  - th
+  - vn
+  - ph
+  - nz
+  - cl
+  - pe
 
 # One-off patches for specific postings our automatic dead-link check can't
 # catch (e.g. Ashby's list API says a job is live while its own detail page
