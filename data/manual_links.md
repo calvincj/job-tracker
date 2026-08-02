@@ -29,7 +29,6 @@ postings from these; check by hand weekly regardless.
 
 ### Critical Minerals
 
-- [American Battery Technology Company](https://americanbatterytechnology.com/joinus/)
 - [Ascend Elements](https://ascendelements.com/careers/)
 - [Elevra Lithium (formerly Piedmont Lithium)](https://www.elevra.com/careers/)
 - [Energy Fuels](https://www.energyfuels.com/careers/)
@@ -81,7 +80,6 @@ postings from these; check by hand weekly regardless.
 
 ### Grid
 
-- [CAISO](https://www.caiso.com/about/careers)
 - [Dominion Energy](https://careers.dominionenergy.com)
 - [PJM](https://careers.pjm.com)
 

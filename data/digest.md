@@ -121,7 +121,7 @@
 - **Brookings Institution** (Think Tank) - [Research Assistant ES](https://jobs.lever.co/brookings/ccb5a600-8a34-4431-9afa-300bffd1f010) - Multiple Locations
 
 ---
-_Companies checked: 36, errors: 1, total open matches: 107._
+_Companies checked: 38, errors: 1, total open matches: 107._
 
 Companies that failed this run (check slug/config):
 - ClimateAI: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climateai/jobs?content=true
