@@ -226,15 +226,14 @@ _PALETTE = [
 ]
 
 
-def _row(j, applied=False):
+def _row(j, days_val, applied=False):
     loc = "Remote" if j["remote"] else _shorten_location(j["location"].strip()) or "Unclear"
     track = TRACK_LABEL.get(j["role_type"], "Other")
     track_cls = TRACK_CLASS.get(j["role_type"], "t-other")
     cat_cls = _category_class(j["category"])
     av_cls = _avatar_class(j["company"])
     initial = _esc(j["company"][:1].upper() or "?")
-    days, _ = _days_ago(j.get("posted", ""))
-    days_val = days if days is not None else 99999
+    days_val = days_val if days_val is not None else 99999
     posted = _esc(_posted_label(j.get("posted", "")))
     action = ('<button class="apply-btn remove" type="button" data-unmark="1">Remove</button>'
              if applied else '<button class="apply-btn" type="button">Mark applied</button>')
@@ -269,29 +268,53 @@ def _header_row():
             '<div class="c-bottom">Type</div></div>')
 
 
-def _list(jobs, empty_msg, applied=False, sortable=False):
+def _days_since_first_seen(uid, first_seen_map):
+    iso = first_seen_map.get(uid)
+    if not iso:
+        return None
+    try:
+        dt = datetime.datetime.fromisoformat(iso)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        now = datetime.datetime.now(datetime.timezone.utc)
+        return max((now.date() - dt.astimezone(datetime.timezone.utc).date()).days, 0)
+    except (ValueError, TypeError):
+        return None
+
+
+def _list(jobs, first_seen_map, empty_msg, applied=False, sortable=False):
     header = _header_row()
     if not jobs:
         return f'<div class="list">{header}<p class="empty">{_esc(empty_msg)}</p></div>'
-    # default: most recently posted first (ties broken by company, for a
-    # stable order); the client-side sort toggle re-sorts from here.
-    sorted_jobs = sorted(jobs, key=lambda x: (_days_ago(x.get("posted", ""))[0]
-                                              if _days_ago(x.get("posted", ""))[0] is not None
-                                              else 99999, x["company"]))
-    rows = "\n".join(_row(j, applied=applied) for j in sorted_jobs)
+    # default: most recently added to the tracker first (ties broken by
+    # company, for a stable order); the client-side sort toggle re-sorts from
+    # here. Deliberately keyed on our own first_seen, not the source's
+    # "posted"/updated_at field - some ATS's (e.g. Greenhouse for Redwood
+    # Materials) bump that field on unrelated re-syncs, which would otherwise
+    # pin stale postings back to the top indefinitely.
+    def sort_key(x):
+        days = _days_since_first_seen(x["uid"], first_seen_map)
+        return (days if days is not None else 99999, x["company"])
+    sorted_jobs = sorted(jobs, key=sort_key)
+    rows = "\n".join(_row(j, _days_since_first_seen(j["uid"], first_seen_map), applied=applied)
+                     for j in sorted_jobs)
     cls = "list sortable-list" if sortable else "list"
     return f'<div class="{cls}">{header}{rows}</div>'
 
 
-def render_html(open_jobs, new_jobs, stats):
-    # "New today" = genuinely new to the tracker this run, OR the source's own
-    # posted date is today - a job posted this morning and first caught by an
-    # earlier poll today is still "today" even once it's no longer new-to-us.
+def render_html(open_jobs, new_jobs, stats, first_seen_map=None):
+    # "New today" = genuinely new to the tracker this run, OR first added to
+    # the tracker (first_seen) earlier today - a job first caught by an
+    # earlier poll today is still "today" even once it's no longer new-to-us
+    # this run. Uses our own first_seen timestamp, not the source's "posted"
+    # field, since that field isn't reliably a creation date (see sort_key
+    # note in _list).
+    first_seen_map = first_seen_map or {}
     never_seen_uids = {j["uid"] for j in new_jobs}
-    def _posted_today(j):
-        days, _ = _days_ago(j.get("posted", ""))
-        return days == 0
-    new_today = [j for j in open_jobs if j["uid"] in never_seen_uids or _posted_today(j)]
+    today = datetime.date.today().isoformat()
+    def _first_seen_today(j):
+        return first_seen_map.get(j["uid"], "").startswith(today)
+    new_today = [j for j in open_jobs if j["uid"] in never_seen_uids or _first_seen_today(j)]
     new_uids = {j["uid"] for j in new_today}
     rest = [j for j in open_jobs if j["uid"] not in new_uids]
 
@@ -449,12 +472,12 @@ def render_html(open_jobs, new_jobs, stats):
 
 <section class="new">
   <h2>New today <span class="count" id="new-count">{len(new_today)}</span></h2>
-  {_list(new_today, "Nothing new since the last check.", sortable=True)}
+  {_list(new_today, first_seen_map, "Nothing new since the last check.", sortable=True)}
 </section>
 
 <section>
   <h2>Rest of the window <span class="count" id="rest-count">{len(rest)}</span></h2>
-  {_list(rest, "Nothing else in the current window.", sortable=True)}
+  {_list(rest, first_seen_map, "Nothing else in the current window.", sortable=True)}
 </section>
 
 <section id="applied-section">
@@ -569,12 +592,12 @@ renderApplied();
 """
 
 
-def write_dashboard(open_jobs, new_jobs, stats, root_dir):
+def write_dashboard(open_jobs, new_jobs, stats, root_dir, first_seen_map=None):
     docs_dir = os.path.join(root_dir, "docs")
     os.makedirs(docs_dir, exist_ok=True)
     path = os.path.join(docs_dir, "index.html")
     with open(path, "w") as f:
-        f.write(render_html(open_jobs, new_jobs, stats))
+        f.write(render_html(open_jobs, new_jobs, stats, first_seen_map))
     return path
 
 

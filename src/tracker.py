@@ -9,7 +9,9 @@ ones are genuinely new since the last run. If email delivery is on, it sends
 just that new-this-run set, after a quick liveness check.
 """
 
+import html
 import os
+import re
 import sys
 import yaml
 
@@ -37,6 +39,18 @@ def load_dotenv():
             key = key.strip()
             value = value.strip().strip('"').strip("'")
             os.environ.setdefault(key, value)
+
+
+def _normalize_company(s):
+    """Word set from a company name: lowercase, HTML-unescape (Adzuna sends
+    '&amp;'), punctuation -> spaces. Deliberately doesn't strip parenthetical
+    alt-names (e.g. "Elevra Lithium (formerly Piedmont Lithium)") - keeping
+    them as plain words lets either name's word set match. Whole-word (not
+    substring) so short names like "ERM" can't match inside an unrelated
+    word (e.g. "German...")."""
+    s = html.unescape(s or "")
+    s = re.sub(r"[^a-z0-9]+", " ", s.lower())
+    return frozenset(s.split())
 
 
 def load_yaml(name):
@@ -85,9 +99,8 @@ def run():
 
     # optional broad net for manual/bespoke firms
     if adzuna.available() and filters.get("adzuna", {}).get("enabled"):
-        manual_names = {c["name"].lower() for c in companies
-                        if (c.get("ats") or "manual").lower() == "manual"}
-        cats = {c["name"].lower(): c.get("category", "") for c in companies}
+        manual_norms = [(_normalize_company(c["name"]), c) for c in companies
+                        if (c.get("ats") or "manual").lower() == "manual"]
         for query in filters["adzuna"].get("queries", []):
             what = query.get("what", "")
             where = query.get("where", "")
@@ -97,13 +110,17 @@ def run():
                 errors.append((f"adzuna:{what}", str(e)))
                 continue
             for r in raw:
-                comp = (r.get("_company") or "").lower()
-                # only keep Adzuna hits that match a firm on the list
-                match = next((n for n in manual_names if n and n in comp), None)
-                if not match:
+                comp_words = _normalize_company(r.get("_company") or "")
+                # only keep Adzuna hits that match a firm on the list - either
+                # direction, since Adzuna sometimes trims our full config name
+                # ("McKinsey" for "McKinsey & Company") and sometimes our
+                # config name carries extra alt-name text Adzuna won't repeat.
+                match_c = next((c for n, c in manual_norms
+                               if n and (n <= comp_words or comp_words <= n)), None)
+                if not match_c:
                     continue
                 jobs = filtering.filter_jobs([r], r.get("_company", "Unknown"),
-                                             cats.get(match, "Other"), filters)
+                                             match_c.get("category", "Other"), filters)
                 all_open.extend(jobs)
 
     # optional federal source (energy-policy track: DOE, FERC, EPA, EIA)
@@ -128,6 +145,8 @@ def run():
     state = store.load(SEEN)
     new_jobs, state = store.diff_and_update(state, all_open)
     store.save(SEEN, state)
+    first_seen_map = {uid: rec["first_seen"] for uid, rec in state.items()
+                      if not uid.startswith("_fp:")}
 
     # Link-check everything actually shown (dashboard + digest.md + email),
     # not what's tracked as seen - a dead link shouldn't affect dedupe/state,
@@ -139,7 +158,7 @@ def run():
     stats = {"checked": checked, "errors": len(errors),
              "open": len(all_open), "error_list": errors}
     md_path, csv_path = report.write_outputs(open_live, new_jobs, stats, DATA)
-    report.write_dashboard(open_live, new_jobs_live, stats, ROOT)
+    report.write_dashboard(open_live, new_jobs_live, stats, ROOT, first_seen_map)
 
     if new_jobs_live and filters.get("delivery", {}).get("email", {}).get("enabled") and notify.available():
         try:
