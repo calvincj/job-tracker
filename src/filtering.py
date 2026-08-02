@@ -8,6 +8,9 @@ A job passes if:
     (kept on purpose so messy ATS location text doesn't cost coverage).
   - otherwise (new-grad/full-time/other): no location gate at all - willing
     to relocate anywhere once out of school.
+  it doesn't ask for more than max_years_experience or explicitly require a
+  PhD/doctorate, per the job's own description (where a source gives us one -
+  see _min_years_required / _requires_phd).
 
 Every passing job gets a role_type tag (intern / new_grad / other) and a
 remote flag, so the report can group by what the user is actually after.
@@ -43,6 +46,34 @@ def _min_years_required(description, max_years):
         if "experience" in window or "exp." in window:
             if int(m.group(1)) > max_years:
                 return True
+    return False
+
+
+# Degree mention near a requirement word, e.g. "PhD required", "must have a
+# doctorate", "requires a Ph.D." - NOT "PhD preferred/a plus/nice to have" or
+# "PhD OR equivalent experience" (a very common way of saying a PhD is NOT
+# actually mandatory), neither of which blocks an application. Only fires on
+# a clear phrase match, same recall-over-precision stance as
+# _min_years_required: no match is not treated as a fail, since most sources
+# don't give us a description to check at all.
+_DEGREE_RE = re.compile(r"ph\.?\s?d\.?|doctoral degree|doctorate", re.IGNORECASE)
+_REQUIRE_WORDS = ("required", "require", "requires", "must have", "must hold",
+                  "must possess", "mandatory")
+_SOFT_WORDS = ("preferred", "a plus", "nice to have", "not required", "optional",
+              "bonus", "or equivalent", "or comparable", "or relevant experience")
+
+
+def _requires_phd(description):
+    if not description:
+        return False
+    text = _TAG_RE.sub(" ", description)
+    for m in _DEGREE_RE.finditer(text):
+        near = text[max(0, m.start() - 25):min(len(text), m.end() + 25)].lower()
+        if any(w in near for w in _SOFT_WORDS):
+            continue  # explicitly optional / has a non-PhD path right by the mention
+        window = text[max(0, m.start() - 60):min(len(text), m.end() + 60)].lower()
+        if any(w in window for w in _REQUIRE_WORDS):
+            return True
     return False
 
 
@@ -109,6 +140,13 @@ def passes(job, filters):
     # experience-level gate (only where we actually have a description)
     max_years = filters.get("max_years_experience")
     if _min_years_required(job.get("_description", ""), max_years):
+        return False
+
+    # degree gate: drop postings that explicitly require a PhD/doctorate,
+    # even when the title itself gives no hint (e.g. a plain "Research
+    # Analyst" whose qualifications section requires one). "PhD preferred"
+    # doesn't trigger this - see _requires_phd.
+    if _requires_phd(job.get("_description", "")):
         return False
 
     return True
