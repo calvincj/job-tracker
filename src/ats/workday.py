@@ -14,12 +14,33 @@ The data endpoint is a POST:
 
 Returns {"total": N, "jobPostings": [{title, externalPath, locationsText,
 postedOn, bulletFields}]}. Paginate with offset until offset >= total.
+
+locationsText is only a real "City, Region" string for single-site postings -
+for a job open at more than one site, Workday collapses it to a useless
+placeholder like "2 Locations"/"Multiple Locations" (confirmed: the list API
+has no other field with the actual location list; getting it requires a
+per-job detail call we don't make). externalPath's first segment is Workday's
+primary location slug (e.g. "New-Delhi-India", "Frankfurt-Germany") even when
+locationsText is vague, so fall back to that - loses the "there are more
+sites" info, but a real place name (and country signal for the US-only
+filter) beats a location string that's just a number.
 """
 
+import re
 import requests
 
 TIMEOUT = 25
 PAGE = 20
+_VAGUE_LOC_RE = re.compile(r"^(\d+\s+locations?|multiple locations)$", re.IGNORECASE)
+_PATH_LOC_RE = re.compile(r"^/job/([^/]+)/")
+
+
+def _location_text(j):
+    text = (j.get("locationsText") or "").strip()
+    if text and not _VAGUE_LOC_RE.match(text):
+        return text
+    m = _PATH_LOC_RE.match(j.get("externalPath", "") or "")
+    return m.group(1).replace("-", " ") if m else text
 
 
 def fetch(cfg):
@@ -54,7 +75,7 @@ def fetch(cfg):
             out.append({
                 "job_id": path or (j.get("bulletFields") or [""])[0],
                 "title": j.get("title", "") or "",
-                "location": j.get("locationsText", "") or "",
+                "location": _location_text(j),
                 "url": f"https://{host}/en-US/{site}{path}" if path else "",
                 "posted": j.get("postedOn", "") or "",
                 "source": "workday",
