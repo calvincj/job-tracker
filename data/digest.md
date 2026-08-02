@@ -1,8 +1,8 @@
 # Job digest - 2026-08-02
 
-**195 open roles** across 43 firms.
+**201 open roles** across 43 firms.
 
-### New-grad / full-time (89)
+### New-grad / full-time (96)
 
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R40685-1) - Charlotte NC
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
@@ -27,6 +27,13 @@
 - **Charles River Associates** (Energy Consulting) - [(2027 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate ](https://job-boards.greenhouse.io/charlesriverassociates/jobs/7894191) - Boston, MA, United States; Chicago, IL, United States; Los Angeles, CA, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Tallahassee, FL, United States; Washington, DC, United States
 - **Charles River Associates** (Energy Consulting) - [(2027 Bachelor's/Master's graduates) Management Advisory Analyst/Associate (Energy)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8053996) - Boston, MA, United States; New York, NY, United States; Washington, DC, United States
 - **Charles River Associates** (Energy Consulting) - [Associate/Economic Damages and Litigation Support (Risk, Investigations & Analytics practice) ](https://job-boards.greenhouse.io/charlesriverassociates/jobs/3090349) - New York, NY, United States
+- **FTI Consulting** (Energy Consulting) - [2027 Entry Level Consultant - Strategic Communications](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Entry-Level-Consultant---Strategic-Communications_JR260365-1) - United States
+- **FTI Consulting** (Energy Consulting) - [2027 Entry Level Consultant - Economic Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Entry-Level-Consultant---Economic-Consulting_JR260334-1) - United States
+- **FTI Consulting** (Energy Consulting) - [2027 Entry Level Consultant - Forensic & Litigation Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Entry-Level-Consultant---Forensic---Litigation-Consulting_JR260332) - United States
+- **FTI Consulting** (Energy Consulting) - [2027 Entry Level Consultant - Technology](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Entry-Level-Consultant---Technology_JR260338-1) - United States
+- **FTI Consulting** (Energy Consulting) - [2027 Entry-Level Consultant - Corporate Finance](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Entry-Level-Consultant---Corporate-Finance_JR260335) - United States
+- **FTI Consulting** (Energy Consulting) - [Consultant, Network Industries Strategies - Economic Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/McLean-VA/Consultant--Network-Industries-Strategies---Economic-Consulting_JR260534) - McLean, VA
+- **FTI Consulting** (Energy Consulting) - [Consultant, Financial Communications - Capital Markets](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/New-York-NY/Consultant--Financial-Communications---Capital-Markets_JR260OP-TEE) - New York, NY
 - **Energy Innovation** (Energy Policy) - [Analyst (Energy and Climate Modeling)](http://www.energyinnovation.org/about/careers?gh_jid=4715664005) - REMOTE
 - **Guidehouse** (Env Consulting) - [Security Assistance Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Security-Assistance-Data-Analyst_42712) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Junior Support Specialist - Fraud Analytics Junior (Consultant)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Lanham/Junior-Support-Specialist---Fraud-Analytics-Junior--Consultant-_42672) - US - MD, Lanham
@@ -94,10 +101,9 @@
 - **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Austin, TX; Chicago, IL
 - **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 
-### Internships (4)
+### Internships (3)
 
-- **Environmental Defense Fund** (Energy Policy) - [Economics Research Intern](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/Remote---US-Home/Economics-Research-Intern_REQ-002570) - REMOTE
-- **Environmental Defense Fund** (Energy Policy) - [​​Phytoplankton Carbon Solutions Intern​](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/Remote---US-Home/XMLNAME---Phytoplankton-Carbon-Solutions-Intern-_REQ-002578-1) - REMOTE
+- **FTI Consulting** (Energy Consulting) - [2027 Intern - Economic Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Economic-Consulting_JR260359) - United States
 - **Customs and Border Protection** (Government) - [Supervisory International Trade Analyst](https://www.usajobs.gov:443/job/878510500) - Multiple Locations
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [(Associate/Undergraduate) Intern - Carbon Management and Large Energy Systems](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Remote/XMLNAME--Associate-Undergraduate--Intern---Carbon-Management-and-Large-Energy-Systems_R14405) - REMOTE
 
@@ -210,9 +216,9 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Housing and Communities Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Housing-and-Communities-Division-_R-801650) - The Urban Institute (DC)
 
 ---
-_Companies checked: 42, errors: 3, total open matches: 237._
+_Companies checked: 42, errors: 3, total open matches: 243._
 
 Companies that failed this run (check slug/config):
 - Booz Allen Hamilton: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
 - ERM: ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
-- FTI Consulting: ReadTimeout: HTTPSConnectionPool(host='fticonsulting.wd108.myworkdayjobs.com', port=443): Read timed out. (read timeout=25)
+- Environmental Defense Fund: ReadTimeout: HTTPSConnectionPool(host='osv-edf.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=25)
