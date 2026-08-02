@@ -50,25 +50,13 @@ keywords_any:
   - logistics
   - esg                # ESG analyst / ESG data roles at climate-data shops
 
-# Location must contain one of these, OR the job is remote. Big US cities +
-# San Diego (for school-year roles). Add or trim as you like.
+# Only gates internships (role_type "intern") - during the school year you're
+# at UCSD and can't relocate, so intern postings must be San Diego or remote.
+# New-grad/full-time and everything else are NOT location-gated at all -
+# you're willing to relocate anywhere for those. See filtering.py passes().
 locations_any:
   - remote
   - san diego
-  - san francisco
-  - bay area
-  - los angeles
-  - new york
-  - washington
-  - boston
-  - chicago
-  - seattle
-  - austin
-  - houston
-  - denver
-  - atlanta
-  - philadelphia
-  - dallas
 
 # Drop senior / leadership roles you can't apply to as an undergrad.
 exclude_title:

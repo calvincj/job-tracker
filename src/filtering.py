@@ -3,9 +3,11 @@
 A job passes if:
   title matches at least one keyword in keywords_any, AND
   it is not excluded by exclude_title (matched as whole words), AND
-  location matches locations_any OR the job is remote OR the location is
-  unknown/vague (kept on purpose so messy ATS location text doesn't cost
-  coverage).
+  - if it's an internship: location matches locations_any (San Diego, school-
+    year workable) OR the job is remote OR the location is unknown/vague
+    (kept on purpose so messy ATS location text doesn't cost coverage).
+  - otherwise (new-grad/full-time/other): no location gate at all - willing
+    to relocate anywhere once out of school.
 
 Every passing job gets a role_type tag (intern / new_grad / other) and a
 remote flag, so the report can group by what the user is actually after.
@@ -93,11 +95,13 @@ def passes(job, filters):
     if kw and not any(k in title for k in kw):
         return False
 
-    # location gate. Remote always allowed. Unknown/vague locations are KEPT
-    # rather than dropped, so inconsistent ATS location text doesn't cost
-    # coverage; you eyeball the exact location on the linked page.
+    # location gate - internships only (school-year, can't relocate). New-grad
+    # and everything else is open to relocating anywhere, so skip this gate
+    # for them entirely. Remote always allowed; unknown/vague locations are
+    # KEPT rather than dropped, so inconsistent ATS location text doesn't
+    # cost coverage - you eyeball the exact location on the linked page.
     locs = filters.get("locations_any", [])
-    if locs:
+    if locs and job["role_type"] == "intern":
         vague = loc in VAGUE_LOCATIONS
         if not (job["remote"] or vague or any(l in loc for l in locs)):
             return False
