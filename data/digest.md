@@ -1,6 +1,6 @@
 # Job digest - 2026-08-04
 
-**273 open roles** across 43 firms.
+**271 open roles** across 40 firms.
 
 ### New-grad / full-time (142)
 
@@ -55,6 +55,7 @@
 - **Booz Allen Hamilton** (Env Consulting) - [Supply Chain Enterprise Metrics Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Wright-Patterson-AFB-OH/Supply-Chain-Enterprise-Metrics-Analyst_R0241252) - Wright Patterson AFB, OH
 - **Booz Allen Hamilton** (Env Consulting) - [Manpower & Personnel Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Wright-Patterson-AFB-OH/Manpower---Personnel-Analyst_R0241253) - Wright Patterson AFB, OH
 - **Booz Allen Hamilton** (Env Consulting) - [Cyber Policy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Alexandria-VA/Cyber-Policy-Analyst_R0241033) - Alexandria, VA
+- **ERM** (Env Consulting) - [Consultant, Land Services, Title Researcher](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Consultant--Land-Services--Title-Researcher_R00031438-1) - Rolling Meadows, Illinois
 - **ERM** (Env Consulting) - [Consultant, Archaeologist - Arizona](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Scottsdale-Arizona/Managing-Technical-Consultant--Archaeologist---New-Mexico_R00030614-1) - Scottsdale, Arizona
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Archaeologist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Richmond-Virginia/Managing-Technical-Consultant--Archaeologist_R00029922-1) - Richmond Virginia
 - **ERM** (Env Consulting) - [Consultant, Archaeologist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Portland-Oregon/Senior-Consultant--Archaeologist_R00030300) - Portland Oregon
@@ -84,7 +85,8 @@
 - **ERM** (Env Consulting) - [Consultant, Science/Engineering](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Pittsburgh-Pennsylvania/Consultant--Environmental-Construction_R00030152-1) - Pittsburgh Pennsylvania
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Air Quality](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Nashville-Tennessee/Managing-Technical-Consultant--Air-Quality_R00028198-1) - Nashville Tennessee
 - **ERM** (Env Consulting) - [Environmental Compliance Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Wastewater-Specialist_R00027060) - Seattle Washington
-- **Guidehouse** (Env Consulting) - [Policy Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-Analyst_42033) - US - DC, Washington
+- **Guidehouse** (Env Consulting) - [Salesforce Solution Consultant: Business Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948) - REMOTE
+- **Guidehouse** (Env Consulting) - [AI & Data Strategy Program Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/AI---Data-Strategy-Program-Analyst_42677) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [FM Systems and Process Improvement Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/FM-Systems-and-Process-Improvement-Consultant_41848) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Junior Support Specialist - Fraud Analytics Junior (Consultant)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Lanham/Junior-Support-Specialist---Fraud-Analytics-Junior--Consultant-_42672) - US - MD, Lanham
 - **Guidehouse** (Env Consulting) - [Financial Management Transformation Consultant (Department of War)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Financial-Management-Transformation-Consultant--Department-of-War-_36617) - US   VA McLean
@@ -102,7 +104,6 @@
 - **Guidehouse** (Env Consulting) - [Information Assurance Policy Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Information-Assurance-Policy-Analyst_41053) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [Navy Lifecycle Sustainment Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Navy-Lifecycle-Sustainment-Consultant_42187) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [ServiceNow Services Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/ServiceNow-Services-Consultant_41989) - US   VA McLean
-- **Guidehouse** (Env Consulting) - [Salesforce Solution Consultant: Business Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst_41948) - REMOTE
 - **Guidehouse** (Env Consulting) - [Data Analyst (Dashboard Developer)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Data-Analyst--Dashboard-Developer-_41912) - US - VA, Arlington
 - **Guidehouse** (Env Consulting) - [Data Governance & Metadata Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Falls-Church/Data-Governance---Metadata-Analyst_38955) - US - VA, Falls Church
 - **Guidehouse** (Env Consulting) - [Affordable Housing Finance Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Housing-Finance-Consultant_41694) - US   VA McLean
@@ -125,7 +126,6 @@
 - **Guidehouse** (Env Consulting) - [Federal Sustainability Consultant - Communities, Energy & Infrastructure (CE&I)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Federal-Sustainability-Consultant---Communities--Energy---Infrastructure--CE-I-_40570) - US   VA Arlington
 - **Guidehouse** (Env Consulting) - [Defense & Security, Financial Management (FM) Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Defense---Security--Financial-Management--FM--Consultant_40395-1) - US   VA McLean
 - **Guidehouse** (Env Consulting) - [Defense & Security, Financial System Implementation Readiness Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Defense---Security--Financial-System-Implementation-Readiness-Consultant_40396) - US   VA McLean
-- **Guidehouse** (Env Consulting) - [Defense & Security, IT Risk and Controls Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Defense---Security--IT-Risk-and-Controls-Consultant_40393) - US   VA McLean
 - **Guidehouse** (Env Consulting) - [Financial Management Consultant (PP&E)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Financial-Management-Consultant--PP-E-_39823) - US   VA Arlington
 - **Guidehouse** (Env Consulting) - [Defense Accountability Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Defense-Accountability-Consultant_40050) - US   VA McLean
 - **Guidehouse** (Env Consulting) - [Risk Management Framework (A&A) Technical Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Risk-Management-Framework--A-A--Technical-Consultant_39418) - US - VA, McLean
@@ -137,14 +137,14 @@
 - **Guidehouse** (Env Consulting) - [Data Analyst Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---IL-Fairview-Heights/Data-Analyst-Consultant_36813) - US - IL, Fairview Heights
 - **DHS Headquarters** (Government) - [Policy Analyst](https://www.usajobs.gov:443/job/878444500) - Washington, District of Columbia
 - **Department of Energy - Agency Wide** (Government) - [Operations Research Analyst (Recent Graduate)](https://www.usajobs.gov:443/job/877949200) - Washington, District of Columbia
+- **Federal Energy Regulatory Commission** (Government) - [Policy Data Analyst](https://www.usajobs.gov:443/job/879179500) - Washington, District of Columbia
 - **Federal Energy Regulatory Commission** (Government) - [SUPERVISORY ENERGY INDUSTRY ANALYST](https://www.usajobs.gov:443/job/878563300) - Washington, District of Columbia
 - **Federal Energy Regulatory Commission** (Government) - [ENERGY INDUSTRY ANALYST](https://www.usajobs.gov:443/job/879112700) - District of Columbia, District of Columbia; Washington, District of Columbia
-- **CAISO** (Grid) - [Associate Power Systems Technology Engineer (Hybrid)](https://jobs.smartrecruiters.com/CaliforniaISO/744000133141598) - Folsom, CA, United States
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2289-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
-- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Austin, TX; Chicago, IL
+- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645811002#Open%20Roles) - Austin, TX; Chicago, IL
 - **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 
 ### Internships (6)
@@ -166,7 +166,7 @@
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_37773) - REMOTE
 - **Kpler** (Market Intelligence) - [Account Executive - Maritime/ Shipping & Logistics (New Business)](https://jobs.lever.co/kpler/a26f4209-45d6-45b0-b560-3e812e0ecb8a) - REMOTE
 
-### Other matches (118)
+### Other matches (116)
 
 - **Duke Energy** (Cleantech) - [Engineer II or Engineer III - Grid Operations](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Harrison-OH/Engineer-II-or-Engineer-III---Grid-Operations_R40756) - Harrison OH
 - **Duke Energy** (Cleantech) - [Grid Operations Engineer I](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Plainfield-IN/Grid-Operations-Engineer-I_R40755) - Plainfield IN
@@ -193,10 +193,10 @@
 - **ICF** (Consulting) - [QA/QC Inspection Specialist- Residential Energy Program](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Trenton-NJ/QA-QC-Inspection-Specialist_R2601869) - Trenton, NJ
 - **ICF** (Consulting) - [On-Call Research Specialist, Physical Activity (Future Opportunity)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Research-Specialist--Physical-Activity--Future-Opportunity-_R2601951) - Reston, VA
 - **ICF** (Consulting) - [Network Modeling and Simulation Researcher (Security Clearance Required)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Aberdeen-MD/Network-Modeling-and-Simulation-Researcher--Security-Clearance-Required-_R2600160) - Aberdeen, MD
-- **Albemarle** (Critical Minerals) - [Logistics Coordinator](https://albemarle.wd5.myworkdayjobs.com/en-US/External/job/Pasadena-Texas-United-States-of-America/Logistics-Coordinator_REQ-31100) - Pasadena, Texas, United States of America
 - **Lithium Americas** (Critical Minerals) - [Lithium Carbonate Control Room Operator](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Winnemucca-NV/Lithium-Carbonate-Control-Room-Operator_JR100062) - Winnemucca, NV
 - **Cornerstone Research** (Energy Consulting) - [Research Librarian](https://cornerstone.wd501.myworkdayjobs.com/en-US/CornerstoneResearch_Careers/job/San-Francisco-CA/Research-Librarian_R145-1) - San Francisco CA
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451557?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451582?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
+- **Booz Allen Hamilton** (Env Consulting) - [Infrastructure Automation Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Dahlgren-VA/Infrastructure-Automation-Engineer_R0246023) - Dahlgren, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Power Platform Developer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Uruma-City-Okinawa/Power-Platform-Developer_R0243995) - Arlington, VA; McLean VA; Norfolk, VA; Uruma City, Okinawa
 - **Booz Allen Hamilton** (Env Consulting) - [Systems Engineering Acquisition Logistics Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/El-Segundo-CA/Systems-Engineering-Acquisition-Logistics-Specialist_R0245862) - El Segundo, CA
 - **Booz Allen Hamilton** (Env Consulting) - [Procurement Specialist, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Procurement-Specialist--Mid_R0244574) - McLean, VA
@@ -211,7 +211,6 @@
 - **Booz Allen Hamilton** (Env Consulting) - [Cloud Computing Infrastructure Architect, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Warner-Robins-GA/Cloud-Computing-Infrastructure-Architect--Mid_R0245279) - Warner Robins, GA
 - **Booz Allen Hamilton** (Env Consulting) - [Military Logistics Planner](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Camp-Lejeune-NC/Military-Logistics-Planner_R0245256) - Camp Lejeune, NC
 - **Booz Allen Hamilton** (Env Consulting) - [Microelectronics Vulnerability Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Huntsville-AL/Microelectronics-Vulnerability-Researcher_R0235891) - Huntsville, AL
-- **Booz Allen Hamilton** (Env Consulting) - [Application Infrastructure Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Meade-MD/Application-Infrastructure-Engineer_R0245029-1) - Fort Meade MD
 - **Booz Allen Hamilton** (Env Consulting) - [Cloud Infrastructure Support Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Belvoir-VA/Cloud-Infrastructure-Support-Engineer_R0244798) - Charlottesville, VA; Fort Belvoir, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Mission Strategy Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Mission-Strategy-Specialist_R0244700) - McLean, VA
 - **Booz Allen Hamilton** (Env Consulting) - [AI Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Chantilly-VA/AI-Researcher_R0244539) - Chantilly, VA
@@ -252,7 +251,6 @@
 - **Guidehouse** (Env Consulting) - [Policy and Law SME](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-and-Law-SME_40687) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Regulatory Infant Food Scientist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Regulatory-Infant-Food-Scientist_40880) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
-- **Air Force Elements, U.S. Transportation Command** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/878094700) - Scott AFB, Illinois
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/878078600) - Baltimore, Maryland; Chambersburg, Pennsylvania
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/877994800) - Lakewood, Colorado
 - **Bureau of Land Management** (Government) - [FUL - Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/878330300) - Lakewood, Colorado
@@ -288,4 +286,4 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Housing and Communities Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Housing-and-Communities-Division-_R-801650) - The Urban Institute (DC)
 
 ---
-_Companies checked: 42, errors: 0, total open matches: 344._
+_Companies checked: 42, errors: 0, total open matches: 342._
