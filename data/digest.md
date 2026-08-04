@@ -1,6 +1,6 @@
 # Job digest - 2026-08-04
 
-**274 open roles** across 45 firms.
+**272 open roles** across 43 firms.
 
 ### New-grad / full-time (141)
 
@@ -165,7 +165,7 @@
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_37773) - REMOTE
 - **Kpler** (Market Intelligence) - [Account Executive - Maritime/ Shipping & Logistics (New Business)](https://jobs.lever.co/kpler/a26f4209-45d6-45b0-b560-3e812e0ecb8a) - REMOTE
 
-### Other matches (120)
+### Other matches (118)
 
 - **Duke Energy** (Cleantech) - [Engineer II or Engineer III - Grid Operations](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Harrison-OH/Engineer-II-or-Engineer-III---Grid-Operations_R40756) - Harrison OH
 - **Duke Energy** (Cleantech) - [Grid Operations Engineer I](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Plainfield-IN/Grid-Operations-Engineer-I_R40755) - Plainfield IN
@@ -191,7 +191,6 @@
 - **ICF** (Consulting) - [Public Policy and Comment Analysis Specialist  (Hybrid role, Reston, VA)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Senior-Public-Policy-and-Comment-Analysis-Specialist---Hybrid-role--Reston--VA-_R2602004) - Reston, VA
 - **ICF** (Consulting) - [QA/QC Inspection Specialist- Residential Energy Program](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Trenton-NJ/QA-QC-Inspection-Specialist_R2601869) - Trenton, NJ
 - **ICF** (Consulting) - [On-Call Research Specialist, Physical Activity (Future Opportunity)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Research-Specialist--Physical-Activity--Future-Opportunity-_R2601951) - Reston, VA
-- **ICF** (Consulting) - [Home Energy Auditor](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Albuquerque-NM/Home-Energy-Auditor_R2600508) - Albuquerque, NM
 - **ICF** (Consulting) - [Network Modeling and Simulation Researcher (Security Clearance Required)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Aberdeen-MD/Network-Modeling-and-Simulation-Researcher--Security-Clearance-Required-_R2600160) - Aberdeen, MD
 - **Albemarle** (Critical Minerals) - [Logistics Coordinator](https://albemarle.wd5.myworkdayjobs.com/en-US/External/job/Pasadena-Texas-United-States-of-America/Logistics-Coordinator_REQ-31100) - Pasadena, Texas, United States of America
 - **Lithium Americas** (Critical Minerals) - [Lithium Carbonate Control Room Operator](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Winnemucca-NV/Lithium-Carbonate-Control-Room-Operator_JR100062) - Winnemucca, NV
@@ -252,21 +251,20 @@
 - **Guidehouse** (Env Consulting) - [Regulatory Infant Food Scientist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Regulatory-Infant-Food-Scientist_40880) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Research Nurse Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Research-Nurse-Specialist_35963) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/878078600) - Chambersburg, Pennsylvania
+- **Air Force Elements, U.S. Transportation Command** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/878094700) - Scott AFB, Illinois
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/878078600) - Baltimore, Maryland; Chambersburg, Pennsylvania
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/877994800) - Lakewood, Colorado
 - **Bureau of Land Management** (Government) - [FUL - Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/878330300) - Lakewood, Colorado
 - **Centers for Medicare & Medicaid Services** (Government) - [Economist](https://www.usajobs.gov:443/job/878347400) - Woodlawn, Maryland
 - **Defense Logistics Agency** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878202200) - Philadelphia, Pennsylvania
 - **Immigration and Customs Enforcement** (Government) - [Economist](https://www.usajobs.gov:443/job/876530800) - Washington, District of Columbia
 - **Internal Revenue Service** (Government) - [Economist- Direct Hire](https://www.usajobs.gov:443/job/878529900) - Multiple Locations
-- **Naval Facilities Engineering Systems Command** (Government) - [ELECTRIC POWER CONTROLLER](https://www.usajobs.gov:443/job/878157200) - Naval Station Complex, San Diego, California
 - **Naval Supply Systems Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878347100) - Naval Support Activity, Mechanicsburg, Pennsylvania
+- **Naval Supply Systems Command** (Government) - [SUPERVISORY LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878716800) - Naval Support Activity, Mechanicsburg, Pennsylvania
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
-- **Office of the Secretary of Defense** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878479700) - Pentagon, Arlington, Virginia
 - **STRATEGIC SYSTEMS PROGRAMS (SSP)** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878555300) - Washington Navy Yard, District of Columbia
 - **U.S. Army Corps of Engineers** (Government) - [POWER PLANT OPERATOR CREW SUPERVISOR](https://www.usajobs.gov:443/job/879080600) - Bridgeport, Washington
 - **U.S. Army Corps of Engineers** (Government) - [Regional Economist](https://www.usajobs.gov:443/job/878715600) - Multiple Locations
-- **US Army Civilian Human Resources Agency** (Government) - [Economist](https://www.usajobs.gov:443/job/877373200) - Multiple Locations
 - **Veterans Health Administration** (Government) - [Utility Systems Repairer -Operator Helper - TECHNICAL CAREER FIELD (TCF) TRAINEE](https://www.usajobs.gov:443/job/875763400) - Grand Junction, Colorado
 - **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/877741700) - Fayetteville, Arkansas; San Diego, California
 - **Veterans Health Administration** (Government) - [Supervisory Logistics Management](https://www.usajobs.gov:443/job/878505300) - Loma Linda, California
