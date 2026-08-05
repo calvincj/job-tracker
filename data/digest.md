@@ -1,8 +1,8 @@
 # Job digest - 2026-08-05
 
-**275 open roles** across 41 firms.
+**276 open roles** across 42 firms.
 
-### New-grad / full-time (141)
+### New-grad / full-time (142)
 
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R40685-1) - Charlotte NC
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
@@ -58,6 +58,7 @@
 - **Booz Allen Hamilton** (Env Consulting) - [Cyber Policy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Alexandria-VA/Cyber-Policy-Analyst_R0241033) - Alexandria, VA
 - **ERM** (Env Consulting) - [Consultant, Land Services, Title Researcher](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Consultant--Land-Services--Title-Researcher_R00031438-1) - Rolling Meadows, Illinois
 - **ERM** (Env Consulting) - [Consultant, Archaeologist - Arizona](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Scottsdale-Arizona/Managing-Technical-Consultant--Archaeologist---New-Mexico_R00030614-1) - Scottsdale, Arizona
+- **ERM** (Env Consulting) - [Managing Technical Consultant, Archaeologist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Richmond-Virginia/Managing-Technical-Consultant--Archaeologist_R00029922-1) - Richmond Virginia
 - **ERM** (Env Consulting) - [Consultant, Archaeologist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Portland-Oregon/Senior-Consultant--Archaeologist_R00030300) - Portland Oregon
 - **ERM** (Env Consulting) - [Environmental, Health and Safety (EHS) Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Environmental--Health-and-Safety--EHS--Consultant--Field-Based-_R00031430) - Seattle, Washington
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Safety](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Indianapolis-Indiana/Managing-Technical-Consultant--Safety-and-Industrial-Hygiene--Part-Time-_R00031223-1) - Indianapolis, Indiana
@@ -104,7 +105,6 @@
 - **Guidehouse** (Env Consulting) - [Information Assurance Policy Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Information-Assurance-Policy-Analyst_41053) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [Navy Lifecycle Sustainment Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Navy-Lifecycle-Sustainment-Consultant_42187) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [ServiceNow Services Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/ServiceNow-Services-Consultant_41989) - US   VA McLean
-- **Guidehouse** (Env Consulting) - [Data Analyst (Dashboard Developer)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Data-Analyst--Dashboard-Developer-_41912) - US - VA, Arlington
 - **Guidehouse** (Env Consulting) - [Data Governance & Metadata Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Falls-Church/Data-Governance---Metadata-Analyst_38955) - US - VA, Falls Church
 - **Guidehouse** (Env Consulting) - [Affordable Housing Finance Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Housing-Finance-Consultant_41694) - US   VA McLean
 - **Guidehouse** (Env Consulting) - [State and Local Government Consultant - WA](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---WA-Seattle/State-and-Local-Government-Consultant---WA_40278) - US   WA Seattle
@@ -136,6 +136,7 @@
 - **Guidehouse** (Env Consulting) - [Department of War (DOW) Financial Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---FL-Tampa/Department-of-War--DOW--Financial-Management-Consultant_37432-1) - US   FL Tampa
 - **Guidehouse** (Env Consulting) - [Data Analyst Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---IL-Fairview-Heights/Data-Analyst-Consultant_36813) - US - IL, Fairview Heights
 - **DHS Headquarters** (Government) - [Policy Analyst](https://www.usajobs.gov:443/job/878444500) - Washington, District of Columbia
+- **Defense Logistics Agency** (Government) - [Demand/Supply Chain Analyst](https://www.usajobs.gov:443/job/879329700) - Naval Air Station Jacksonville, Florida
 - **Federal Energy Regulatory Commission** (Government) - [Policy Data Analyst](https://www.usajobs.gov:443/job/879179500) - Washington, District of Columbia
 - **Federal Energy Regulatory Commission** (Government) - [SUPERVISORY ENERGY INDUSTRY ANALYST](https://www.usajobs.gov:443/job/878563300) - Washington, District of Columbia
 - **Federal Energy Regulatory Commission** (Government) - [ENERGY INDUSTRY ANALYST](https://www.usajobs.gov:443/job/879112700) - District of Columbia, District of Columbia; Washington, District of Columbia
@@ -143,7 +144,7 @@
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
-- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645811002#Open%20Roles) - Austin, TX; Chicago, IL
+- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Austin, TX; Chicago, IL
 - **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 
 ### Internships (6)
