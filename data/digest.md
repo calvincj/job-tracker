@@ -1,8 +1,8 @@
 # Job digest - 2026-08-06
 
-**276 open roles** across 41 firms.
+**273 open roles** across 38 firms.
 
-### New-grad / full-time (145)
+### New-grad / full-time (144)
 
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R40685-1) - Charlotte NC
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
@@ -26,6 +26,7 @@
 - **Lithium Americas** (Critical Minerals) - [Environmental and Regulatory Analyst](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Reno-Business-Office/Environmental-and-Regulatory-Analyst_JR100098) - Reno Business Office
 - **Charles River Associates** (Energy Consulting) - [(2027 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate ](https://job-boards.greenhouse.io/charlesriverassociates/jobs/7894191) - Boston, MA, United States; Chicago, IL, United States; Los Angeles, CA, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Tallahassee, FL, United States; Washington, DC, United States
 - **Charles River Associates** (Energy Consulting) - [(2027 Bachelor's/Master's graduates) Management Advisory Analyst/Associate (Energy)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8053996) - Boston, MA, United States; New York, NY, United States; Washington, DC, United States
+- **FTI Consulting** (Energy Consulting) - [Consultant, Crisis Communications](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Washington-DC/Consultant--Crisis-Communications_JR260822) - Washington DC
 - **FTI Consulting** (Energy Consulting) - [Consultant, Public Affairs - Industrials](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Washington-DC/Consultant--Public-Affairs---Industrials_JR260117) - Washington, DC
 - **FTI Consulting** (Energy Consulting) - [2027 Consultant - Construction, Projects & Assets - FLC - Vancouver, BC](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Vancouver-BC/XMLNAME-2027-Consultant---Construction--Projects---Assets---FLC---Vancouver--BC_JR260247-1) - Vancouver, BC
 - **FTI Consulting** (Energy Consulting) - [2027 Entry Level Consultant - Strategic Communications](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Entry-Level-Consultant---Strategic-Communications_JR260365-1) - United States
@@ -138,25 +139,22 @@
 - **Guidehouse** (Env Consulting) - [Data Collection Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Department of War (DOW) Financial Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---FL-Tampa/Department-of-War--DOW--Financial-Management-Consultant_37432-1) - US   FL Tampa
 - **Guidehouse** (Env Consulting) - [Data Analyst Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---IL-Fairview-Heights/Data-Analyst-Consultant_36813) - US - IL, Fairview Heights
-- **DHS Headquarters** (Government) - [Policy Analyst](https://www.usajobs.gov:443/job/878444500) - Washington, District of Columbia
 - **Defense Logistics Agency** (Government) - [Demand/Supply Chain Analyst](https://www.usajobs.gov:443/job/879329700) - Naval Air Station Jacksonville, Florida
 - **Federal Energy Regulatory Commission** (Government) - [Policy Data Analyst](https://www.usajobs.gov:443/job/879179500) - Washington, District of Columbia
-- **Federal Energy Regulatory Commission** (Government) - [SUPERVISORY ENERGY INDUSTRY ANALYST](https://www.usajobs.gov:443/job/878563300) - Washington, District of Columbia
 - **Federal Energy Regulatory Commission** (Government) - [ENERGY INDUSTRY ANALYST](https://www.usajobs.gov:443/job/879112700) - District of Columbia, District of Columbia; Washington, District of Columbia
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2289-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
-- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Austin, TX; Chicago, IL
+- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645811002#Open%20Roles) - Austin, TX; Chicago, IL
 - **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 
-### Internships (6)
+### Internships (5)
 
 - **FTI Consulting** (Energy Consulting) - [2027 Intern - Economic Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Economic-Consulting_JR260359) - United States
 - **Environmental Defense Fund** (Energy Policy) - [Legal Intern, Clean Air](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/Remote---US-Home/Legal-Intern--Clean-Air_REQ-002240) - REMOTE
 - **Environmental Defense Fund** (Energy Policy) - [Legal Intern, Clean Affordable Power](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/Remote---US-Home/Legal-Intern--Clean-Affordable-Power_REQ-002587) - REMOTE
 - **Environmental Defense Fund** (Energy Policy) - [Legal Intern, Climate Risk](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/Remote---US-Home/Legal-Intern--Climate-Risk_REQ-002585) - REMOTE
-- **Customs and Border Protection** (Government) - [Supervisory International Trade Analyst](https://www.usajobs.gov:443/job/878510500) - Multiple Locations
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [(Associate/Undergraduate) Intern - Carbon Management and Large Energy Systems](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Remote/XMLNAME--Associate-Undergraduate--Intern---Carbon-Management-and-Large-Energy-Systems_R14405) - REMOTE
 
 ### Remote (school-year workable) (6)
@@ -168,7 +166,7 @@
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_37773) - REMOTE
 - **Kpler** (Market Intelligence) - [Account Executive - Maritime/ Shipping & Logistics (New Business)](https://jobs.lever.co/kpler/a26f4209-45d6-45b0-b560-3e812e0ecb8a) - REMOTE
 
-### Other matches (119)
+### Other matches (118)
 
 - **Duke Energy** (Cleantech) - [Engineer II or Engineer III - Grid Operations](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Harrison-OH/Engineer-II-or-Engineer-III---Grid-Operations_R40756) - Harrison OH
 - **Duke Energy** (Cleantech) - [Grid Operations Engineer I](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Plainfield-IN/Grid-Operations-Engineer-I_R40755) - Plainfield IN
@@ -197,7 +195,7 @@
 - **ICF** (Consulting) - [Network Modeling and Simulation Researcher (Security Clearance Required)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Aberdeen-MD/Network-Modeling-and-Simulation-Researcher--Security-Clearance-Required-_R2600160) - Aberdeen, MD
 - **Lithium Americas** (Critical Minerals) - [Lithium Carbonate Control Room Operator](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Winnemucca-NV/Lithium-Carbonate-Control-Room-Operator_JR100062) - Winnemucca, NV
 - **Cornerstone Research** (Energy Consulting) - [Research Librarian](https://cornerstone.wd501.myworkdayjobs.com/en-US/CornerstoneResearch_Careers/job/San-Francisco-CA/Research-Librarian_R145-1) - San Francisco CA
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5823015972?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451582?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
 - **Booz Allen Hamilton** (Env Consulting) - [Operations Research Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Honolulu-HI/Operations-Research-Specialist_R0236582) - Honolulu, HI
 - **Booz Allen Hamilton** (Env Consulting) - [Defense Strategy Professional](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Defense-Strategy-Professional_R0246090) - McLean VA
 - **Booz Allen Hamilton** (Env Consulting) - [Power Platform Solution Developer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Power-Platform-Solution-Developer_R0245792-1) - McLean, VA
@@ -255,22 +253,21 @@
 - **Guidehouse** (Env Consulting) - [Policy and Law SME](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-and-Law-SME_40687) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
 - **Air Force Elements, U.S. Transportation Command** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/878094700) - Scott AFB, Illinois
+- **Air Force Materiel Command** (Government) - [EQUIPMENT CLEANER LEADER](https://www.usajobs.gov:443/job/879260400) - Tinker AFB, Oklahoma
+- **Animal and Plant Health Inspection Service** (Government) - [Economist](https://www.usajobs.gov:443/job/879450600) - Fort Collins, Colorado
 - **Bonneville Power Administration** (Government) - [Economist](https://www.usajobs.gov:443/job/879288400) - Portland, Oregon
 - **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/879256300) - Multiple locations
+- **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/879460200) - Dallas, Texas
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/878078600) - Baltimore, Maryland; Chambersburg, Pennsylvania; Fort Myers, Florida; Springfield, Massachusetts
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/877994800) - Lakewood, Colorado
 - **Bureau of Land Management** (Government) - [FUL - Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/878330300) - Lakewood, Colorado
-- **Immigration and Customs Enforcement** (Government) - [Economist](https://www.usajobs.gov:443/job/876530800) - Washington, District of Columbia
 - **Internal Revenue Service** (Government) - [Economist- Direct Hire](https://www.usajobs.gov:443/job/878529900) - Multiple Locations
-- **John C. Stennis Space Center** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/878712000) - Stennis Space Center, Mississippi
 - **Naval Supply Systems Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878347100) - Naval Support Activity, Mechanicsburg, Pennsylvania
 - **Naval Supply Systems Command** (Government) - [SUPERVISORY LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878716800) - Naval Support Activity, Mechanicsburg, Pennsylvania
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **STRATEGIC SYSTEMS PROGRAMS (SSP)** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878555300) - Washington Navy Yard, District of Columbia
 - **U.S. Army Corps of Engineers** (Government) - [POWER PLANT OPERATOR CREW SUPERVISOR](https://www.usajobs.gov:443/job/879080600) - Bridgeport, Washington
 - **U.S. Army Corps of Engineers** (Government) - [Regional Economist](https://www.usajobs.gov:443/job/878715600) - Multiple Locations
-- **U.S. Army Joint Munitions Command** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878523500) - Letterkenny Army Depot, Pennsylvania
-- **Veterans Health Administration** (Government) - [Utility Systems Repairer -Operator Helper - TECHNICAL CAREER FIELD (TCF) TRAINEE](https://www.usajobs.gov:443/job/875763400) - Grand Junction, Colorado
 - **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/877741700) - Fayetteville, Arkansas; San Diego, California
 - **Veterans Health Administration** (Government) - [Supervisory Logistics Management](https://www.usajobs.gov:443/job/878505300) - Loma Linda, California
 - **Veterans Health Administration** (Government) - [Pharmacist - Pharmacy Supervisor (Procurement and Inventory Management)](https://www.usajobs.gov:443/job/879036500) - Seattle, Washington
@@ -291,4 +288,4 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 42, errors: 0, total open matches: 352._
+_Companies checked: 42, errors: 0, total open matches: 350._
