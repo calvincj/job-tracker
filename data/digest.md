@@ -1,8 +1,8 @@
 # Job digest - 2026-08-07
 
-**269 open roles** across 38 firms.
+**269 open roles** across 37 firms.
 
-### New-grad / full-time (145)
+### New-grad / full-time (146)
 
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R40685-1) - Charlotte NC
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
@@ -142,18 +142,20 @@
 - **Guidehouse** (Env Consulting) - [Data Analyst Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---IL-Fairview-Heights/Data-Analyst-Consultant_36813) - US - IL, Fairview Heights
 - **Defense Logistics Agency** (Government) - [Demand/Supply Chain Analyst](https://www.usajobs.gov:443/job/879329700) - Naval Air Station Jacksonville, Florida
 - **Federal Energy Regulatory Commission** (Government) - [Policy Data Analyst](https://www.usajobs.gov:443/job/879179500) - Washington, District of Columbia
+- **Federal Energy Regulatory Commission** (Government) - [ENERGY INDUSTRY ANALYST LITIGATION](https://www.usajobs.gov:443/job/879689600) - Washington, District of Columbia
 - **Federal Energy Regulatory Commission** (Government) - [ENERGY INDUSTRY ANALYST](https://www.usajobs.gov:443/job/879112700) - District of Columbia, District of Columbia; Washington, District of Columbia
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2289-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
-- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Austin, TX; Chicago, IL
+- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645811002#Open%20Roles) - Austin, TX; Chicago, IL
 - **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 
-### Internships (4)
+### Internships (5)
 
 - **FTI Consulting** (Energy Consulting) - [2027 Intern - Economic Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/United-States/XMLNAME-2027-Intern---Economic-Consulting_JR260359) - United States
 - **Environmental Defense Fund** (Energy Policy) - [Legal Intern, Clean Air](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/Remote---US-Home/Legal-Intern--Clean-Air_REQ-002240) - REMOTE
+- **Environmental Defense Fund** (Energy Policy) - [Legal Intern, Clean Affordable Power](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/Remote---US-Home/Legal-Intern--Clean-Affordable-Power_REQ-002587) - REMOTE
 - **Environmental Defense Fund** (Energy Policy) - [Legal Intern, Climate Risk](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/Remote---US-Home/Legal-Intern--Climate-Risk_REQ-002585) - REMOTE
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [(Associate/Undergraduate) Intern - Carbon Management and Large Energy Systems](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Remote/XMLNAME--Associate-Undergraduate--Intern---Carbon-Management-and-Large-Energy-Systems_R14405) - REMOTE
 
@@ -166,7 +168,7 @@
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_37773) - REMOTE
 - **Kpler** (Market Intelligence) - [Account Executive - Maritime/ Shipping & Logistics (New Business)](https://jobs.lever.co/kpler/a26f4209-45d6-45b0-b560-3e812e0ecb8a) - REMOTE
 
-### Other matches (114)
+### Other matches (112)
 
 - **Duke Energy** (Cleantech) - [Engineer II or Engineer III - Grid Operations](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Harrison-OH/Engineer-II-or-Engineer-III---Grid-Operations_R40756) - Harrison OH
 - **Duke Energy** (Cleantech) - [Grid Operations Engineer I](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Plainfield-IN/Grid-Operations-Engineer-I_R40755) - Plainfield IN
@@ -195,7 +197,7 @@
 - **ICF** (Consulting) - [Network Modeling and Simulation Researcher (Security Clearance Required)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Aberdeen-MD/Network-Modeling-and-Simulation-Researcher--Security-Clearance-Required-_R2600160) - Aberdeen, MD
 - **Lithium Americas** (Critical Minerals) - [Lithium Carbonate Control Room Operator](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Winnemucca-NV/Lithium-Carbonate-Control-Room-Operator_JR100062) - Winnemucca, NV
 - **Cornerstone Research** (Energy Consulting) - [Research Librarian](https://cornerstone.wd501.myworkdayjobs.com/en-US/CornerstoneResearch_Careers/job/San-Francisco-CA/Research-Librarian_R145-1) - San Francisco CA
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5823015972?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451557?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
 - **Booz Allen Hamilton** (Env Consulting) - [Power Platform Developer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Norfolk-VA/Power-Platform-Developer_R0245702) - Arlington, VA; McLean VA; Norfolk, VA; Uruma City, Okinawa
 - **Booz Allen Hamilton** (Env Consulting) - [Defense Strategy Professional](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Defense-Strategy-Professional_R0246090) - McLean VA
 - **Booz Allen Hamilton** (Env Consulting) - [Power Platform Solution Developer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Power-Platform-Solution-Developer_R0245792-1) - McLean, VA
@@ -249,23 +251,21 @@
 - **Guidehouse** (Env Consulting) - [Structural Biology Research Scientist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Structural-Biology-Research-Scientist_41279) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Policy and Law SME](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Policy-and-Law-SME_40687) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
+- **Air Force Elements, U.S. Transportation Command** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/878094700) - Scott AFB, Illinois
 - **Air Force Materiel Command** (Government) - [EQUIPMENT CLEANER LEADER](https://www.usajobs.gov:443/job/879260400) - Tinker AFB, Oklahoma
 - **Animal and Plant Health Inspection Service** (Government) - [Economist](https://www.usajobs.gov:443/job/879450600) - Fort Collins, Colorado
 - **Bonneville Power Administration** (Government) - [Economist](https://www.usajobs.gov:443/job/879288400) - Portland, Oregon
-- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/879256300) - New York, New York
+- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/879256300) - Atlanta, Georgia; Chicago, Illinois; New York, New York
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/879460200) - Dallas, Texas
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/878078600) - Baltimore, Maryland; Chambersburg, Pennsylvania; Fort Myers, Florida; Springfield, Massachusetts
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/877994800) - Lakewood, Colorado
 - **Bureau of Land Management** (Government) - [FUL - Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/878330300) - Lakewood, Colorado
-- **Internal Revenue Service** (Government) - [Economist- Direct Hire](https://www.usajobs.gov:443/job/878529900) - Multiple Locations
-- **Naval Supply Systems Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878347100) - Naval Support Activity, Mechanicsburg, Pennsylvania
-- **Naval Supply Systems Command** (Government) - [SUPERVISORY LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878716800) - Naval Support Activity, Mechanicsburg, Pennsylvania
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **STRATEGIC SYSTEMS PROGRAMS (SSP)** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878555300) - Washington Navy Yard, District of Columbia
 - **U.S. Army Corps of Engineers** (Government) - [POWER PLANT OPERATOR CREW SUPERVISOR](https://www.usajobs.gov:443/job/879080600) - Bridgeport, Washington
 - **U.S. Army Corps of Engineers** (Government) - [Regional Economist](https://www.usajobs.gov:443/job/878715600) - Multiple Locations
-- **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/877741700) - Fayetteville, Arkansas; San Diego, California
 - **Veterans Health Administration** (Government) - [Supervisory Logistics Management](https://www.usajobs.gov:443/job/878505300) - Loma Linda, California
+- **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/878339100) - San Diego, California
 - **Veterans Health Administration** (Government) - [Pharmacist - Pharmacy Supervisor (Procurement and Inventory Management)](https://www.usajobs.gov:443/job/879036500) - Seattle, Washington
 - **Kpler** (Market Intelligence) - [Sales Development Representative - Maritime/Logistics](https://jobs.lever.co/kpler/ebc88846-7eb7-4ade-8770-fa6572bbdbc5) - Houston
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Researcher - Perovskite Packaging and Reliability](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Researcher---Perovskite-Packaging-and-Reliability_R14387) - Golden, CO
