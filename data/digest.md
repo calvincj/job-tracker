@@ -1,8 +1,8 @@
 # Job digest - 2026-08-10
 
-**272 open roles** across 38 firms.
+**270 open roles** across 38 firms.
 
-### New-grad / full-time (148)
+### New-grad / full-time (146)
 
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R40685-1) - Charlotte NC
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
@@ -67,12 +67,11 @@
 - **ERM** (Env Consulting) - [Consultant, Environmental Health and Safety, EHS - San Fran Bay Area, California](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Walnut-Creek-California/Consultant--Environmental-Health-and-Safety--EHS---San-Fran-Bay-Area--California_R00031527-1) - Walnut Creek California
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Archaeologist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Houston-Texas/Principal-Technical-Consultant--Archaeologist_R00031221-1) - Houston Texas
 - **ERM** (Env Consulting) - [Consultant, Land Services, Title Researcher](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Consultant--Land-Services--Title-Researcher_R00031438-1) - Rolling Meadows, Illinois
-- **ERM** (Env Consulting) - [Consultant, Archaeologist - Arizona](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Scottsdale-Arizona/Managing-Technical-Consultant--Archaeologist---New-Mexico_R00030614-1) - Scottsdale, Arizona
 - **ERM** (Env Consulting) - [Consultant, Archaeologist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Portland-Oregon/Senior-Consultant--Archaeologist_R00030300) - Portland Oregon
 - **ERM** (Env Consulting) - [Environmental, Health and Safety (EHS) Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Environmental--Health-and-Safety--EHS--Consultant--Field-Based-_R00031430) - Seattle, Washington
 - **ERM** (Env Consulting) - [Consulting Associate, Sustainable Operations](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Boston-Massachusetts/Consulting-Associate--Sustainable-Operations_R00031289-1) - Boston, Massachusetts; Hartford, Connecticut; Rochester, New York
 - **ERM** (Env Consulting) - [Consultant, Engineering/Geology/Science](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Consultant--Engineering-Geology-Science_R00030293-1) - Rolling Meadows, Illinois
-- **ERM** (Env Consulting) - [Environmental Health and Safety Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Walnut-Creek-California/Environmental-Health-and-Safety-Consultant--Field-Based-_R00031394-1) - Elko, Nevada; Irvine, California; Tampa, Florida; Walnut Creek, California
+- **ERM** (Env Consulting) - [Environmental Health and Safety Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Walnut-Creek-California/Environmental-Health-and-Safety-Consultant--Field-Based-_R00031394-1) - Elko, Nevada; Irvine, California; Walnut Creek, California
 - **ERM** (Env Consulting) - [Consultant, Environmental, Health, and Safety (EHS)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Los-Angeles-California/Consultant--Environmental--Health--and-Safety--EHS-_R00031178-1) - Los Angeles California
 - **ERM** (Env Consulting) - [Consultant, Environmental Health & Safety (EHS)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Hartford-Connecticut/Consultant--Scientist_R00030630-2) - Hartford Connecticut
 - **ERM** (Env Consulting) - [Consultant, Scientist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Minneapolis-Minnesota/Consultant--Scientist_R00030295-1) - Minneapolis, Minnesota
@@ -109,7 +108,6 @@
 - **Guidehouse** (Env Consulting) - [Human Capital Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Human-Capital-Consultant_42557) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Federal Law Enforcement Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Federal-Law-Enforcement-Data-Analyst_42455) - US - VA, Arlington
 - **Guidehouse** (Env Consulting) - [State and Local Government (SLG) - Consultant – Columbia, South Carolina](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---SC-Columbia/State-and-Local-Government--SLG----Consultant---Columbia--South-Carolina_41199) - US - SC, Columbia
-- **Guidehouse** (Env Consulting) - [Consultant Budget Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Consultant-Budget-Analyst_40875-1) - US - VA, McLean
 - **Guidehouse** (Env Consulting) - [Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/IN---Chennai/Data-Analyst_36368) - IN   Chennai, IN - Trivandrum, US - AL, Huntsville + 3 more
 - **Guidehouse** (Env Consulting) - [Information Assurance Policy Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Information-Assurance-Policy-Analyst_41053) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [Navy Lifecycle Sustainment Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Navy-Lifecycle-Sustainment-Consultant_42187) - US   DC Washington
@@ -150,7 +148,7 @@
 - **Wood Mackenzie** (Market Intelligence) - [Research Associate - Gas and LNG](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Gurugram-IN/Research-Associate---Gas-and-LNG_JR3191) - Gurugram IN
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
-- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645811002#Open%20Roles) - Austin, TX; Chicago, IL
+- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Austin, TX; Chicago, IL
 - **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 
 ### Internships (5)
@@ -200,7 +198,7 @@
 - **ICF** (Consulting) - [Network Modeling and Simulation Researcher (Security Clearance Required)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Aberdeen-MD/Network-Modeling-and-Simulation-Researcher--Security-Clearance-Required-_R2600160) - Aberdeen, MD
 - **Lithium Americas** (Critical Minerals) - [Lithium Carbonate Control Room Operator](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Winnemucca-NV/Lithium-Carbonate-Control-Room-Operator_JR100062) - Winnemucca, NV
 - **Cornerstone Research** (Energy Consulting) - [Research Librarian](https://cornerstone.wd501.myworkdayjobs.com/en-US/CornerstoneResearch_Careers/job/San-Francisco-CA/Research-Librarian_R145-1) - San Francisco CA
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451567?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451557?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
 - **Booz Allen Hamilton** (Env Consulting) - [Equipment Configuration and Logistics Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Meade-MD/Equipment-Configuration-and-Logistics-Specialist_R0246303) - Fort Meade, MD
 - **Booz Allen Hamilton** (Env Consulting) - [Power Platform Developer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Norfolk-VA/Power-Platform-Developer_R0245702) - Arlington, VA; McLean VA; Norfolk, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Defense Strategy Professional](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Defense-Strategy-Professional_R0246090) - McLean VA
@@ -257,7 +255,7 @@
 - **Air Force Materiel Command** (Government) - [EQUIPMENT CLEANER LEADER](https://www.usajobs.gov:443/job/879260400) - Tinker AFB, Oklahoma
 - **Animal and Plant Health Inspection Service** (Government) - [Economist](https://www.usajobs.gov:443/job/879450600) - Fort Collins, Colorado
 - **Bonneville Power Administration** (Government) - [Economist](https://www.usajobs.gov:443/job/879288400) - Portland, Oregon
-- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/879256300) - Atlanta, Georgia; Chicago, Illinois; New York, New York
+- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/879256300) - Atlanta, Georgia; Chicago, Illinois; New York, New York; San Francisco, California
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/879460200) - Dallas, Texas
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/879083400) - Baltimore, Maryland; Fort Myers, Florida; New York, New York; Springfield, Massachusetts
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/878331300) - Lakewood, Colorado
@@ -287,4 +285,4 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 42, errors: 0, total open matches: 344._
+_Companies checked: 42, errors: 0, total open matches: 342._
