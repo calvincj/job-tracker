@@ -621,3 +621,107 @@ companies:
     category: Consulting
     ats: manual
     careers_url: https://www.lek.com/careers
+
+  # ---- Smaller/boutique energy consulting + specialized nonprofits (more
+  # research/analyst-track roles, less pure-engineering than the utilities/
+  # engineering firms above) ----
+  - name: Carbon Direct
+    category: Climate Data
+    ats: greenhouse
+    slug: carbondirect              # confirmed via job content
+
+  - name: Breakthrough Energy
+    category: Cleantech
+    ats: greenhouse
+    slug: breakthroughenergy        # confirmed via job content
+
+  - name: Resource Innovations
+    category: Energy Consulting     # energy-efficiency program implementation -
+    ats: workable                   # lots of Program/Analyst roles, not engineering-heavy
+    slug: resource-innovations      # confirmed via job content ("Resource Innovations")
+
+  - name: Synapse Energy Economics
+    category: Energy Consulting
+    ats: manual                     # no clean public API found
+    careers_url: https://www.synapse-energy.com/about/careers
+
+  - name: ScottMadden
+    category: Energy Consulting
+    ats: manual                     # runs on UltiPro/UKG, no clean public API
+    careers_url: https://www.scottmadden.com/careers/
+
+  - name: Christensen Associates Energy Consulting
+    category: Energy Consulting
+    ats: manual                     # no clean public API found; careers_url unverified
+                                     # (site blocks automated requests, likely fine in a browser)
+    careers_url: https://www.caenergy.com/careers
+
+  - name: Edgeworth Economics
+    category: Energy Consulting
+    ats: manual
+    careers_url: https://edgewortheconomics.com/careers/
+
+  - name: GDS Associates
+    category: Energy Consulting
+    ats: manual                     # "gds" greenhouse slug is a different company (garage doors)
+    careers_url: https://www.gdsassociates.com/careers/
+
+  - name: E Source
+    category: Energy Consulting     # utility customer research/consulting
+    ats: manual                     # "e-source" ashby slug looks like a different company
+    careers_url: https://www.esource.com/careers
+
+  - name: Willdan Group
+    category: Env Consulting
+    ats: manual
+    careers_url: https://willdan.com/careers/
+
+  - name: Aurora Energy Research
+    category: Market Intelligence
+    ats: manual
+    careers_url: https://www.auroraer.com/careers/
+
+  - name: ACEEE
+    category: Energy Policy
+    ats: manual                     # careers page path not found; using homepage
+    careers_url: https://www.aceee.org
+
+  - name: Regulatory Assistance Project
+    category: Energy Policy
+    ats: manual
+    careers_url: https://www.raponline.org/about/careers/
+
+  - name: Center for Climate and Energy Solutions
+    category: Energy Policy
+    ats: manual                     # careers page path not found; using homepage
+    careers_url: https://www.c2es.org
+
+  - name: Environmental Entrepreneurs
+    category: Energy Policy
+    ats: manual                     # site blocks automated requests, likely fine in a browser
+    careers_url: https://e2.org
+
+  - name: Energy Foundation
+    category: Energy Policy
+    ats: manual
+    careers_url: https://www.ef.org/about-us/careers/
+
+  - name: Environmental and Energy Study Institute
+    category: Energy Policy
+    ats: manual
+    careers_url: https://www.eesi.org/jobs
+
+  - name: GridLab
+    category: Energy Policy
+    ats: manual
+    careers_url: https://www.gridlab.org/about/careers/
+
+  - name: WattTime
+    category: Climate Data
+    ats: manual
+    careers_url: https://www.watttime.org/about-us/careers/
+
+  - name: CarbonPlan
+    category: Climate Data
+    ats: manual
+    careers_url: https://carbonplan.org/jobs
