@@ -1,8 +1,8 @@
 # Job digest - 2026-08-12
 
-**275 open roles** across 39 firms.
+**276 open roles** across 40 firms.
 
-### New-grad / full-time (146)
+### New-grad / full-time (145)
 
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
 - **Baker Tilly** (Consulting) - [Salesforce Consultant - Systems Implementation Advisory](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-TX-Remote/Salesforce-Consultant---Systems-Implementation-Advisory_JR107380) - REMOTE
@@ -141,14 +141,13 @@
 - **Guidehouse** (Env Consulting) - [Data Analyst Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---IL-Fairview-Heights/Data-Analyst-Consultant_36813) - US - IL, Fairview Heights
 - **Bonneville Power Administration** (Government) - [Procurement Analyst (Purchase Card Coordinator)](https://www.usajobs.gov:443/job/879801800) - Vancouver, Washington
 - **Federal Energy Regulatory Commission** (Government) - [ENERGY INDUSTRY ANALYST LITIGATION](https://www.usajobs.gov:443/job/879689600) - Washington, District of Columbia
-- **Federal Energy Regulatory Commission** (Government) - [Energy Industry Analyst](https://www.usajobs.gov:443/job/879098200) - District of Columbia, District of Columbia
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2289-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
 - **Rystad Energy** (Market Intelligence) - [Graduate Management Consultant - Summer 2027](https://apply.workable.com/j/B6451957E1) - Oslo, Oslo
 - **Wood Mackenzie** (Market Intelligence) - [Research Associate - Gas and LNG](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Gurugram-IN/Research-Associate---Gas-and-LNG_JR3191) - Gurugram IN
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
-- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645811002#Open%20Roles) - Austin, TX; Chicago, IL
+- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Austin, TX; Chicago, IL
 - **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 
 ### Internships (2)
@@ -167,7 +166,7 @@
 - **Kpler** (Market Intelligence) - [Account Executive - Maritime/ Shipping & Logistics (New Business)](https://jobs.lever.co/kpler/a26f4209-45d6-45b0-b560-3e812e0ecb8a) - REMOTE
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Professional IV - Power Platform Engineer](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Remote/Professional-IV---Power-Platform-Engineer_R14178) - REMOTE
 
-### Other matches (119)
+### Other matches (121)
 
 - **Duke Energy** (Cleantech) - [Engineer II or Engineer III (Distributed Energy Strategy & Services)](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Raleigh-NC/Engineer-II-or-Engineer-III--Distributed-Energy-Strategy---Services-_R40898) - Raleigh NC
 - **Duke Energy** (Cleantech) - [Nuclear Engineer I or Nuclear Engineer II - Electrical Procurement](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Huntersville-NC/Nuclear-Engineer-I-or-Nuclear-Engineer-II---Electrical-Procurement_R40891) - Huntersville NC
@@ -257,14 +256,16 @@
 - **Air Force Elements, U.S. Transportation Command** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/878094700) - Scott AFB, Illinois
 - **Air Force Materiel Command** (Government) - [EQUIPMENT CLEANER LEADER](https://www.usajobs.gov:443/job/879260400) - Tinker AFB, Oklahoma
 - **Animal and Plant Health Inspection Service** (Government) - [Economist](https://www.usajobs.gov:443/job/879450600) - Fort Collins, Colorado
+- **Bonneville Power Administration** (Government) - [Power System Protection Engineer](https://www.usajobs.gov:443/job/880207900) - Vancouver, Washington
 - **Bonneville Power Administration** (Government) - [Economist](https://www.usajobs.gov:443/job/879288400) - Portland, Oregon
-- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/879256300) - Atlanta, Georgia, Chicago, Illinois, New York, New York + 2 more
+- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/879256300) - Atlanta, Georgia; Chicago, Illinois; Philadelphia, Pennsylvania; San Francisco, California
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/879460200) - Dallas, Texas
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist/Supervisory Statistician (Economics)](https://www.usajobs.gov:443/job/879952100) - Location Negotiable After Selection
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/879271800) - Fort Myers, Florida; New York, New York; Springfield, Massachusetts
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/879383100) - New York, New York; Springfield, Massachusetts
 - **Bureau of Land Management** (Government) - [Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/878331300) - Lakewood, Colorado
 - **Bureau of Land Management** (Government) - [FUL - Land Law Examiner (Minerals)](https://www.usajobs.gov:443/job/878330300) - Lakewood, Colorado
 - **Defense Contract Management Agency** (Government) - [Data Scientist (Supply Chain)](https://www.usajobs.gov:443/job/879720800) - Location Negotiable After Selection
+- **Employment and Training Administration** (Government) - [Economist](https://www.usajobs.gov:443/job/880160600) - Washington, District of Columbia
 - **Export-Import Bank of the United States** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/879989600) - Washington, District of Columbia
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **STRATEGIC SYSTEMS PROGRAMS (SSP)** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/878555300) - Washington Navy Yard, District of Columbia
