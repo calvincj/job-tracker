@@ -14,9 +14,11 @@ postings from these; check by hand weekly regardless.
 
 ### Climate Data
 
+- [CarbonPlan](https://carbonplan.org/jobs)
 - [ClimateAI](https://climateai.com/careers)
 - [Kayrros](https://www.kayrros.com/careers/)
 - [Persefoni](https://www.persefoni.com/careers)
+- [WattTime](https://www.watttime.org/about-us/careers/)
 
 ### Consulting
 
@@ -42,20 +44,33 @@ postings from these; check by hand weekly regardless.
 - [ADI Analytics](https://adi-analytics.com/about/careers/)
 - [Analysis Group](https://www.analysisgroup.com/careers/)
 - [Berkeley Research Group](https://jobs.jobvite.com/brg/jobs)
+- [Christensen Associates Energy Consulting](https://www.caenergy.com/careers)
 - [Concentric Energy Advisors](https://ceadvisors.com/careers/)
+- [E Source](https://www.esource.com/careers)
+- [Edgeworth Economics](https://edgewortheconomics.com/careers/)
 - [Enverus](https://jobs.jobvite.com/enverus)
+- [GDS Associates](https://www.gdsassociates.com/careers/)
 - [KPMG](https://www.kpmguscareers.com/job-search/)
 - [NERA Economic Consulting](https://careers.marsh.com/global/en/nera-search)
 - [Opportune LLP](https://opportune.com/about/careers)
 - [Ryder Scott](https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=5BF5DB1F98DC044CF0891D6B5C74AAFE)
+- [ScottMadden](https://www.scottmadden.com/careers/)
+- [Synapse Energy Economics](https://www.synapse-energy.com/about/careers)
 
 ### Energy Policy
 
+- [ACEEE](https://www.aceee.org)
 - [ACORE](https://acore.org/about/careers/)
 - [Advanced Energy United](https://advancedenergyunited.org/about/careers/)
 - [Bipartisan Policy Center](https://bipartisanpolicy.org/about-us/careers/)
+- [Center for Climate and Energy Solutions](https://www.c2es.org)
 - [Clean Air Task Force](https://clean-air-task-force.breezy.hr/)
+- [Energy Foundation](https://www.ef.org/about-us/careers/)
+- [Environmental Entrepreneurs](https://e2.org)
+- [Environmental and Energy Study Institute](https://www.eesi.org/jobs)
+- [GridLab](https://www.gridlab.org/about/careers/)
 - [NRDC](https://careers-nrdc.icims.com/)
+- [Regulatory Assistance Project](https://www.raponline.org/about/careers/)
 - [Resources for the Future](https://www.rff.org/careers/)
 - [Third Way](https://www.thirdway.org/careers)
 
@@ -67,6 +82,7 @@ postings from these; check by hand weekly regardless.
 - [SWCA Environmental Consultants](https://careers.swca.com/jobs)
 - [Tetra Tech](https://www.tetratech.com/careers)
 - [WSP](https://www.wsp.com/en-us/careers)
+- [Willdan Group](https://willdan.com/careers/)
 
 ### Foreign Policy
 
@@ -86,6 +102,7 @@ postings from these; check by hand weekly regardless.
 
 ### Market Intelligence
 
+- [Aurora Energy Research](https://www.auroraer.com/careers/)
 - [BloombergNEF](https://careers.bloomberg.com)
 
 ### National Lab
