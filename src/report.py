@@ -155,7 +155,7 @@ _KNOWN_CATEGORIES = [
     "Cleantech", "Renewable Developer", "Grid", "Consulting", "Env Consulting",
     "Energy Consulting", "Market Intelligence", "National Lab",
     "Critical Minerals", "Energy Policy", "Foreign Policy", "Government",
-    "Climate Data", "Trade & Supply Chain", "Think Tank",
+    "Climate Data", "Trade & Supply Chain", "Think Tank", "Climate Finance",
 ]
 
 def _posted_label(posted):

@@ -10,24 +10,35 @@ Three tracks, always split:
 
 ## What it covers
 
-- Cleantech / renewables: Redwood, Nexamp, Form Energy, Qcells, etc.
-- Utilities and grid: Duke Energy, NextEra, PJM, CAISO, ERCOT
-- Consulting: McKinsey, BCG, Bain, Deloitte, EY-P, PwC, Baker Tilly, ICF, L.E.K.
+- Cleantech / renewables: Redwood, Nexamp, Form Energy, Qcells, Oklo, Kairos
+  Power, Span, Base Power, Crusoe Energy, Heirloom, and more nuclear/geothermal/
+  DAC/hydrogen startups
+- Utilities and grid: Duke Energy, NextEra, PJM, CAISO, ERCOT, SDG&E, Sempra,
+  SCE, PG&E, Southern Company, AEP, Xcel, ConEd, PSEG, Entergy, MISO, SPP,
+  NYISO, ISO-NE
+- Renewable developers: Nexamp, Clearway Energy, Silicon Ranch, Apex Clean
+  Energy, Origis Energy, Invenergy, Orsted, AES, Pattern Energy, Longroad
+- Consulting: McKinsey, BCG, Bain, Deloitte, EY-P, PwC, Baker Tilly, ICF,
+  L.E.K., Oliver Wyman, Kearney
 - Economic/energy consulting: Brattle, CRA, FTI, NERA, Compass Lexecon,
-  Analysis Group, Cornerstone Research, plus Houston/TX boutiques
+  Analysis Group, Cornerstone Research, Exponent, Secretariat International,
+  London Economics International, plus Houston/TX boutiques
 - Environmental consulting: Guidehouse, AECOM, WSP, ERM, Tetra Tech, SWCA
-- Market intelligence: BloombergNEF, Wood Mackenzie, Rystad
+- Market intelligence: BloombergNEF, Wood Mackenzie, Rystad, Amperon
 - Climate data & analytics: Sylvera, Watershed, Cloverly, ClimateAI, Persefoni,
-  Kayrros (carbon accounting, ESG, climate risk)
+  Kayrros, Climate X, Jupiter Intelligence, Overstory (carbon accounting, ESG,
+  climate risk)
+- Climate finance: Generate Capital, Galvanize Climate Solutions
 - Trade / supply-chain data: Altana AI, Sayari, Everstream Analytics,
   project44, FourKites, Interos
 - Think tanks: Brookings, Energy Innovation, Center for American Progress,
   Niskanen Center, Urban Institute, plus foreign-policy shops (CSIS, Atlantic
   Council, Rhodium Group, etc.)
-- National labs: NLR (formerly NREL), LBNL, PNNL, ORNL, Sandia, INL, LLNL
+- National labs: NLR (formerly NREL), LBNL, PNNL, ORNL, Sandia, INL, LLNL,
+  Argonne, Brookhaven
 - Critical minerals / battery supply chain: MP Materials, Albemarle, Lithium
   Americas, KoBold Metals, Vulcan Elements, Ascend Elements, USA Rare Earth,
-  Energy Fuels, ABTC, Talon Metals
+  Energy Fuels, ABTC, Talon Metals, Group14 Technologies, Sila Nanotechnologies
 - Plus Adzuna (broad market net) and USAJobs (DOE/FERC/EPA/EIA federal roles)
 
 Full firm list with categories: `config/companies.yaml`.

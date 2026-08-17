@@ -725,3 +725,299 @@ companies:
     category: Climate Data
     ats: manual
     careers_url: https://carbonplan.org/jobs
+
+  # ---- San Diego / local utility (SD-based, per PROJECT.md track 3) ----
+  - name: San Diego Gas & Electric
+    category: Grid
+    ats: manual                     # Workday behind Cloudflare, 403s on automated probe
+    careers_url: https://www.sdge.com/careers
+
+  - name: Sempra
+    category: Grid
+    ats: manual                     # SDG&E/SoCalGas parent; Cloudflare blocks automated
+                                     # requests, fine in a browser
+    careers_url: https://www.sempra.com/careers
+
+  # ---- More utilities (Workday behind Cloudflare or bespoke; broadened Grid
+  # coverage beyond the original Duke/NextEra/PJM/CAISO/ERCOT set) ----
+  - name: Southern California Edison
+    category: Grid
+    ats: manual
+    careers_url: https://www.sce.com/careers
+
+  - name: Pacific Gas & Electric
+    category: Grid
+    ats: manual
+    careers_url: https://www.pgecareers.com
+
+  - name: Southern Company
+    category: Grid
+    ats: manual
+    careers_url: https://southerncompany.jobs/
+
+  - name: American Electric Power
+    category: Grid
+    ats: manual
+    careers_url: https://www.aepjobs.com
+
+  - name: Xcel Energy
+    category: Grid
+    ats: manual
+    careers_url: https://www.xcelenergy.com/careers
+
+  - name: Consolidated Edison
+    category: Grid
+    ats: manual
+    careers_url: https://www.coned.com/en/careers
+
+  - name: PSEG
+    category: Grid
+    ats: manual
+    careers_url: https://www.pseg.com/careers
+
+  - name: Entergy
+    category: Grid
+    ats: manual
+    careers_url: https://www.entergy.com/careers
+
+  # ---- More grid operators (RTOs/ISOs, same bucket as PJM/CAISO/ERCOT) ----
+  - name: MISO
+    category: Grid
+    ats: manual
+    careers_url: https://www.misoenergy.org/about/careers/
+
+  - name: Southwest Power Pool
+    category: Grid
+    ats: manual
+    careers_url: https://www.spp.org/careers/
+
+  - name: NYISO
+    category: Grid
+    ats: manual
+    careers_url: https://www.nyiso.com/careers
+
+  - name: ISO New England
+    category: Grid
+    ats: manual
+    careers_url: https://www.iso-ne.com/about/careers/
+
+  # ---- More renewable developers (utility-scale wind/solar/storage) ----
+  - name: Invenergy
+    category: Renewable Developer
+    ats: manual
+    careers_url: https://invenergy.com/who-we-are/careers
+
+  - name: Orsted
+    category: Renewable Developer
+    ats: manual                     # Cloudflare blocks automated requests, fine in a browser
+    careers_url: https://orsted.com/en/careers
+
+  - name: AES Corporation
+    category: Renewable Developer
+    ats: manual
+    careers_url: https://www.aes.com/careers
+
+  - name: Pattern Energy
+    category: Renewable Developer
+    ats: manual                     # Cloudflare blocks automated requests, fine in a browser
+    careers_url: https://www.patternenergy.com/careers
+
+  - name: Longroad Energy
+    category: Renewable Developer
+    ats: manual
+    careers_url: https://longroadenergy.com/careers/
+
+  - name: Clearway Energy
+    category: Renewable Developer
+    ats: greenhouse
+    slug: clearwayjobs              # confirmed; the "clearway" slug is a different (UK)
+                                     # company - has "Analyst, Resource Planning & Grid
+                                     # Integration" and a San Diego office
+  - name: Silicon Ranch
+    category: Renewable Developer
+    ats: greenhouse
+    slug: siliconranch              # confirmed; HQ Nashville, TN matches job locations
+
+  - name: Apex Clean Energy
+    category: Renewable Developer
+    ats: smartrecruiters
+    slug: apexcleanenergy           # confirmed; HQ Charlottesville, VA matches job locations
+
+  - name: Origis Energy
+    category: Renewable Developer
+    ats: greenhouse
+    slug: origisenergy              # confirmed via job content
+
+  # ---- More big-name strategy consulting ----
+  - name: Oliver Wyman
+    category: Consulting
+    ats: manual                     # "oliverwyman" lever slug is a different (unrelated)
+    careers_url: https://www.oliverwyman.com/careers.html  # company, verified
+
+  - name: Kearney
+    category: Consulting
+    ats: manual                     # Cloudflare blocks automated requests, fine in a browser
+    careers_url: https://www.kearney.com/careers
+
+  # ---- More boutique energy/economic consulting ----
+  - name: Exponent
+    category: Energy Consulting
+    ats: manual
+    careers_url: https://www.exponent.com/careers
+
+  - name: Secretariat International
+    category: Energy Consulting
+    ats: manual
+    careers_url: https://www.secretariat-intl.com/careers/
+
+  - name: London Economics International
+    category: Energy Consulting
+    ats: manual
+    careers_url: https://londoneconomics.com/careers/
+
+  # ---- More National Labs (contractor-run) ----
+  - name: Argonne National Laboratory
+    category: National Lab
+    ats: manual                     # Cloudflare blocks automated requests, fine in a browser
+    careers_url: https://www.anl.gov/careers
+
+  - name: Brookhaven National Laboratory
+    category: National Lab
+    ats: manual
+    careers_url: https://www.bnl.gov/careers/
+
+  # ---- More cleantech startups (nuclear, geothermal, DAC, hydrogen, thermal
+  # storage, carbon removal - all confirmed on clean ATS APIs) ----
+  - name: LevelTen Energy
+    category: Cleantech
+    ats: greenhouse
+    slug: leveltenenergy            # confirmed; PPA marketplace, Seattle, WA
+
+  - name: Aurora Solar
+    category: Cleantech
+    ats: ashby
+    slug: aurorasolar                # confirmed; solar design software
+
+  - name: Span
+    category: Cleantech
+    ats: ashby
+    slug: span                       # confirmed; home electrification hardware, SF
+
+  - name: Base Power
+    category: Cleantech
+    ats: ashby
+    slug: base-power                 # confirmed; residential battery storage, TX
+
+  - name: Antora Energy
+    category: Cleantech
+    ats: greenhouse
+    slug: antora                     # confirmed; thermal battery, San Jose, CA
+
+  - name: Electric Hydrogen
+    category: Cleantech
+    ats: greenhouse
+    slug: eh2                        # confirmed; green hydrogen electrolyzers
+
+  - name: Heirloom
+    category: Cleantech
+    ats: ashby
+    slug: heirloomcarbon              # confirmed; direct air capture, Brisbane, CA
+
+  - name: Charm Industrial
+    category: Cleantech
+    ats: lever
+    slug: charmindustrial             # confirmed; carbon removal via bio-oil
+
+  - name: Oklo
+    category: Cleantech
+    ats: greenhouse
+    slug: oklo                        # confirmed; nuclear microreactors, Santa Clara, CA
+
+  - name: Kairos Power
+    category: Cleantech
+    ats: greenhouse
+    slug: kairospower                 # confirmed; molten-salt nuclear reactors
+
+  - name: Quaise Energy
+    category: Cleantech
+    ats: greenhouse
+    slug: quaise                      # confirmed; deep geothermal drilling
+
+  - name: Twelve
+    category: Cleantech
+    ats: ashby
+    slug: twelve                      # confirmed; CO2 electrolysis, Berkeley, CA
+
+  - name: Crusoe Energy
+    category: Cleantech
+    ats: ashby
+    slug: crusoe                      # confirmed; energy/AI compute infrastructure
+
+  - name: Mill Industries
+    category: Cleantech
+    ats: greenhouse
+    slug: mill                        # confirmed; food-waste hardware, incl. Summer 2026
+                                       # engineering interns
+
+  - name: ON.energy
+    category: Cleantech
+    ats: greenhouse
+    slug: onenergy                    # confirmed; grid/data-center energy infrastructure -
+                                       # NOT "Our Next Energy" battery co, different company
+
+  - name: EnergyHub
+    category: Cleantech
+    ats: greenhouse
+    slug: energyhub                   # confirmed; DER management platform, Brooklyn, NY
+
+  - name: Bedrock Energy
+    category: Cleantech
+    ats: lever
+    slug: bedrockenergy               # confirmed; geothermal drilling for heat pumps
+
+  # ---- More critical minerals / battery materials ----
+  - name: Group14 Technologies
+    category: Critical Minerals
+    ats: greenhouse
+    slug: group14                     # confirmed; silicon battery anode materials, Seattle
+
+  - name: Sila Nanotechnologies
+    category: Critical Minerals
+    ats: greenhouse
+    slug: silananotechnologies        # confirmed; the "sila" lever slug is an unrelated
+                                       # HVAC/electrician company - battery anode materials
+
+  # ---- More climate data & analytics ----
+  - name: Climate X
+    category: Climate Data
+    ats: greenhouse
+    slug: climatex                    # confirmed; climate risk analytics, London-based
+                                       # (mostly UK roles, kept for any US/remote openings)
+
+  - name: Jupiter Intelligence
+    category: Climate Data
+    ats: lever
+    slug: jupiterintel                # confirmed; climate risk analytics
+
+  - name: Overstory
+    category: Climate Data
+    ats: greenhouse
+    slug: overstory                   # confirmed; satellite/ML vegetation & wildfire risk
+
+  - name: Amperon
+    category: Market Intelligence
+    ats: greenhouse
+    slug: amperon                     # confirmed; AI energy demand forecasting
+
+  # ---- Climate finance (new category - infrastructure/venture investing in
+  # climate, distinct from the data/analytics shops above) ----
+  - name: Generate Capital
+    category: Climate Finance
+    ats: ashby
+    slug: generate                    # confirmed; climate infrastructure investing, NY
+
+  - name: Galvanize Climate Solutions
+    category: Climate Finance
+    ats: greenhouse
+    slug: galvanizeclimatesolutions   # confirmed; climate investment firm, has entry-level
+                                       # "Analyst or Associate, Investor Partnerships"

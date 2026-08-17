@@ -26,8 +26,10 @@ postings from these; check by hand weekly regardless.
 - [Bain & Company](https://www.bain.com/careers/find-a-role/)
 - [Deloitte](https://apply.deloitte.com)
 - [EY-Parthenon](https://careers.ey.com)
+- [Kearney](https://www.kearney.com/careers)
 - [L.E.K. Consulting](https://www.lek.com/careers)
 - [McKinsey & Company](https://www.mckinsey.com/careers/search-jobs)
+- [Oliver Wyman](https://www.oliverwyman.com/careers.html)
 - [PwC](https://jobs.us.pwc.com)
 
 ### Critical Minerals
@@ -49,12 +51,15 @@ postings from these; check by hand weekly regardless.
 - [E Source](https://www.esource.com/careers)
 - [Edgeworth Economics](https://edgewortheconomics.com/careers/)
 - [Enverus](https://jobs.jobvite.com/enverus)
+- [Exponent](https://www.exponent.com/careers)
 - [GDS Associates](https://www.gdsassociates.com/careers/)
 - [KPMG](https://www.kpmguscareers.com/job-search/)
+- [London Economics International](https://londoneconomics.com/careers/)
 - [NERA Economic Consulting](https://careers.marsh.com/global/en/nera-search)
 - [Opportune LLP](https://opportune.com/about/careers)
 - [Ryder Scott](https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=5BF5DB1F98DC044CF0891D6B5C74AAFE)
 - [ScottMadden](https://www.scottmadden.com/careers/)
+- [Secretariat International](https://www.secretariat-intl.com/careers/)
 - [Synapse Energy Economics](https://www.synapse-energy.com/about/careers)
 
 ### Energy Policy
@@ -97,8 +102,22 @@ postings from these; check by hand weekly regardless.
 
 ### Grid
 
+- [American Electric Power](https://www.aepjobs.com)
+- [Consolidated Edison](https://www.coned.com/en/careers)
 - [Dominion Energy](https://careers.dominionenergy.com)
+- [Entergy](https://www.entergy.com/careers)
+- [ISO New England](https://www.iso-ne.com/about/careers/)
+- [MISO](https://www.misoenergy.org/about/careers/)
+- [NYISO](https://www.nyiso.com/careers)
 - [PJM](https://careers.pjm.com)
+- [PSEG](https://www.pseg.com/careers)
+- [Pacific Gas & Electric](https://www.pgecareers.com)
+- [San Diego Gas & Electric](https://www.sdge.com/careers)
+- [Sempra](https://www.sempra.com/careers)
+- [Southern California Edison](https://www.sce.com/careers)
+- [Southern Company](https://southerncompany.jobs/)
+- [Southwest Power Pool](https://www.spp.org/careers/)
+- [Xcel Energy](https://www.xcelenergy.com/careers)
 
 ### Market Intelligence
 
@@ -107,6 +126,8 @@ postings from these; check by hand weekly regardless.
 
 ### National Lab
 
+- [Argonne National Laboratory](https://www.anl.gov/careers)
+- [Brookhaven National Laboratory](https://www.bnl.gov/careers/)
 - [Idaho National Laboratory](https://inl.gov/careers-and-job-openings/)
 - [Lawrence Berkeley National Laboratory](https://careers.lbl.gov/)
 - [Lawrence Livermore National Laboratory](https://www.llnl.gov/join-our-team/careers/find-your-job)
@@ -116,7 +137,12 @@ postings from these; check by hand weekly regardless.
 
 ### Renewable Developer
 
+- [AES Corporation](https://www.aes.com/careers)
 - [EDP Renewables](https://www.edpr.com/en/careers)
+- [Invenergy](https://invenergy.com/who-we-are/careers)
+- [Longroad Energy](https://longroadenergy.com/careers/)
+- [Orsted](https://orsted.com/en/careers)
+- [Pattern Energy](https://www.patternenergy.com/careers)
 - [Qcells](https://careers.qcells.com/search/jobs)
 
 ### Think Tank
