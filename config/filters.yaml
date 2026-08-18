@@ -51,12 +51,17 @@ keywords_any:
   - esg                # ESG analyst / ESG data roles at climate-data shops
 
 # Only gates internships (role_type "intern") - during the school year you're
-# at UCSD and can't relocate, so intern postings must be San Diego or remote.
-# New-grad/full-time and everything else are NOT location-gated at all -
-# you're willing to relocate anywhere for those. See filtering.py passes().
+# at UCSD and can't relocate, so intern postings must be San Diego, SF/Bay
+# Area, or remote. New-grad/full-time and everything else are NOT
+# location-gated at all - you're willing to relocate anywhere for those.
+# See filtering.py passes().
 locations_any:
   - remote
   - san diego
+  - san francisco
+  - bay area
+  - south san francisco   # a real neighboring city, not "SF proper", but the
+                           # cleantech/biotech corridor is thick with it
 
 # Drop senior / leadership roles you can't apply to as an undergrad.
 exclude_title:
@@ -123,6 +128,17 @@ max_years_experience: 3
 # unknown posted dates are NOT dropped by this (can't verify = kept, same
 # recall-first stance as everything else here).
 max_days_since_posted: 100
+
+# Your actual grad year - June 2027. Only used to drop postings that
+# EXPLICITLY name a different class year in the title or description (e.g.
+# "Summer 2027 Internship - Class of 2028", "New Grad 2026 Program"). A
+# posting that names no class year at all is NOT touched by this - most
+# postings don't say one, and dropping those on a guess would hurt recall.
+# This exists specifically to keep "Class of 2028" internships (the standard
+# label for a rising-senior summer-2027 internship, which isn't you) out of
+# the intern track, and to keep stale/premature "2026" or "2028" new-grad
+# programs out of the new-grad track. See filtering.py _class_year_conflict.
+target_grad_year: 2027
 
 # US-only. Full country names are matched anywhere in the location text
 # (whole word); short country codes are only matched as the exact LAST

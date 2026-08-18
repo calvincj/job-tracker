@@ -113,6 +113,48 @@ def _requires_phd(description):
     return False
 
 
+# Explicit class-year / grad-year signals in a title or description. Each
+# pattern only fires next to a keyword that actually ties the year to a grad
+# cohort - a bare "2028" floating in a req ID or address would never match.
+# "Class of 2028" is the standard label for a rising-senior summer-2027
+# internship (the class one year behind you), which is exactly the mismatch
+# you asked to catch. Kept separate from the summer-program year below: a
+# posting that says both "Summer 2027" and "Class of 2028" is for the class
+# of 2028, full stop - the cohort label wins over the summer-timing label.
+_CLASS_YEAR_PATTERNS = (
+    re.compile(r"class of\s*'?(\d{4})", re.I),
+    re.compile(r"graduat\w*[^\d]{0,20}(\d{4})", re.I),
+    re.compile(r"(\d{4})\s+grad(?:uate)?s?\b", re.I),
+    re.compile(r"new\s+grad\w*[^\d]{0,15}(\d{4})", re.I),
+    re.compile(r"(\d{4})\s+new\s+grad", re.I),
+)
+_SUMMER_YEAR_RE = re.compile(r"summer\s+(\d{4})", re.I)
+
+
+def _plausible_years(matches):
+    return {int(y) for y in matches if 2000 <= int(y) <= 2100}
+
+
+def _class_year_conflict(title, description, target_year, role_type):
+    """True if the title/description names a class year, or (for
+    internships with no class-year label) a summer program year, that is NOT
+    target_year. No mention at all is not a conflict - most postings don't
+    say one, and dropping those on a guess would cost recall. Only checked
+    for intern/new_grad; "other"-tagged roles aren't cohort-specific."""
+    if not target_year or role_type not in ("intern", "new_grad"):
+        return False
+    text = f"{title} {_TAG_RE.sub(' ', description or '')}"
+    class_years = _plausible_years(
+        y for pat in _CLASS_YEAR_PATTERNS for y in pat.findall(text))
+    if class_years:
+        return target_year not in class_years
+    if role_type == "intern":
+        summer_years = _plausible_years(_SUMMER_YEAR_RE.findall(text))
+        if summer_years:
+            return target_year not in summer_years
+    return False
+
+
 def _lower(s):
     return (s or "").lower()
 
@@ -210,6 +252,14 @@ def passes(job, filters):
     # Analyst" whose qualifications section requires one). "PhD preferred"
     # doesn't trigger this - see _requires_phd.
     if _requires_phd(job.get("_description", "")):
+        return False
+
+    # class-year gate: drop postings that explicitly name a grad/summer year
+    # other than yours (e.g. "Class of 2028", "Summer 2026 Internship"). No
+    # year mentioned at all is not a conflict - see _class_year_conflict.
+    target_year = filters.get("target_grad_year")
+    if _class_year_conflict(job["title"], job.get("_description", ""),
+                            target_year, job["role_type"]):
         return False
 
     return True

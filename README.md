@@ -5,8 +5,14 @@ list of firms, emails me a digest of new postings. No manual polling.
 
 Three tracks, always split:
 1. Full-time / new-grad, starting ~June 2027
-2. Internships, summer 2027+
-3. Remote or San Diego, workable during the school year
+2. Internships, summer 2027
+3. Remote, San Diego, or SF/Bay Area, workable during the school year
+
+Both track 1 and 2 are gated to your actual grad year - a posting that
+explicitly says "Class of 2028" or "Summer 2026" gets dropped even if it
+otherwise matches, so a rising-senior internship or an off-cycle new-grad
+program doesn't sneak into your digest. See `target_grad_year` in
+`config/filters.yaml`.
 
 ## What it covers
 
@@ -65,6 +71,9 @@ Full firm list with categories: `config/companies.yaml`.
 - `config/companies.yaml` - add, drop, or recategorize firms. New firm on
   Greenhouse/Lever/Ashby? Confirm with `python -m src.discover "Name"`. New
   Workday firm? See `src/ats/workday.py` for how to find host/tenant/site.
+- `target_grad_year` in `config/filters.yaml` - bump this the summer you
+  actually graduate, or the class-year gate starts filtering out the roles
+  you want.
 - Bias filters toward recall over precision - a few off-target roles beat a
   silently dropped real one.
 

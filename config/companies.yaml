@@ -1021,3 +1021,47 @@ companies:
     ats: greenhouse
     slug: galvanizeclimatesolutions   # confirmed; climate investment firm, has entry-level
                                        # "Analyst or Associate, Investor Partnerships"
+
+  # ---- San Francisco / Bay Area push (per your interest) - confirmed on
+  # clean ATS feeds, SF-headquartered unless noted ----
+  - name: Sunrun
+    category: Cleantech
+    ats: workday
+    workday:
+      host: sunrun.wd5.myworkdayjobs.com   # confirmed
+      tenant: sunrun
+      site: Sunrun_Careers                # residential solar, SF HQ, 300+ open roles,
+                                           # incl. "Senior Associate, Strategic Pricing" in SF
+
+  - name: Crux Climate
+    category: Climate Finance
+    ats: ashby
+    slug: cruxclimate                # confirmed; clean-energy tax credit marketplace, SF
+
+  - name: Living Carbon
+    category: Cleantech
+    ats: lever
+    slug: livingcarbon               # confirmed; bioengineered carbon-capture trees, SF
+
+  - name: Planet Labs
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: planetlabs                 # confirmed; satellite imagery/data, SF HQ (many
+                                      # postings are EMEA/APAC - worth eyeballing per role)
+
+  # ---- More climate data / cleantech (not SF, but confirmed clean ATS feeds
+  # found in the same pass) ----
+  - name: CarbonChain
+    category: Climate Data
+    ats: greenhouse
+    slug: carbonchain                # confirmed; carbon accounting for commodities, London
+
+  - name: Moment Energy
+    category: Cleantech
+    ats: greenhouse
+    slug: momentenergy                # confirmed; second-life EV battery storage, Vancouver BC
+
+  - name: Treeswift
+    category: Cleantech
+    ats: ashby
+    slug: treeswift                   # confirmed; forestry robotics, NY
