@@ -1,9 +1,10 @@
 # Job digest - 2026-08-20
 
-**303 open roles** across 39 firms.
+**306 open roles** across 38 firms.
 
-### New-grad / full-time (170)
+### New-grad / full-time (172)
 
+- **Duke Energy** (Cleantech) - [Supply Chain Operations Planner/Associate Supply Chain Operations Planner](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Greensboro-NC/Supply-Chain-Operations-Planner-Associate-Supply-Chain-Operations-Planner_R41012) - Greensboro, NC
 - **Duke Energy** (Cleantech) - [Associate EHS Consultant - Environmental focus](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Cincinnati-OH/Associate-EHS-Consultant---Environmental-focus_R41041) - Cincinnati, OH
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Global Supply Chain Analyst](https://boards.greenhouse.io/redwoodmaterials/jobs/6142676004?gh_jid=6142676004) - McCarran, NV
@@ -131,6 +132,7 @@
 - **Guidehouse** (Env Consulting) - [Workday HCM Training Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Workday-HCM-Training-Consultant_43126) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Workday HCM Change Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Workday-HCM-Change-Management-Consultant_43035) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Workday HCM Functional Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Workday-HCM-Functional-Consultant_42974) - US - DC, Washington
+- **Guidehouse** (Env Consulting) - [Employee Relations Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---TX-San-Antonio/Employee-Relations-Consultant_42698) - US   TX San Antonio
 - **Guidehouse** (Env Consulting) - [Consultant - Workday Platforms, Technology - Campus 2026](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---TX-Austin/Consultant---Workday-Platforms--Technology---Campus-2026_43062-1) - US   TX Austin
 - **Guidehouse** (Env Consulting) - [Federal Law Enforcement Procurement Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Federal-Law-Enforcement-Procurement-Analyst_43034) - US - VA, Arlington
 - **Guidehouse** (Env Consulting) - [Power Platform & Automation Solutions Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MO-St-Louis/Power-Platform---Automation-Solutions-Consultant_42861) - US   MO St Louis
@@ -191,17 +193,17 @@
 - **Kpler** (Market Intelligence) - [Account Executive - Maritime/ Shipping & Logistics (New Business)](https://jobs.lever.co/kpler/a26f4209-45d6-45b0-b560-3e812e0ecb8a) - REMOTE
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Professional IV - Power Platform Engineer](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Remote/Professional-IV---Power-Platform-Engineer_R14178) - REMOTE
 
-### Other matches (123)
+### Other matches (124)
 
 - **Duke Energy** (Cleantech) - [Engineer I or II - Power Grid Planning](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Raleigh-NC/Engineer-I-or-II---Power-Grid-Planning_R41073) - Raleigh, NC
 - **Duke Energy** (Cleantech) - [Engineer II or Engineer III - Grid Operations](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Harrison-OH/Engineer-II-or-Engineer-III---Grid-Operations_R40756) - Harrison OH
 - **Duke Energy** (Cleantech) - [Engineer II or Engineer III (Distributed Energy Strategy & Services)](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Raleigh-NC/Engineer-II-or-Engineer-III--Distributed-Energy-Strategy---Services-_R40898) - Raleigh NC
 - **Duke Energy** (Cleantech) - [Nuclear Engineer I or Nuclear Engineer II - Electrical Procurement](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Huntersville-NC/Nuclear-Engineer-I-or-Nuclear-Engineer-II---Electrical-Procurement_R40891) - Huntersville NC
 - **Redwood Materials** (Cleantech) - [Battery Software Integration Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6139225004?gh_jid=6139225004) - San Francisco, California, United States
-- **Redwood Materials** (Cleantech) - [Electrical Engineer, Energy Storage Project Engineering](https://boards.greenhouse.io/redwoodmaterials/jobs/6143587004?gh_jid=6143587004) - San Francisco, California, United States
+- **Redwood Materials** (Cleantech) - [Electrical Engineer, Energy Storage Project Engineering](https://boards.greenhouse.io/redwoodmaterials/jobs/6143587004?gh_jid=6143587004) - McCarran, NV; San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Embedded Software Engineer – Power Electronics, Energy Storage ](https://boards.greenhouse.io/redwoodmaterials/jobs/6003203004?gh_jid=6003203004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Field Service Technician, Battery Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6133746004?gh_jid=6133746004) - McCarran, NV
-- **Redwood Materials** (Cleantech) - [Land Use Engineer, Energy Storage Project Engineering](https://boards.greenhouse.io/redwoodmaterials/jobs/6143595004?gh_jid=6143595004) - San Francisco, California, United States
+- **Redwood Materials** (Cleantech) - [Land Use Engineer, Energy Storage Project Engineering](https://boards.greenhouse.io/redwoodmaterials/jobs/6143595004?gh_jid=6143595004) - McCarran, NV; San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Production Supervisor, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6128383004?gh_jid=6128383004) - McCarran, NV
 - **Redwood Materials** (Cleantech) - [Software Engineer - ML/Computer Vision (Battery Sorting)](https://boards.greenhouse.io/redwoodmaterials/jobs/6099577004?gh_jid=6099577004) - McCarran, NV; San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Software Engineer - Site Controller, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6097367004?gh_jid=6097367004) - San Francisco, California, United States
@@ -233,7 +235,7 @@
 - **Resource Innovations** (Energy Consulting) - [Home Energy Assessor](https://apply.workable.com/j/317187B75F) - Marquette, Michigan
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/A7C9805A71) - Chandler, Arizona; Philadelphia, Pennsylvania
 - **Resource Innovations** (Energy Consulting) - [Residential Field Technician, Energy Efficiency](https://apply.workable.com/j/6C5AE9F4FE) - Fort Wayne, Indiana
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451669?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Idaho City, Boise County, Las Vegas, Clark County + 5 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5813451720?utm_medium=api&utm_source=7de842cf) - Denver, Colorado; Idaho City, Boise County; Reno, Washoe County; Tampa, Hillsborough County
 - **Booz Allen Hamilton** (Env Consulting) - [SOC Infrastructure DevOps Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/SOC-Infrastructure-DevOps-Engineer_R0246486) - Annapolis Junction MD
 - **Booz Allen Hamilton** (Env Consulting) - [Wireless Infrastructure Engineer, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Wireless-Infrastructure-Engineer--Mid_R0233198) - McLean, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Wireless Infrastructure Engineer, Junior](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Wireless-Infrstructure-Engineer--Junior_R0246947) - McLean, VA
@@ -283,23 +285,24 @@
 - **Guidehouse** (Env Consulting) - [Cloud Platforms Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/IN---Trivandrum/Cloud-Platforms-Infrastructure-Engineer_39424) - IN   Trivandrum
 - **Guidehouse** (Env Consulting) - [Structural Biology Research Scientist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Structural-Biology-Research-Scientist_41279) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
-- **Air Mobility Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/880354400) - Scott AFB, Illinois
 - **Bonneville Power Administration** (Government) - [Power System Protection Engineer](https://www.usajobs.gov:443/job/880207900) - Vancouver, Washington
-- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/879772500) - San Francisco, California
-- **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/879460200) - Dallas, Texas
+- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/880622300) - San Francisco, California
+- **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/880193800) - Dallas, Texas
 - **Bureau of Labor Statistics** (Government) - [Economist/Statistician (Economics)](https://www.usajobs.gov:443/job/880935900) - Location Negotiable After Selection
+- **Bureau of Labor Statistics** (Government) - [Economist / Statistician (Economics)](https://www.usajobs.gov:443/job/881343000) - Multiple Locations
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist/Supervisory Statistician (Economics)](https://www.usajobs.gov:443/job/879952100) - Location Negotiable After Selection
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/879383100) - Milwaukee, Wisconsin; Punta Gorda, Florida; Springfield, Massachusetts
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Spanish) - Part-time](https://www.usajobs.gov:443/job/880449100) - New York, New York
 - **Equal Employment Opportunity Commission** (Government) - [Economist](https://www.usajobs.gov:443/job/881132000) - Multiple Locations
+- **Export-Import Bank of the United States** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/881267300) - Washington, District of Columbia
 - **Forest Service** (Government) - [Economist/Biological Scientist/ Mathematical Statistician](https://www.usajobs.gov:443/job/880762400) - Location Negotiable After Selection
-- **National Oceanic and Atmospheric Administration** (Government) - [Supervisory Research Physical Scientist](https://www.usajobs.gov:443/job/880276200) - Multiple Locations
 - **Office of the Inspector General, USPS** (Government) - [Data Analytics Specialist (Audit) - Contracts & Supply Management](https://www.usajobs.gov:443/job/880565400) - Multiple locations
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **Southwestern Power Administration** (Government) - [Administrator for Southwestern Power Administration](https://www.usajobs.gov:443/job/880918200) - Multiple Locations
 - **Treasury, Departmental Offices** (Government) - [Intelligence Research Specialist (CounterIntelligence)](https://www.usajobs.gov:443/job/880040100) - Washington, District of Columbia
-- **U.S. Army Corps of Engineers** (Government) - [POWER PLANT OPERATOR](https://www.usajobs.gov:443/job/880328200) - Bridgeport, Washington
+- **U.S. Army Corps of Engineers** (Government) - [POWER PLANT OPERATOR](https://www.usajobs.gov:443/job/880328200) - Bridgeport, Washington; Umatilla, Oregon
 - **U.S. Army Corps of Engineers** (Government) - [Economist](https://www.usajobs.gov:443/job/880752700) - Walla Walla, Washington
+- **Veterans Health Administration** (Government) - [Supervisory Logistics Management](https://www.usajobs.gov:443/job/881277800) - Loma Linda, California
 - **Veterans Health Administration** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/880429600) - Leeds, Massachusetts
 - **Western Area Power Administration** (Government) - [Supervisory Power System Dispatcher](https://www.usajobs.gov:443/job/880303000) - Multiple Locations
 - **ERCOT** (Grid) - [Real Time Power Engineer - Shift](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Real-Time-Power-Engineer---Shift_R2385-1) - Austin, TX
@@ -318,4 +321,4 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 45, errors: 0, total open matches: 393._
+_Companies checked: 45, errors: 0, total open matches: 390._
