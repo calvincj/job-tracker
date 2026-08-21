@@ -1,8 +1,8 @@
 # Job digest - 2026-08-21
 
-**314 open roles** across 38 firms.
+**313 open roles** across 38 firms.
 
-### New-grad / full-time (175)
+### New-grad / full-time (174)
 
 - **Duke Energy** (Cleantech) - [Supply Chain Operations Planner/Associate Supply Chain Operations Planner](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Greensboro-NC/Supply-Chain-Operations-Planner-Associate-Supply-Chain-Operations-Planner_R41012) - Greensboro, NC
 - **Duke Energy** (Cleantech) - [Associate EHS Consultant - Environmental focus](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Cincinnati-OH/Associate-EHS-Consultant---Environmental-focus_R41041) - Cincinnati, OH
@@ -130,7 +130,6 @@
 - **Guidehouse** (Env Consulting) - [Salesforce Solution Consultant (Business Analyst)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Salesforce-Solution-Consultant--Business-Analyst-_42727) - REMOTE
 - **Guidehouse** (Env Consulting) - [Process Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Process-Transformation-Consultant_43193-1) - US   VA Arlington
 - **Guidehouse** (Env Consulting) - [Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/IN---Chennai/Data-Analyst_41713) - REMOTE
-- **Guidehouse** (Env Consulting) - [Consultant - Life Sciences Advisory, Health Segment - Campus 2027](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Consultant---Life-Sciences-Advisory--Health-Segment---Campus-2027_43287) - US   NY New York
 - **Guidehouse** (Env Consulting) - [Department of War Financial Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Department-of-War-Financial-Management-Consultant_41431) - US - VA, McLean
 - **Guidehouse** (Env Consulting) - [Workday HCM Training Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Workday-HCM-Training-Consultant_43126) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Workday HCM Change Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Workday-HCM-Change-Management-Consultant_43035) - US - DC, Washington
@@ -250,7 +249,6 @@
 - **Booz Allen Hamilton** (Env Consulting) - [Wireless Infrastructure Engineer, Junior](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Wireless-Infrstructure-Engineer--Junior_R0246947) - McLean, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Cloud Infrastructure Support Engineer, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Charlottesville-VA/Cloud-Infrastructure-Support-Engineer--Mid_R0244368) - Charlottesville, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Power Platform Developer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/Power-Platform-Developer_R0239295) - Arlington, VA, McLean VA, Norfolk, VA + 2 more
-- **Booz Allen Hamilton** (Env Consulting) - [Procurement Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Honolulu-HI/Procurement-Specialist_R0241132) - Honolulu, HI
 - **Booz Allen Hamilton** (Env Consulting) - [AI-Powered Cyber Defense Product Sales Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/AI-Powered-Cyber-Defense-Product-Sales-Engineer_R0245814) - McLean VA
 - **Booz Allen Hamilton** (Env Consulting) - [Systems Engineering Acquisition Logistics Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/El-Segundo-CA/Systems-Engineering-Acquisition-Logistics-Specialist_R0245862) - El Segundo, CA
 - **Booz Allen Hamilton** (Env Consulting) - [Sensitive Activities Operations Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Stuttgart-Baden-Wurttemberg/Sensitive-Activities-Operations-Researcher_R0244433) - Stuttgart, Baden-Wurttemberg
@@ -325,8 +323,9 @@
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Electro-magnetic transient (EMT) modeling, laboratory verification, and stability analysis for power systems Researcher](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Electro-magnetic-transient--EMT--modeling--laboratory-verification--and-stability-analysis-for-power-systems-Researcher_R14347) - Golden, CO
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Adversarial Cybersecurity Researcher](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Adversarial-Cybersecurity-Researcher_R14064) - Golden, CO
 - **Nexamp** (Renewable Developer) - [Energy Storage Project Developer](https://nexamp.com//careers?gh_jid=8546118002#Open%20Roles) - Chicago, IL
+- **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 - **Urban Institute** (Think Tank) - [Research Assistant (Housing and Communities Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Housing-and-Communities-Division-_R-801650) - The Urban Institute (DC)
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 45, errors: 0, total open matches: 397._
+_Companies checked: 45, errors: 0, total open matches: 396._
