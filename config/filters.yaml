@@ -120,6 +120,22 @@ exclude_title:
   - agriculture
   - farm
 
+  # Not your field - sales roles slip through because "energy"/"solar"/
+  # "renewable" etc show up in their titles too (e.g. "Solar Sales
+  # Representative", "Energy Sales Retail Associate"). Whole-word match, so
+  # "sales" doesn't touch "Salesforce" (Guidehouse/Baker Tilly Salesforce
+  # Consultant roles stay in).
+  - sales
+  - account executive
+
+  # Not your field - marketing roles (e.g. "Marketing and Communications Data
+  # Analyst" slips through on "data analyst"), and hands-on field/trade roles
+  # you're not credentialed for (electrician licensure, technician trade
+  # skills), e.g. "Solar Licensed Electrician", "Wind Technician".
+  - marketing
+  - technician
+  - electrician
+
 # Best-effort: drop a job if its own description states a minimum years of
 # experience above this. Only checked for sources that give us the full
 # description for free (Greenhouse, Ashby) - others are left unfiltered on
@@ -162,6 +178,28 @@ non_us_country_names:
   - colombia
   - peru
   - india
+  - ind          # ISO alpha-3 for India - some Workday listings format
+                 # location as "IND KA Bangalore - Cherry Hills" with no
+                 # "India" spelled out and no comma, so the country-code
+                 # (last-comma-segment) check below never sees it. Safe as a
+                 # whole word - no US city/state is literally "ind".
+  # Indian cities, whole-word matched, to catch location strings that use a
+  # city name with the ambiguous 2-letter "IN" code (which collides with
+  # Indiana's postal code, so "in" is deliberately NOT in the codes list
+  # below) instead of spelling out "India", e.g. "IN - Gurugram",
+  # "Gurugram, IN", "IN   Trivandrum".
+  - bangalore
+  - bengaluru
+  - hyderabad
+  - gurgaon
+  - gurugram
+  - chennai
+  - noida
+  - trivandrum
+  - kolkata
+  - pune
+  - mumbai
+  - ahmedabad
   - china
   - japan
   - south korea
