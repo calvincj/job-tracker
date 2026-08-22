@@ -136,6 +136,35 @@ exclude_title:
   - technician
   - electrician
 
+  # No military/defense work. Catches Booz Allen/Guidehouse defense-practice
+  # titles ("Military Logistics Planner", "Defense Trade Analyst", "Navy
+  # Lifecycle Sustainment Consultant") and defense-adjacent security-clearance
+  # roles at otherwise-relevant employers (e.g. a national-lab "Special
+  # Security Officer" post). "national security" is broad enough to also drop
+  # CNAS's core beat - deliberate, since defense policy is most of what they
+  # do.
+  - defense
+  - military
+  - army
+  - navy
+  - air force
+  - marine corps
+  - pentagon
+  - national security
+  - homeland security
+
+# Whole-word match against the company/agency name, not the title - for
+# postings whose title alone gives no hint it's a military employer (e.g. a
+# USAJobs "Economist" or "Power Plant Operator" posting at the Army Corps of
+# Engineers). See exclude_title above for the title-level defense/military
+# excludes; this catches what those miss.
+exclude_employer:
+  - army
+  - navy
+  - air force
+  - marine corps
+  - department of defense
+
 # Best-effort: drop a job if its own description states a minimum years of
 # experience above this. Only checked for sources that give us the full
 # description for free (Greenhouse, Ashby) - others are left unfiltered on

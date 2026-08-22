@@ -213,6 +213,15 @@ def passes(job, filters):
         if _has_word(title, _lower(bad)):
             return False
 
+    # exclude whole employers (whole-word match against company name) - for
+    # cases where the disqualifying signal is who the job is with, not what
+    # the title says (e.g. a USAJobs "Economist" posting at the Army Corps of
+    # Engineers - the title alone gives no hint it's a military agency).
+    company_name = _lower(job.get("company", ""))
+    for bad in filters.get("exclude_employer", []):
+        if _has_word(company_name, _lower(bad)):
+            return False
+
     # keyword gate
     kw = filters.get("keywords_any", [])
     if kw and not any(k in title for k in kw):
