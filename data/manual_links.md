@@ -5,12 +5,14 @@ postings from these; check by hand weekly regardless.
 
 ### Cleantech
 
+- [BlocPower](https://www.blocpower.io/careers)
 - [Climeworks](https://climeworks.com/careers-search)
 - [EN Engineering](https://www.enengineering.com/careers)
 - [Fervo Energy](https://fervoenergy.com/careers/)
 - [Iberdrola](https://www.iberdrola.com/careers)
 - [Lilac Solutions](https://lilacsolutions.com/careers)
 - [NextEra Energy](https://jobs.nexteraenergy.com/)
+- [Stem Inc](https://www.stem.com/careers/)
 
 ### Climate Data
 
@@ -19,6 +21,10 @@ postings from these; check by hand weekly regardless.
 - [Kayrros](https://www.kayrros.com/careers/)
 - [Persefoni](https://www.persefoni.com/careers)
 - [WattTime](https://www.watttime.org/about-us/careers/)
+
+### Climate Finance
+
+- [BlackRock](https://careers.blackrock.com/)
 
 ### Consulting
 
@@ -38,6 +44,7 @@ postings from these; check by hand weekly regardless.
 - [Elevra Lithium (formerly Piedmont Lithium)](https://www.elevra.com/careers/)
 - [Energy Fuels](https://www.energyfuels.com/careers/)
 - [MP Materials](https://mpmaterials.com/careers/)
+- [QuantumScape](https://www.quantumscape.com/careers/)
 - [Talon Metals](https://talonmetals.com/job-opportunities/)
 - [USA Rare Earth](https://careers.usare.com/)
 
@@ -83,6 +90,7 @@ postings from these; check by hand weekly regardless.
 - [Institute for Energy Economics and Financial Analysis](https://ieefa.org/about-us/careers)
 - [Institute for Market Transformation](https://www.imt.org/jobs/)
 - [NRDC](https://careers-nrdc.icims.com/)
+- [NYSERDA](https://www.nyserda.ny.gov/About/Careers)
 - [Public Citizen](https://www.citizen.org/about/jobs/)
 - [Regulatory Assistance Project](https://www.raponline.org/about/careers/)
 - [Resources for the Future](https://www.rff.org/careers/)
@@ -118,6 +126,7 @@ postings from these; check by hand weekly regardless.
 - [ISO New England](https://www.iso-ne.com/about/careers/)
 - [MISO](https://www.misoenergy.org/about/careers/)
 - [NYISO](https://www.nyiso.com/careers)
+- [New York Power Authority](https://www.nypa.gov/careers)
 - [PJM](https://careers.pjm.com)
 - [PSEG](https://www.pseg.com/careers)
 - [Pacific Gas & Electric](https://www.pgecareers.com)
@@ -132,6 +141,7 @@ postings from these; check by hand weekly regardless.
 
 - [Aurora Energy Research](https://www.auroraer.com/careers/)
 - [BloombergNEF](https://careers.bloomberg.com)
+- [S&P Global](https://careers.spglobal.com/)
 
 ### National Lab
 

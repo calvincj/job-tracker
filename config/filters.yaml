@@ -62,6 +62,10 @@ locations_any:
   - bay area
   - south san francisco   # a real neighboring city, not "SF proper", but the
                            # cleantech/biotech corridor is thick with it
+  - new york               # also want SF/NYC for internships, not just
+  - new york city           # school-year-workable San Diego/remote
+  - nyc
+  - brooklyn
 
 # Drop senior / leadership roles you can't apply to as an undergrad.
 exclude_title:

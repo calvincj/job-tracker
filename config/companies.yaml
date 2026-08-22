@@ -1158,3 +1158,85 @@ companies:
     ats: manual                       # has a climate/energy program; greenhouse
                                        # "public" slug is an unrelated tech company
     careers_url: https://www.citizen.org/about/jobs/
+
+  # ---- More SF/Bay Area push (per your interest in working there) ----
+  - name: Voltus
+    category: Cleantech
+    ats: lever
+    slug: voltus                      # confirmed; demand response, SF - has
+                                       # "Energy Markets Analyst (NYISO)" and
+                                       # "Energy Markets Intern (MISO)" roles
+
+  - name: ChargePoint
+    category: Cleantech
+    ats: greenhouse
+    slug: chargepoint                 # confirmed via job content; EV charging
+                                       # infrastructure, Campbell, CA
+
+  - name: Enphase Energy
+    category: Cleantech
+    ats: workable
+    slug: enphase-energy              # confirmed; solar/storage tech, Fremont, CA
+
+  - name: Bloom Energy
+    category: Cleantech
+    ats: workable
+    slug: bloom-energy                # confirmed; fuel cells, San Jose, CA (the
+                                       # lever/smartrecruiters/greenhouse "bloom"
+                                       # slugs are unrelated companies)
+
+  - name: QuantumScape
+    category: Critical Minerals
+    ats: manual                       # solid-state battery tech, San Jose, CA;
+                                       # no clean public API found
+    careers_url: https://www.quantumscape.com/careers/
+
+  - name: Stem Inc
+    category: Cleantech
+    ats: manual                       # battery storage software, SF; the workable
+                                       # "stem" slug is too generic to trust
+    careers_url: https://www.stem.com/careers/
+
+  # ---- NYC push (per your interest in working there) ----
+  - name: BlocPower
+    category: Cleantech
+    ats: manual                       # building electrification startup, Brooklyn;
+                                       # no clean public API found
+    careers_url: https://www.blocpower.io/careers
+
+  - name: NYSERDA
+    category: Energy Policy
+    ats: manual                       # NY state energy research/development
+                                       # authority; Albany HQ but NYC presence,
+                                       # strong energy-policy fit
+    careers_url: https://www.nyserda.ny.gov/About/Careers
+
+  - name: New York Power Authority
+    category: Grid
+    ats: manual                       # largest state public power org in the US
+    careers_url: https://www.nypa.gov/careers
+
+  - name: MSCI
+    category: Climate Data
+    ats: workable
+    slug: msci                        # confirmed; ESG/climate risk research, NYC HQ
+
+  - name: Moody's
+    category: Market Intelligence
+    ats: workable
+    slug: moodys                      # confirmed; has an ESG/climate risk
+                                       # solutions practice, NYC HQ
+
+  - name: S&P Global
+    category: Market Intelligence
+    ats: manual                       # Sustainable1 + Commodity Insights climate/
+                                       # energy transition research, NYC HQ; no
+                                       # clean public API found
+    careers_url: https://careers.spglobal.com/
+
+  - name: BlackRock
+    category: Climate Finance
+    ats: manual                       # Climate Infrastructure / sustainable
+                                       # investing team, NYC HQ; workable "blackrock"
+                                       # slug capitalization mismatch, not trusted
+    careers_url: https://careers.blackrock.com/
