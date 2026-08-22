@@ -1065,3 +1065,96 @@ companies:
     category: Cleantech
     ats: ashby
     slug: treeswift                   # confirmed; forestry robotics, NY
+
+  # ---- More energy/climate NGOs (per Beia Spiller's steer toward NGOs over
+  # energy consulting - broadening the nonprofit/advocacy bucket beyond the
+  # RMI/WRI/EDF/RFF set already above) ----
+  - name: Union of Concerned Scientists
+    category: Energy Policy
+    ats: workable
+    slug: union-of-concerned-scientists   # confirmed; has a Climate & Energy program
+
+  - name: Sierra Club
+    category: Energy Policy
+    ats: lever
+    slug: sierraclub                  # confirmed; has Climate Intern + campaign/
+                                       # policy roles (ashby "sierra" slug is a
+                                       # different, unrelated company)
+
+  - name: Vote Solar
+    category: Energy Policy
+    ats: greenhouse
+    slug: votesolar                   # confirmed slug, 0 open roles right now
+
+  - name: Evergreen Action
+    category: Energy Policy
+    ats: greenhouse
+    slug: evergreenaction             # confirmed slug, 0 open roles right now
+
+  - name: Ceres
+    category: Energy Policy
+    ats: workable
+    slug: ceres                       # confirmed; sustainability/investor-facing
+                                       # climate & energy nonprofit
+
+  - name: Rewiring America
+    category: Energy Policy
+    ats: workable
+    slug: rewiring-america            # confirmed; electrification-focused nonprofit
+
+  - name: Carbon180
+    category: Energy Policy
+    ats: workable
+    slug: carbon180                   # confirmed; carbon removal policy nonprofit
+
+  - name: Earthjustice
+    category: Energy Policy
+    ats: manual                       # no clean public API found
+    careers_url: https://earthjustice.org/careers
+
+  - name: American Clean Power Association
+    category: Energy Policy
+    ats: manual                       # trade association for wind/solar/storage;
+                                       # Cloudflare blocks automated requests
+    careers_url: https://cleanpower.org/about/careers/
+
+  - name: Alliance to Save Energy
+    category: Energy Policy
+    ats: manual                       # "alliance" hits on greenhouse/lever/workable
+                                       # are generic squats, not this org
+    careers_url: https://www.ase.org/about/careers
+
+  - name: ClimateWorks Foundation
+    category: Energy Policy
+    ats: manual                       # climate philanthropy/grantmaking, no clean API
+    careers_url: https://www.climateworks.org/about-us/careers/
+
+  - name: Elemental Excelerator
+    category: Energy Policy
+    ats: manual                       # climate tech accelerator nonprofit; "elemental"
+                                       # workable slug is too generic to trust
+    careers_url: https://elementalexcelerator.com/careers/
+
+  - name: Institute for Energy Economics and Financial Analysis
+    category: Energy Policy
+    ats: manual                       # energy economics research nonprofit, same
+                                       # genre as RFF; "institute" workable slug is
+                                       # too generic to trust
+    careers_url: https://ieefa.org/about-us/careers
+
+  - name: Institute for Market Transformation
+    category: Energy Policy
+    ats: manual                       # building energy-efficiency policy nonprofit
+    careers_url: https://www.imt.org/jobs/
+
+  - name: Clean Energy Buyers Association
+    category: Energy Policy
+    ats: manual                       # corporate renewable procurement nonprofit;
+                                       # "clean" workable slug is too generic to trust
+    careers_url: https://cebuyers.org/careers/
+
+  - name: Public Citizen
+    category: Energy Policy
+    ats: manual                       # has a climate/energy program; greenhouse
+                                       # "public" slug is an unrelated tech company
+    careers_url: https://www.citizen.org/about/jobs/

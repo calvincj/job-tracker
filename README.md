@@ -40,6 +40,10 @@ program doesn't sneak into your digest. See `target_grad_year` in
 - Think tanks: Brookings, Energy Innovation, Center for American Progress,
   Niskanen Center, Urban Institute, plus foreign-policy shops (CSIS, Atlantic
   Council, Rhodium Group, etc.)
+- Energy/climate NGOs and advocacy: RMI, WRI, EDF, RFF, NRDC, Third Way, CATF,
+  ACEEE, C2ES, E2, Energy Foundation, GridLab, plus Union of Concerned
+  Scientists, Sierra Club, Vote Solar, Evergreen Action, Ceres, Rewiring
+  America, Carbon180, Earthjustice, American Clean Power Association, and more
 - National labs: NLR (formerly NREL), LBNL, PNNL, ORNL, Sandia, INL, LLNL,
   Argonne, Brookhaven
 - Critical minerals / battery supply chain: MP Materials, Albemarle, Lithium
