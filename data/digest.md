@@ -1,4 +1,4 @@
-# Job digest - 2026-08-23
+# Job digest - 2026-08-24
 
 **330 open roles** across 47 firms.
 
@@ -345,4 +345,4 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 0, total open matches: 497._
+_Companies checked: 94, errors: 0, total open matches: 495._
