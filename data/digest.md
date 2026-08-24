@@ -1,8 +1,8 @@
 # Job digest - 2026-08-24
 
-**329 open roles** across 48 firms.
+**330 open roles** across 49 firms.
 
-### New-grad / full-time (172)
+### New-grad / full-time (173)
 
 - **Crusoe Energy** (Cleantech) - [Strategy and Operations Associate](https://jobs.ashbyhq.com/crusoe/dd0f789c-e2d0-47bc-bfd1-83bfdf89082e) - San Francisco, CA - US
 - **Crusoe Energy** (Cleantech) - [Supply Chain Operations Analyst](https://jobs.ashbyhq.com/crusoe/5e5bf642-3470-43ff-859d-4fd8440c3b0b) - Denver, CO - US; San Francisco, CA - US
@@ -169,6 +169,7 @@
 - **Guidehouse** (Env Consulting) - [Department of War (DOW) Financial Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---FL-Tampa/Department-of-War--DOW--Financial-Management-Consultant_37432-1) - US   FL Tampa
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2289-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
+- **Xcel Energy** (Grid) - [Supply Chain Analyst](https://www.adzuna.com/details/5850854317?utm_medium=api&utm_source=7de842cf) - Minneapolis, Hennepin County
 - **Rystad Energy** (Market Intelligence) - [Graduate Management Consultant - Summer 2027](https://apply.workable.com/j/B6451957E1) - Oslo, Oslo
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
@@ -227,7 +228,7 @@
 - **Redwood Materials** (Cleantech) - [Solutions Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5998458004?gh_jid=5998458004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Systems Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6007517004?gh_jid=6007517004) - San Francisco, California, United States
 - **Rondo Energy** (Cleantech) - [Electrical Systems Engineer - Power and Controls](https://job-boards.greenhouse.io/rondoenergy/jobs/4699846006) - Alameda, CA
-- **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Santa-Maria/Solar-Appointment-Setter_R73434) - CA Dublin, CA Long Beach, CA Orange + 65 more
+- **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Santa-Maria/Solar-Appointment-Setter_R73434) - CA Dublin, CA Long Beach, CA Orange + 63 more
 - **Sunrun** (Cleantech) - [Solar Foreperson](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/MO-East-St-Louis/Traveling-Solar-Foreperson_R72612) - IL, East Peoria, MO, East St. Louis, TX, Austin + 2 more
 - **Sunrun** (Cleantech) - [Solar Installer](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/IL-Bloomington/Solar-Installer_R69487) - IL, Bloomington; TX, Dallas; TX, Houston
 - **Sunrun** (Cleantech) - [Electrical Apprentice/ Solar Installer](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/RI-Providence/Electrical-Apprentice--Solar-Installer_R63282) - RI, Providence
@@ -344,4 +345,4 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 0, total open matches: 494._
+_Companies checked: 94, errors: 0, total open matches: 492._
