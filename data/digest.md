@@ -1,6 +1,6 @@
 # Job digest - 2026-08-25
 
-**330 open roles** across 47 firms.
+**327 open roles** across 48 firms.
 
 ### New-grad / full-time (175)
 
@@ -44,10 +44,10 @@
 - **FTI Consulting** (Energy Consulting) - [Consultant, Network Industries Strategies - Economic Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/McLean-VA/Consultant--Network-Industries-Strategies---Economic-Consulting_JR260534) - McLean, VA
 - **Resource Innovations** (Energy Consulting) - [Energy Modeling Consultant](https://apply.workable.com/j/260DD2982E) - Arizona
 - **Resource Innovations** (Energy Consulting) - [New Buildings Energy Performance Consultant](https://apply.workable.com/j/B3DE2B429B) - Salt Lake City, Utah
-- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4725704005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
+- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726407005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
 - **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720840005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720816005) - Boston, Massachusetts, United States; New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720833005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720808005) - Boston, Massachusetts, United States; New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720836005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **Booz Allen Hamilton** (Env Consulting) - [Data Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/San-Diego-CA/Data-Analyst_R0243644) - Arlington, VA; Camp Lejeune, NC; San Diego, CA; Uruma City, Okinawa
 - **Booz Allen Hamilton** (Env Consulting) - [CWMD Strategy and Policy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Honolulu-HI/CWMD-Strategy---Policy-Analyst_R0240771) - Honolulu, HI
 - **Booz Allen Hamilton** (Env Consulting) - [Business and Data Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Herndon-VA/Business-and-Data-Analyst_R0247719) - Herndon, VA; McLean, VA
@@ -200,7 +200,7 @@
 - **Guidehouse** (Env Consulting) - [Partner, Energy Providers](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Partner--Energy-Providers_43237) - REMOTE
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_43344) - REMOTE
 
-### Other matches (141)
+### Other matches (138)
 
 - **Base Power** (Cleantech) - [Supply Chain Tooling Engineer](https://jobs.ashbyhq.com/base-power/e2eb05ac-5d49-4ba8-8897-c874dd720640) - Austin, TX
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
@@ -215,8 +215,6 @@
 - **Crusoe Energy** (Cleantech) - [Software Engineer I, Storage](https://jobs.ashbyhq.com/crusoe/4f5d34ed-0c05-4eec-b8f8-14663e114b02) - San Francisco, CA - US
 - **Crusoe Energy** (Cleantech) - [Executive Assistant, Business Development & Strategy](https://jobs.ashbyhq.com/crusoe/8e9ee9f1-9953-40d9-bf07-921c59621d26) - Denver, CO - US
 - **Duke Energy** (Cleantech) - [Engineer I or II - Power Grid Planning](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Raleigh-NC/Engineer-I-or-II---Power-Grid-Planning_R41073) - Raleigh, NC
-- **Duke Energy** (Cleantech) - [Engineer II or Engineer III - Grid Operations](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Harrison-OH/Engineer-II-or-Engineer-III---Grid-Operations_R40756) - Harrison OH
-- **Duke Energy** (Cleantech) - [Engineer II or Engineer III (Distributed Energy Strategy & Services)](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Raleigh-NC/Engineer-II-or-Engineer-III--Distributed-Energy-Strategy---Services-_R40898) - Raleigh NC
 - **ON.energy** (Cleantech) - [SCADA Engineer - Energy Management Systems](https://job-boards.greenhouse.io/onenergy/jobs/4357694009) - Houston, Texas, United States
 - **Redwood Materials** (Cleantech) - [Battery Software Integration Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6139225004?gh_jid=6139225004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Electrical Engineer, Energy Storage Project Engineering](https://boards.greenhouse.io/redwoodmaterials/jobs/6143587004?gh_jid=6143587004) - McCarran, NV; San Francisco, California, United States
@@ -229,8 +227,8 @@
 - **Redwood Materials** (Cleantech) - [Solutions Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5998458004?gh_jid=5998458004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Systems Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6007517004?gh_jid=6007517004) - San Francisco, California, United States
 - **Rondo Energy** (Cleantech) - [Electrical Systems Engineer - Power and Controls](https://job-boards.greenhouse.io/rondoenergy/jobs/4699846006) - Alameda, CA
+- **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Santa-Barbara/Solar-Appointment-Setter_R73601) - CA Dublin, CA Long Beach, CA Orange + 56 more
 - **Sunrun** (Cleantech) - [Solar Installer](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/IL-Schaumburg/Solar-Installer_R59139) - IL, Bloomington; IL, Schaumburg; TX, Dallas; TX, Houston
-- **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Martell/Solar-Appointment-Setter_R72636) - CA Dublin, CA Long Beach, CA Orange + 56 more
 - **Sunrun** (Cleantech) - [Solar Foreperson](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/MO-East-St-Louis/Traveling-Solar-Foreperson_R72612) - IL, East Peoria, MO, East St. Louis, TX, Austin + 2 more
 - **Sunrun** (Cleantech) - [Electrical Apprentice/ Solar Installer](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/RI-Providence/Electrical-Apprentice--Solar-Installer_R63282) - RI, Providence
 - **Sunrun** (Cleantech) - [Solar Foreperson: $1,500 sign-on bonus](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/IL-Des-Plaines/Foreperson_R65799) - IL, Des Plaines
@@ -263,7 +261,7 @@
 - **Resource Innovations** (Energy Consulting) - [Energy Savings Assistance Field Trainer](https://apply.workable.com/j/511E724B76) - California
 - **Resource Innovations** (Energy Consulting) - [Home Energy Assessor](https://apply.workable.com/j/317187B75F) - Marquette, Michigan
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/A7C9805A71) - Chandler, Arizona; Philadelphia, Pennsylvania
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5823015972?utm_medium=api&utm_source=7de842cf) - Tampa, Hillsborough County
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5823015972?utm_medium=api&utm_source=7de842cf) - Houston, Harris County; Tampa, Hillsborough County
 - **Booz Allen Hamilton** (Env Consulting) - [Cloud Infrastructure Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Colorado-Springs-CO/Cloud-Infrastructure-Engineer_R0240283) - Colorado Springs CO
 - **Booz Allen Hamilton** (Env Consulting) - [Power Platform Developer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Uruma-City-Okinawa/Power-Platform-Developer_R0243995) - Arlington, VA, McLean VA, Norfolk, VA + 2 more
 - **Booz Allen Hamilton** (Env Consulting) - [Infrastructure Automation Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Dahlgren-VA/Infrastructure-Automation-Engineer_R0247672-1) - Dahlgren, VA
@@ -311,16 +309,14 @@
 - **Guidehouse** (Env Consulting) - [Research Nurse](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Rockville/Research-Nurse_41611) - US - MD, Rockville
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
 - **Bonneville Power Administration** (Government) - [Power System Protection Engineer](https://www.usajobs.gov:443/job/880207900) - Vancouver, Washington
-- **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/880622300) - San Francisco, California
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/880193800) - Dallas, Texas
 - **Bureau of Labor Statistics** (Government) - [Economist/Statistician (Economics)](https://www.usajobs.gov:443/job/880935900) - Location Negotiable After Selection
 - **Bureau of Labor Statistics** (Government) - [Economist / Statistician (Economics)](https://www.usajobs.gov:443/job/881343000) - Multiple Locations
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist/Supervisory Statistician (Economics)](https://www.usajobs.gov:443/job/879952100) - Location Negotiable After Selection
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/880996200) - Milwaukee, Wisconsin; Punta Gorda, Florida
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Spanish) - Part-time](https://www.usajobs.gov:443/job/880449100) - New York, New York
 - **Department of State Headquarters** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/881621600) - Washington, District of Columbia
 - **Equal Employment Opportunity Commission** (Government) - [Economist](https://www.usajobs.gov:443/job/881132000) - Multiple Locations
-- **Export-Import Bank of the United States** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/881267300) - Washington, District of Columbia
+- **Export-Import Bank of the United States** (Government) - [Financial Economist (Country Risk) -Direct Hire](https://www.usajobs.gov:443/job/881835500) - Washington, District of Columbia
 - **Forest Service** (Government) - [Economist/Biological Scientist/ Mathematical Statistician](https://www.usajobs.gov:443/job/880762400) - Location Negotiable After Selection
 - **Office of the Inspector General, USPS** (Government) - [Data Analytics Specialist (Audit) - Contracts & Supply Management](https://www.usajobs.gov:443/job/880565400) - Multiple locations
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
@@ -328,6 +324,7 @@
 - **Treasury, Departmental Offices** (Government) - [Intelligence Research Specialist (CounterIntelligence)](https://www.usajobs.gov:443/job/880040100) - Washington, District of Columbia
 - **Veterans Health Administration** (Government) - [Supervisory Logistics Management](https://www.usajobs.gov:443/job/881277800) - Loma Linda, California
 - **Veterans Health Administration** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/880429600) - Leeds, Massachusetts
+- **Western Area Power Administration** (Government) - [Supervisory Power System Dispatcher](https://www.usajobs.gov:443/job/880303000) - Multiple Locations
 - **ERCOT** (Grid) - [Grid Applications Developer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Grid-Applications-Developer_R2334-1) - Austin, TX
 - **ERCOT** (Grid) - [Real Time Power Engineer - Shift](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Real-Time-Power-Engineer---Shift_R2385-1) - Austin, TX
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Researcher - Perovskite Packaging and Reliability](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Researcher---Perovskite-Packaging-and-Reliability_R14387) - Golden, CO
@@ -345,4 +342,4 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 0, total open matches: 484._
+_Companies checked: 94, errors: 0, total open matches: 480._
