@@ -1,14 +1,12 @@
 # Job digest - 2026-08-25
 
-**327 open roles** across 48 firms.
+**324 open roles** across 48 firms.
 
-### New-grad / full-time (175)
+### New-grad / full-time (174)
 
 - **Crusoe Energy** (Cleantech) - [Strategy and Operations Associate](https://jobs.ashbyhq.com/crusoe/dd0f789c-e2d0-47bc-bfd1-83bfdf89082e) - San Francisco, CA - US
 - **Crusoe Energy** (Cleantech) - [Supply Chain Operations Analyst](https://jobs.ashbyhq.com/crusoe/5e5bf642-3470-43ff-859d-4fd8440c3b0b) - Denver, CO - US; San Francisco, CA - US
 - **Crusoe Energy** (Cleantech) - [Strategic Sourcing Data Analyst](https://jobs.ashbyhq.com/crusoe/b5dc0c85-b7dc-46c3-a23a-a54ba6a979d5) - Denver, CO - US
-- **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R40685-1) - Charlotte NC
-- **Duke Energy** (Cleantech) - [Associate EHS Consultant - Environmental focus](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Cincinnati-OH/Associate-EHS-Consultant---Environmental-focus_R41041) - Cincinnati, OH
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Global Supply Chain Analyst](https://boards.greenhouse.io/redwoodmaterials/jobs/6142676004?gh_jid=6142676004) - McCarran, NV
 - **Sunrun** (Cleantech) - [Energy Consultant](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/RI-Smithfield/Energy-Consultant_R13088) - RI, Smithfield
@@ -44,10 +42,10 @@
 - **FTI Consulting** (Energy Consulting) - [Consultant, Network Industries Strategies - Economic Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/McLean-VA/Consultant--Network-Industries-Strategies---Economic-Consulting_JR260534) - McLean, VA
 - **Resource Innovations** (Energy Consulting) - [Energy Modeling Consultant](https://apply.workable.com/j/260DD2982E) - Arizona
 - **Resource Innovations** (Energy Consulting) - [New Buildings Energy Performance Consultant](https://apply.workable.com/j/B3DE2B429B) - Salt Lake City, Utah
-- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726407005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
+- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4725704005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
 - **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720840005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720808005) - Boston, Massachusetts, United States; New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720836005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720816005) - Boston, Massachusetts, United States; New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720833005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **Booz Allen Hamilton** (Env Consulting) - [Data Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/San-Diego-CA/Data-Analyst_R0243644) - Arlington, VA; Camp Lejeune, NC; San Diego, CA; Uruma City, Okinawa
 - **Booz Allen Hamilton** (Env Consulting) - [CWMD Strategy and Policy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Honolulu-HI/CWMD-Strategy---Policy-Analyst_R0240771) - Honolulu, HI
 - **Booz Allen Hamilton** (Env Consulting) - [Business and Data Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Herndon-VA/Business-and-Data-Analyst_R0247719) - Herndon, VA; McLean, VA
@@ -103,8 +101,8 @@
 - **ERM** (Env Consulting) - [Consultant, Science/Engineering](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Pittsburgh-Pennsylvania/Consultant--Environmental-Construction_R00030152-1) - Pittsburgh Pennsylvania
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Air Quality](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Nashville-Tennessee/Managing-Technical-Consultant--Air-Quality_R00028198-1) - Nashville Tennessee
 - **ERM** (Env Consulting) - [Environmental Compliance Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Wastewater-Specialist_R00027060) - Seattle Washington
+- **Guidehouse** (Env Consulting) - [Consultant Budget Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Consultant-Budget-Analyst_40875-1) - US - VA, McLean
 - **Guidehouse** (Env Consulting) - [Data Analyst/FM Product Specialist (Multiple Levels)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Data-Analyst-FM-Product-Specialist--Multiple-Levels-_43860) - US   VA Arlington
-- **Guidehouse** (Env Consulting) - [Power Platform Techno-Functional Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Techno-Functional-Analyst_42710) - REMOTE
 - **Guidehouse** (Env Consulting) - [Data Collection Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Strategic Communications Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Strategic-Communications-Consultant_43646) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Managing Federal Accounting Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Managing-Federal-Accounting-Consultant_43864) - US   VA McLean
@@ -172,6 +170,7 @@
 - **Defense Logistics Agency** (Government) - [Demand/Supply Chain Analyst](https://www.usajobs.gov:443/job/881883400) - Philadelphia, Pennsylvania
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2289-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
+- **Xcel Energy** (Grid) - [Supply Chain Analyst](https://www.adzuna.com/details/5850854317?utm_medium=api&utm_source=7de842cf) - Minneapolis, Hennepin County
 - **Rystad Energy** (Market Intelligence) - [Graduate Management Consultant - Summer 2027](https://apply.workable.com/j/B6451957E1) - Oslo, Oslo
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
@@ -200,7 +199,7 @@
 - **Guidehouse** (Env Consulting) - [Partner, Energy Providers](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Partner--Energy-Providers_43237) - REMOTE
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_43344) - REMOTE
 
-### Other matches (138)
+### Other matches (136)
 
 - **Base Power** (Cleantech) - [Supply Chain Tooling Engineer](https://jobs.ashbyhq.com/base-power/e2eb05ac-5d49-4ba8-8897-c874dd720640) - Austin, TX
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
@@ -214,7 +213,6 @@
 - **Base Power** (Cleantech) - [GTM Strategy and Operations](https://jobs.ashbyhq.com/base-power/17caec05-bf2f-48e6-bbc6-8108f0771e20) - Austin, TX
 - **Crusoe Energy** (Cleantech) - [Software Engineer I, Storage](https://jobs.ashbyhq.com/crusoe/4f5d34ed-0c05-4eec-b8f8-14663e114b02) - San Francisco, CA - US
 - **Crusoe Energy** (Cleantech) - [Executive Assistant, Business Development & Strategy](https://jobs.ashbyhq.com/crusoe/8e9ee9f1-9953-40d9-bf07-921c59621d26) - Denver, CO - US
-- **Duke Energy** (Cleantech) - [Engineer I or II - Power Grid Planning](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Raleigh-NC/Engineer-I-or-II---Power-Grid-Planning_R41073) - Raleigh, NC
 - **ON.energy** (Cleantech) - [SCADA Engineer - Energy Management Systems](https://job-boards.greenhouse.io/onenergy/jobs/4357694009) - Houston, Texas, United States
 - **Redwood Materials** (Cleantech) - [Battery Software Integration Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6139225004?gh_jid=6139225004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Electrical Engineer, Energy Storage Project Engineering](https://boards.greenhouse.io/redwoodmaterials/jobs/6143587004?gh_jid=6143587004) - McCarran, NV; San Francisco, California, United States
@@ -297,7 +295,6 @@
 - **Guidehouse** (Env Consulting) - [Microsoft Dynamics and Power Platform Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Microsoft-Dynamics-and-Power-Platform-Developer_40755-1) - US - VA, McLean
 - **Guidehouse** (Env Consulting) - [Human Resource Policy Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Human-Resource-Policy-Specialist_42416) - US - VA, Arlington
 - **Guidehouse** (Env Consulting) - [DHS Policy & Strategy Advisor](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/DHS-Policy---Strategy-Advisor_42371) - US - DC, Washington
-- **Guidehouse** (Env Consulting) - [Werkstudent / Working Student – Public Sector (Energy & Climate Focus)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/DE---Berlin/Werkstudent---Working-Student---Public-Sector--Energy---Climate-Focus-_41131) - DE   Berlin
 - **Guidehouse** (Env Consulting) - [Open Source Intelligence (OSINT) Policy and Governance Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Reston/Open-Source-Intelligence--OSINT--Policy-and-Governance-Specialist_43002) - US - VA, Reston
 - **Guidehouse** (Env Consulting) - [Research Nurse Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Research-Nurse-Specialist_42561) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Strategy & Change Management Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Strategy---Change-Management-Specialist_42423) - US - VA, Arlington
@@ -342,4 +339,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 0, total open matches: 480._
+_Companies checked: 94, errors: 1, total open matches: 478._
+
+Companies that failed this run (check slug/config):
+- Duke Energy: HTTPError: 500 Server Error: Internal Server Error for url: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/Search/jobs
