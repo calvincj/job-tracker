@@ -1,8 +1,8 @@
 # Job digest - 2026-08-26
 
-**333 open roles** across 49 firms.
+**330 open roles** across 48 firms.
 
-### New-grad / full-time (175)
+### New-grad / full-time (172)
 
 - **Crusoe Energy** (Cleantech) - [Strategy and Operations Associate](https://jobs.ashbyhq.com/crusoe/dd0f789c-e2d0-47bc-bfd1-83bfdf89082e) - San Francisco, CA - US
 - **Crusoe Energy** (Cleantech) - [Supply Chain Operations Analyst](https://jobs.ashbyhq.com/crusoe/5e5bf642-3470-43ff-859d-4fd8440c3b0b) - Denver, CO - US; San Francisco, CA - US
@@ -22,7 +22,6 @@
 - **Baker Tilly** (Consulting) - [Forensic Litigation & Valuation Services Consultant](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-TN-Nashville/Forensic-Litigation---Valuation-Services-Consultant_JR107291) - USA TN Nashville
 - **Baker Tilly** (Consulting) - [IT Audit, Cybersecurity & Risk Experienced Consultant (SOC Focus)](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-WA-Seattle-999-Third-Ave/IT-Audit--Cybersecurity---Risk-Experienced-Consultant--SOC-Focus-_JR106609-1) - USA WA Seattle 999 Third Ave
 - **Baker Tilly** (Consulting) - [Global Customs & Trade Advisory Consultant](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/Madison-WI/Global-Customs---Trade-Advisory-Consultant_JR105219) - Madison WI
-- **Deloitte** (Consulting) - [Critical Minerals Consultant - Government & Public Services](https://www.adzuna.com/details/5832752717?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 - **ICF** (Consulting) - [Community Development Consultant - ON CALL PART TIME (REMOTE ROLE)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Community-Development-Consultant---ON-CALL-PART-TIME--REMOTE-ROLE-_R2602492) - REMOTE
 - **ICF** (Consulting) - [Housing Finance Consultant - ON CALL PART TIME (REMOTE ROLE)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Lead-Housing-Counseling-Specialist---ON-CALL-PART-TIME--REMOTE-ROLE-_R2602494) - REMOTE
 - **ICF** (Consulting) - [ICF Resources, LLC: Energy Analyst – Reston, VA](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/ICF-Resources--LLC--Energy-Analyst---Reston--VA_R2602126) - Reston, VA
@@ -111,7 +110,6 @@
 - **Guidehouse** (Env Consulting) - [Data Collection Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Data-Collection-Consultant_38440) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Strategic Communications Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Strategic-Communications-Consultant_43646) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Managing Federal Accounting Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Managing-Federal-Accounting-Consultant_43864) - US   VA McLean
-- **Guidehouse** (Env Consulting) - [AI & Data Strategy Program Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/AI---Data-Strategy-Program-Analyst_42677) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [Training and Adoption Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Training-and-Adoption-Consultant_43782) - REMOTE
 - **Guidehouse** (Env Consulting) - [Consultant, Communications and Project Management](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Consultant--Communications-and-Project-Management_40016-1) - US - VA, McLean
 - **Guidehouse** (Env Consulting) - [Meeting Coordination & Communications Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Meeting-Coordination---Communications-Consultant_41318) - US - VA, McLean
@@ -171,7 +169,6 @@
 - **Defense Logistics Agency** (Government) - [Demand/Supply Chain Analyst](https://www.usajobs.gov:443/job/881883400) - Philadelphia, Pennsylvania
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2289-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
-- **Xcel Energy** (Grid) - [Supply Chain Analyst](https://www.adzuna.com/details/5850854317?utm_medium=api&utm_source=7de842cf) - Minneapolis, Hennepin County
 - **Rystad Energy** (Market Intelligence) - [Graduate Management Consultant - Summer 2027](https://apply.workable.com/j/B6451957E1) - Oslo, Oslo
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
@@ -228,7 +225,7 @@
 - **Redwood Materials** (Cleantech) - [Solutions Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/5998458004?gh_jid=5998458004) - San Francisco, California, United States
 - **Redwood Materials** (Cleantech) - [Systems Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6007517004?gh_jid=6007517004) - San Francisco, California, United States
 - **Rondo Energy** (Cleantech) - [Electrical Systems Engineer - Power and Controls](https://job-boards.greenhouse.io/rondoenergy/jobs/4699846006) - Alameda, CA
-- **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Whittier/Solar-Appointment-Setter_R73368) - CA Dublin, CA Orange, CA Santa Ana + 53 more
+- **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Whittier/Solar-Appointment-Setter_R73368) - CA Dublin, CA Orange, CA Santa Ana + 54 more
 - **Sunrun** (Cleantech) - [Solar Foreperson](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/TX-Austin/Foreperson_R65392) - IL, East Peoria, MO, East St. Louis, TX, Austin + 2 more
 - **Sunrun** (Cleantech) - [Solar Installer](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/IL-Schaumburg/Solar-Installer_R59139) - IL, Bloomington; IL, Schaumburg; TX, Dallas; TX, Houston
 - **Sunrun** (Cleantech) - [Electrical Apprentice/ Solar Installer](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/RI-Providence/Electrical-Apprentice--Solar-Installer_R63282) - RI, Providence
@@ -237,12 +234,12 @@
 - **Sunrun** (Cleantech) - [Clean Energy Ambassador](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-San-Diego/Clean-Energy-Ambassador_R15585) - CA, San Diego
 - **Voltus** (Cleantech) - [Supply & Logistics Coordinator](https://jobs.lever.co/voltus/0bd49cad-e734-47ef-b933-487a2e9aec3c) - Texas
 - **Watershed** (Climate Data) - [GTM operations, sustainability advisory & services](https://jobs.ashbyhq.com/watershed/f021f8e6-2807-4184-964d-eb8f61bc0453) - San Francisco
+- **ICF** (Consulting) - [Home Energy Auditor (Field- Based)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Waldorf-MD/Home-Energy-Auditor--Field--Based-_R2601144) - Waldorf, MD
 - **ICF** (Consulting) - [Residential Energy Auditor](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Trenton-NJ/Residential-Energy-Auditor_R2602810) - Trenton, NJ; Wilmington, DE (DE01)
 - **ICF** (Consulting) - [Public Policy Researcher (DHS-Dedicated, DC Metro Area on-site role)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Washington-DC/Public-Policy-Researcher--DHS-Dedicated--DC-Metro-Area-on-site-role-_R2602836) - Washington, DC
 - **ICF** (Consulting) - [Energy Engineer](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Columbia-MD/Energy-Engineer_R2602713-1) - Columbia MD
 - **ICF** (Consulting) - [Commercial Account Specialist, Energy Efficiency ](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Baton-Rouge-LA/Commercial-Account-Manager--Energy-Efficiency-_R2602714) - Baton Rouge, LA
 - **ICF** (Consulting) - [Disaster Response Logistics - Reservist (On Call)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Disaster-Response-Logistics---Reservist--On-Call-_R2602662) - Reston, VA
-- **ICF** (Consulting) - [Home Energy Auditor (Field- Based)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Waldorf-MD/Home-Energy-Auditor--Field--Based-_R2601144) - Waldorf, MD
 - **ICF** (Consulting) - [Project Monitor Specialist, DOE (Department of Energy)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Project-Monitor-Specialist--DOE--Department-of-Energy-_R2602531) - Reston, VA
 - **ICF** (Consulting) - [QA/QC Inspection Specialist, Energy Efficiency (Field) ](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Columbia-MD/QA-QC-Inspection-Specialist--Energy-Efficiency--Field--_R2602639) - Columbia MD
 - **ICF** (Consulting) - [Data Mining & Analytics Engineer, Journeyman (Security Clearance Required)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Arlington-VA-VA31/Data-Mining---Analytics-Engineer--Journeyman--Security-Clearance-Required-_R2602428) - Arlington VA VA31
@@ -315,15 +312,15 @@
 - **Guidehouse** (Env Consulting) - [Research Nurse](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Rockville/Research-Nurse_41611) - US - MD, Rockville
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
 - **Bonneville Power Administration** (Government) - [Power System Protection Engineer](https://www.usajobs.gov:443/job/880207900) - Vancouver, Washington
-- **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/880193800) - Dallas, Texas
 - **Bureau of Labor Statistics** (Government) - [Economist/Statistician (Economics)](https://www.usajobs.gov:443/job/880935900) - Location Negotiable After Selection
 - **Bureau of Labor Statistics** (Government) - [Economist / Statistician (Economics)](https://www.usajobs.gov:443/job/881343000) - Multiple Locations
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist/Supervisory Statistician (Economics)](https://www.usajobs.gov:443/job/879952100) - Location Negotiable After Selection
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/880996200) - Milwaukee, Wisconsin; Punta Gorda, Florida
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/880996200) - Milwaukee, Wisconsin; Raleigh, North Carolina
 - **Department of State Headquarters** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/881621600) - Washington, District of Columbia
 - **Equal Employment Opportunity Commission** (Government) - [Economist](https://www.usajobs.gov:443/job/881132000) - Multiple Locations
 - **Export-Import Bank of the United States** (Government) - [Financial Economist (Country Risk) -Direct Hire](https://www.usajobs.gov:443/job/881835500) - Washington, District of Columbia
 - **Forest Service** (Government) - [Economist/Biological Scientist/ Mathematical Statistician](https://www.usajobs.gov:443/job/880762400) - Location Negotiable After Selection
+- **Naval Supply Systems Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/881633600) - Naval Support Activity, Mechanicsburg Detach., Philadelphia, Pennsylvania; Naval Support Activity, Mechanicsburg, Pennsylvania
 - **Office of the Inspector General, USPS** (Government) - [Data Analytics Specialist (Audit) - Contracts & Supply Management](https://www.usajobs.gov:443/job/880565400) - Multiple locations
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **Southwestern Power Administration** (Government) - [Administrator for Southwestern Power Administration](https://www.usajobs.gov:443/job/880918200) - Multiple Locations
@@ -348,4 +345,4 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 0, total open matches: 482._
+_Companies checked: 94, errors: 0, total open matches: 481._
