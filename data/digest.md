@@ -1,6 +1,6 @@
 # Job digest - 2026-09-10
 
-**320 open roles** across 55 firms.
+**318 open roles** across 53 firms.
 
 ### New-grad / full-time (165)
 
@@ -188,7 +188,7 @@
 - **Guidehouse** (Env Consulting) - [Partner, Energy Providers](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Partner--Energy-Providers_43237) - REMOTE
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_43344) - REMOTE
 
-### Other matches (143)
+### Other matches (141)
 
 - **Base Power** (Cleantech) - [Supply Chain Tooling Engineer](https://jobs.ashbyhq.com/base-power/e2eb05ac-5d49-4ba8-8897-c874dd720640) - Austin, TX
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
@@ -304,22 +304,20 @@
 - **Guidehouse** (Env Consulting) - [Bioassay Researcher](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Researcher_41850-1) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Bioassay Research Scientist II](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Research-Scientist-II_41842) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
-- **Air Mobility Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/883161000) - Scott AFB, Illinois
 - **Bonneville Power Administration** (Government) - [Technology Policy Specialist](https://www.usajobs.gov:443/job/883665500) - Portland, Oregon
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/883325700) - Chicago, Illinois, Jacksonville, North Carolina, Janesville, Wisconsin + 3 more
-- **Customs and Border Protection** (Government) - [Supervisory Intelligence Research Specialist](https://www.usajobs.gov:443/job/882570900) - Tucson, Arizona
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/883389400) - Chicago, Illinois; Janesville, Wisconsin; Lincoln, Nebraska; Pittsfield, Massachusetts
 - **Defense Contract Management Agency** (Government) - [Data Scientist (Supply Chain)](https://www.usajobs.gov:443/job/883161100) - Location Negotiable After Selection
 - **Defense Logistics Agency** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/883255100) - Hill AFB, Utah
 - **Equal Employment Opportunity Commission** (Government) - [Economist](https://www.usajobs.gov:443/job/881132000) - Multiple Locations
 - **Federal Deposit Insurance Corporation** (Government) - [Student Trainee (Economist), CG-0199-04 FPL 5 (NTE 1 Year)](https://www.usajobs.gov:443/job/883887100) - Multiple Locations
 - **Federal Emergency Management Agency** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/883529700) - Lakewood, Colorado
 - **Maritime Administration** (Government) - [Supervisory Trade Specialist (Open to both U.S. Citizens and Federal Employees)](https://www.usajobs.gov:443/job/883295500) - Washington, District of Columbia
-- **Naval Air Systems Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/882278700) - Patuxent River, Maryland
+- **Office of the Director of National Intelligence** (Government) - [Strategy Management Officer](https://www.usajobs.gov:443/job/883638800) - Bethesda, Maryland
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **Office of the U.S. Trade Representative** (Government) - [Trade Policy Research Coordinator](https://www.usajobs.gov:443/job/883735700) - District of Columbia, District of Columbia
 - **Offices, Boards and Divisions** (Government) - [SUPERVISORY ECONOMIST](https://www.usajobs.gov:443/job/883577100) - Washington, District of Columbia
 - **Railroad Retirement Board** (Government) - [Pathways Recent Graduate Economist/Statistician/Data Scientist](https://www.usajobs.gov:443/job/882930700) - Chicago, Illinois
-- **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/883699500) - Honolulu, Hawaii; San Juan, Puerto Rico; Shreveport, Louisiana
+- **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/883699500) - Honolulu, Hawaii; Mather AFB, California; Shreveport, Louisiana
 - **ERCOT** (Grid) - [Power Systems Engineer 3 - Grid Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Power-Systems-Engineer-3---Grid-Analysis_R2426) - Taylor, TX
 - **ERCOT** (Grid) - [Power Systems Modeling Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Power-Systems-Modeling-Engineer_R2400-1) - Austin, TX
 - **ERCOT** (Grid) - [Power Systems Engineer 2 - Grid Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Power-Systems-Engineer-Sr---Grid-Analysis_R2122-1) - Taylor, TX
@@ -335,7 +333,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 1, total open matches: 466._
+_Companies checked: 94, errors: 1, total open matches: 462._
 
 Companies that failed this run (check slug/config):
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
