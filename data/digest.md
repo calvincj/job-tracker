@@ -340,5 +340,5 @@
 _Companies checked: 94, errors: 2, total open matches: 464._
 
 Companies that failed this run (check slug/config):
-- World Resources Institute: HTTPError: 500 Server Error: Internal Server Error for url: https://wri.wd501.myworkdayjobs.com/wday/cxs/wri/WRI/jobs
+- World Resources Institute: HTTPError: 504 Server Error: Gateway Timeout for url: https://wri.wd501.myworkdayjobs.com/wday/cxs/wri/WRI/jobs
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
