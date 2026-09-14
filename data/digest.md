@@ -1,8 +1,8 @@
 # Job digest - 2026-09-14
 
-**319 open roles** across 52 firms.
+**318 open roles** across 52 firms.
 
-### New-grad / full-time (165)
+### New-grad / full-time (163)
 
 - **Crusoe Energy** (Cleantech) - [Strategic Sourcing Data Analyst](https://jobs.ashbyhq.com/crusoe/b5dc0c85-b7dc-46c3-a23a-a54ba6a979d5) - Denver, CO - US
 - **Crusoe Energy** (Cleantech) - [Procurement Operations Analyst](https://jobs.ashbyhq.com/crusoe/3f0089ff-ec8b-4650-81e5-5769c6da8b3c) - Bellevue, WA - US
@@ -100,7 +100,6 @@
 - **ERM** (Env Consulting) - [Consultant, Environmental Health and Safety, EHS - San Fran Bay Area, California](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Walnut-Creek-California/Consultant--Environmental-Health-and-Safety--EHS---San-Fran-Bay-Area--California_R00031527-1) - Walnut Creek California
 - **ERM** (Env Consulting) - [Environmental, Health and Safety (EHS) Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Environmental--Health-and-Safety--EHS--Consultant--Field-Based-_R00031430) - Seattle, Washington
 - **ERM** (Env Consulting) - [Consultant, Environmental, Health, and Safety (EHS)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Los-Angeles-California/Consultant--Environmental--Health--and-Safety--EHS-_R00031178-1) - Los Angeles California
-- **ERM** (Env Consulting) - [Consulting Associate, Sustainable Operations](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Hartford-Connecticut/Consulting-Associate--Sustainable-Operations_R00031292-2) - Hartford, Connecticut
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Health and Safety Compliance](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Indianapolis-Indiana/Managing-Technical-Consultant--Health-and-Safety-Compliance_R00030890-1) - Indianapolis, Indiana
 - **ERM** (Env Consulting) - [Environmental Compliance Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Wastewater-Specialist_R00027060) - Seattle Washington
 - **Guidehouse** (Env Consulting) - [Transportation Policy Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Transportation-Policy-Consultant_44443) - US   VA Arlington
@@ -158,8 +157,7 @@
 - **Guidehouse** (Env Consulting) - [Consultant – State and Local Government Columbia, SC market – Campus 2026](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---SC-Columbia/Consultant---State-and-Local-Government-Columbia--SC-market---Campus-2026_38913) - US - SC, Columbia
 - **Guidehouse** (Env Consulting) - [Department of War (DOW) Financial Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---FL-Tampa/Department-of-War--DOW--Financial-Management-Consultant_37432-1) - US   FL Tampa
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
-- **PSEG** (Grid) - [Policy & Strategy Analyst - Energy Regulatory Policy](https://www.adzuna.com/details/5874133722?utm_medium=api&utm_source=7de842cf) - Hicksville, Nassau County
-- **Rystad Energy** (Market Intelligence) - [Graduate Management Consultant - Summer 2027](https://apply.workable.com/j/B6451957E1) - London, England; Oslo, Oslo
+- **Rystad Energy** (Market Intelligence) - [Graduate Management Consultant - Summer 2027](https://apply.workable.com/j/5D9349562D) - London, England
 - **Wood Mackenzie** (Market Intelligence) - [Supply Chain Consultant - Boston](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Boston-US/Supply-Chain-Consultant---Boston_JR3047) - Boston, US
 - **Wood Mackenzie** (Market Intelligence) - [Market Associate - Power Trading Analytics](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Boston-US/Market-Associate---Power-Trading-Analytics_JR3267) - Boston, US
 - **Wood Mackenzie** (Market Intelligence) - [Supply Chain Consultant - Houston](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Houston-US/Supply-Chain-Consultant---Houston_JR3148) - Houston US
@@ -188,7 +186,7 @@
 - **Guidehouse** (Env Consulting) - [Partner, Energy Providers](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Partner--Energy-Providers_43237) - REMOTE
 - **Guidehouse** (Env Consulting) - [Data Infrastructure Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Infrastructure-Engineer_43344) - REMOTE
 
-### Other matches (142)
+### Other matches (143)
 
 - **Base Power** (Cleantech) - [Supply Chain Tooling Engineer](https://jobs.ashbyhq.com/base-power/e2eb05ac-5d49-4ba8-8897-c874dd720640) - Austin, TX
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
@@ -303,15 +301,16 @@
 - **Guidehouse** (Env Consulting) - [Bioassay Researcher](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Researcher_41850-1) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Bioassay Research Scientist II](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Research-Scientist-II_41842) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
-- **Bonneville Power Administration** (Government) - [Technology Policy Specialist](https://www.usajobs.gov:443/job/883665500) - Portland, Oregon
 - **Bureau of Labor Statistics** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/884066800) - Suitland, Maryland
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/883389400) - Janesville, Wisconsin; Lincoln, Nebraska; Pittsfield, Massachusetts
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/883389400) - Green Bay, Wisconsin; Janesville, Wisconsin; Lincoln, Nebraska; Pittsfield, Massachusetts
+- **Customs and Border Protection** (Government) - [Intelligence Research Specialist](https://www.usajobs.gov:443/job/883999600) - Multiple Locations
 - **Cybersecurity and Infrastructure Security Agency** (Government) - [Economist](https://www.usajobs.gov:443/job/884161900) - Arlington, Virginia
 - **Defense Logistics Agency** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/884389700) - Tobyhanna, Pennsylvania
 - **Employment and Training Administration** (Government) - [Economist](https://www.usajobs.gov:443/job/884248300) - Washington, District of Columbia
 - **Equal Employment Opportunity Commission** (Government) - [Economist](https://www.usajobs.gov:443/job/881132000) - Multiple Locations
 - **Federal Deposit Insurance Corporation** (Government) - [Student Trainee (Economist), CG-0199-04 (NTE 1 Year)](https://www.usajobs.gov:443/job/883887100) - Multiple Locations
 - **Federal Energy Regulatory Commission** (Government) - [Supervisory IT Specialist (Policy and Planning)](https://www.usajobs.gov:443/job/884107300) - Washington, District of Columbia
+- **Headquarters, NASA** (Government) - [Logistics Management Specialist (Direct Hire)](https://www.usajobs.gov:443/job/884165300) - Multiple Locations
 - **Internal Revenue Service** (Government) - [Economist](https://www.usajobs.gov:443/job/884245800) - Multiple Locations
 - **Maritime Administration** (Government) - [Supervisory Trade Specialist (Open to both U.S. Citizens and Federal Employees)](https://www.usajobs.gov:443/job/883295500) - Washington, District of Columbia
 - **Office of the Director of National Intelligence** (Government) - [Strategy Management Officer](https://www.usajobs.gov:443/job/883638800) - Bethesda, Maryland
@@ -334,7 +333,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Justice Policy Center)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Justice-Policy-Center-_R-801653-1) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 1, total open matches: 461._
+_Companies checked: 94, errors: 1, total open matches: 460._
 
 Companies that failed this run (check slug/config):
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
