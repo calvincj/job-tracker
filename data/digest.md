@@ -1,4 +1,4 @@
-# Job digest - 2026-09-19
+# Job digest - 2026-09-20
 
 **334 open roles** across 56 firms.
 
