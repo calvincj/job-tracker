@@ -1,8 +1,8 @@
-# Job digest - 2026-09-21
+# Job digest - 2026-09-22
 
-**327 open roles** across 57 firms.
+**328 open roles** across 58 firms.
 
-### New-grad / full-time (169)
+### New-grad / full-time (170)
 
 - **Crusoe Energy** (Cleantech) - [Procurement Operations Analyst](https://jobs.ashbyhq.com/crusoe/3f0089ff-ec8b-4650-81e5-5769c6da8b3c) - Bellevue, WA - US
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
@@ -30,7 +30,6 @@
 - **FTI Consulting** (Energy Consulting) - [Consultant, Restructuring - Montreal](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Montreal-QC/Consultant--Restructuring---Montreal_JR261204) - Montreal, QC
 - **FTI Consulting** (Energy Consulting) - [Client Projects, Consultant](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Madison-GA/Client-Projects--Consultant_JR261086) - Madison GA
 - **FTI Consulting** (Energy Consulting) - [Consultant, Lender Services | Corporate Finance](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Chicago-IL/Consultant--Lender-Services---Corporate-Finance_JR260841) - Chicago, IL
-- **FTI Consulting** (Energy Consulting) - [Consultant, Public Affairs - Energy](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Houston-TX/Consultant--Public-Affairs---Energy_JR261062) - Houston, TX
 - **Resource Innovations** (Energy Consulting) - [Energy Modeling Consultant](https://apply.workable.com/j/260DD2982E) - Arizona
 - **Resource Innovations** (Energy Consulting) - [New Buildings Energy Performance Consultant](https://apply.workable.com/j/B3DE2B429B) - Salt Lake City, Utah
 - **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726468005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
@@ -67,6 +66,7 @@
 - **Booz Allen Hamilton** (Env Consulting) - [Cybersecurity Supply Chain Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/Cybersecurity-Supply-Chain-Analyst_R0246440) - Arlington, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Logistics Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/Logistics-Analyst_R0246509) - Washington, DC
 - **Booz Allen Hamilton** (Env Consulting) - [Operations Research and Systems Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/El-Segundo-CA/Operations-Research-and-Systems-Analyst_R0246387) - El Segundo, CA
+- **Booz Allen Hamilton** (Env Consulting) - [All-Source Tradecraft and Governance Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/All-Source-Tradecraft-and-Governance-Analyst_R0245857) - Washington DC
 - **ERM** (Env Consulting) - [Consultant, Archaeologist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Houston-Texas/Consulting-Senior-Associate--Scientist---Houston--TX_R00031584-2) - Houston, Texas
 - **ERM** (Env Consulting) - [Consulting Associate, Sustainable Operations](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Boston-Massachusetts/Consulting-Associate--Sustainable-Operations_R00031289-1) - Boston, Massachusetts; Hartford, Connecticut
 - **ERM** (Env Consulting) - [Consultant, Process Safety Management](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Overland-Park-Kansas/Consultant--Process-Safety-Management_R00032070-1) - Overland Park, Kansas
@@ -160,6 +160,7 @@
 - **Guidehouse** (Env Consulting) - [Federal Grants Process Improvement Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Federal-Grants-Process-Improvement-Management-Consultant_41636) - US - VA, Arlington
 - **Guidehouse** (Env Consulting) - [Consultant - Financial Services](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/GB---London/Consultant---Financial-Services_38683) - GB - London
 - **Guidehouse** (Env Consulting) - [Consultant – State and Local Government Columbia, SC market – Campus 2026](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---SC-Columbia/Consultant---State-and-Local-Government-Columbia--SC-market---Campus-2026_38913) - US - SC, Columbia
+- **Peterson** (Foreign Policy) - [Supply Chain Analyst](https://www.adzuna.com/details/5890300768?utm_medium=api&utm_source=7de842cf) - Hillsboro, Washington County
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
 - **Rystad Energy** (Market Intelligence) - [Graduate Management Consultant - Summer 2027](https://apply.workable.com/j/5D9349562D) - London, England
 - **Wood Mackenzie** (Market Intelligence) - [Market Analyst - Power Trading Analytics](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Boston-US/Market-Analyst---Power-Trading-Analytics_JR3265) - Boston, US
