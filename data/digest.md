@@ -1,8 +1,8 @@
 # Job digest - 2026-09-26
 
-**336 open roles** across 58 firms.
+**334 open roles** across 58 firms.
 
-### New-grad / full-time (183)
+### New-grad / full-time (182)
 
 - **Crusoe Energy** (Cleantech) - [Procurement Operations Analyst](https://jobs.ashbyhq.com/crusoe/3f0089ff-ec8b-4650-81e5-5769c6da8b3c) - Bellevue, WA - US
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
@@ -34,7 +34,6 @@
 - **ICF** (Consulting) - [On-Call Research Associate](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/On-Call-Research-Associate_R2602075) - Reston, VA
 - **Lithium Americas** (Critical Minerals) - [Environmental and Regulatory Analyst](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Reno-Business-Office/Environmental-and-Regulatory-Analyst_JR100098) - Reno Business Office
 - **Sila Nanotechnologies** (Critical Minerals) - [Research Associate, R&D Operations](https://job-boards.greenhouse.io/silananotechnologies/jobs/8095179) - Alameda, CA
-- **Sila Nanotechnologies** (Critical Minerals) - [Slurry & Coating Research Associate](https://job-boards.greenhouse.io/silananotechnologies/jobs/8189348) - Alameda, CA
 - **Charles River Associates** (Energy Consulting) - [(2027 Bachelor's/Master's graduates) Management Advisory Analyst/Associate (Energy)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8053996) - Boston, MA, United States; New York, NY, United States; Washington, DC, United States
 - **Charles River Associates** (Energy Consulting) - [Consulting Associate/Policy (Life Sciences practice)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8137787) - New York, NY, United States; Washington, DC, United States
 - **FTI Consulting** (Energy Consulting) - [Consultant, Trade Services](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Washington-DC/Consultant--Trade-Services_JR261433) - Washington DC
@@ -207,7 +206,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000150768289) - REMOTE
 
-### Other matches (140)
+### Other matches (139)
 
 - **Base Power** (Cleantech) - [Supply Chain Tooling Engineer](https://jobs.ashbyhq.com/base-power/e2eb05ac-5d49-4ba8-8897-c874dd720640) - Austin, TX
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
@@ -318,7 +317,6 @@
 - **Guidehouse** (Env Consulting) - [Strategy and Technology Leader - New York, NY](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Strategy-and-Technology-Leader---New-York--NY_37258) - US - NY, New York
 - **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/884611700) - Location Negotiable After Selection
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/883914500) - Buffalo, New York; Green Bay, Wisconsin; Lincoln, Nebraska; Mountainside, New Jersey
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Spanish) - Part-time](https://www.usajobs.gov:443/job/884856400) - Los Angeles, California
 - **Bureau of Reclamation** (Government) - [Economist](https://www.usajobs.gov:443/job/886342300) - Sacramento, California
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
 - **Customs and Border Protection** (Government) - [Supervisory Supply Chain Security Specialist (Trade)](https://www.usajobs.gov:443/job/884715200) - Washington, District of Columbia
@@ -328,7 +326,7 @@
 - **Federal Deposit Insurance Corporation** (Government) - [Regional Economist, CG-0110-13 - Direct Hire](https://www.usajobs.gov:443/job/886349200) - New York, New York
 - **National Oceanic and Atmospheric Administration** (Government) - [Regional Economist](https://www.usajobs.gov:443/job/885623200) - Gloucester, Massachusetts
 - **Naval Supply Systems Command** (Government) - [SUPERVISORY LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/885418900) - Naval Support Activity, Mechanicsburg, Pennsylvania
-- **Office of the Director of National Intelligence** (Government) - [Strategy Management Officer](https://www.usajobs.gov:443/job/883638800) - Bethesda, Maryland
+- **Office of the Director of National Intelligence** (Government) - [Strategy Management Officer](https://www.usajobs.gov:443/job/883760700) - Bethesda, Maryland
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **Office of the U.S. Trade Representative** (Government) - [Assistant United States Trade Representative for Western Hemisphere](https://www.usajobs.gov:443/job/885224000) - Washington, District of Columbia
 - **Securities and Exchange Commission** (Government) - [Economist](https://www.usajobs.gov:443/job/885808100) - Multiple Locations
@@ -351,7 +349,8 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Housing and Communities Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Housing-and-Communities-Division-_R-801650) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 1, total open matches: 496._
+_Companies checked: 94, errors: 2, total open matches: 493._
 
 Companies that failed this run (check slug/config):
+- Quaise Energy: ReadTimeout: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=20)
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
