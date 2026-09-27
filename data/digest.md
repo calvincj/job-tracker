@@ -1,4 +1,4 @@
-# Job digest - 2026-09-26
+# Job digest - 2026-09-27
 
 **334 open roles** across 59 firms.
 
@@ -37,7 +37,6 @@
 - **Charles River Associates** (Energy Consulting) - [(2027 Bachelor's/Master's graduates) Management Advisory Analyst/Associate (Energy)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8053996) - Boston, MA, United States; New York, NY, United States; Washington, DC, United States
 - **Charles River Associates** (Energy Consulting) - [Consulting Associate/Policy (Life Sciences practice)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8137787) - New York, NY, United States; Washington, DC, United States
 - **FTI Consulting** (Energy Consulting) - [Consultant, Trade Services](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Washington-DC/Consultant--Trade-Services_JR261433) - Washington DC
-- **FTI Consulting** (Energy Consulting) - [Consultant, Cybersecurity Privacy Generalist | Forensic & Litigation Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Atlanta-GA/Senior-Consultant--Cybersecurity-Privacy-Generalist--Forensic---Litigation-Consulting_JR260902) - Atlanta GA
 - **FTI Consulting** (Energy Consulting) - [Research Analyst, Digital & Insights](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Washington-DC/Research-Analyst--Digital---Insights_JR261393) - Washington DC
 - **FTI Consulting** (Energy Consulting) - [Consultant, Restructuring - Montreal](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Montreal-QC/Consultant--Restructuring---Montreal_JR261204) - Montreal, QC
 - **FTI Consulting** (Energy Consulting) - [Client Projects, Consultant](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Madison-GA/Client-Projects--Consultant_JR261086) - Madison GA
@@ -161,6 +160,7 @@
 - **Guidehouse** (Env Consulting) - [Transportation Policy Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Transportation-Policy-Consultant_44443) - US   VA Arlington
 - **Guidehouse** (Env Consulting) - [DOW Financial Management Consultant (Fayetteville, NC)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NC-Fayetteville/DOW-Financial-Management-Consultant--Fayetteville--NC-_44250) - US - NC, Fayetteville
 - **Guidehouse** (Env Consulting) - [Financial Services Consultants](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Financial-Services-Consultants_44494) - US   NY New York
+- **Guidehouse** (Env Consulting) - [Consultant - Energy Providers - Campus 2027](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Consultant---Energy-Providers---Campus-2027_43483) - US   GA Atlanta
 - **Guidehouse** (Env Consulting) - [Consulting Analyst - Energy Providers - Campus 2027](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Consulting-Analyst---Energy-Providers---Campus-2027_43439) - US   GA Atlanta
 - **Guidehouse** (Env Consulting) - [Training and Adoption Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Training-and-Adoption-Consultant_44438) - REMOTE
 - **Guidehouse** (Env Consulting) - [Cybersecurity Project Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Cybersecurity-Project-Management-Consultant_43828-1) - US - DC, Washington
@@ -349,7 +349,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Housing and Communities Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Housing-and-Communities-Division-_R-801650) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 1, total open matches: 495._
+_Companies checked: 94, errors: 1, total open matches: 494._
 
 Companies that failed this run (check slug/config):
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
