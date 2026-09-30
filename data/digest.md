@@ -1,8 +1,8 @@
 # Job digest - 2026-09-30
 
-**328 open roles** across 54 firms.
+**323 open roles** across 53 firms.
 
-### New-grad / full-time (181)
+### New-grad / full-time (176)
 
 - **Crusoe Energy** (Cleantech) - [Procurement Operations Analyst](https://jobs.ashbyhq.com/crusoe/3f0089ff-ec8b-4650-81e5-5769c6da8b3c) - Bellevue, WA - US
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
@@ -11,7 +11,7 @@
 - **Duke Energy** (Cleantech) - [Associate General Counsel - NC Regulatory](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Raleigh-NC/Associate-General-Counsel---NC-Regulatory_R41665) - Raleigh, NC
 - **Form Energy** (Cleantech) - [Financial Analyst, Supply Chain](https://jobs.ashbyhq.com/formenergy/a96f3845-1797-4be4-80ee-0221c564a354) - REMOTE
 - **Redwood Materials** (Cleantech) - [Business Development Analyst, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6122012004?gh_jid=6122012004) - San Francisco, California, United States
-- **Redwood Materials** (Cleantech) - [Production Associate, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6128078004?gh_jid=6128078004) - McCarran, NV
+- **Redwood Materials** (Cleantech) - [Production Associate, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6128077004?gh_jid=6128077004) - McCarran, NV
 - **Sunrun** (Cleantech) - [Energy Consultant](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/RI-Smithfield/Energy-Consultant_R13088) - RI, Smithfield
 - **Sylvera** (Climate Data) - [Carbon Analyst](https://jobs.ashbyhq.com/sylvera/c13b52bb-4162-4d30-b233-487abdb08944) - London
 - **Generate Capital** (Climate Finance) - [Associate, Technical Operations - Solar](https://jobs.ashbyhq.com/generate/35fbc0b4-6482-4ff5-b731-892af44399ae) - REMOTE
@@ -46,8 +46,8 @@
 - **FTI Consulting** (Energy Consulting) - [Consultant, Lender Services | Corporate Finance](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Chicago-IL/Consultant--Lender-Services---Corporate-Finance_JR260841) - Chicago, IL
 - **Resource Innovations** (Energy Consulting) - [Energy Modeling Consultant](https://apply.workable.com/j/260DD2982E) - Arizona
 - **Resource Innovations** (Energy Consulting) - [New Buildings Energy Performance Consultant](https://apply.workable.com/j/B3DE2B429B) - Salt Lake City, Utah
-- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4725704005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
-- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720840005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726471005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
+- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720839005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4732797005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
 - **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720832005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **Environmental Defense Fund** (Energy Policy) - [Analyst, Energy Transition, Clean Electricity](https://osv-edf.wd5.myworkdayjobs.com/en-US/EDF_External_Careers/job/San-Francisco/Analyst--Energy-Transition--Clean-Electricity_REQ-002523-2) - San Francisco
@@ -57,7 +57,6 @@
 - **Booz Allen Hamilton** (Env Consulting) - [Cybersecurity Supply Chain Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/Cybersecurity-Supply-Chain-Analyst_R0246433) - Arlington, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Open-Source Research Analyst, Junior](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Open-Source-Research-Analyst--Junior_R0249686) - McLean, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Data Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Data-Analyst_R0250205-1) - Camp Lejeune, NC; McLean, VA; Washington, DC
-- **Booz Allen Hamilton** (Env Consulting) - [Logistics and Property Accountability Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Wiesbaden-Hesse/Logistics-and-Property-Accountability-Analyst_R0246384) - Wiesbaden, Hesse
 - **Booz Allen Hamilton** (Env Consulting) - [Policy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Belcamp-MD/Policy-Analyst_R0249456-1) - Belcamp, MD
 - **Booz Allen Hamilton** (Env Consulting) - [CWMD Strategy & Policy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Barksdale-AFB-LA/CWMD-Strategy---Policy-Analyst_R0240767) - Barksdale AFB, LA; Shaw AFB, SC
 - **Booz Allen Hamilton** (Env Consulting) - [CWMD Strategy and Policy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Wright-Patterson-AFB-OH/CWMD-Strategy---Policy-Analyst_R0240760) - Wright Patterson AFB, OH
@@ -87,7 +86,6 @@
 - **ERM** (Env Consulting) - [Consultant, Environmental Engineer, Geologist, or Scientist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Manhattan-New-York/Consultant--Environmental-Engineer--Geologist--or-Scientist_R00031967-1) - Manhattan, New York
 - **ERM** (Env Consulting) - [EHS Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Austin-Texas/Environmental-Health-and-Safety-Consultant--Field-Based-_R00031822) - Austin Texas
 - **ERM** (Env Consulting) - [Consultant, Environmental Health & Safety (EHS)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Hartford-Connecticut/Consultant--Environmental-Health---Safety--EHS-_R00032100-2) - Hartford Connecticut
-- **ERM** (Env Consulting) - [Managing Technical Consultant, Environmental Permitting Specialist, FERC Generalist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Minneapolis-Minnesota/Senior-Consultant--Environmental-Permitting-Specialist--FERC-Generalist_R00030549-1) - Minneapolis, Minnesota
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Air Quality](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Nashville-Tennessee/Managing-Technical-Consultant--Air-Quality_R00032064-1) - Nashville Tennessee
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Compliance Engineer](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Indianapolis-Indiana/Managing-Technical-Consultant--Compliance-Engineer_R00032073-1) - Indianapolis, Indiana
 - **ERM** (Env Consulting) - [Consultant, Asbestos Specialist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Irvine-California/Consultant--Asbestos-Specialist_R00030044-1) - Irvine California
@@ -99,10 +97,9 @@
 - **ERM** (Env Consulting) - [Consultant, Civil Engineer](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Washington-DC/Consultant--Civil-Engineer_R00031431-1) - Washington DC
 - **ERM** (Env Consulting) - [Consultant, Land & Right of Way](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Minneapolis-Minnesota/Consultant--Land---Right-of-Way_R00031287-1) - Minneapolis, Minnesota
 - **ERM** (Env Consulting) - [Consultant, Project Finance](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Washington-DC/Consultant--Project-Finance_R00031232) - Washington DC
-- **ERM** (Env Consulting) - [Managing Technical Consultant, Landscape Architecture](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Atlanta-Georgia/Managing-Consultant--Land-Use---Visual-Impact-Planner_R00028785-1) - Atlanta Georgia
-- **ERM** (Env Consulting) - [Consultant, Land Services, Title Researcher](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Consultant--Land-Services--Title-Researcher_R00031438-1) - Rolling Meadows, Illinois
 - **ERM** (Env Consulting) - [Environmental, Health and Safety (EHS) Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Environmental--Health-and-Safety--EHS--Consultant--Field-Based-_R00031430) - Seattle, Washington
 - **ERM** (Env Consulting) - [Environmental Compliance Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Wastewater-Specialist_R00027060) - Seattle Washington
+- **Guidehouse** (Env Consulting) - [Consultant – Energy Providers](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/CA---ON-Toronto/Consultant---Energy-Providers_44894-1) - CA - ON, Toronto
 - **Guidehouse** (Env Consulting) - [Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---AL-Huntsville/Data-Analyst_39905) - REMOTE
 - **Guidehouse** (Env Consulting) - [Consultant - Financial Services](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/GB---London/Consultant---Financial-Services_38683) - GB - London
 - **Guidehouse** (Env Consulting) - [Consultant - Federal Civilian Agencies – Campus 2027](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Consultant---Federal-Civilian-Agencies---Campus-2027_44902) - US   VA Arlington
@@ -179,17 +176,15 @@
 - **Wood Mackenzie** (Market Intelligence) - [Energy Supply Chain Consultant (Graduate, 2027) - Houston](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Houston-US/Energy-Supply-Chain-Consultant--Graduate--2027----Houston_JR3345) - Houston, US
 - **Wood Mackenzie** (Market Intelligence) - [Energy Supply Chain Consultant (Graduate, 2027) - New York](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/New-York-US/Energy-Supply-Chain-Consultant--Graduate--2027----New-York_JR3340) - New York, US
 - **Wood Mackenzie** (Market Intelligence) - [Energy Supply Chain Consultant (Graduate, 2027) - Calgary](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Calgary-CA/Energy-Supply-Chain-Consultant--Graduate--2027----Calgary_JR3341) - Calgary, CA
-- **Wood Mackenzie** (Market Intelligence) - [Supply Chain Consultant - Boston](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/Boston-US/Supply-Chain-Consultant---Boston_JR3047) - Boston, US
 - **Wood Mackenzie** (Market Intelligence) - [Research Analyst, Power & Renewables](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/JP-Tokyo-Office/Research-Analyst--Power---Renewables_JR3039) - JP-Tokyo-Office
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
 - **Clearway Energy** (Renewable Developer) - [Analyst, Procurement](https://job-boards.greenhouse.io/clearwayjobs/jobs/5174149007) - Denver, Colorado, United States
-- **Nexamp** (Renewable Developer) - [Utility Scale Business Development Associate](https://nexamp.com//careers?gh_jid=8645727002#Open%20Roles) - Chicago, IL
 - **Exiger** (Trade & Supply Chain) - [Supply Chain Risk Analyst](https://www.exiger.com/careers/6098615004?gh_jid=6098615004) - Huntsville, Alabama, United States
 
 ### Internships (4)
 
 - **Charles River Associates** (Energy Consulting) - [(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120300) - Boston, MA, United States; Chicago, IL, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Washington, DC, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735519005) - New York, New York, United States; San Francisco, California, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - New York, New York, United States; San Francisco, California, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735673005) - New York, New York, United States
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513) - REMOTE
 
@@ -308,11 +303,11 @@
 - **Guidehouse** (Env Consulting) - [Regulatory Food Safety Toxicology SME](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Regulatory-Food-Safety-Toxicology-SME_43750) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Regulatory Compliance Reviewer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Regulatory-Compliance-Reviewer_43752) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Regulatory Food Safety Microbiology SME](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Regulatory-Food-Safety-Microbiology-SME_43751-1) - US - MD, Silver Spring
-- **Guidehouse** (Env Consulting) - [Research Nurse Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Research-Nurse-Specialist_42561) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Solution/Technical Architect (Utility Modernization)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Solution-Technical-Architect--Utility-Modernization-_42359) - US - NY, New York
 - **Guidehouse** (Env Consulting) - [Windows Systems Administrator and Vulnerability Management Coordinator](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MO-Kansas-City/Windows-Systems-Administrator-and-Vulnerability-Management-Coordinator_42373) - US   MO Kansas City
 - **Guidehouse** (Env Consulting) - [Bioassay Researcher](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Researcher_41850-1) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Bioassay Research Scientist II](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Research-Scientist-II_41842) - US - MD, Silver Spring
+- **Guidehouse** (Env Consulting) - [Research Nurse Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Research-Nurse-Specialist_35963) - US - MD, Bethesda
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/883914500) - Buffalo, New York; Green Bay, Wisconsin; Lincoln, Nebraska
 - **Bureau of Reclamation** (Government) - [Economist](https://www.usajobs.gov:443/job/886342300) - Sacramento, California
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
@@ -343,7 +338,8 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Housing and Communities Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Housing-and-Communities-Division-_R-801650) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 1, total open matches: 482._
+_Companies checked: 94, errors: 2, total open matches: 477._
 
 Companies that failed this run (check slug/config):
+- Nexamp: ReadTimeout: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=20)
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
