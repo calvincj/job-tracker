@@ -1,6 +1,6 @@
-# Job digest - 2026-10-05
+# Job digest - 2026-10-06
 
-**326 open roles** across 56 firms.
+**328 open roles** across 55 firms.
 
 ### New-grad / full-time (175)
 
@@ -199,7 +199,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000150768289) - REMOTE
 
-### Other matches (138)
+### Other matches (140)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Deployment Engineer (Utility Partnerships)](https://jobs.ashbyhq.com/base-power/90bcb98b-990d-467e-8b36-ee08e1eb1542) - Austin, TX
@@ -290,11 +290,11 @@
 - **ERM** (Env Consulting) - [Utility Project Support Specialist (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Utility-Project-Support-Specialist--Field-Based-_R00030418) - Rolling Meadows Illinois
 - **ERM** (Env Consulting) - [Partner, Capital Project Delivery – Power](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Pittsburgh-Pennsylvania/Partner--Capital-Project-Delivery---Power_R00031494-1) - Pittsburgh Pennsylvania
 - **ERM** (Env Consulting) - [Utility Agent (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Atlanta-Georgia/Utility-Agent--Field-Based-_R00027633) - Atlanta Georgia
-- **Guidehouse** (Env Consulting) - [Research Scientist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Research-Scientist_45226) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Data Analytics Developer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---TX-San-Antonio/Data-Analytics-Developer_44296) - US   TX San Antonio
 - **Guidehouse** (Env Consulting) - [DHS Policy & Strategy Advisor](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/DHS-Policy---Strategy-Advisor_42371) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Strategy & Change Management Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Strategy---Change-Management-Specialist_44728) - US - VA, Arlington; US - VA, McLean
 - **Guidehouse** (Env Consulting) - [Open Source Intelligence (OSINT) Policy and Governance Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Reston/Open-Source-Intelligence--OSINT--Policy-and-Governance-Specialist_43002) - US - VA, Reston
+- **Guidehouse** (Env Consulting) - [Research Scientist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Research-Scientist_44040) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Regulatory Chemical Contaminants Researcher](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---IL-Chicago/Regulatory-Chemical-Contaminants-Researcher_43598) - US - IL, Chicago
 - **Guidehouse** (Env Consulting) - [Regulatory Food Safety Toxicology SME](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Regulatory-Food-Safety-Toxicology-SME_43750) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Regulatory Compliance Reviewer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Regulatory-Compliance-Reviewer_43752) - US - MD, Silver Spring
@@ -305,17 +305,19 @@
 - **Guidehouse** (Env Consulting) - [Bioassay Researcher](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Researcher_41850-1) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Bioassay Research Scientist II](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Research-Scientist-II_41842) - US - MD, Silver Spring
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/883914500) - Green Bay, Wisconsin; Lincoln, Nebraska; Phoenix, Arizona
-- **Bureau of Reclamation** (Government) - [Economist](https://www.usajobs.gov:443/job/886342300) - Sacramento, California
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Spanish) - Part-time](https://www.usajobs.gov:443/job/887637500) - New York, New York
 - **Centers for Medicare & Medicaid Services** (Government) - [Economist](https://www.usajobs.gov:443/job/887406600) - Multiple Locations
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
 - **Defense Logistics Agency** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/887566800) - Tampa, Florida
 - **Defense Logistics Agency** (Government) - [Labor Economist](https://www.usajobs.gov:443/job/887269900) - Multiple Locations
+- **Department of Energy Headquarters** (Government) - [Economist](https://www.usajobs.gov:443/job/887590300) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [Intelligence Research Specialist](https://www.usajobs.gov:443/job/887140300) - Washington, District of Columbia
 - **Environmental Protection Agency** (Government) - [Economist](https://www.usajobs.gov:443/job/887347300) - Washington, District of Columbia
 - **Equal Employment Opportunity Commission** (Government) - [Economist](https://www.usajobs.gov:443/job/881132000) - Multiple Locations
 - **Federal Trade Commission** (Government) - [ECONOMIST](https://www.usajobs.gov:443/job/887156200) - Washington, District of Columbia
 - **Headquarters, AMC** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/887074800) - Redstone Arsenal, Alabama
 - **Millennium Challenge Corporation** (Government) - [Economist, MC-110-4C](https://www.usajobs.gov:443/job/887561000) - Washington, District of Columbia
+- **Naval Supply Systems Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/887258000) - Naval Support Activity, Mechanicsburg, Pennsylvania
 - **Naval Supply Systems Command** (Government) - [SUPERVISORY LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/887021800) - Naval Support Activity, Mechanicsburg, Pennsylvania
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **Securities and Exchange Commission** (Government) - [Economist](https://www.usajobs.gov:443/job/885808100) - Multiple Locations
