@@ -1,8 +1,8 @@
 # Job digest - 2026-10-07
 
-**320 open roles** across 53 firms.
+**318 open roles** across 53 firms.
 
-### New-grad / full-time (171)
+### New-grad / full-time (169)
 
 - **Crusoe Energy** (Cleantech) - [Procurement Operations Analyst](https://jobs.ashbyhq.com/crusoe/3f0089ff-ec8b-4650-81e5-5769c6da8b3c) - Bellevue, WA - US
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
@@ -110,8 +110,6 @@
 - **Guidehouse** (Env Consulting) - [Talent Management Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Talent-Management-Data-Analyst_41142) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Transportation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Transportation-Consultant_44951) - US   VA Arlington; US - VA, Arlington
 - **Guidehouse** (Env Consulting) - [Energy Efficiency Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Energy-Efficiency-Consultant_44942) - US   VA Arlington
-- **Guidehouse** (Env Consulting) - [Consultant – Energy Providers](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/CA---ON-Toronto/Consultant---Energy-Providers_44894-1) - CA - ON, Toronto
-- **Guidehouse** (Env Consulting) - [Consultant - Financial Services](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/GB---London/Consultant---Financial-Services_38683) - GB - London
 - **Guidehouse** (Env Consulting) - [Consultant - Federal Civilian Agencies – Campus 2027](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Consultant---Federal-Civilian-Agencies---Campus-2027_44902) - US   VA Arlington
 - **Guidehouse** (Env Consulting) - [Data Analyst/FM Product Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---IN-Indianapolis/Data-Analyst-FM-Product-Consultant_36597) - US - IN, Indianapolis
 - **Guidehouse** (Env Consulting) - [Financial Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Financial-Management-Consultant_44778) - US - DC, Washington
