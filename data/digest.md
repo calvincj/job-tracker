@@ -1,8 +1,8 @@
 # Job digest - 2026-10-11
 
-**318 open roles** across 56 firms.
+**317 open roles** across 55 firms.
 
-### New-grad / full-time (165)
+### New-grad / full-time (164)
 
 - **Crusoe Energy** (Cleantech) - [Procurement Operations Analyst](https://jobs.ashbyhq.com/crusoe/3f0089ff-ec8b-4650-81e5-5769c6da8b3c) - Bellevue, WA - US
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
@@ -156,7 +156,6 @@
 - **Guidehouse** (Env Consulting) - [Cybersecurity Project Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Cybersecurity-Project-Management-Consultant_43828-1) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Governance Strategy Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---AL-Huntsville/Governance-Strategy-Analyst_43000) - US - AL, Huntsville
 - **Guidehouse** (Env Consulting) - [Consultant – State and Local Government Columbia, SC market – Campus 2026](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---SC-Columbia/Consultant---State-and-Local-Government-Columbia--SC-market---Campus-2026_38913) - US - SC, Columbia
-- **Peterson** (Foreign Policy) - [Supply Chain Analyst](https://www.adzuna.com/details/5890300768?utm_medium=api&utm_source=7de842cf) - Hillsboro, Washington County
 - **Commerce, International Trade Administration** (Government) - [Supervisory Foreign-Trade Zones Analyst](https://www.usajobs.gov:443/job/888187200) - Washington, District of Columbia
 - **Defense Human Resources Activity** (Government) - [Interdisciplinary Statistician (Economics )/Economist/Operations Research Analyst (Data Scientist)](https://www.usajobs.gov:443/job/887823000) - Alexandria, Virginia
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2513-1) - Austin, TX
@@ -238,7 +237,7 @@
 - **Resource Innovations** (Energy Consulting) - [Microsoft Azure & M365 Infrastructure Engineer](https://apply.workable.com/j/4952E1FB43) - Denver, Colorado
 - **Resource Innovations** (Energy Consulting) - [Network and Site Infrastructure Engineer](https://apply.workable.com/j/53DFCB2DC2) - Salt Lake City, Utah
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/979C28D3ED) - Chandler, Arizona; Charlotte, North Carolina
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363579?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363677?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
 - **Booz Allen Hamilton** (Env Consulting) - [Logistics Readiness Advisor](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Camp-Lejeune-NC/Logistics-Readiness-Advisor_R0251364) - Camp Lejeune, NC
 - **Booz Allen Hamilton** (Env Consulting) - [Engagements and Transition Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Stuttgart-Baden-Wurttemberg/Engagements-and-Transition-Specialist_R0251280) - Stuttgart, Baden-Wurttemberg
 - **Booz Allen Hamilton** (Env Consulting) - [Power BI Data Visualization Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Ashburn-VA/Power-BI-Data-Visualization-Specialist_R0251262) - Ashburn, VA
