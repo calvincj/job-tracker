@@ -1,6 +1,6 @@
 # Job digest - 2026-10-15
 
-**323 open roles** across 60 firms.
+**321 open roles** across 59 firms.
 
 ### New-grad / full-time (167)
 
@@ -195,7 +195,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000150768289) - REMOTE
 
-### Other matches (139)
+### Other matches (137)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Deployment Engineer (Utility Partnerships)](https://jobs.ashbyhq.com/base-power/90bcb98b-990d-467e-8b36-ee08e1eb1542) - Austin, TX
@@ -204,6 +204,7 @@
 - **Base Power** (Cleantech) - [Software Engineer, Algorithms & Infrastructure](https://jobs.ashbyhq.com/base-power/0ccc74f5-3330-4379-9faa-6ca1b39d4593) - Austin, TX
 - **Crusoe Energy** (Cleantech) - [Logistics and Inventory Coordinator](https://jobs.ashbyhq.com/crusoe/2a5368b3-8df6-475e-a0e3-25f6913436f7) - Reykjanesbaer - IS
 - **Crusoe Energy** (Cleantech) - [Software Engineer II, Storage](https://jobs.ashbyhq.com/crusoe/ca49cb96-50b9-4a3d-a490-2e1d88c357b3) - San Francisco, CA - US
+- **Duke Energy** (Cleantech) - [Optimization Engineer I or II - DCC Grid](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Garner-NC/Optimization-Engineer-I-or-II---DCC-Grid_R42017) - Garner, NC
 - **Duke Energy** (Cleantech) - [Renewables Tech I, II, III - Raleigh Region](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Elm-City-NC/Renewables-Tech-I--II--III---Raleigh-Region_R41996) - Elm City NC
 - **Duke Energy** (Cleantech) - [Products & Services Specialist II - Trade Ally Management](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Greensboro-NC/Products---Services-Specialist-II---Trade-Ally-Management_R41990) - Greensboro NC
 - **Duke Energy** (Cleantech) - [Renewables Operations Center (ROC) Operator](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/Renewables-Operations-Center--ROC--Operator_R41984) - Charlotte, NC
@@ -241,7 +242,7 @@
 - **Resource Innovations** (Energy Consulting) - [Microsoft Azure & M365 Infrastructure Engineer](https://apply.workable.com/j/4952E1FB43) - Denver, Colorado
 - **Resource Innovations** (Energy Consulting) - [Network and Site Infrastructure Engineer](https://apply.workable.com/j/53DFCB2DC2) - Salt Lake City, Utah
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/979C28D3ED) - Chandler, Arizona; Charlotte, North Carolina
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363686?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363706?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
 - **Booz Allen Hamilton** (Env Consulting) - [AI Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Chantilly-VA/AI-Researcher_R0244539) - Chantilly, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Cloud Computing Infrastructure Architect, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Warner-Robins-GA/Cloud-Computing-Infrastructure-Architect--Mid_R0249944-1) - Warner Robins, GA
 - **Booz Allen Hamilton** (Env Consulting) - [Enterprise Cybersecurity AI Infrastructure Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Enterprise-Cybersecurity-AI-Infrastructure-Engineer_R0251567) - McLean, VA
@@ -303,24 +304,21 @@
 - **Guidehouse** (Env Consulting) - [Bioassay Researcher](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Researcher_41850-1) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Bioassay Research Scientist II](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Research-Scientist-II_41842) - US - MD, Silver Spring
 - **WSP** (Env Consulting) - [Energy Efficiency & Sustainability Specialist](https://www.adzuna.com/details/5921688450?utm_medium=api&utm_source=7de842cf) - Financial District, San Francisco
-- **Air Education and Training Command** (Government) - [SUPERVISORY LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/888041900) - Randolph AFB, Texas
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Spanish) - Part-time](https://www.usajobs.gov:443/job/887637500) - New York, New York
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
 - **Customs and Border Protection** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/888338600) - Washington, District of Columbia
 - **Defense Logistics Agency** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/887566800) - Tampa, Florida
 - **Defense Logistics Agency** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/888751000) - New Cumberland Defense Logistics Center, Pennsylvania
-- **Department of Energy Headquarters** (Government) - [Economist](https://www.usajobs.gov:443/job/887590300) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [Schedule A Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888564600) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
 - **Federal Trade Commission** (Government) - [ECONOMIST](https://www.usajobs.gov:443/job/887156200) - Washington, District of Columbia
-- **Headquarters, AMC** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/887114600) - Redstone Arsenal, Alabama
 - **Millennium Challenge Corporation** (Government) - [Economist, MC-110-4C](https://www.usajobs.gov:443/job/887561000) - Washington, District of Columbia
+- **Naval Air Systems Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/888527700) - Cherry Point, North Carolina
 - **Office of the Secretary** (Government) - [Attorney-Advisor (Power and Data Centers) Public Notice Flyer](https://www.usajobs.gov:443/job/876011600) - Washington, District of Columbia
 - **Office of the Secretary of Health and Human Services** (Government) - [Economist](https://www.usajobs.gov:443/job/888228000) - Multiple Locations
 - **Patent and Trademark Office** (Government) - [Economist](https://www.usajobs.gov:443/job/887901300) - Alexandria, Virginia
 - **Securities and Exchange Commission** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/888102600) - Washington, District of Columbia
 - **Veterans Health Administration** (Government) - [Utility Systems Operator](https://www.usajobs.gov:443/job/887573400) - Columbia, South Carolina
-- **Veterans Health Administration** (Government) - [Law Enforcement Specialist - Infrastructure Protection Program Management](https://www.usajobs.gov:443/job/888098300) - Big Spring, Texas
 - **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/888500900) - Clarksburg, West Virginia; Indianapolis, Indiana
 - **ERCOT** (Grid) - [Grid Interconnections Engineer 2](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Grid-Interconnections-Support-Engineer-2_R2517-1) - Taylor, TX
 - **ERCOT** (Grid) - [Advisor - Grid Interconnection](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Principal--Grid-Interconnection_R2333-1) - Austin, TX
@@ -338,7 +336,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant (Housing and Communities Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant--Housing-and-Communities-Division-_R-801650) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 2, total open matches: 474._
+_Companies checked: 94, errors: 2, total open matches: 472._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
