@@ -1,8 +1,8 @@
 # Job digest - 2026-10-21
 
-**336 open roles** across 60 firms.
+**332 open roles** across 58 firms.
 
-### New-grad / full-time (170)
+### New-grad / full-time (168)
 
 - **Crusoe Energy** (Cleantech) - [Procurement Operations Analyst](https://jobs.ashbyhq.com/crusoe/3f0089ff-ec8b-4650-81e5-5769c6da8b3c) - Bellevue, WA - US
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
@@ -12,12 +12,12 @@
 - **Redwood Materials** (Cleantech) - [Logistics Analyst (Inbound/Outbound)](https://boards.greenhouse.io/redwoodmaterials/jobs/6222749004?gh_jid=6222749004) - McCarran, NV
 - **Redwood Materials** (Cleantech) - [Production Associate, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6128077004?gh_jid=6128077004) - McCarran, NV
 - **Sylvera** (Climate Data) - [Carbon Analyst](https://jobs.ashbyhq.com/sylvera/c13b52bb-4162-4d30-b233-487abdb08944) - London
+- **Baker Tilly** (Consulting) - [HR Consultant (Generalist)](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-PA-Remote/HR-Consultant--Generalist-_JR108646) - REMOTE
 - **Baker Tilly** (Consulting) - [IT Audit, Cybersecurity & Risk Experienced Consultant (HITRUST)](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-MN-Minneapolis/IT-Audit--Cybersecurity---Risk-Experienced-Consultant--HITRUST-_JR108177) - USA MN Minneapolis
 - **Baker Tilly** (Consulting) - [Employee Benefits Consultant - ACA Reporting](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-PA-Clarks-Summit/Employee-Benefits-Consultant---ACA-Reporting_JR108408) - USA PA Clarks Summit
 - **Baker Tilly** (Consulting) - [IT Audit, Cybersecurity & Risk Experienced Consultant](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-UT-Lehi/IT-Audit--Cybersecurity---Risk-Experienced-Consultant_JR108320) - USA UT Lehi
 - **Baker Tilly** (Consulting) - [Summer 2027 Consultant - Forensic, Litigation, & Valuation Services](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-NY-New-York-City-66-Hudson-Blvd-E/Summer-2027-Consultant---Forensic--Litigation----Valuation-Services_JR108204) - USA NY New York City 66 Hudson Blvd E
 - **Baker Tilly** (Consulting) - [Forensics Litigation and Valuation Services Consultant - Fee Fund](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/GBR-LND-London/Forensics-Litigation-and-Valuation-Services-Consultant---Fee-Fund_JR108169-1) - GBR LND London
-- **Baker Tilly** (Consulting) - [HR Consultant (Generalist)](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-PA-Remote/HR-Consultant--Generalist-_JR108066) - REMOTE
 - **Deloitte** (Consulting) - [Critical Minerals Consultant - Government & Public Services](https://www.adzuna.com/details/5931349260?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 - **ICF** (Consulting) - [Critical Infrastructure (Fuels, Transportation, and Water) Analyst, SME (Security Clearance Required)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Dahlgren-VA/Critical-Infrastructure--Fuels--Transportation--and-Water--Analyst--SME--High-Level-Clearance-Required-_R2602917) - Dahlgren, VA
 - **ICF** (Consulting) - [Public Policy Researcher (Entry-Level; Reston, VA)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Public-Policy-Researcher--Entry-Level--Reston--VA-_R2603366) - Reston, VA
@@ -41,10 +41,10 @@
 - **FTI Consulting** (Energy Consulting) - [Client Projects, Consultant](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Madison-GA/Client-Projects--Consultant_JR261086) - Madison GA
 - **Resource Innovations** (Energy Consulting) - [Energy Modeling Consultant](https://apply.workable.com/j/260DD2982E) - Arizona
 - **Resource Innovations** (Energy Consulting) - [New Buildings Energy Performance Consultant](https://apply.workable.com/j/B3DE2B429B) - Salt Lake City, Utah
-- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726469005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
-- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720840005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720811005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720834005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726407005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
+- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735480005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4732797005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720832005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **Bipartisan Policy Center** (Energy Policy) - [Policy Analyst, Energy Program](https://www.adzuna.com/details/5923340924?utm_medium=api&utm_source=7de842cf) - Washington, D.C., US
 - **Energy Innovation** (Energy Policy) - [Analyst (Energy and Climate Modeling)](http://www.energyinnovation.org/about/careers?gh_jid=4715664005) - REMOTE
 - **Booz Allen Hamilton** (Env Consulting) - [Procurement Analyst, Junior](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Procurement-Analyst--Junior_R0251832) - McLean VA
@@ -112,7 +112,6 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Techno-Functional Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Techno-Functional-Analyst_44235) - REMOTE
 - **Guidehouse** (Env Consulting) - [Databricks Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Databricks-Data-Analyst_42290) - REMOTE
 - **Guidehouse** (Env Consulting) - [Consultant – Energy Providers](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/CA---ON-Toronto/Consultant---Energy-Providers_44894-1) - CA - ON, Toronto
-- **Guidehouse** (Env Consulting) - [Federal Financial Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Federal-Financial-Consultant_45386) - US   VA Arlington
 - **Guidehouse** (Env Consulting) - [Change Management and Adoption Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Change-Management-and-Adoption-Consultant_38723) - REMOTE
 - **Guidehouse** (Env Consulting) - [Financial Improvement & Audit Remediation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Financial-Improvement---Audit-Remediation-Consultant_45248) - US   DC Washington; US   VA Arlington
 - **Guidehouse** (Env Consulting) - [Emergency Management Strategy and Analytics Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---IL-Belleville/Emergency-Management-Strategy-and-Analytics-Consultant_45367) - US   IL Belleville; US - CO, Denver
@@ -161,11 +160,10 @@
 - **Guidehouse** (Env Consulting) - [Financial Services Consultants](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Financial-Services-Consultants_44494) - US   NY New York
 - **Guidehouse** (Env Consulting) - [Cybersecurity Project Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Cybersecurity-Project-Management-Consultant_43828-1) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Change Management Communications Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Change-Management-Communications-Consultant_43308) - US   VA Arlington
-- **Peterson** (Foreign Policy) - [Supply Chain Analyst](https://www.adzuna.com/details/5890300768?utm_medium=api&utm_source=7de842cf) - Hillsboro, Washington County
 - **Bureau of Industry and Security** (Government) - [Export Policy Analyst](https://www.usajobs.gov:443/job/889183100) - Washington, District of Columbia
 - **Bureau of Industry and Security** (Government) - [Trade and Industry Analyst](https://www.usajobs.gov:443/job/888775800) - Washington, District of Columbia
 - **Commerce, International Trade Administration** (Government) - [Supervisory Foreign-Trade Zones Analyst](https://www.usajobs.gov:443/job/888187200) - Washington, District of Columbia
-- **Federal Energy Regulatory Commission** (Government) - [Supervisory Energy Industry Analyst](https://www.usajobs.gov:443/job/888576100) - District of Columbia, District of Columbia
+- **DHS Headquarters** (Government) - [Policy Analyst](https://www.usajobs.gov:443/job/889510300) - Washington, District of Columbia
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2513-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
 - **Wood Mackenzie** (Market Intelligence) - [Market Analyst - Power Trading Analytics](https://woodmac.wd3.myworkdayjobs.com/en-US/woodmaccareers/job/London-GB/Market-Analyst---Power-Trading-Analytics_JR3085) - Boston, US; London GB
@@ -198,7 +196,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000150768289) - REMOTE
 
-### Other matches (149)
+### Other matches (147)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Deployment Engineer (Utility Partnerships)](https://jobs.ashbyhq.com/base-power/90bcb98b-990d-467e-8b36-ee08e1eb1542) - Austin, TX
@@ -215,7 +213,6 @@
 - **Duke Energy** (Cleantech) - [Engineer I or II - DCC Grid](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Garner-NC/Engineer-I-or-II---DCC-Grid_R42020) - Garner, NC
 - **Duke Energy** (Cleantech) - [Optimization Engineer I or II - DCC Grid](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Garner-NC/Optimization-Engineer-I-or-II---DCC-Grid_R42017) - Garner, NC
 - **Duke Energy** (Cleantech) - [Renewables Tech I, II, III - Raleigh Region](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Elm-City-NC/Renewables-Tech-I--II--III---Raleigh-Region_R41996) - Elm City NC
-- **Duke Energy** (Cleantech) - [Products & Services Specialist II - Trade Ally Management](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Greensboro-NC/Products---Services-Specialist-II---Trade-Ally-Management_R41990) - Greensboro NC
 - **Duke Energy** (Cleantech) - [Renewables Operations Center (ROC) Operator](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/Renewables-Operations-Center--ROC--Operator_R41984) - Charlotte, NC
 - **Electric Hydrogen** (Cleantech) - [Power Electronics Engineer](https://eh2.com/careers?gh_jid=4728069005) - San Jose, California, United States
 - **Form Energy** (Cleantech) - [Battery Modeling Engineer II](https://jobs.ashbyhq.com/formenergy/ce728d4e-e21d-489a-a5be-53846b424487) - Somerville, MA
@@ -252,7 +249,7 @@
 - **Resource Innovations** (Energy Consulting) - [Network and Site Infrastructure Engineer](https://apply.workable.com/j/53DFCB2DC2) - Salt Lake City, Utah
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/979C28D3ED) - Chandler, Arizona; Charlotte, North Carolina
 - **Sierra Club** (Energy Policy) - [Climate Resilience Organizer](https://jobs.lever.co/sierraclub/5da24911-a01c-4565-a5fc-f5a0b665be18) - Grand Junction, CO
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363706?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363650?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Las Vegas, Clark County, Phoenix, Maricopa County + 2 more
 - **Booz Allen Hamilton** (Env Consulting) - [Power Apps Developer, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Lexington-Park-MD/Power-Apps-Developer--Mid_R0252021-1) - Lexington Park MD
 - **Booz Allen Hamilton** (Env Consulting) - [DevOps Infrastructure Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Nellis-AFB-NV/DevOps-Infrastructure-Engineer_R0250822) - Nellis AFB, NV
 - **Booz Allen Hamilton** (Env Consulting) - [Logistics Planner](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Dix-NJ/Logistics-Planner_R0249437) - Fort Dix NJ
@@ -319,20 +316,19 @@
 - **Bureau of Economic Analysis** (Government) - [Economist](https://www.usajobs.gov:443/job/889011800) - Suitland, Maryland
 - **Bureau of Economic Analysis** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/888938900) - Suitland, Maryland
 - **Bureau of Economic Analysis** (Government) - [Economist (Recent Graduate)](https://www.usajobs.gov:443/job/889011200) - Suitland, Maryland
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/889454700) - Buffalo, New York
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/889454700) - Buffalo, New York; New York, New York
 - **Bureau of Land Management** (Government) - [Modernizing Public Policy Engagement](https://www.usajobs.gov:443/job/888717800) - Prineville, Oregon
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
-- **Customs and Border Protection** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/888338600) - Washington, District of Columbia
 - **Defense Logistics Agency** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/888751000) - New Cumberland Defense Logistics Center, Pennsylvania
 - **Department of Energy Headquarters** (Government) - [Intelligence Research Specialist](https://www.usajobs.gov:443/job/888988100) - Washington, District of Columbia
 - **Department of Energy Headquarters** (Government) - [Schedule A Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888564600) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
 - **Federal Trade Commission** (Government) - [ECONOMIST](https://www.usajobs.gov:443/job/887156200) - Washington, District of Columbia
+- **Food Safety and Inspection Service** (Government) - [Economist (STEM - Direct Hire)](https://www.usajobs.gov:443/job/889413100) - Multiple locations
 - **Geological Survey** (Government) - [Economist](https://www.usajobs.gov:443/job/889102600) - Location Negotiable After Selection
 - **Naval Air Systems Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/888527700) - Cherry Point, North Carolina
 - **Office of the Chief Economist** (Government) - [Bioeconomy Coordinator](https://www.usajobs.gov:443/job/889450300) - Washington, District of Columbia
 - **Offices, Boards and Divisions** (Government) - [Trial Attorney (Global Trade & Commerce Enforcement Section)](https://www.usajobs.gov:443/job/889359500) - Location Negotiable After Selection
-- **Patent and Trademark Office** (Government) - [Economist](https://www.usajobs.gov:443/job/887901300) - Alexandria, Virginia
 - **Securities and Exchange Commission** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/888102600) - Washington, District of Columbia
 - **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/888500900) - Clarksburg, West Virginia; Indianapolis, Indiana; Prescott, Arizona
 - **ERCOT** (Grid) - [Grid Interconnections Engineer 2](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Grid-Interconnections-Support-Engineer-2_R2517-1) - Taylor, TX
@@ -351,7 +347,7 @@
 - **Clearway Energy** (Renewable Developer) - [Solar Groundman](https://job-boards.greenhouse.io/clearwayjobs/jobs/5244238007) - Lemoore, California, United States
 
 ---
-_Companies checked: 94, errors: 2, total open matches: 505._
+_Companies checked: 94, errors: 2, total open matches: 502._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
