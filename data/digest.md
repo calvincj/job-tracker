@@ -1,8 +1,8 @@
-# Job digest - 2026-10-22
+# Job digest - 2026-10-23
 
-**336 open roles** across 59 firms.
+**333 open roles** across 59 firms.
 
-### New-grad / full-time (168)
+### New-grad / full-time (166)
 
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R42063) - Charlotte NC
@@ -42,10 +42,10 @@
 - **FTI Consulting** (Energy Consulting) - [Client Projects, Consultant](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Madison-GA/Client-Projects--Consultant_JR261086) - Madison GA
 - **Resource Innovations** (Energy Consulting) - [Energy Modeling Consultant](https://apply.workable.com/j/260DD2982E) - Arizona
 - **Resource Innovations** (Energy Consulting) - [New Buildings Energy Performance Consultant](https://apply.workable.com/j/B3DE2B429B) - Salt Lake City, Utah
-- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726407005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
-- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720840005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720810005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720834005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726468005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
+- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720839005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720811005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720836005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **Bipartisan Policy Center** (Energy Policy) - [Policy Analyst, Energy Program](https://www.adzuna.com/details/5923340924?utm_medium=api&utm_source=7de842cf) - Washington, D.C., US
 - **Energy Innovation** (Energy Policy) - [Analyst (Energy and Climate Modeling)](http://www.energyinnovation.org/about/careers?gh_jid=4715664005) - REMOTE
 - **Booz Allen Hamilton** (Env Consulting) - [Data Analyst, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Wharton-NJ/Data-Analyst--Mid_R0252131) - Huntsville, AL; Wharton, NJ
@@ -70,7 +70,6 @@
 - **Booz Allen Hamilton** (Env Consulting) - [Oil and Gas Energy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Riverdale-MD/Oil-and-Gas-Energy-Analyst_R0248598) - Riverdale, MD
 - **Booz Allen Hamilton** (Env Consulting) - [Energy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Riverdale-MD/Energy-Analyst_R0248593) - Riverdale, MD
 - **Booz Allen Hamilton** (Env Consulting) - [Logistics and Transportation Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Riverdale-MD/Logistics-and-Transportation-Analyst_R0248581) - Riverdale, MD
-- **Booz Allen Hamilton** (Env Consulting) - [Financial Program and Data Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/Financial-Program-and-Data-Analyst_R0247680) - Washington, DC
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Due Diligence (Mergers & Acquisitions)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Denver-Colorado/Managing-Technical-Consultant--Due-Diligence--Mergers---Acquisitions-_R00031892-1) - Denver, Colorado
 - **ERM** (Env Consulting) - [Consultant, Air Quality](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Houston-Texas/Consultant--Air-Quality_R00032552-1) - Houston, Texas; Scottsdale, Arizona
 - **ERM** (Env Consulting) - [Consultant, Environmental Health and Safety, EHS - San Fran Bay Area, California](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Walnut-Creek-California/Consultant--Environmental-Health-and-Safety--EHS---San-Fran-Bay-Area--California_R00031527-1) - Walnut Creek California
@@ -97,7 +96,6 @@
 - **ERM** (Env Consulting) - [Consultant, Environmental Engineer, Geologist, or Scientist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Manhattan-New-York/Consultant--Environmental-Engineer--Geologist--or-Scientist_R00031967-1) - Manhattan, New York
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Compliance Engineer](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Indianapolis-Indiana/Managing-Technical-Consultant--Compliance-Engineer_R00032073-1) - Indianapolis, Indiana
 - **ERM** (Env Consulting) - [Consultant, Health and Safety](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Houston-Texas/Consultant--Health-and-Safety_R00031893-1) - Houston, Texas
-- **ERM** (Env Consulting) - [Consultant, Engineer](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Consultant--Engineer_R00031851-1) - Rolling Meadows, Illinois
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Biologist/Regulatory Specialist, Power and Technology Sectors](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Managing-Technical-Consultant--Biologist-Regulatory-Specialist--Power-and-Technology-Sectors_R00031588-1) - Seattle, Washington
 - **ERM** (Env Consulting) - [Environmental, Health and Safety (EHS) Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Environmental--Health-and-Safety--EHS--Consultant--Field-Based-_R00031430) - Seattle, Washington
 - **Guidehouse** (Env Consulting) - [Data Analyst/FM Product Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Analyst-FM-Product-Specialist_45649-1) - REMOTE
@@ -178,7 +176,7 @@
 - **ICF** (Consulting) - [2027 Summer Intern, Sustainable Mobility (New York)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/New-York-NY/XMLNAME-2027-Summer-Intern--Sustainable-Mobility--New-York-_R2603406) - New York NY
 - **ICF** (Consulting) - [2027 Summer Intern, Data Analytics (Reston, VA or Remote)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Data-Analytics--Reston--VA-or-Remote-_R2603382-1) - REMOTE
 - **Charles River Associates** (Energy Consulting) - [(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120300) - Boston, MA, United States; Chicago, IL, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Washington, DC, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735519005) - New York, New York, United States; San Francisco, California, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - New York, New York, United States; San Francisco, California, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735673005) - New York, New York, United States
 - **The Brattle Group** (Energy Consulting) - [Research Associate Intern](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4743566005) - San Francisco, California, United States
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513) - REMOTE
@@ -196,7 +194,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000150768289) - REMOTE
 
-### Other matches (151)
+### Other matches (150)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Deployment Engineer (Utility Partnerships)](https://jobs.ashbyhq.com/base-power/90bcb98b-990d-467e-8b36-ee08e1eb1542) - Austin, TX
@@ -225,8 +223,8 @@
 - **Rondo Energy** (Cleantech) - [Electrical Systems Engineer - Power and Controls](https://job-boards.greenhouse.io/rondoenergy/jobs/4699846006) - Alameda, CA
 - **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Lancaster/Solar-Appointment-Setter_R73018) - CA Merced, CA Santa Ana, CA Woodland Hills + 71 more
 - **Sunrun** (Cleantech) - [Solar Installer](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/HI-Hilo/Installer_R75351) - HI, Hilo; IL, Bloomington
-- **Sunrun** (Cleantech) - [Solar Service Tech](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Fresno/Sr-Field-Performance-Technician_R72865) - CA, Bakersfield; CA, Fresno; IL, Bloomington
 - **Sunrun** (Cleantech) - [Solar Foreperson: $1,500 sign-on bonus](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/IL-Naperville/Solar-Foreperson---1-500-sign-on-bonus_R74537) - IL, Des Plaines; IL, Naperville
+- **Sunrun** (Cleantech) - [Solar Service Tech](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/IL-Bloomington/Field-Performance-Technician_R70017) - IL, Bloomington
 - **Sunrun** (Cleantech) - [Solar Installer (Talent Pool, Future)](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/HI-Lihue/Solar-Installer--Talent-Pool--Future-_R74601) - HI, Lihue
 - **Sunrun** (Cleantech) - [Solar Appoinment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/MA-Dartmouth/Solar-Appoinment-Setter_R50272) - MA, Dartmouth
 - **Watershed** (Climate Data) - [Software engineer, cloud infrastructure](https://jobs.ashbyhq.com/watershed/9dd3ca17-baff-4e36-be75-f13a2a919cbc) - San Francisco
@@ -238,7 +236,6 @@
 - **ICF** (Consulting) - [Public Policy and Comment Analysis Specialist  (Hybrid role, Reston, VA)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Senior-Public-Policy-and-Comment-Analysis-Specialist---Hybrid-role--Reston--VA-_R2602004) - Reston, VA
 - **ICF** (Consulting) - [Energy Engineer](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Houston-TX/Energy-Engineer_R2602998) - Houston, TX
 - **ICF** (Consulting) - [Account Specialist - Home Energy Advisor (Field-Based) San Diego, CA](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/San-Diego-CA/Account-Specialist---Home-Energy-Advisor--Field-Based--San-Diego--CA_R2603022-1) - San Diego, CA
-- **ICF** (Consulting) - [Energy and Sustainability Engineer- Hybrid](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Arlington-VA-VA31/Energy-and-Sustainability-Engineer--Hybrid_R2602895) - Arlington, VA (VA31)
 - **ICF** (Consulting) - [Disaster Response Logistics - Reservist (On Call)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Disaster-Response-Logistics---Reservist--On-Call-_R2602662) - Reston, VA
 - **ICF** (Consulting) - [Network Modeling and Simulation Researcher (Security Clearance Required)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Aberdeen-MD/Network-Modeling-and-Simulation-Researcher--Security-Clearance-Required-_R2600160) - Aberdeen, MD
 - **Albemarle** (Critical Minerals) - [Digital Business Partner - Supply Chain](https://albemarle.wd5.myworkdayjobs.com/en-US/External/job/Charlotte-North-Carolina-United-States-of-America/Digital-Business-Partner---Supply-Chain_REQ-31455) - Charlotte, North Carolina, United States of America
@@ -250,7 +247,7 @@
 - **Resource Innovations** (Energy Consulting) - [Network and Site Infrastructure Engineer](https://apply.workable.com/j/53DFCB2DC2) - Salt Lake City, Utah
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/979C28D3ED) - Chandler, Arizona; Charlotte, North Carolina
 - **Sierra Club** (Energy Policy) - [Climate Resilience Organizer](https://jobs.lever.co/sierraclub/5da24911-a01c-4565-a5fc-f5a0b665be18) - Grand Junction, CO
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363686?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363621?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
 - **Booz Allen Hamilton** (Env Consulting) - [Power Apps Developer, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Lexington-Park-MD/Power-Apps-Developer--Mid_R0252021-1) - Lexington Park, MD
 - **Booz Allen Hamilton** (Env Consulting) - [Trade Compliance Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Trade-Compliance-Specialist_R0252125-1) - McLean, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Technical Tradecraft Instructor](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Chantilly-VA/Technical-Tradecraft-Instructor_R0244940) - Chantilly, VA
@@ -351,7 +348,7 @@
 - **Clearway Energy** (Renewable Developer) - [Solar Groundman](https://job-boards.greenhouse.io/clearwayjobs/jobs/5244238007) - Lemoore, California, United States
 
 ---
-_Companies checked: 94, errors: 2, total open matches: 513._
+_Companies checked: 94, errors: 2, total open matches: 508._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
