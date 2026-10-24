@@ -1,8 +1,8 @@
 # Job digest - 2026-10-24
 
-**332 open roles** across 61 firms.
+**329 open roles** across 58 firms.
 
-### New-grad / full-time (163)
+### New-grad / full-time (161)
 
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R42063) - Charlotte NC
@@ -73,7 +73,6 @@
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Due Diligence (Mergers & Acquisitions)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Denver-Colorado/Managing-Technical-Consultant--Due-Diligence--Mergers---Acquisitions-_R00031892-1) - Denver, Colorado
 - **ERM** (Env Consulting) - [Consultant, Air Quality](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Houston-Texas/Consultant--Air-Quality_R00032552-1) - Houston, Texas; Scottsdale, Arizona
 - **ERM** (Env Consulting) - [Consultant, Environmental Health and Safety, EHS - San Fran Bay Area, California](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Walnut-Creek-California/Consultant--Environmental-Health-and-Safety--EHS---San-Fran-Bay-Area--California_R00031527-1) - Walnut Creek California
-- **ERM** (Env Consulting) - [Managing Technical Consultant, GIS & Cultural Heritage](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Irvine-California/Managing-Technical-Consultant--GIS---Cultural-Heritage_R00032547-2) - Irvine, California
 - **ERM** (Env Consulting) - [Consultant, Environmental, Health, and Safety (EHS)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/San-Diego-California/Consultant--Environmental--Health--and-Safety--EHS-_R00031178-1) - San Diego California
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Health and Safety (Electrical)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Ewing-New-Jersey/Managing-Technical-Consultant--Health-and-Safety--Electrical-_R00032194-1) - Ewing New Jersey
 - **ERM** (Env Consulting) - [Consultant, Asbestos Specialist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Irvine-California/Consultant--Asbestos-Specialist_R00032376-1) - Irvine California
@@ -157,8 +156,7 @@
 - **Guidehouse** (Env Consulting) - [Financial Services Consultants](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Financial-Services-Consultants_44494) - US   NY New York
 - **Guidehouse** (Env Consulting) - [Cybersecurity Project Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Cybersecurity-Project-Management-Consultant_43828-1) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Change Management Communications Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Change-Management-Communications-Consultant_43308) - US   VA Arlington
-- **Bureau of Industry and Security** (Government) - [Export Policy Analyst](https://www.usajobs.gov:443/job/889183100) - Washington, District of Columbia
-- **Commerce, International Trade Administration** (Government) - [Supervisory Foreign-Trade Zones Analyst](https://www.usajobs.gov:443/job/888187200) - Washington, District of Columbia
+- **Bureau of Industry and Security** (Government) - [Export Policy Analyst](https://www.usajobs.gov:443/job/889883600) - Washington, District of Columbia
 - **DHS Headquarters** (Government) - [Policy Analyst](https://www.usajobs.gov:443/job/889510300) - Washington, District of Columbia
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2513-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
@@ -191,7 +189,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **Economic Research Service** (Government) - [Economics (Student Trainee)](https://www.usajobs.gov:443/job/889896000) - REMOTE
 
-### Other matches (152)
+### Other matches (151)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
@@ -241,7 +239,7 @@
 - **Resource Innovations** (Energy Consulting) - [Network and Site Infrastructure Engineer](https://apply.workable.com/j/53DFCB2DC2) - Salt Lake City, Utah
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/979C28D3ED) - Chandler, Arizona; Charlotte, North Carolina
 - **Sierra Club** (Energy Policy) - [Climate Resilience Organizer](https://jobs.lever.co/sierraclub/5da24911-a01c-4565-a5fc-f5a0b665be18) - Grand Junction, CO
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363609?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363621?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
 - **Booz Allen Hamilton** (Env Consulting) - [Services Procurement Professional, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Services-Procurement-Professional--Mid_R0252097) - McLean VA
 - **Booz Allen Hamilton** (Env Consulting) - [Cyber Operations Developer and Vulnerability Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/Cyber-Operations-Developer-and-Vulnerability-Researcher_R0251504) - Annapolis Junction, MD
 - **Booz Allen Hamilton** (Env Consulting) - [Offensive Cyber Capability Developer and Vulnerability Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/Offensive-Cyber-Capability-Developer-and-Vulnerability-Researcher_R0252114) - Annapolis Junction, MD
@@ -313,22 +311,21 @@
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/889454700) - Buffalo, New York; New York, New York; San Francisco, California; Seattle, Washington
 - **Bureau of Land Management** (Government) - [Modernizing Public Policy Engagement](https://www.usajobs.gov:443/job/888717800) - Prineville, Oregon
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
-- **Customs and Border Protection** (Government) - [Intelligence Research Specialist](https://www.usajobs.gov:443/job/889313700) - Multiple Locations
 - **Defense Logistics Agency** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/889626000) - Robins AFB, Georgia
+- **Defense Logistics Agency** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/888751000) - New Cumberland Defense Logistics Center, Pennsylvania
 - **Department of Energy Headquarters** (Government) - [Intelligence Research Specialist](https://www.usajobs.gov:443/job/888988100) - Washington, District of Columbia
 - **Department of Energy Headquarters** (Government) - [Schedule A Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888564600) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [Economist](https://www.usajobs.gov:443/job/889633800) - Washington, District of Columbia
 - **Federal Trade Commission** (Government) - [ECONOMIST](https://www.usajobs.gov:443/job/887156200) - Washington, District of Columbia
 - **Food Safety and Inspection Service** (Government) - [Economist (STEM - Direct Hire)](https://www.usajobs.gov:443/job/889413100) - Multiple locations
-- **Geological Survey** (Government) - [Economist](https://www.usajobs.gov:443/job/889102600) - Location Negotiable After Selection
 - **Office of Management and Budget** (Government) - [Economist](https://www.usajobs.gov:443/job/889698300) - Washington, District of Columbia
 - **Office of the Chief Economist** (Government) - [Bioeconomy Coordinator](https://www.usajobs.gov:443/job/889450300) - Washington, District of Columbia
 - **Offices, Boards and Divisions** (Government) - [Trial Attorney (Global Trade & Commerce Enforcement Section)](https://www.usajobs.gov:443/job/889359500) - Location Negotiable After Selection
 - **Securities and Exchange Commission** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/885040000) - Washington, District of Columbia
 - **Treasury, Departmental Offices** (Government) - [Economic Sanctions Compliance Investigator](https://www.usajobs.gov:443/job/889956900) - Washington, District of Columbia
 - **Veterans Health Administration** (Government) - [Law Enforcement Specialist - Infrastructure Protection Program Management](https://www.usajobs.gov:443/job/889914100) - Harlingen, Texas
-- **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/888500900) - Clarksburg, West Virginia; Indianapolis, Indiana; Prescott, Arizona
+- **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/886929300) - Clarksburg, West Virginia
 - **ERCOT** (Grid) - [Power Systems Engineer - Grid Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Power-Systems-Engineer-Sr---Grid-Analysis_R2228-1) - Austin, TX
 - **ERCOT** (Grid) - [Power Systems Engineer 3 - Grid Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Power-Systems-Engineer-3---Grid-Analysis_R2426) - Taylor, TX
 - **ERCOT** (Grid) - [Grid Interconnections Engineer 2](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Grid-Interconnections-Support-Engineer-2_R2517-1) - Taylor, TX
@@ -347,8 +344,10 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 2, total open matches: 502._
+_Companies checked: 94, errors: 4, total open matches: 495._
 
 Companies that failed this run (check slug/config):
+- World Resources Institute: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
+- Cornerstone Research: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
