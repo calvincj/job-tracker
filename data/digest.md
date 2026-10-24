@@ -1,8 +1,8 @@
 # Job digest - 2026-10-24
 
-**329 open roles** across 58 firms.
+**328 open roles** across 57 firms.
 
-### New-grad / full-time (161)
+### New-grad / full-time (160)
 
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R42063) - Charlotte NC
@@ -41,10 +41,9 @@
 - **Resource Innovations** (Energy Consulting) - [Energy Modeling Consultant](https://apply.workable.com/j/260DD2982E) - Arizona
 - **Resource Innovations** (Energy Consulting) - [New Buildings Energy Performance Consultant](https://apply.workable.com/j/B3DE2B429B) - Salt Lake City, Utah
 - **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726471005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
-- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720840005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720839005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4732797005) - Chicago, Illinois, United States; New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720834005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
-- **Bipartisan Policy Center** (Energy Policy) - [Policy Analyst, Energy Program](https://www.adzuna.com/details/5923340924?utm_medium=api&utm_source=7de842cf) - Washington, D.C., US
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720836005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **Energy Innovation** (Energy Policy) - [Analyst (Energy and Climate Modeling)](http://www.energyinnovation.org/about/careers?gh_jid=4715664005) - REMOTE
 - **Booz Allen Hamilton** (Env Consulting) - [Data Analyst, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Wharton-NJ/Data-Analyst--Mid_R0252131) - Huntsville, AL; Wharton, NJ
 - **Booz Allen Hamilton** (Env Consulting) - [F-35 Logistics Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/F-35-Logistics-Analyst_R0252153) - Arlington, VA
@@ -171,7 +170,7 @@
 - **ICF** (Consulting) - [2027 Summer Intern, Sustainable Mobility (New York)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/New-York-NY/XMLNAME-2027-Summer-Intern--Sustainable-Mobility--New-York-_R2603406) - New York NY
 - **ICF** (Consulting) - [2027 Summer Intern, Data Analytics (Reston, VA or Remote)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Data-Analytics--Reston--VA-or-Remote-_R2603382-1) - REMOTE
 - **Charles River Associates** (Energy Consulting) - [(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120300) - Boston, MA, United States; Chicago, IL, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Washington, DC, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735519005) - New York, New York, United States; San Francisco, California, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - New York, New York, United States; San Francisco, California, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735673005) - New York, New York, United States
 - **The Brattle Group** (Energy Consulting) - [Research Associate Intern](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4743566005) - San Francisco, California, United States
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513) - REMOTE
@@ -239,7 +238,7 @@
 - **Resource Innovations** (Energy Consulting) - [Network and Site Infrastructure Engineer](https://apply.workable.com/j/53DFCB2DC2) - Salt Lake City, Utah
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/979C28D3ED) - Chandler, Arizona; Charlotte, North Carolina
 - **Sierra Club** (Energy Policy) - [Climate Resilience Organizer](https://jobs.lever.co/sierraclub/5da24911-a01c-4565-a5fc-f5a0b665be18) - Grand Junction, CO
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363621?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363686?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
 - **Booz Allen Hamilton** (Env Consulting) - [Services Procurement Professional, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Services-Procurement-Professional--Mid_R0252097) - McLean VA
 - **Booz Allen Hamilton** (Env Consulting) - [Cyber Operations Developer and Vulnerability Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/Cyber-Operations-Developer-and-Vulnerability-Researcher_R0251504) - Annapolis Junction, MD
 - **Booz Allen Hamilton** (Env Consulting) - [Offensive Cyber Capability Developer and Vulnerability Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/Offensive-Cyber-Capability-Developer-and-Vulnerability-Researcher_R0252114) - Annapolis Junction, MD
@@ -344,10 +343,8 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 4, total open matches: 495._
+_Companies checked: 94, errors: 2, total open matches: 494._
 
 Companies that failed this run (check slug/config):
-- World Resources Institute: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
-- Cornerstone Research: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
