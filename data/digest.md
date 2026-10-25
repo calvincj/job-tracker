@@ -1,8 +1,8 @@
 # Job digest - 2026-10-25
 
-**323 open roles** across 56 firms.
+**325 open roles** across 57 firms.
 
-### New-grad / full-time (158)
+### New-grad / full-time (160)
 
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R42063) - Charlotte NC
@@ -44,6 +44,7 @@
 - **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720839005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4732797005) - Chicago, Illinois, United States; New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720836005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
+- **Bipartisan Policy Center** (Energy Policy) - [Policy Analyst, Energy Program](https://www.adzuna.com/details/5923340924?utm_medium=api&utm_source=7de842cf) - Washington, D.C., US
 - **Booz Allen Hamilton** (Env Consulting) - [Data Analyst, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Wharton-NJ/Data-Analyst--Mid_R0252131) - Huntsville, AL; Wharton, NJ
 - **Booz Allen Hamilton** (Env Consulting) - [F-35 Logistics Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/F-35-Logistics-Analyst_R0252153) - Arlington, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Cyber Workforce Manpower Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Meade-MD/Cyber-Workforce-Manpower-Analyst_R0252052) - Fort Meade, MD
@@ -95,6 +96,7 @@
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Biologist/Regulatory Specialist, Power and Technology Sectors](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Managing-Technical-Consultant--Biologist-Regulatory-Specialist--Power-and-Technology-Sectors_R00031588-1) - Seattle, Washington
 - **ERM** (Env Consulting) - [Environmental, Health and Safety (EHS) Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Environmental--Health-and-Safety--EHS--Consultant--Field-Based-_R00031430) - Seattle, Washington
 - **Guidehouse** (Env Consulting) - [Data Analyst/FM Product Specialist](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Analyst-FM-Product-Specialist_45649-1) - REMOTE
+- **Guidehouse** (Env Consulting) - [Open-Source Research Analyst – China (Mandarin Required)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Open-Source-Research-Analyst---China--Mandarin-Required-_45629) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [Strategy and Business Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Strategy-and-Business-Transformation-Consultant_45351) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Databricks Analytics Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Databricks-Analytics-Consultant_45347) - US   VA McLean
 - **Guidehouse** (Env Consulting) - [Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Analyst_45631) - REMOTE
@@ -338,7 +340,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 2, total open matches: 489._
+_Companies checked: 94, errors: 2, total open matches: 490._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
