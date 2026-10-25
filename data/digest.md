@@ -1,6 +1,6 @@
 # Job digest - 2026-10-25
 
-**325 open roles** across 57 firms.
+**324 open roles** across 56 firms.
 
 ### New-grad / full-time (160)
 
@@ -188,7 +188,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **Economic Research Service** (Government) - [Economics (Student Trainee)](https://www.usajobs.gov:443/job/889896000) - REMOTE
 
-### Other matches (148)
+### Other matches (147)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
@@ -236,7 +236,6 @@
 - **Resource Innovations** (Energy Consulting) - [Network and Site Infrastructure Engineer](https://apply.workable.com/j/53DFCB2DC2) - Salt Lake City, Utah
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/979C28D3ED) - Chandler, Arizona; Charlotte, North Carolina
 - **Sierra Club** (Energy Policy) - [Climate Resilience Organizer](https://jobs.lever.co/sierraclub/5da24911-a01c-4565-a5fc-f5a0b665be18) - Grand Junction, CO
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5904363677?utm_medium=api&utm_source=7de842cf) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
 - **Booz Allen Hamilton** (Env Consulting) - [Services Procurement Professional, Mid](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Services-Procurement-Professional--Mid_R0252097) - McLean VA
 - **Booz Allen Hamilton** (Env Consulting) - [Cyber Operations Developer and Vulnerability Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/Cyber-Operations-Developer-and-Vulnerability-Researcher_R0251504) - Annapolis Junction, MD
 - **Booz Allen Hamilton** (Env Consulting) - [Offensive Cyber Capability Developer and Vulnerability Researcher](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/Offensive-Cyber-Capability-Developer-and-Vulnerability-Researcher_R0252114) - Annapolis Junction, MD
@@ -340,7 +339,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 2, total open matches: 490._
+_Companies checked: 94, errors: 2, total open matches: 483._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
