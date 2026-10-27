@@ -1,8 +1,8 @@
 # Job digest - 2026-10-27
 
-**327 open roles** across 56 firms.
+**324 open roles** across 56 firms.
 
-### New-grad / full-time (161)
+### New-grad / full-time (160)
 
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
 - **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R42063) - Charlotte NC
@@ -41,9 +41,9 @@
 - **FTI Consulting** (Energy Consulting) - [Consultant, Restructuring - Montreal](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Montreal-QC/Consultant--Restructuring---Montreal_JR261204) - Montreal, QC
 - **Resource Innovations** (Energy Consulting) - [Energy Modeling Consultant](https://apply.workable.com/j/260DD2982E) - Arizona
 - **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726471005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
-- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720840005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Energy Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720839005) - Boston, Massachusetts, United States; San Francisco, California, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics and Finance) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4732797005) - Chicago, Illinois, United States; New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720834005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst (Economics) - July 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4720836005) - Boston, Massachusetts, United States; Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **Bipartisan Policy Center** (Energy Policy) - [Policy Analyst, Energy Program](https://www.adzuna.com/details/5923340924?utm_medium=api&utm_source=7de842cf) - Washington, D.C., US
 - **Booz Allen Hamilton** (Env Consulting) - [Data Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Data-Analyst_R0252346) - Alexandria, VA, Arlington, VA, McLean, VA + 2 more
 - **Booz Allen Hamilton** (Env Consulting) - [Policy Analyst](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Belcamp-MD/Policy-Analyst_R0252288) - Belcamp, MD
@@ -95,7 +95,6 @@
 - **ERM** (Env Consulting) - [Environmental, Health and Safety (EHS) Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Environmental--Health-and-Safety--EHS--Consultant--Field-Based-_R00031430) - Seattle, Washington
 - **Guidehouse** (Env Consulting) - [Federal Extramural Process Improvement Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Federal-Extramural-Process-Improvement-Consultant_45780) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Training Solution Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Training-Solution-Consultant_45095) - US   VA Arlington
-- **Guidehouse** (Env Consulting) - [Consultant - Centers for Disease Control and Prevention, Federal Health Advisory - Campus 2027](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Consultant---Centers-for-Disease-Control-and-Prevention--Federal-Health-Advisory---Campus-2027_43429) - US - GA, Atlanta
 - **Guidehouse** (Env Consulting) - [Open-Source Research Analyst – China (Mandarin Required)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Open-Source-Research-Analyst---China--Mandarin-Required-_45629) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [Strategy and Business Transformation Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Strategy-and-Business-Transformation-Consultant_45351) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Databricks Analytics Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Databricks-Analytics-Consultant_45347) - US   VA McLean
@@ -171,7 +170,7 @@
 - **ICF** (Consulting) - [2027 Summer Intern, Sustainable Mobility (New York)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/New-York-NY/XMLNAME-2027-Summer-Intern--Sustainable-Mobility--New-York-_R2603406) - New York NY
 - **ICF** (Consulting) - [2027 Summer Intern, Data Analytics (Reston, VA or Remote)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Data-Analytics--Reston--VA-or-Remote-_R2603382-1) - REMOTE
 - **Charles River Associates** (Energy Consulting) - [(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120300) - Boston, MA, United States; Chicago, IL, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Washington, DC, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735519005) - New York, New York, United States; San Francisco, California, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - New York, New York, United States; San Francisco, California, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735673005) - New York, New York, United States
 - **The Brattle Group** (Energy Consulting) - [Research Associate Intern](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4743566005) - San Francisco, California, United States
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513) - REMOTE
@@ -189,7 +188,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **Economic Research Service** (Government) - [Economics (Student Trainee)](https://www.usajobs.gov:443/job/889896000) - REMOTE
 
-### Other matches (149)
+### Other matches (147)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
@@ -211,7 +210,7 @@
 - **Redwood Materials** (Cleantech) - [Energy Production Planner](https://boards.greenhouse.io/redwoodmaterials/jobs/6222739004?gh_jid=6222739004) - McCarran, NV
 - **Redwood Materials** (Cleantech) - [Software Validation Engineer, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6139226004?gh_jid=6139226004) - San Francisco, California, United States
 - **Rondo Energy** (Cleantech) - [Electrical Systems Engineer - Power and Controls](https://job-boards.greenhouse.io/rondoenergy/jobs/4699846006) - Alameda, CA
-- **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Escondido/Solar-Appointment-Setter_R77036) - CA Merced, CA Santa Ana, CA Woodland Hills + 72 more
+- **Sunrun** (Cleantech) - [Solar Appointment Setter](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/CA-Escondido/Solar-Appointment-Setter_R77036) - CA Merced, CA Santa Ana, CA Woodland Hills + 71 more
 - **Sunrun** (Cleantech) - [Solar Installer](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/HI-Hilo/Installer_R75351) - HI, Hilo; IL, Bloomington
 - **Sunrun** (Cleantech) - [Solar Foreperson: $1,500 sign-on bonus](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/IL-Naperville/Solar-Foreperson---1-500-sign-on-bonus_R74537) - IL, Des Plaines; IL, Naperville
 - **Sunrun** (Cleantech) - [Solar Service Tech](https://sunrun.wd5.myworkdayjobs.com/en-US/Sunrun_Careers/job/IL-Bloomington/Field-Performance-Technician_R70017) - IL, Bloomington
@@ -237,7 +236,7 @@
 - **Resource Innovations** (Energy Consulting) - [Network and Site Infrastructure Engineer](https://apply.workable.com/j/53DFCB2DC2) - Salt Lake City, Utah
 - **Resource Innovations** (Energy Consulting) - [Residential Energy Auditor](https://apply.workable.com/j/979C28D3ED) - Chandler, Arizona
 - **Sierra Club** (Energy Policy) - [Climate Resilience Organizer](https://jobs.lever.co/sierraclub/5da24911-a01c-4565-a5fc-f5a0b665be18) - Grand Junction, CO
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/land/ad/5907848205?se=cCKPx7rR8RGTmpORxmRtzw&utm_medium=api&utm_source=7de842cf&v=E971E887D7EC684F0C71F8B1FDBFDD3B1AEF1770) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 5 more
+- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/land/ad/5907852219?se=Kr3r1PvR8RGTmpORxmRtzw&utm_medium=api&utm_source=7de842cf&v=514B0A4D25380A2FC6F01FC52104CFD4E925CDD9) - Denver, Colorado, Houston, Harris County, Las Vegas, Clark County + 4 more
 - **Booz Allen Hamilton** (Env Consulting) - [Common Computing Infrastructure Support Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Port-Hueneme-CA/Common-Computing-Infrastructure-Support-Engineer_R0252361) - Port Hueneme, CA
 - **Booz Allen Hamilton** (Env Consulting) - [Cyber Workforce Policy Advisor](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Alexandria-VA/Cyber-Workforce-Policy-Advisor_R0249309) - Alexandria, VA
 - **Booz Allen Hamilton** (Env Consulting) - [Data Analytics](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Uruma-City-Okinawa/Data-Analytics_R0252215) - Uruma City, Okinawa
@@ -310,10 +309,8 @@
 - **Bureau of Land Management** (Government) - [Modernizing Public Policy Engagement](https://www.usajobs.gov:443/job/888717800) - Prineville, Oregon
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
 - **Defense Logistics Agency** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/889626000) - Robins AFB, Georgia
-- **Department of Energy Headquarters** (Government) - [Intelligence Research Specialist](https://www.usajobs.gov:443/job/888988100) - Washington, District of Columbia
 - **Department of Energy Headquarters** (Government) - [Schedule A Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888564600) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
-- **Department of Energy Headquarters** (Government) - [Economist](https://www.usajobs.gov:443/job/889633800) - Washington, District of Columbia
 - **Federal Trade Commission** (Government) - [ECONOMIST](https://www.usajobs.gov:443/job/887156200) - Washington, District of Columbia
 - **Food Safety and Inspection Service** (Government) - [Economist (STEM - Direct Hire)](https://www.usajobs.gov:443/job/889413100) - Multiple locations
 - **Office of Management and Budget** (Government) - [Economist](https://www.usajobs.gov:443/job/889698300) - Washington, District of Columbia
@@ -342,7 +339,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 2, total open matches: 496._
+_Companies checked: 94, errors: 2, total open matches: 492._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
