@@ -1,6 +1,6 @@
-# Job digest - 2026-10-29
+# Job digest - 2026-10-30
 
-**321 open roles** across 58 firms.
+**323 open roles** across 58 firms.
 
 ### New-grad / full-time (167)
 
@@ -14,7 +14,6 @@
 - **Sylvera** (Climate Data) - [Carbon Analyst](https://jobs.ashbyhq.com/sylvera/c13b52bb-4162-4d30-b233-487abdb08944) - London
 - **Watershed** (Climate Data) - [Sustainability solutions consultant (french & german speaking)](https://jobs.ashbyhq.com/watershed/036a9fef-e915-4a51-a641-6d9804ac5f4d) - REMOTE
 - **Baker Tilly** (Consulting) - [IT Audit, Cybersecurity & Risk Experienced Consultant (SOC Focus)](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-WA-Seattle-999-Third-Ave/IT-Audit--Cybersecurity---Risk-Experienced-Consultant--SOC-Focus-_JR106609-1) - USA WA Seattle 999 Third Ave
-- **Baker Tilly** (Consulting) - [Summer 2028 Forensics & Advisory Services Consultant - BPB Conversion](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-FL-Miami/Summer-2028-Forensics---Advisory-Services-Consultant---BPB-Conversion_JR108692) - USA FL Miami
 - **Baker Tilly** (Consulting) - [HR Consultant (Generalist)](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-PA-Remote/HR-Consultant--Generalist-_JR108646) - REMOTE
 - **Baker Tilly** (Consulting) - [Employee Benefits Consultant - ACA Reporting](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-PA-Clarks-Summit/Employee-Benefits-Consultant---ACA-Reporting_JR108408) - USA PA Clarks Summit
 - **Baker Tilly** (Consulting) - [Summer 2027 Consultant - Forensic, Litigation, & Valuation Services](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-NY-New-York-City-66-Hudson-Blvd-E/Summer-2027-Consultant---Forensic--Litigation----Valuation-Services_JR108204) - USA NY New York City 66 Hudson Blvd E
@@ -98,6 +97,8 @@
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Compliance Engineer](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Indianapolis-Indiana/Managing-Technical-Consultant--Compliance-Engineer_R00032073-1) - Indianapolis, Indiana
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Biologist/Regulatory Specialist, Power and Technology Sectors](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Managing-Technical-Consultant--Biologist-Regulatory-Specialist--Power-and-Technology-Sectors_R00031588-1) - Seattle, Washington
 - **ERM** (Env Consulting) - [Environmental, Health and Safety (EHS) Consultant (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Environmental--Health-and-Safety--EHS--Consultant--Field-Based-_R00031430) - Seattle, Washington
+- **Guidehouse** (Env Consulting) - [Consultant - Energy Providers - Campus 2027](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---GA-Atlanta/Consultant---Energy-Providers---Campus-2027_43483) - US   GA Atlanta
+- **Guidehouse** (Env Consulting) - [Corporate Sustainability Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MA-Boston/Corporate-Sustainability-Consultant_45950) - US   MA Boston
 - **Guidehouse** (Env Consulting) - [Financial Management Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Financial-Management-Data-Analyst_45708) - US   VA Arlington
 - **Guidehouse** (Env Consulting) - [Data Analyst (Dashboard Developer)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Analyst--Dashboard-Developer-_44836) - REMOTE
 - **Guidehouse** (Env Consulting) - [Health Strategy Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Health-Strategy-Consultant_45887) - US - VA, Arlington
@@ -162,7 +163,6 @@
 - **Guidehouse** (Env Consulting) - [Cybersecurity Project Management Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Cybersecurity-Project-Management-Consultant_43828-1) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Change Management Communications Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Change-Management-Communications-Consultant_43308) - US   VA Arlington
 - **Tetra Tech** (Env Consulting) - [Energy Analyst](https://www.adzuna.com/details/5944112028?utm_medium=api&utm_source=7de842cf) - San Diego, San Diego County
-- **Bureau of Industry and Security** (Government) - [Export Policy Analyst](https://www.usajobs.gov:443/job/889883600) - Washington, District of Columbia
 - **Defense Logistics Agency** (Government) - [Demand/ Supply Chain Analyst](https://www.usajobs.gov:443/job/890254500) - Richmond, Virginia
 - **ERCOT** (Grid) - [GMS Development Program – Entry Level Power & Computer Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2513-1) - Austin, TX
 - **ERCOT** (Grid) - [Engineer Development Program - Entry Level Power Engineer](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Engineer-Development-Program---Entry-Level-Power-Engineer_R2167-1) - Austin, TX
@@ -195,7 +195,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **Economic Research Service** (Government) - [Economics (Student Trainee)](https://www.usajobs.gov:443/job/889896000) - REMOTE
 
-### Other matches (137)
+### Other matches (139)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
@@ -279,6 +279,7 @@
 - **ERM** (Env Consulting) - [Field Logistics and Fleet Coordinator (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Elko-Nevada/Field-Logistics-and-Fleet-Coordinator--Field-Based-_R00031634) - Elko, Nevada
 - **ERM** (Env Consulting) - [Utility Project Support Specialist (Field Based)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Utility-Project-Support-Specialist--Field-Based-_R00030418) - Rolling Meadows Illinois
 - **ERM** (Env Consulting) - [Partner, Capital Project Delivery – Power](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Pittsburgh-Pennsylvania/Partner--Capital-Project-Delivery---Power_R00031494-1) - Pittsburgh Pennsylvania
+- **Guidehouse** (Env Consulting) - [Managing Consulting - Human Centered Reserach for Energy Efficiency Programs](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---CO-Boulder/Managing-Consulting---Human-Centered-Reserach-for-Energy-Efficiency-Programs_45440) - US   CO Boulder
 - **Guidehouse** (Env Consulting) - [Strategy & Transformation Consulting](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Springfield/Strategy---Transformation-Consulting_43693) - US - VA, Springfield
 - **Guidehouse** (Env Consulting) - [Research Nurse](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Bethesda/Research-Nurse_45549) - US - MD, Bethesda
 - **Guidehouse** (Env Consulting) - [Microsoft Copilot Studio & Power Platform Solution Engineer](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Microsoft-Copilot-Studio---Power-Platform-Solution-Engineer_45147) - US   VA McLean
@@ -297,8 +298,9 @@
 - **Guidehouse** (Env Consulting) - [Bioassay Researcher](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Researcher_41850-1) - US - MD, Silver Spring
 - **Guidehouse** (Env Consulting) - [Bioassay Research Scientist II](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MD-Silver-Spring/Bioassay-Research-Scientist-II_41842) - US - MD, Silver Spring
 - **WSP** (Env Consulting) - [Energy Efficiency & Sustainability Specialist](https://www.adzuna.com/details/5921688450?utm_medium=api&utm_source=7de842cf) - Financial District, San Francisco
+- **Air National Guard** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/890737800) - Andrews AFB, Maryland
 - **Bureau of Economic Analysis** (Government) - [Economist](https://www.usajobs.gov:443/job/889011800) - Suitland, Maryland
-- **Bureau of Economic Analysis** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/888938900) - Suitland, Maryland
+- **Bureau of Economic Analysis** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/890055900) - Suitland, Maryland
 - **Bureau of Economic Analysis** (Government) - [Economist (Recent Graduate)](https://www.usajobs.gov:443/job/889011200) - Suitland, Maryland
 - **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/890531100) - Multiple locations
 - **Bureau of Labor Statistics** (Government) - [Economist/Statistician (Economics)](https://www.usajobs.gov:443/job/889804500) - Location Negotiable After Selection
@@ -310,8 +312,8 @@
 - **Department of Energy Headquarters** (Government) - [Schedule A Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888564600) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
 - **Federal Trade Commission** (Government) - [ECONOMIST](https://www.usajobs.gov:443/job/887156200) - Washington, District of Columbia
+- **National Defense University** (Government) - [PROFESSOR OF ECONOMICS](https://www.usajobs.gov:443/job/890859700) - Fort McNair, District of Columbia
 - **Office of Management and Budget** (Government) - [Economist](https://www.usajobs.gov:443/job/889698300) - Washington, District of Columbia
-- **Office of the Chief Economist** (Government) - [Bioeconomy Coordinator](https://www.usajobs.gov:443/job/889450300) - Washington, District of Columbia
 - **Offices, Boards and Divisions** (Government) - [Trial Attorney (Global Trade & Commerce Enforcement Section)](https://www.usajobs.gov:443/job/889359500) - Location Negotiable After Selection
 - **Securities and Exchange Commission** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/885040000) - Washington, District of Columbia
 - **Securities and Exchange Commission** (Government) - [Financial Economist - Crypto Assets and Novel Products](https://www.usajobs.gov:443/job/890676500) - Washington, District of Columbia
