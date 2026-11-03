@@ -1,17 +1,17 @@
 # Job digest - 2026-11-03
 
-**301 open roles** across 52 firms.
+**302 open roles** across 53 firms.
 
-### New-grad / full-time (154)
+### New-grad / full-time (153)
 
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
 - **Duke Energy** (Cleantech) - [Supply Chain Accounts Payable / Procure-to-Pay Analyst I](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/Supply-Chain-Acounts-Payable---Procure-to-Pay-Analyst-I_R42185) - Charlotte NC
-- **Duke Energy** (Cleantech) - [EHS Consultant](https://dukeenergy.wd1.myworkdayjobs.com/en-US/Search/job/Charlotte-NC/EHS-Consultant_R42063) - Charlotte NC
 - **Oklo** (Cleantech) - [Environmental Policy & Compliance Analyst](https://job-boards.greenhouse.io/oklo/jobs/6232761004) - REMOTE
 - **Redwood Materials** (Cleantech) - [Electrical Engineering Associate, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6223627004?gh_jid=6223627004) - Carson City, NV
 - **Redwood Materials** (Cleantech) - [Logistics Analyst (Inbound/Outbound)](https://boards.greenhouse.io/redwoodmaterials/jobs/6222749004?gh_jid=6222749004) - McCarran, NV
 - **Sylvera** (Climate Data) - [Carbon Analyst](https://jobs.ashbyhq.com/sylvera/c13b52bb-4162-4d30-b233-487abdb08944) - London
 - **Watershed** (Climate Data) - [Sustainability solutions consultant (french & german speaking)](https://jobs.ashbyhq.com/watershed/036a9fef-e915-4a51-a641-6d9804ac5f4d) - REMOTE
+- **Baker Tilly** (Consulting) - [Sage HCM Implementation & Support Consultant](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-IL-Remote/Sage-HCM-Implementation---Support-Consultant_JR108880) - REMOTE
 - **Baker Tilly** (Consulting) - [IT Audit, Cybersecurity & Risk Experienced Consultant (SOC Focus)](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-WA-Seattle-999-Third-Ave/IT-Audit--Cybersecurity---Risk-Experienced-Consultant--SOC-Focus-_JR106609-1) - USA WA Seattle 999 Third Ave
 - **Baker Tilly** (Consulting) - [HR Consultant (Generalist)](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-PA-Remote/HR-Consultant--Generalist-_JR108646) - REMOTE
 - **Baker Tilly** (Consulting) - [Employee Benefits Consultant - ACA Reporting](https://bakertilly.wd5.myworkdayjobs.com/en-US/BTCareers/job/USA-PA-Clarks-Summit/Employee-Benefits-Consultant---ACA-Reporting_JR108408) - USA PA Clarks Summit
@@ -92,7 +92,6 @@
 - **Guidehouse** (Env Consulting) - [Data Analyst (Visualization)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Data-Analyst--Visualization-_43337) - US - VA, Arlington
 - **Guidehouse** (Env Consulting) - [Financial Services Advisory Consultant – Banking, Insurance & Capital Markets](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---NY-New-York/Financial-Services-Advisory-Consultant---Banking--Insurance---Capital-Markets_46271) - US   NY New York
 - **Guidehouse** (Env Consulting) - [Consultant - Veterans Community Care, Federal Health](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-McLean/Consultant---Veterans-Community-Care--Federal-Health_42704) - US - VA, McLean
-- **Guidehouse** (Env Consulting) - [Corporate Sustainability Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---MA-Boston/Corporate-Sustainability-Consultant_45950) - US   MA Boston
 - **Guidehouse** (Env Consulting) - [Financial Management Data Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Financial-Management-Data-Analyst_45708) - US   VA Arlington
 - **Guidehouse** (Env Consulting) - [Data Analyst (Dashboard Developer)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Data-Analyst--Dashboard-Developer-_44836) - REMOTE
 - **Guidehouse** (Env Consulting) - [Health Strategy Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Health-Strategy-Consultant_45887) - US - VA, Arlington
@@ -180,7 +179,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **Economic Research Service** (Government) - [Economics (Student Trainee)](https://www.usajobs.gov:443/job/889896000) - REMOTE
 
-### Other matches (132)
+### Other matches (134)
 
 - **Base Power** (Cleantech) - [Member Experience Operations, Content Strategy](https://jobs.ashbyhq.com/base-power/9d7fb399-c21b-4866-8660-d1c60d6490d9) - Austin, TX
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
@@ -214,7 +213,6 @@
 - **Lithium Americas** (Critical Minerals) - [Process Research Engineer](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Lithium-Technical-Development-Center/Process-Research-Engineer_JR100102) - Lithium Technical Development Center
 - **Lithium Americas** (Critical Minerals) - [Lithium Carbonate Control Room Operator](https://lithiumamericas.wd108.myworkdayjobs.com/en-US/External_Careers_SG/job/Winnemucca-NV/Lithium-Carbonate-Control-Room-Operator_JR100062) - Winnemucca, NV
 - **Sierra Club** (Energy Policy) - [Climate Resilience Organizer](https://jobs.lever.co/sierraclub/5da24911-a01c-4565-a5fc-f5a0b665be18) - Grand Junction, CO
-- **AECOM** (Env Consulting) - [Mineral Processing Practice Leader](https://www.adzuna.com/details/5944851701?utm_medium=api&utm_source=7de842cf) - Tampa, Hillsborough County
 - **Booz Allen Hamilton** (Env Consulting) - [Operations Research Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Honolulu-HI/Operations-Research-Specialist_R0252709) - Honolulu, HI
 - **Booz Allen Hamilton** (Env Consulting) - [Wireless and Edge Infrastructure Cybersecurity Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Annapolis-Junction-MD/Wireless-and-Edge-Infrastructure-Cybersecurity-Engineer_R0252679) - Annapolis Junction, MD
 - **Booz Allen Hamilton** (Env Consulting) - [Infrastructure Support Engineer](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Bethesda-MD/Infrastructure-Support-Engineer_R0252387-1) - Bethesda, MD
@@ -280,10 +278,11 @@
 - **WSP** (Env Consulting) - [Energy Efficiency & Sustainability Specialist](https://www.adzuna.com/details/5946759418?utm_medium=api&utm_source=7de842cf) - Financial District, San Francisco
 - **Air National Guard** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/890737800) - Andrews AFB, Maryland
 - **Bureau of Economic Analysis** (Government) - [Economist](https://www.usajobs.gov:443/job/889011800) - Suitland, Maryland
+- **Bureau of Economic Analysis** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/891342300) - Suitland, Maryland
 - **Bureau of Economic Analysis** (Government) - [Economist (Recent Graduate)](https://www.usajobs.gov:443/job/889011200) - Suitland, Maryland
 - **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/890531100) - Multiple locations
 - **Bureau of Labor Statistics** (Government) - [Economist/Statistician (Economics)](https://www.usajobs.gov:443/job/889804500) - Location Negotiable After Selection
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/889454700) - Buffalo, New York, Minneapolis, Minnesota, Moses Lake, Washington + 4 more
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/889555600) - Minneapolis, Minnesota, Moses Lake, Washington, New York, New York + 3 more
 - **Bureau of Land Management** (Government) - [Modernizing Public Policy Engagement](https://www.usajobs.gov:443/job/888717800) - Prineville, Oregon
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
 - **Defense Logistics Agency** (Government) - [Logistics Systems Specialist](https://www.usajobs.gov:443/job/891018100) - Houston, Texas
@@ -292,8 +291,10 @@
 - **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
 - **Federal Trade Commission** (Government) - [ECONOMIST](https://www.usajobs.gov:443/job/887156200) - Washington, District of Columbia
 - **National Defense University** (Government) - [PROFESSOR OF ECONOMICS](https://www.usajobs.gov:443/job/890859700) - Fort McNair, District of Columbia
+- **National Institute of Standards and Technology** (Government) - [Critical Minerals Recovery Specialist](https://www.usajobs.gov:443/job/891287700) - Gaithersburg, Maryland
 - **Office of Management and Budget** (Government) - [Economist](https://www.usajobs.gov:443/job/889698300) - Washington, District of Columbia
 - **Offices, Boards and Divisions** (Government) - [Trial Attorney (Global Trade & Commerce Enforcement Section)](https://www.usajobs.gov:443/job/889359500) - Location Negotiable After Selection
+- **Pension Benefit Guaranty Corporation** (Government) - [INTERDISCIPLINARY (DATA SCIENTIST/ECONOMIST)](https://www.usajobs.gov:443/job/891340900) - Washington, District of Columbia
 - **Securities and Exchange Commission** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/885040000) - Washington, District of Columbia
 - **Securities and Exchange Commission** (Government) - [Financial Economist - Crypto Assets and Novel Products](https://www.usajobs.gov:443/job/890676500) - Washington, District of Columbia
 - **Treasury, Departmental Offices** (Government) - [Economic Sanctions Compliance Investigator](https://www.usajobs.gov:443/job/889956900) - Washington, District of Columbia
@@ -316,10 +317,11 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 4, total open matches: 451._
+_Companies checked: 94, errors: 5, total open matches: 450._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
 - Everstream Analytics: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/everstreamanalytics/jobs?content=true
 - Compass Lexecon: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/compasslexecon?mode=json
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
+- Overstory: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/overstory/jobs?content=true
