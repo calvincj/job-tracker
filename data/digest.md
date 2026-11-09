@@ -1,6 +1,6 @@
-# Job digest - 2026-11-08
+# Job digest - 2026-11-09
 
-**325 open roles** across 52 firms.
+**327 open roles** across 52 firms.
 
 ### New-grad / full-time (168)
 
@@ -195,12 +195,13 @@
 - **Guidehouse** (Env Consulting) - [Microsoft Dynamics and Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Microsoft-Dynamics-and-Power-Platform-Architect_43007) - REMOTE
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 
-### Other matches (141)
+### Other matches (143)
 
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
 - **Base Power** (Cleantech) - [Electrical Engineer, Power Electronics](https://jobs.ashbyhq.com/base-power/1f8c559e-cf28-44a0-83be-f7845a13cf94) - Austin, TX
 - **Base Power** (Cleantech) - [New Markets Growth, Utility Partnerships](https://jobs.ashbyhq.com/base-power/f7d60b6b-45fa-4deb-b86e-423ffb92f387) - Austin, TX
 - **Base Power** (Cleantech) - [Member Experience, Strategy and Operations](https://jobs.ashbyhq.com/base-power/aadaba76-ee6a-4673-a972-0505ae74a7b8) - Austin, TX
+- **Base Power** (Cleantech) - [Software Engineer, Backend - Base Power Platform](https://jobs.ashbyhq.com/base-power/f1faeca1-0545-44d2-87e3-aa74dc88b083) - Austin, TX
 - **Base Power** (Cleantech) - [Software Engineer, Algorithms & Infrastructure](https://jobs.ashbyhq.com/base-power/0ccc74f5-3330-4379-9faa-6ca1b39d4593) - Austin, TX
 - **Base Power** (Cleantech) - [Battery Safety & Abuse Test Engineer](https://jobs.ashbyhq.com/base-power/a2915462-a9de-49c7-9062-826f3405210f) - Austin, TX
 - **Base Power** (Cleantech) - [Battery Modeling Engineer](https://jobs.ashbyhq.com/base-power/f237f793-855e-4045-b553-df72c1119d5a) - Austin, TX
@@ -323,6 +324,7 @@
 - **Veterans Health Administration** (Government) - [Logistics Management Specialist](https://www.usajobs.gov:443/job/892114800) - Memphis, Tennessee; Nashville, Tennessee; San Diego, California
 - **Veterans Health Administration** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/891476800) - Danville, Illinois
 - **ERCOT** (Grid) - [Grid Interconnections Engineer 2](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Grid-Interconnections-Support-Engineer-2_R2517-1) - Taylor, TX
+- **ERCOT** (Grid) - [Power System Engineer - Renewable Forecasting and Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Power-System-Engineer---Renewable-Forecasting-and-Analysis_R2540-1) - Taylor, TX
 - **ERCOT** (Grid) - [Power System Engineer 2 - Ancillary Services and Operations Analytics](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Operations-Engineer-Lead_R2307-1) - Taylor, TX
 - **ERCOT** (Grid) - [Power System Engineer – Renewable Forecasting and Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Resource-Forecasting---Analysis-Engineer_R2367-1) - Austin, TX
 - **ERCOT** (Grid) - [Power Systems Engineer - Grid Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Power-Systems-Engineer-Sr---Grid-Analysis_R2228-1) - Austin, TX
@@ -340,7 +342,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 5, total open matches: 471._
+_Companies checked: 94, errors: 5, total open matches: 472._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
