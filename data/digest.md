@@ -1,6 +1,6 @@
 # Job digest - 2026-11-11
 
-**327 open roles** across 52 firms.
+**323 open roles** across 51 firms.
 
 ### New-grad / full-time (166)
 
@@ -171,10 +171,9 @@
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
 - **Clearway Energy** (Renewable Developer) - [Associate, EPC Procurement](https://job-boards.greenhouse.io/clearwayjobs/jobs/5250819007) - Houston, Texas, United States
 
-### Internships (5)
+### Internships (4)
 
 - **ICF** (Consulting) - [2027 Summer Intern, Sustainable Mobility (New York)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/New-York-NY/XMLNAME-2027-Summer-Intern--Sustainable-Mobility--New-York-_R2603406) - New York NY
-- **USA Rare Earth** (Critical Minerals) - [Mining Engineering Intern (Summer 2027)](https://www.adzuna.com/details/5913887386?utm_medium=api&utm_source=7de842cf) - US
 - **Charles River Associates** (Energy Consulting) - [(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120300) - Boston, MA, United States; Chicago, IL, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Washington, DC, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - New York, New York, United States; San Francisco, California, United States
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513) - REMOTE
@@ -195,7 +194,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000160679513) - REMOTE
 
-### Other matches (143)
+### Other matches (140)
 
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
 - **Base Power** (Cleantech) - [Electrical Engineer, Power Electronics](https://jobs.ashbyhq.com/base-power/1f8c559e-cf28-44a0-83be-f7845a13cf94) - San Carlos, CA
@@ -306,12 +305,10 @@
 - **Bureau of Economic Analysis** (Government) - [Supervisory Economist](https://www.usajobs.gov:443/job/891772300) - Suitland, Maryland
 - **Bureau of Economic Analysis** (Government) - [Economist (Recent Graduate)](https://www.usajobs.gov:443/job/889011200) - Suitland, Maryland
 - **Bureau of Labor Statistics** (Government) - [Economist](https://www.usajobs.gov:443/job/891648800) - Chicago, Illinois
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-Time)](https://www.usajobs.gov:443/job/890505700) - Indianapolis, Indiana, Minneapolis, Minnesota, Moses Lake, Washington + 2 more
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/890533500) - Indianapolis, Indiana; Moses Lake, Washington; Pittsfield, Massachusetts; Sacramento, California
 - **Centers for Medicare & Medicaid Services** (Government) - [Economist](https://www.usajobs.gov:443/job/891510300) - Multiple Locations
 - **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
 - **Commodity Futures Trading Commission** (Government) - [Research Economist](https://www.usajobs.gov:443/job/891890000) - Multiple locations
-- **Department of Energy Headquarters** (Government) - [Interdisciplinary General Engineer- Grid Modeler](https://www.usajobs.gov:443/job/891510500) - Washington, District of Columbia
-- **Department of Energy Headquarters** (Government) - [Interdisciplinary Physical Scientist - Grid Modeler](https://www.usajobs.gov:443/job/891510700) - Washington, District of Columbia
 - **Department of Energy Headquarters** (Government) - [Schedule A Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888564600) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
 - **Federal Law Enforcement Training Centers** (Government) - [Information Technology Specialist (Policy and Planning)](https://www.usajobs.gov:443/job/892348800) - Glynco, Georgia
@@ -330,7 +327,6 @@
 - **ERCOT** (Grid) - [Power System Engineer – Renewable Forecasting and Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Resource-Forecasting---Analysis-Engineer_R2367-1) - Austin, TX
 - **ERCOT** (Grid) - [Power Systems Engineer - Grid Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Power-Systems-Engineer-Sr---Grid-Analysis_R2228-1) - Austin, TX
 - **ERCOT** (Grid) - [Power Systems Engineer 3 - Grid Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Power-Systems-Engineer-3---Grid-Analysis_R2426) - Taylor, TX
-- **ERCOT** (Grid) - [Supervisor - Renewable Forecasting and Analysis](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Taylor-TX/Supervisor---Renewable-Forecasting-and-Analysis_R2518-1) - Taylor, TX
 - **ERCOT** (Grid) - [Advisor - Grid Interconnection](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Principal--Grid-Interconnection_R2333-1) - Austin, TX
 - **ERCOT** (Grid) - [Supervisor Power Engineering - Large Load Batch Studies](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Supervisor---Engineering--Large-Load-Batch-Studies-_R2382-1) - Austin, TX
 - **Kpler** (Market Intelligence) - [ML Engineer - Power](https://jobs.lever.co/kpler/10105b9b-ed9c-4ebe-8f3b-76b18edeccb8) - Paris
@@ -342,7 +338,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 4, total open matches: 465._
+_Companies checked: 94, errors: 4, total open matches: 461._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
