@@ -1,8 +1,8 @@
 # Job digest - 2026-11-13
 
-**327 open roles** across 48 firms.
+**325 open roles** across 47 firms.
 
-### New-grad / full-time (165)
+### New-grad / full-time (164)
 
 - **Crusoe Energy** (Cleantech) - [Associate Construction Engineer - Power Infrastructure](https://jobs.ashbyhq.com/Crusoe/91475b33-9f0e-4594-a425-cde5c5335cde) - Denver, CO - US
 - **Crusoe Energy** (Cleantech) - [People Science Consultant](https://jobs.ashbyhq.com/Crusoe/07a5c2e7-f4f0-4201-8942-db9bb69a6731) - Denver, CO - US; San Francisco, CA - US
@@ -87,7 +87,6 @@
 - **ERM** (Env Consulting) - [Consultant, Air Quality Compliance Engineer or Scientist](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Scottsdale-Arizona/Consultant--Air-Quality_R00032476-1) - Scottsdale, Arizona
 - **ERM** (Env Consulting) - [Consultant, Health and Safety](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Houston-Texas/Consultant--Health-and-Safety_R00032622-1) - Houston, Texas
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Due Diligence (Mergers & Acquisitions)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Denver-Colorado/Managing-Technical-Consultant--Due-Diligence--Mergers---Acquisitions-_R00031892-1) - Denver, Colorado
-- **ERM** (Env Consulting) - [Managing Technical Consultant, Site Investigation and Remediation](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Nashville-Tennessee/Managing-Technical-Consultant--Site-Investigation-and-Remediation_R00032258-1) - Nashville, Tennessee
 - **ERM** (Env Consulting) - [Consultant, Engineering](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Manhattan-New-York/Consultant--Engineering_R00032282-1) - Manhattan, New York
 - **ERM** (Env Consulting) - [Consultant, Geology, Engineering, or Science](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Manhattan-New-York/Consultant--Geology--Engineering--or-Science_R00032281-1) - Manhattan, New York
 - **ERM** (Env Consulting) - [Consultant, Land Services, Title Researcher](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Consultant--Land-Services--Title-Researcher_R00031438-1) - Rolling Meadows, Illinois
@@ -196,7 +195,7 @@
 - **Guidehouse** (Env Consulting) - [Power Platform Architect](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Power-Platform-Architect_43032-1) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000160679513) - REMOTE
 
-### Other matches (142)
+### Other matches (141)
 
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
 - **Base Power** (Cleantech) - [Electrical Engineer, Power Electronics](https://jobs.ashbyhq.com/base-power/1f8c559e-cf28-44a0-83be-f7845a13cf94) - San Carlos, CA
@@ -310,7 +309,6 @@
 - **Department of Energy Headquarters** (Government) - [Schedule A Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888564600) - Multiple Locations
 - **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
 - **Federal Law Enforcement Training Centers** (Government) - [Information Technology Specialist (Policy and Planning)](https://www.usajobs.gov:443/job/892348800) - Glynco, Georgia
-- **National Air and Space Intelligence Center** (Government) - [SUPERVISORY LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/891603800) - Wright-Patterson AFB, Ohio
 - **National Defense University** (Government) - [PROFESSOR OF ECONOMICS](https://www.usajobs.gov:443/job/890859700) - Fort McNair, District of Columbia
 - **Office of Management and Budget** (Government) - [Economist](https://www.usajobs.gov:443/job/889698300) - Washington, District of Columbia
 - **Office of the Secretary of Defense** (Government) - [Supervisory Logistics Management Specialist](https://www.usajobs.gov:443/job/892466600) - Alexandria, Virginia
@@ -342,7 +340,7 @@
 - **Urban Institute** (Think Tank) - [Research Assistant – Quantitative (Health, Income, and Benefits Policy Division)](https://urban.wd115.myworkdayjobs.com/en-US/Urban-Careers/job/The-Urban-Institute-DC/Research-Assistant---Quantitative--Health--Income--and-Benefits-Policy-Division-_R-801655) - The Urban Institute (DC)
 
 ---
-_Companies checked: 94, errors: 5, total open matches: 470._
+_Companies checked: 94, errors: 5, total open matches: 467._
 
 Companies that failed this run (check slug/config):
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
