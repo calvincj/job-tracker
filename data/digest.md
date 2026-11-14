@@ -16,7 +16,7 @@
 - **FTI Consulting** (Energy Consulting) - [Research Analyst, Digital & Insights](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Washington-DC/Research-Analyst--Digital---Insights_JR261813) - Washington DC
 - **FTI Consulting** (Energy Consulting) - [Analyst, Strategy and Transformation](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Washington-DC/Analyst--Strategy-and-Transformation_JR261360) - Washington, DC
 - **FTI Consulting** (Energy Consulting) - [Consultant, Privacy Engineer | Forensic & Litigation Consulting](https://fticonsulting.wd108.myworkdayjobs.com/en-US/FTIConsultingCareers/job/Atlanta/Senior-Consultant--Cybersecurity-Privacy-Generalist--Forensic---Litigation-Consulting_JR260902) - Atlanta
-- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726471005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
+- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4725704005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
 - **ERM** (Env Consulting) - [Consultant, Environmental, Health, and Safety (EHS)](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/San-Diego-California/Consultant--Environmental--Health--and-Safety--EHS-_R00031178-1) - San Diego California
 - **ERM** (Env Consulting) - [Consultant, Environmental Health and Safety, EHS](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Walnut-Creek-California/Consultant--Environmental-Health-and-Safety--EHS_R00032807-1) - Walnut Creek California
 - **ERM** (Env Consulting) - [Managing Technical Consultant, Biologist/Regulatory Specialist, Power and Technology Sectors](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Seattle-Washington/Managing-Technical-Consultant--Biologist-Regulatory-Specialist--Power-and-Technology-Sectors_R00032800-1) - Seattle, Washington
@@ -58,7 +58,7 @@
 
 - **USA Rare Earth** (Critical Minerals) - [Mining Engineering Intern (Summer 2027)](https://www.adzuna.com/details/5913887386?utm_medium=api&utm_source=7de842cf) - US
 - **Charles River Associates** (Energy Consulting) - [(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120300) - Boston, MA, United States; Chicago, IL, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Washington, DC, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735519005) - New York, New York, United States; San Francisco, California, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - New York, New York, United States; San Francisco, California, United States
 
 ### Remote (school-year workable) (5)
 
@@ -121,19 +121,19 @@
 _Companies checked: 94, errors: 16, total open matches: 119._
 
 Companies that failed this run (check slug/config):
-- Duke Energy: HTTPError: 521 Server Error: <none> for url: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/Search/jobs
-- ERCOT: HTTPError: 521 Server Error: <none> for url: https://ercot.wd1.myworkdayjobs.com/wday/cxs/ercot/ercot_careers/jobs
-- Baker Tilly: HTTPError: 521 Server Error: <none> for url: https://bakertilly.wd5.myworkdayjobs.com/wday/cxs/bakertilly/BTCareers/jobs
-- ICF: HTTPError: 521 Server Error: <none> for url: https://icf.wd5.myworkdayjobs.com/wday/cxs/icf/ICFExternal_Career_Site/jobs
-- Guidehouse: HTTPError: 521 Server Error: <none> for url: https://guidehouse.wd1.myworkdayjobs.com/wday/cxs/guidehouse/External/jobs
-- Booz Allen Hamilton: HTTPError: 521 Server Error: <none> for url: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs
-- RMI: HTTPError: 521 Server Error: <none> for url: https://rockymountain.wd1.myworkdayjobs.com/wday/cxs/rockymountain/RMI/jobs
-- Environmental Defense Fund: HTTPError: 521 Server Error: <none> for url: https://osv-edf.wd5.myworkdayjobs.com/wday/cxs/osv_edf/EDF_External_Careers/jobs
-- National Laboratory of the Rockies (NLR, formerly NREL): HTTPError: 521 Server Error: <none> for url: https://nrel.wd5.myworkdayjobs.com/wday/cxs/nrel/NLR/jobs
-- Albemarle: HTTPError: 521 Server Error: <none> for url: https://albemarle.wd5.myworkdayjobs.com/wday/cxs/albemarle/External/jobs
+- Duke Energy: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- ERCOT: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- Baker Tilly: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- ICF: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- Guidehouse: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- Booz Allen Hamilton: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- RMI: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- Environmental Defense Fund: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- National Laboratory of the Rockies (NLR, formerly NREL): JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- Albemarle: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 - Cloverly: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cloverly/jobs?content=true
 - Everstream Analytics: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/everstreamanalytics/jobs?content=true
 - Compass Lexecon: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/compasslexecon?mode=json
 - Climate X: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/climatex/jobs?content=true
 - Overstory: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/overstory/jobs?content=true
-- Sunrun: HTTPError: 521 Server Error: <none> for url: https://sunrun.wd5.myworkdayjobs.com/wday/cxs/sunrun/Sunrun_Careers/jobs
+- Sunrun: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
