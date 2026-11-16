@@ -1,8 +1,8 @@
 # Job digest - 2026-11-16
 
-**91 open roles** across 43 firms.
+**78 open roles** across 39 firms.
 
-### New-grad / full-time (46)
+### New-grad / full-time (45)
 
 - **Base Power** (Cleantech) - [Market Analyst](https://jobs.ashbyhq.com/base-power/5427e135-c24f-4ddd-8c1a-0eeabee17ca4) - Austin, TX
 - **Crusoe Energy** (Cleantech) - [Associate, Capital Markets](https://jobs.ashbyhq.com/Crusoe/f581dfe7-d2c4-4a22-9974-b9d93e8c3293) - New York, NY - US; San Francisco, CA - US
@@ -35,14 +35,13 @@
 - **ERM** (Env Consulting) - [Consultant, Land Services, Title Researcher](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Rolling-Meadows-Illinois/Consultant--Land-Services--Title-Researcher_R00031438-1) - Rolling Meadows, Illinois
 - **ERM** (Env Consulting) - [Consultant, Science/Engineering](https://erm.wd3.myworkdayjobs.com/en-US/ERM_Careers/job/Pittsburgh-Pennsylvania/Consultant--Environmental-Construction_R00030152-1) - Pittsburgh Pennsylvania
 - **Guidehouse** (Env Consulting) - [Energy Efficiency Consultant](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---VA-Arlington/Energy-Efficiency-Consultant_44942) - US   VA Arlington
-- **Guidehouse** (Env Consulting) - [Junior Analyst - Politically Exposed Person Screening](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/LT---Vilnius/Junior-Analyst---Politically-Exposed-Person-Screening_45789-1) - LT - Vilnius
 - **Guidehouse** (Env Consulting) - [Open-Source Research Analyst – China (Mandarin Required)](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Open-Source-Research-Analyst---China--Mandarin-Required-_45629) - US   DC Washington
 - **Guidehouse** (Env Consulting) - [OSINT Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/OSINT-Analyst_40623) - US - DC, Washington
 - **Guidehouse** (Env Consulting) - [Sanctions Analyst](https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---DC-Washington/Sanctions-Analyst_44871) - US   DC Washington
 - **Bureau of Economic Analysis** (Government) - [Economist (Recent Graduate)](https://www.usajobs.gov:443/job/889011200) - Suitland, Maryland
+- **Cybersecurity and Infrastructure Security Agency** (Government) - [Futures and Foresight Risk Analyst](https://www.usajobs.gov:443/job/892475400) - Arlington, Virginia
 - **Nuclear Regulatory Commission** (Government) - [Import/Export Analyst](https://www.usajobs.gov:443/job/892746300) - Rockville, Maryland
 - **U.S. International Trade Commission** (Government) - [International Trade Analyst](https://www.usajobs.gov:443/job/891757500) - Washington, District of Columbia
-- **General Motors** (Industry Strategy) - [Entry-Level – Researcher – Power Electronics & Energy Conversion Systems](https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Researcher---Power-Electronics---Energy-Conversion-Systems_JR-202621811) - Warren, Michigan, United States of America
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Integrated Grid Planning and Dynamics - Modeler/Analyst](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Integrated-Grid-Planning-and-Dynamics--Modeler-Analyst_R14343) - Golden, CO
 - **Teneo** (Political Risk) - [Energy & Infrastructure - Consultant / Senior Consultant](https://www.teneo.com/careers/open-positions/7864188003?gh_jid=7864188003) - Chicago, United States; Houston; New York, United States; Washington, United States
 - **Clearway Energy** (Renewable Developer) - [Associate, CRR & FTR Trading, Market Optimization & Trading](https://job-boards.greenhouse.io/clearwayjobs/jobs/5269000007) - San Diego, California, United States
@@ -51,17 +50,13 @@
 - **Origis Energy** (Renewable Developer) - [Capital Markets Associate](https://job-boards.greenhouse.io/origisenergy/jobs/6252846004) - White Plains, New York, United States
 - **Exiger** (Trade & Supply Chain) - [Investigative Analyst — Due Diligence & Global Risk](https://www.exiger.com/careers/?gh_jid=6191904004) - Huntsville, Alabama, United States; McLean, Virginia, United States; Richmond, Virginia, United States
 
-### Internships (9)
+### Internships (5)
 
 - **ICF** (Consulting) - [2027 Summer Intern, Energy Markets and Policy (Reston, VA; Arlington, VA)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Energy-Markets-and-Policy--Reston--VA--Arlington--VA-_R2603249) - Reston VA
 - **USA Rare Earth** (Critical Minerals) - [Mining Engineering Intern (Summer 2027)](https://www.adzuna.com/details/5913887386?utm_medium=api&utm_source=7de842cf) - US
-- **Charles River Associates** (Energy Consulting) - [(2028 Bachelor's/Master's graduates) Economics Consulting Analyst/Associate Intern (Summer 2027)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8120300) - Boston, MA, United States; Chicago, IL, United States; New York, NY, United States; Oakland, CA, United States; Salt Lake City, UT, United States; Washington, DC, United States
 - **The Brattle Group** (Energy Consulting) - [Energy Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735999005) - Boston, Massachusetts, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735674005) - Washington, District of Columbia, United States
-- **General Motors** (Industry Strategy) - [2027 Summer Intern - Research and Development - Physical Metallurgist (Steels)](https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Physical-Metallurgist--Steels-_JR-202621636) - Warren, Michigan, United States of America
-- **General Motors** (Industry Strategy) - [2027 Summer Intern – Research and Development - Power Electronics & Energy Conversion Systems](https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Pontiac-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Power-Electronics---Energy-Conversion-Systems_JR-202623048) - Pontiac Michigan United States of America
-- **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513) - REMOTE
 
 ### Remote (school-year workable) (4)
 
@@ -70,7 +65,7 @@
 - **Watershed** (Climate Data) - [Sustainability data advisor, fixed-term (US) ](https://jobs.ashbyhq.com/Watershed/f7ae632a-a586-409a-ad09-2923ed5dd371) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000160679513) - REMOTE
 
-### Other matches (32)
+### Other matches (24)
 
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
 - **Base Power** (Cleantech) - [New Markets Growth, Utility Partnerships](https://jobs.ashbyhq.com/base-power/f7d60b6b-45fa-4deb-b86e-423ffb92f387) - Austin, TX
@@ -78,7 +73,6 @@
 - **Base Power** (Cleantech) - [Member Experience, Strategy and Operations](https://jobs.ashbyhq.com/base-power/aadaba76-ee6a-4673-a972-0505ae74a7b8) - Austin, TX
 - **Booz Allen Hamilton** (Consulting) - [Trade Compliance Specialist](https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Trade-Compliance-Specialist_R0252125-1) - McLean, VA
 - **ICF** (Consulting) - [Public Policy and Comment Analysis Specialist  (Hybrid role, Reston, VA)](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/Senior-Public-Policy-and-Comment-Analysis-Specialist---Hybrid-role--Reston--VA-_R2602004) - Reston, VA
-- **ICF** (Consulting) - [UX Researcher](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Reston-VA/UX-Researcher_R2603464-1) - Reston VA
 - **ICF** (Consulting) - [Energy Efficiency Outreach Coordinator](https://icf.wd5.myworkdayjobs.com/en-US/ICFExternal_Career_Site/job/Albuquerque-NM/Energy-Efficiency-Outreach-Coordinator_R2603359) - Albuquerque, NM
 - **McKinsey & Company** (Consulting) - [Specialist - Metals and Critical Minerals](https://www.adzuna.com/details/5945532880?utm_medium=api&utm_source=7de842cf) - Boston, Suffolk County
 - **World Resources Institute** (Energy Policy) - [Project Specialist, GHG Protocol](https://wri.wd501.myworkdayjobs.com/en-US/WRI/job/Washington-DC-United-States/Project-Specialist--GHG-Protocol_2026-JR100528) - Washington, D.C., United States
@@ -87,26 +81,19 @@
 - **Bonneville Power Administration** (Government) - [Industry Economist (Data Scientist)](https://www.usajobs.gov:443/job/892310400) - Portland, Oregon
 - **Bureau of Economic Analysis** (Government) - [Economist](https://www.usajobs.gov:443/job/889011800) - Suitland, Maryland
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/891137000) - Moses Lake, Washington; Pittsfield, Massachusetts
-- **Central Intelligence Agency** (Government) - [Logistics Officer](https://www.usajobs.gov:443/job/757408900) - Washington, District of Columbia
 - **Commodity Futures Trading Commission** (Government) - [Research Economist](https://www.usajobs.gov:443/job/891890000) - Multiple locations
-- **Customs and Border Protection** (Government) - [Customs and Border Protection Officer](https://www.usajobs.gov:443/job/890456400) - CBPO Nationwide
-- **Department of Energy Headquarters** (Government) - [Schedule A Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888564600) - Multiple Locations
-- **Department of Energy Headquarters** (Government) - [30 Percent Disabled Veteran Repository 2027 for Department of Energy (HQ Offices only)](https://www.usajobs.gov:443/job/888571800) - Multiple Locations
 - **Department of State Headquarters** (Government) - [Foreign Service Consular Fellow - Arabic, Mandarin Chinese, Portuguese, and/or Spanish Proficiency](https://www.usajobs.gov:443/job/887144300) - Department of State Posts - Overseas and Domestic
-- **Immigration and Customs Enforcement** (Government) - [Criminal Investigator (Special Agent) (Reemployed Annuitant & CTAP/ICTAP/RPL) (Term Appt)](https://www.usajobs.gov:443/job/889840600) - Multiple Locations
-- **Immigration and Customs Enforcement** (Government) - [Criminal Investigator (Reemployed Annuitant & CTAP/ICTAP/RPL) (Term Appointment)](https://www.usajobs.gov:443/job/890838300) - Multiple Locations
 - **Office of Management and Budget** (Government) - [Economist](https://www.usajobs.gov:443/job/889698300) - Washington, District of Columbia
 - **Pension Benefit Guaranty Corporation** (Government) - [INTERDISCIPLINARY (DATA SCIENTIST/ECONOMIST)](https://www.usajobs.gov:443/job/891340900) - Washington, District of Columbia
 - **Securities and Exchange Commission** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/885040000) - Washington, District of Columbia
 - **ERCOT** (Grid) - [Advisor - Grid Interconnection](https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/Austin-TX/Principal--Grid-Interconnection_R2333-1) - Austin, TX
-- **General Motors** (Industry Strategy) - [Battery Cell DRE](https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/Battery-Cell-DRE_JR-202622875) - Warren, Michigan, United States of America
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Researcher : Human Dimensions of Integrated Energy Systems](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Boulder-CO/Researcher---Human-Dimensions-of-Integrated-Energy-Systems_R14602) - Boulder CO
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Researcher – Battery R&D and Critical Minerals Research](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Researcher---Battery-R-D-and-Critical-Minerals-Research_R14598) - Golden, CO
 - **National Laboratory of the Rockies (NLR, formerly NREL)** (National Lab) - [Electro-magnetic transient (EMT) modeling, laboratory verification, and stability analysis for power systems Researcher](https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Electro-magnetic-transient--EMT--modeling--laboratory-verification--and-stability-analysis-for-power-systems-Researcher_R14347) - Golden, CO
 - **Akin** (Trade Law & Compliance) - [Public Law and Policy Fellow (FARA)](https://www.adzuna.com/details/5945558558?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 
 ---
-_Companies checked: 100, errors: 7, total open matches: 111._
+_Companies checked: 100, errors: 7, total open matches: 99._
 
 Companies that failed this run (check slug/config):
 - FTI Consulting: HTTPError: 429 Client Error: Too Many Requests for url: https://fticonsulting.wd108.myworkdayjobs.com/wday/cxs/fticonsulting/FTIConsultingCareers/jobs
