@@ -553,6 +553,17 @@ companies:
     ats: greenhouse
     slug: project44               # confirmed
 
+  - name: Flexport
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: flexport                # confirmed 2026-11; customs associates, rotational program
+
+  - name: Keystone Strategy
+    category: Consulting
+    ats: greenhouse
+    slug: keystone                # confirmed 2026-11 (not "keystonestrategy", that board is empty);
+                                  # econ + tech strategy, hires 2027-grad associates/economists
+
   - name: FourKites
     category: Trade & Supply Chain
     ats: greenhouse

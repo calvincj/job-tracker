@@ -630,6 +630,9 @@ non_us_country_names:
 # (Japan/China/Korea postings) - see filtering.py _is_non_us_title.
 non_us_title_terms:      # also checked against the location field
   - vilnius
+  - zurich
+  - dublin             # US Dublins (CA/OH) are spared by the US-state guard
+  - luxembourg
   - lithuania
   - london
   - berlin
