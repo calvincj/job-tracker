@@ -26,6 +26,26 @@ postings from these; check by hand weekly regardless.
 
 - [BlackRock](https://careers.blackrock.com/)
 
+### Commodities
+
+- [Argus Media](https://www.argusmedia.com/en/careers)
+- [Benchmark Mineral Intelligence](https://www.benchmarkminerals.com/join-us)
+- [CRU Group](https://www.crugroup.com/about-cru/careers/)
+- [Castleton Commodities International](https://www.cci.com/careers/)
+- [Freepoint Commodities](https://freepoint.com/careers/)
+- [Glencore](https://www.glencore.com/careers)
+- [Gunvor](https://gunvorgroup.com/careers/)
+- [Hartree Partners](https://www.hartreepartners.com/careers/)
+- [Mercuria](https://mercuria.com/careers/)
+- [Trafigura](https://www.trafigura.com/careers/)
+
+### Congress
+
+- [House Employment Bulletin](https://www.house.gov/employment)
+- [House Select Committee on the CCP](https://selectcommitteeontheccp.house.gov/)
+- [Senate Employment Bulletin](https://www.senate.gov/employment/po/positions.htm)
+- [Tom Manatos Jobs](https://www.tommanatosjobs.com)
+
 ### Consulting
 
 - [BCG](https://careers.bcg.com/global)
@@ -108,14 +128,18 @@ postings from these; check by hand weekly regardless.
 
 ### Foreign Policy
 
+- [Asia Society Policy Institute](https://asiasociety.org/careers)
 - [Atlantic Council](https://www.atlanticcouncil.org/careers/)
 - [CSIS](https://careers.csis.org/)
 - [Carnegie Endowment for International Peace](https://carnegieendowment.org/employment-opportunities-at-the-carnegie-endowment-for-international-peace)
 - [Center for a New American Security](https://www.cnas.org/careers)
 - [Council on Foreign Relations](https://www.cfr.org/career-opportunities)
 - [Information Technology and Innovation Foundation](https://itif.org/jobs/)
+- [National Committee on U.S.-China Relations](https://www.ncuscr.org/employment/)
 - [Peterson Institute for International Economics](https://www.piie.com/careers)
 - [Rhodium Group](https://rhodiumgroup.applytojob.com/)
+- [U.S.-China Economic and Security Review Commission](https://www.uscc.gov/job-opportunities)
+- [US-China Business Council](https://www.uschina.org/careers)
 
 ### Grid
 
@@ -137,6 +161,13 @@ postings from these; check by hand weekly regardless.
 - [Southwest Power Pool](https://www.spp.org/careers/)
 - [Xcel Energy](https://www.xcelenergy.com/careers)
 
+### Industry Strategy
+
+- [Ford](https://www.careers.ford.com/)
+- [Freeport-McMoRan](https://fcx.com/careers)
+- [Rivian](https://careers.rivian.com/)
+- [Tesla](https://www.tesla.com/careers/search)
+
 ### Market Intelligence
 
 - [Aurora Energy Research](https://www.auroraer.com/careers/)
@@ -153,6 +184,14 @@ postings from these; check by hand weekly regardless.
 - [Oak Ridge National Laboratory](https://jobs.ornl.gov/)
 - [Pacific Northwest National Laboratory](https://careers.pnnl.gov/jobs)
 - [Sandia National Laboratories](https://sandia.jobs/jobs/)
+
+### Political Risk
+
+- [Control Risks](https://www.controlrisks.com/careers)
+- [DGA Group (Albright Stonebridge)](https://dgagroup.com/careers/)
+- [Eurasia Group](https://www.eurasiagroup.net/careers)
+- [Kroll](https://careers.kroll.com/)
+- [The Asia Group](https://theasiagroup.com/careers/)
 
 ### Renewable Developer
 
@@ -172,6 +211,20 @@ postings from these; check by hand weekly regardless.
 ### Trade & Supply Chain
 
 - [Interos](https://www.interos.ai/careers/)
+- [Kharon](https://www.kharon.com/careers)
+- [Strider Technologies](https://www.striderintel.com/careers/)
+
+### Trade Law & Compliance
+
+- [Akin](https://www.akingump.com/en/careers)
+- [Baker McKenzie](https://careers.bakermckenzie.com/)
+- [Commerce BIS](https://www.bis.gov/about-bis/careers)
+- [Covington & Burling](https://www.cov.com/en/careers)
+- [Crowell & Moring](https://www.crowell.com/en/careers)
+- [King & Spalding](https://www.kslaw.com/pages/careers)
+- [Steptoe](https://www.steptoe.com/en/careers.html)
+- [Treasury (OFAC)](https://home.treasury.gov/about/careers-at-treasury)
+- [Wiley Rein](https://www.wiley.law/careers)
 
 ### LinkedIn (no free API - saved searches instead)
 
