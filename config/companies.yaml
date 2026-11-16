@@ -14,7 +14,8 @@ companies:
   # ---- Cleantech startups (most likely clean ATS APIs) ----
   - name: Fervo Energy
     category: Cleantech
-    ats: manual                 # runs on Paylocity, no clean public API
+    ats: greenhouse
+    slug: fervoenergy           # confirmed 2026-11 (moved off Paylocity), ~60 open
     careers_url: https://fervoenergy.com/careers/
 
   - name: Form Energy
@@ -512,8 +513,8 @@ companies:
 
   - name: Cloverly
     category: Climate Data
-    ats: greenhouse
-    slug: cloverly                # confirmed
+    ats: manual                   # greenhouse board 404s as of 2026-11
+    careers_url: https://www.cloverly.com/careers
 
   - name: ClimateAI
     category: Climate Data
@@ -544,8 +545,8 @@ companies:
 
   - name: Everstream Analytics
     category: Trade & Supply Chain
-    ats: greenhouse
-    slug: everstreamanalytics     # confirmed; has run supply-chain intern roles
+    ats: manual                   # greenhouse board 404s as of 2026-11; has run supply-chain intern roles
+    careers_url: https://www.everstream.ai/careers/
 
   - name: project44
     category: Trade & Supply Chain
@@ -604,8 +605,8 @@ companies:
   # ---- More economic/strategy consulting (entry-level analyst titles) ----
   - name: Compass Lexecon
     category: Energy Consulting     # same genre as Brattle/CRA/NERA already here
-    ats: lever
-    slug: compasslexecon            # confirmed (0 open roles right now, still worth tracking)
+    ats: manual                     # lever board 404s as of 2026-11
+    careers_url: https://www.compasslexecon.com/careers/
 
   - name: Analysis Group
     category: Energy Consulting
@@ -993,8 +994,8 @@ companies:
   # ---- More climate data & analytics ----
   - name: Climate X
     category: Climate Data
-    ats: greenhouse
-    slug: climatex                    # confirmed; climate risk analytics, London-based
+    ats: manual                       # greenhouse board 404s as of 2026-11; London-based
+    careers_url: https://www.climate-x.com/careers
                                        # (mostly UK roles, kept for any US/remote openings)
 
   - name: Jupiter Intelligence
@@ -1004,8 +1005,8 @@ companies:
 
   - name: Overstory
     category: Climate Data
-    ats: greenhouse
-    slug: overstory                   # confirmed; satellite/ML vegetation & wildfire risk
+    ats: ashby
+    slug: overstory                   # confirmed 2026-11 (moved from greenhouse); satellite/ML vegetation & wildfire risk
 
   - name: Amperon
     category: Market Intelligence
