@@ -145,8 +145,15 @@ def _class_year_conflict(title, description, target_year, role_type):
     if not target_year or role_type not in ("intern", "new_grad"):
         return False
     text = f"{title} {_TAG_RE.sub(' ', description or '')}"
+    # A class year in the TITLE wins outright - CRA's "(2028 Bachelor's/
+    # Master's graduates) ... Intern (Summer 2027)" passed because its
+    # description also mentioned 2027 somewhere, which satisfied the
+    # combined title+description check.
     class_years = _plausible_years(
-        y for pat in _CLASS_YEAR_PATTERNS for y in pat.findall(text))
+        y for pat in _CLASS_YEAR_PATTERNS for y in pat.findall(title or ""))
+    if not class_years:
+        class_years = _plausible_years(
+            y for pat in _CLASS_YEAR_PATTERNS for y in pat.findall(text))
     if class_years:
         return target_year not in class_years
     # Not just interns: a "Summer 2028 ... Consultant" posting is tagged

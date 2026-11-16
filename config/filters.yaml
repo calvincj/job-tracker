@@ -385,6 +385,14 @@ exclude_title:
   - trade representative   # USTR political/senior posts
   - power bi
   - groundman
+  # seen in the first live run after the filter overhaul
+  - criminal investigator
+  - border protection officer
+  - repository         # DOE "Schedule A / Disabled Veteran Repository" hiring pools
+  - metallurgist
+  - power electronics
+  - dre                # GM "Design Release Engineer"
+  - ux
   - administrative assistant
   - partner            # "Partner, Power" etc - a senior rung
   - leader
@@ -493,6 +501,8 @@ exclude_employer:
   - national guard
   - air and space intelligence
   - national security agency
+  - central intelligence
+  - immigration and customs enforcement
   - law enforcement
   - veterans
   - medicare
@@ -619,6 +629,8 @@ non_us_country_names:
 # you want. Any title with CJK/kana characters is also treated as non-US
 # (Japan/China/Korea postings) - see filtering.py _is_non_us_title.
 non_us_title_terms:      # also checked against the location field
+  - vilnius
+  - lithuania
   - london
   - berlin
   - munich
