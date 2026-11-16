@@ -144,7 +144,7 @@ def _esc(s):
 TRACK_LABEL = {"new_grad": "Full-time", "intern": "Internship", "other": "Other"}
 TRACK_ORDER = {"new_grad": 0, "intern": 1, "other": 2}
 TRACK_CLASS = {"new_grad": "t-grad", "intern": "t-intern", "other": "t-other"}
-CATEGORY_PALETTE_SIZE = 16
+CATEGORY_PALETTE_SIZE = 21
 AVATAR_PALETTE_SIZE = 10
 
 # Every category currently in companies.yaml (plus "Government" from USAJobs),
@@ -156,6 +156,8 @@ _KNOWN_CATEGORIES = [
     "Energy Consulting", "Market Intelligence", "National Lab",
     "Critical Minerals", "Energy Policy", "Foreign Policy", "Government",
     "Climate Data", "Trade & Supply Chain", "Think Tank", "Climate Finance",
+    "Commodities", "Political Risk", "Trade Law & Compliance",
+    "Industry Strategy", "Congress",
 ]
 
 def _posted_label(posted):
@@ -252,6 +254,11 @@ _PALETTE = [
     ("#fae8ff", "#86198f", "#3d1440", "#f0abfc"),  # fuchsia
     ("#fce7f3", "#9d174d", "#3f0a24", "#f9a8d4"),  # pink
     ("#ffe4e6", "#9f1239", "#3a1220", "#fda4af"),  # rose
+    ("#e2e8f0", "#334155", "#1e293b", "#cbd5e1"),  # slate
+    ("#efe3d6", "#6b3f1d", "#2e1d10", "#e0b98f"),  # brown
+    ("#eef0d8", "#4d5216", "#23260a", "#d4da8a"),  # olive
+    ("#dde3f0", "#1f2f5c", "#151d33", "#a9b8dc"),  # navy
+    ("#e7e5e4", "#44403c", "#292524", "#d6d3d1"),  # stone
 ]
 
 

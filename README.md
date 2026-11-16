@@ -35,8 +35,21 @@ program doesn't sneak into your digest. See `target_grad_year` in
   Kayrros, Climate X, Jupiter Intelligence, Overstory (carbon accounting, ESG,
   climate risk)
 - Climate finance: Generate Capital, Galvanize Climate Solutions
-- Trade / supply-chain data: Altana AI, Sayari, Everstream Analytics,
-  project44, FourKites, Interos
+- Trade / supply-chain data and OSINT: Altana AI, Sayari, Exiger, Kharon,
+  Recorded Future, Strider, C4ADS, Everstream Analytics, project44,
+  FourKites, Interos
+- Commodities trading and price reporting: Trafigura, Glencore, Mercuria,
+  Vitol, Freepoint, Gunvor, Castleton, Hartree, Fastmarkets, Benchmark
+  Mineral Intelligence, Argus, CRU
+- Industry strategy (mining/EV corporate strategy and gov affairs):
+  Freeport-McMoRan, GM, Tesla, Ford, Rivian
+- Political risk: Eurasia Group, Control Risks, Teneo, The Asia Group, DGA
+  Group, Kroll
+- Trade law and compliance: Commerce BIS, Treasury/OFAC, Akin, Steptoe,
+  Covington, Wiley, Crowell, King & Spalding, Baker McKenzie
+- China policy: USCC, US-China Business Council, NCUSCR, Asia Society
+- Congress: House/Senate employment bulletins, Select Committee on the CCP,
+  Tom Manatos (bookmarks only, no feeds)
 - Think tanks: Brookings, Energy Innovation, Center for American Progress,
   Niskanen Center, Urban Institute, plus foreign-policy shops (CSIS, Atlantic
   Council, Rhodium Group, etc.)

@@ -96,7 +96,8 @@ def run():
         checked += 1
         try:
             raw = pull_company(c)
-            jobs = filtering.filter_jobs(raw, name, category, filters)
+            jobs = filtering.filter_jobs(raw, name, category, filters,
+                                         bool(c.get("require_domain")))
             all_open.extend(jobs)
         except Exception as e:
             errors.append((name, f"{type(e).__name__}: {e}"))
@@ -124,7 +125,8 @@ def run():
                 if not match_c:
                     continue
                 jobs = filtering.filter_jobs([r], r.get("_company", "Unknown"),
-                                             match_c.get("category", "Other"), filters)
+                                             match_c.get("category", "Other"), filters,
+                                             bool(match_c.get("require_domain")))
                 all_open.extend(jobs)
 
     # optional federal source (energy-policy track: DOE, FERC, EPA, EIA)

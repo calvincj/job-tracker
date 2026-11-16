@@ -127,6 +127,7 @@ _CLASS_YEAR_PATTERNS = (
     re.compile(r"(\d{4})\s+grad(?:uate)?s?\b", re.I),
     re.compile(r"new\s+grad\w*[^\d]{0,15}(\d{4})", re.I),
     re.compile(r"(\d{4})\s+new\s+grad", re.I),
+    re.compile(r"(\d{4})\s+(?:bachelor|master)\S*[^\d]{0,30}graduat", re.I),
 )
 _SUMMER_YEAR_RE = re.compile(r"summer\s+(\d{4})", re.I)
 
@@ -148,7 +149,9 @@ def _class_year_conflict(title, description, target_year, role_type):
         y for pat in _CLASS_YEAR_PATTERNS for y in pat.findall(text))
     if class_years:
         return target_year not in class_years
-    if role_type == "intern":
+    # Not just interns: a "Summer 2028 ... Consultant" posting is tagged
+    # new_grad by its "consultant" title but is really a summer program.
+    if role_type in ("intern", "new_grad"):
         summer_years = _plausible_years(_SUMMER_YEAR_RE.findall(text))
         if summer_years:
             return target_year not in summer_years
@@ -161,13 +164,29 @@ def _lower(s):
 
 def _has_word(text, term):
     """Whole-word (or phrase) match, so 'lead' doesn't nuke 'Leadership'."""
-    return re.search(r"(?<!\w)" + re.escape(term) + r"(?!\w)", text) is not None
+    # Boundary guards only on ends that are word chars - a term like ", mid"
+    # starts with punctuation, and "(?<!\w)" before the comma would never
+    # match ("analyst, mid": the comma follows the "t").
+    pre = r"(?<!\w)" if re.match(r"\w", term) else ""
+    post = r"(?!\w)" if re.search(r"\w$", term) else ""
+    return re.search(pre + re.escape(term) + post, text) is not None
+
+
+def _has_prefix(text, stem):
+    """Match a keyword stem at the START of a word ("econom" hits "Economist",
+    "sustainab" hits "Sustainability") but never mid-word, so "mining" can't
+    fire on "determining" or "trade" on "comrade". Prefix collisions that
+    remain ("wind" -> "Windows") are handled in exclude_title."""
+    return re.search(r"(?<!\w)" + re.escape(stem), text) is not None
 
 
 def detect_role_type(title, filters):
+    """Whole-word match, not substring: "intern" used to fire on
+    "International Trade Analyst" / "Internal Audit", tagging them as
+    internships and sending them through the intern-only location gate."""
     t = _lower(title)
     for label, needles in filters.get("role_types", {}).items():
-        if any(n in t for n in needles):
+        if any(_has_word(t, n) for n in needles):
             return label
     return "other"
 
@@ -186,6 +205,53 @@ def _is_non_us(location, filters):
     return last in filters.get("non_us_country_codes", [])
 
 
+# CJK punctuation/ideographic space, hiragana, katakana, CJK ideographs,
+# Hangul. A title written in one of these
+# scripts is a Japan/China/Korea posting regardless of what the (often vague)
+# location field says.
+_CJK_RE = re.compile(r"[\u3000-\u30ff\u3400-\u9fff\uac00-\ud7af]")
+
+
+_US_STATES = ("alabama alaska arizona arkansas california colorado connecticut "
+    "delaware florida georgia hawaii idaho illinois indiana iowa kansas "
+    "kentucky louisiana maine maryland massachusetts michigan minnesota "
+    "mississippi missouri montana nebraska nevada ohio oklahoma oregon "
+    "pennsylvania tennessee texas utah vermont virginia washington wisconsin "
+    "wyoming").split() + ["new hampshire", "new jersey", "new mexico",
+    "new york", "north carolina", "north dakota", "rhode island",
+    "south carolina", "south dakota", "west virginia", "district of columbia"]
+_US_CODES = ("AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI "
+             "MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT "
+             "VT VA WA WV WI WY DC").split()
+# A US state code only counts after a comma or at the very end ("Paris, TX",
+# "Albany NY") - not mid-string, or "London OR Berlin" would read as Oregon.
+_US_STATE_RE = re.compile(
+    r"(?i:\b(?:" + "|".join(_US_STATES) + r")\b)"
+    r"|,\s*(?:" + "|".join(_US_CODES) + r")\b"
+    r"|\b(?:" + "|".join(_US_CODES) + r")\s*$")
+
+
+def _has_non_us_place(location, filters):
+    """non_us_title_terms (foreign cities) checked against the location text
+    as well - "London GB80", "Ottawa ON", "Wiesbaden, Hesse" all slipped past
+    the country-name/last-segment-code check."""
+    if _US_STATE_RE.search(location or ""):
+        return False  # "Vancouver, Washington", "Paris, TX", "Ontario, CA"
+    loc = _lower(location)
+    return any(_has_word(loc, term) for term in filters.get("non_us_title_terms", []))
+
+
+def _is_non_us_title(title, filters):
+    """Non-US signal in the title itself (e.g. "Consultant - Toronto, ON",
+    "Consultant (m/w/d)"), for postings whose location field misses it.
+    Uses its own short list, not non_us_country_names - a title like "China
+    Policy Analyst" is a US role."""
+    if _CJK_RE.search(title or ""):
+        return True
+    t = _lower(title)
+    return any(_has_word(t, term) for term in filters.get("non_us_title_terms", []))
+
+
 def is_remote(location, title, raw):
     loc = _lower(location)
     if "remote" in loc:
@@ -201,8 +267,15 @@ def is_remote(location, title, raw):
     return False
 
 
-def passes(job, filters):
+# "Consultant / Senior Consultant", "Analyst / Sr. Analyst": one req open at
+# two rungs, the first of which is entry-level. Strip the senior alternate
+# before the exclude_title check so "senior" doesn't drop the whole posting.
+_SLASH_SENIOR_RE = re.compile(r"/\s*(?:senior|sr\.?)\s+", re.IGNORECASE)
+
+
+def passes(job, filters, require_domain=False):
     title = _lower(job["title"])
+    title = _SLASH_SENIOR_RE.sub("/ ", title)
     loc = _lower(job["location"]).strip()
 
     if job["uid"] in filters.get("known_dead_uids", []):
@@ -222,25 +295,40 @@ def passes(job, filters):
         if _has_word(company_name, _lower(bad)):
             return False
 
-    # keyword gate
+    # keyword gate (word-prefix match, see _has_prefix)
     kw = filters.get("keywords_any", [])
-    if kw and not any(k in title for k in kw):
+    if kw and not any(_has_prefix(title, k) for k in kw):
         return False
+
+    # domain gate - generalist firms only (Guidehouse, Booz Allen, GM...).
+    # At a firm whose feed is mostly federal health/IT/defense work, a bare
+    # role word ("Consultant", "Data Analyst", "Research", "Strategy") says
+    # nothing; the title also has to name your actual field. Specialist firms
+    # (RMI, Brattle, Watershed) skip this - there every role is in-field.
+    if require_domain:
+        dom = filters.get("domain_keywords", [])
+        if not any(_has_prefix(title, k) for k in dom):
+            return False
 
     # location gate - internships only (school-year, can't relocate). New-grad
     # and everything else is open to relocating anywhere, so skip this gate
     # for them entirely. Remote always allowed; unknown/vague locations are
     # KEPT rather than dropped, so inconsistent ATS location text doesn't
     # cost coverage - you eyeball the exact location on the linked page.
+    # Summer internships are exempt - you can relocate for a summer, the
+    # gate is only about school-year work (PROJECT.md track 3).
     locs = filters.get("locations_any", [])
-    if locs and job["role_type"] == "intern":
+    is_summer = "summer" in title
+    if locs and job["role_type"] == "intern" and not is_summer:
         vague = loc in VAGUE_LOCATIONS
         if not (job["remote"] or vague or any(l in loc for l in locs)):
             return False
 
     # US-only gate. Applies even to remote postings - an explicit
     # "Remote - Canada" still isn't a US role.
-    if _is_non_us(job["location"], filters):
+    if (_is_non_us(job["location"], filters)
+            or _has_non_us_place(job["location"], filters)
+            or _is_non_us_title(job["title"], filters)):
         return False
 
     # absolute age cutoff (e.g. a zombie req still marked open at 700+ days).
@@ -292,11 +380,11 @@ def build_job(raw, company, category, filters):
     return job
 
 
-def filter_jobs(raw_list, company, category, filters):
+def filter_jobs(raw_list, company, category, filters, require_domain=False):
     out = []
     for raw in raw_list:
         job = build_job(raw, company, category, filters)
-        if passes(job, filters):
+        if passes(job, filters, require_domain):
             job.pop("_description", None)  # only needed for the gate above
             out.append(job)
     return out

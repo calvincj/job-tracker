@@ -50,6 +50,51 @@ keywords_any:
   - logistics
   - esg                # ESG analyst / ESG data roles at climate-data shops
 
+  # Commodities trading / price reporting (Trafigura, Vitol, Fastmarkets...)
+  - commodit           # commodity, commodities
+  - metal              # metals, base metals, battery metals
+  - trading
+  - trader
+  - freight
+  - shipping
+  - price report       # Fastmarkets/Argus "Price Reporter"
+  - market analy       # market analyst/analysis (ISO, trading, price agencies)
+  - markets            # "Energy Markets", "Power Markets", "Metals Markets"
+  - ghg
+  - emission           # emissions inventory / emissions analyst
+
+  # Export controls / sanctions / OSINT supply chain (BIS, OFAC, Kharon, law firms)
+  - sanction
+  - export
+  - customs
+  - tariff
+  - investigat         # investigator, investigations analyst
+  - due diligence
+  - osint
+  - open source
+  - open-source
+
+  # Political risk / China / gov affairs (Eurasia, Control Risks, corporates)
+  - geopolit
+  - political
+  - country risk
+  - risk analyst
+  - risk analysis
+  - china
+  - chinese
+  - asia
+  - government affairs
+  - government relations
+  - public affairs
+  - legislative        # legislative assistant/correspondent (Hill)
+  - congress
+
+  # Corporate entry programs (GM/Ford/miners' strategy rotations)
+  - rotational
+  - development program
+  - graduate program
+  - corporate development
+
 # Only gates internships (role_type "intern") - during the school year you're
 # at UCSD and can't relocate, so intern postings must be San Diego, SF/Bay
 # Area, or remote. New-grad/full-time and everything else are NOT
@@ -88,9 +133,9 @@ exclude_title:
   - expert              # "X Expert" titles are consistently senior/specialist
   - managing consultant # a specific rung above plain "Consultant" at firms
                          # like Guidehouse/Deloitte, not an entry title
-  # "ii" / "iii" removed: utility career ladders (Duke, etc.) use Analyst
-  # I/II/III and Engineer I/II/III as their normal entry-to-mid grades, so
-  # excluding "ii"/"iii" silently hid near-entry roles. Recall > noise here.
+  # "ii" is deliberately NOT excluded: utility ladders (Duke, etc.) use
+  # Analyst I/II as near-entry grades. "iii"/"iv" ARE excluded (see below) -
+  # those are mid/senior rungs ("Research Analyst III", "Economist IV").
 
   # Not your field - healthcare/clinical consulting practice roles (Guidehouse
   # etc. run large healthcare practices that otherwise pass on "consultant").
@@ -152,6 +197,278 @@ exclude_title:
   - pentagon
   - national security
   - homeland security
+  # Defense-contractor support titles the list above missed (Booz Allen DoD
+  # work: "Department of War Financial Management Consultant", "CWMD Policy
+  # Analyst", "Aircraft Maintenance and Logistics Analyst", etc.) plus
+  # roles that need an existing clearance you don't have.
+  - department of war
+  - dow
+  - warfare
+  - cwmd
+  - aircraft
+  - security cooperation
+  - security assistance
+  - counterintelligence
+  - all-source
+  - tradecraft
+  - geoint
+  - clearance
+  - cleared
+  - law enforcement
+  - signals
+  - electromagnetic
+  - doctrine
+  - sensitive activities
+  - intelligence research
+  - intelligence data
+  - dhs
+  - uas                # drone policy (DoD/DHS)
+  - manpower
+  - acquisition logistics  # DoD acquisition - not bare "acquisition", which
+  - defense acquisition    # killed CAISO "Energy Data Acquisition" + land acquisition
+  - sustainment
+  - aviation systems   # not bare "aviation" - keeps sustainable aviation fuel roles
+  - product support
+  - reservist
+  - cyber
+  - endpoint
+  - information assurance
+  - risk management framework
+  - vulnerability researcher  # not bare - keeps "Climate Vulnerability" roles
+
+  # ---- Not a fit: hands-on / field / trade / plant ops ----
+  # Installers, operators, auditors, inspectors - on-the-ground work, not
+  # analysis. "field" also catches "(Field-Based)" consulting roles, which at
+  # ICF/ERM/Willdan are site visits and inspections, not desk work.
+  - installer
+  - foreperson
+  - foreman
+  - apprentice
+  - operator           # control room / generation / plant operator
+  - repairer
+  - dispatcher
+  - controller         # "Electric Power Controller" (grid ops), also senior finance
+  - lineman
+  - lineworker
+  - line worker
+  - mechanic
+  - welder
+  - machinist
+  - auditor            # home energy auditor, IT/financial auditor
+  - assessor
+  - inspector
+  - inspection
+  - field
+  - shift
+  - journeyman
+  - helper
+  - warehouse
+  - warehousing
+  - driver
+  - production associate
+  - production supervisor
+  - appointment setter
+  - appoinment setter  # real typo seen in a live Sunrun posting
+  - ambassador         # door-to-door canvassing
+  - account specialist
+  - grid tech          # utility line/field tech ladder ("Grid Tech I")
+  # Auto/battery plant floor (GM etc - "metal" keyword matches plant names
+  # like "Flint Metal Center").
+  - journeyperson
+  - pipefitter
+  - maintenance
+  - propulsion
+  - diagnostic
+
+  # ---- Not a fit: clerical purchasing / warehouse-adjacent coordination ----
+  # "procurement"/"logistics" are keywords for clean-energy procurement and
+  # supply chain analysis, but these are back-office ops roles.
+  - procurement assistant
+  - procurement coordinator
+  - procurement support
+  - purchase card
+  - purchasing
+  - inventory coordinator   # not bare "inventory" - keeps GHG/emissions
+  - inventory management    # inventory analyst roles
+  - logistics and inventory
+  - inventory and logistics
+  - logistics coordinator
+  - supply chain coordinator
+
+  # ---- Not a fit: engineering / IT build roles ----
+  # Need an engineering or CS degree, and "power"/"storage"/"infrastructure"
+  # keywords pull in a lot of them (Redwood Energy Storage engineers,
+  # Microsoft "Power Platform" devs, "Cloud Infrastructure" roles). Plain
+  # "developer" is NOT excluded - "Energy Storage Project Developer" is a
+  # real fit.
+  - engineer
+  - engineers
+  - software
+  - architect
+  - administrator
+  - devops
+  - cloud
+  - linux
+  - windows
+  - power platform
+  - power apps
+  - powershell
+  - microsoft dynamics
+  - servicenow
+  - workday          # Workday HCM / Workday Platforms implementation
+  - tester
+  - sap
+  - applications developer
+  - analytics developer
+  - quantitative developer
+  - cybersecurity
+  - it audit
+  - it security
+
+  # ---- Not a fit: lab / field science and EHS specialist roles ----
+  - geologist
+  - geology
+  - hydrogeology
+  - hydrogeologist
+  - geochemist
+  - geoscientist
+  - archaeologist
+  - ecologist
+  - biologist
+  - biology
+  - biological
+  - bioassay
+  - toxicology
+  - microbiology
+  - meteorologist
+  - chemist
+  - regulatory chemical  # FDA-style chem safety review; plain "chemical"
+                         # would also hit a think-tank "Chemical and
+                         # Environmental Researcher"
+  - wetland
+  - asbestos
+  - perovskite
+  - fluid dynamics
+  - safety             # EHS / H&S / process safety consulting
+  - ehs
+  - hse
+  - nurse
+  - pharmacist
+  - pharmacy
+  - health             # Guidehouse/ICF/Baker Tilly health practices
+                       # ("Federal Health", "Health Strategy", "Rural Health")
+  - life sciences
+  - managed care
+  - veterans
+  - infant
+
+  # ---- Not a fit: other business functions / seniority signals ----
+  - human capital
+  - human resources
+  - hr
+  - employee relations
+  - talent management
+  - recruiter
+  - recruiting
+  - accountant
+  - accounting
+  - actuarial
+  - gaap
+  - graphic design
+  - librarian
+  - attorney
+  - counsel
+  - legal intern       # law-student internships
+  - executive assistant
+  - deputy
+  - assistant secretary
+  - trade representative   # USTR political/senior posts
+  - power bi
+  - groundman
+  - administrative assistant
+  - partner            # "Partner, Power" etc - a senior rung
+  - leader
+  - managing           # "Managing Technical Consultant" etc, a rung above entry
+  - supervisor
+  - supervisory
+  - experienced        # "Experienced Consultant" = lateral hire rung
+  - sme                # subject-matter expert
+  - post masters
+  - post-masters
+
+  # ---- Not entry level (leaked through: "Analyst, Mid", "Research Analyst
+  # III", "Supervisory Economist", "Partner, M&A", "Managing Technical
+  # Consultant"). ", mid" not bare "mid" so "Mid-Atlantic" survives.
+  - ", mid"
+  - iii
+  - iv
+  - professor
+
+  # ---- Not a fit: engineering / software / IT / lab science. These passed
+  # on "power"/"energy"/"grid"/"infrastructure" (ERCOT Power System Engineer,
+  # Base Power Software Engineer, Booz "Windows Systems Administrator").
+  # Whole word: "Engineering" (e.g. a Mining Engineering Intern) is untouched.
+  - research scientist
+  - fabrication
+  - databricks
+  - cdl
+  - accounts payable
+
+# Generalist firms (companies.yaml `require_domain: true`) must ALSO hit one
+# of these. Their feeds are mostly federal health/IT/defense, so a bare role
+# word ("Consultant", "Data Analyst", "Strategy") carries no signal there.
+# Word-prefix match, same as keywords_any.
+domain_keywords:
+  - energy
+  - clean
+  - climate
+  - renewable
+  - grid
+  - power
+  - solar
+  - wind
+  - battery
+  - batteries
+  - sustainab
+  - decarbon
+  - carbon
+  - emission
+  - ghg
+  - esg
+  - environment
+  - utilit
+  - electri          # electricity, electrification
+  - nuclear
+  - hydrogen
+  - critical mineral
+  - mineral
+  - rare earth
+  - lithium
+  - mining
+  - metal
+  - commodit
+  - econom
+  - sanction
+  - export control
+  - trade policy
+  - trade compliance
+  - international trade
+  - tariff
+  - customs
+  - trade
+  - trading
+  - trader
+  - political
+  - government affairs
+  - osint
+  - tax credit
+  - inflation reduction
+  - export
+  - china
+  - chinese
+  - geopolit
+  - political risk
+  - country risk
 
 # Whole-word match against the company/agency name, not the title - for
 # postings whose title alone gives no hint it's a military employer (e.g. a
@@ -164,6 +481,22 @@ exclude_employer:
   - air force
   - marine corps
   - department of defense
+  # USAJobs defense/off-field agencies that slipped past the above
+  # Specific agency names, not bare "defense"/"intelligence" - those would
+  # also drop Environmental Defense Fund, Jupiter Intelligence, Benchmark
+  # Mineral Intelligence.
+  - defense logistics
+  - secretary of defense
+  - national defense university
+  - defense contract
+  - naval
+  - national guard
+  - air and space intelligence
+  - national security agency
+  - law enforcement
+  - veterans
+  - medicare
+  - inspection         # Food Safety and Inspection Service, APHIS
 
 # Best-effort: drop a job if its own description states a minimum years of
 # experience above this. Only checked for sources that give us the full
@@ -279,6 +612,38 @@ non_us_country_names:
   - bangladesh
   - gyeonggi-do        # Korean province - seen without a country code/name attached
 
+# Non-US places that show up in the TITLE when the location field is vague
+# or wrong (e.g. FTI "2027 Consultant - ... - Toronto, ON", Teneo "Consultant
+# (m/w/d)"). Kept separate from non_us_country_names on purpose: country
+# names can't be title-checked, since "China Policy Analyst" is a US role
+# you want. Any title with CJK/kana characters is also treated as non-US
+# (Japan/China/Korea postings) - see filtering.py _is_non_us_title.
+non_us_title_terms:      # also checked against the location field
+  - london
+  - berlin
+  - munich
+  - ontario
+  - hesse
+  - wiesbaden
+  - okinawa
+  - toronto
+  - vancouver
+  - calgary
+  - montreal
+  - ottawa
+  - sydney
+  - melbourne
+  - perth
+  - brisbane
+  - tokyo
+  - osaka
+  - kanagawa
+  - netherlands
+  - uk&i
+  - m/w/d
+  - consultant(e)
+  - werkstudent
+
 non_us_country_codes:
   - gb
   - uk
@@ -340,11 +705,21 @@ known_dead_uids:
 role_types:
   intern:
     - intern
+    - interns
     - internship
+    - internships
+    - student trainee   # federal Pathways internship program (NOT bare
+                        # "pathways" - Pathways Recent Graduate is full-time)
     - co-op
     - co op
     - coop
   new_grad:
+    - recent graduate   # federal Recent Graduates program
+    - recent graduates
+    - new grads
+    - early careers
+    - consultants
+    - associates
     - new grad
     - new graduate
     - entry level
@@ -353,10 +728,16 @@ role_types:
     - campus
     - early career
     - associate
+    - analysts
     - analyst        # entry title in consulting/finance
     - consultant     # bare "Consultant" (not "Managing/Senior Consultant",
                       # both excluded above) is the entry rung at firms like
                       # Guidehouse/ICF
+    - graduate program   # Trafigura/Glencore/Vitol-style grad schemes
+    - graduate programme
+    - rotational          # GM/Ford/miners' rotation programs
+    - development program
+    - junior
 
 # Optional broad net for the many big firms with no clean ATS API.
 # Requires free Adzuna keys as env vars ADZUNA_APP_ID / ADZUNA_APP_KEY.
@@ -389,6 +770,26 @@ adzuna:
       where: ""
     - what: ESG data analyst
       where: ""
+    - what: commodities analyst
+      where: ""
+    - what: metals market analyst
+      where: ""
+    - what: export controls analyst
+      where: ""
+    - what: sanctions analyst
+      where: ""
+    - what: trade compliance analyst
+      where: ""
+    - what: political risk analyst
+      where: ""
+    - what: China analyst
+      where: ""
+    - what: supply chain due diligence analyst
+      where: ""
+    - what: government affairs analyst energy
+      where: ""
+    - what: legislative assistant energy
+      where: ""
 
 # Optional: push the digest to your inbox instead of just checking the repo.
 # Requires free env vars GMAIL_USER / GMAIL_APP_PASSWORD (+ optional
@@ -412,3 +813,7 @@ usajobs:
     - supply chain
     - international trade
     - economist
+    - export control      # Commerce BIS
+    - sanctions           # Treasury OFAC
+    - trade compliance
+    - China

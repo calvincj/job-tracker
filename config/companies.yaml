@@ -127,6 +127,7 @@ companies:
 
   - name: Baker Tilly
     category: Consulting
+    require_domain: true   # mostly accounting/HCM/ERP consulting
     ats: workday
     workday:
       host: bakertilly.wd5.myworkdayjobs.com   # confirmed (was wd1, actually wd5)
@@ -144,6 +145,7 @@ companies:
   # ---- Environmental consulting (mostly Workday) ----
   - name: Guidehouse
     category: Env Consulting
+    require_domain: true   # feed is mostly federal health/finance/IT
     ats: workday
     workday:
       host: guidehouse.wd1.myworkdayjobs.com   # confirmed
@@ -156,7 +158,8 @@ companies:
     careers_url: https://www.tetratech.com/careers
 
   - name: Booz Allen Hamilton
-    category: Env Consulting
+    category: Consulting   # defense contractor, not env consulting
+    require_domain: true   # ~95% DoD/IC work; only energy/climate/trade titles pass
     ats: workday
     workday:
       host: bah.wd1.myworkdayjobs.com   # confirmed
@@ -1240,3 +1243,244 @@ companies:
                                        # investing team, NYC HQ; workable "blackrock"
                                        # slug capitalization mismatch, not trusted
     careers_url: https://careers.blackrock.com/
+
+  # ---- Supply chain risk / OSINT (China ownership + sanctions tracing) ----
+  # Sayari, Exiger, Interos, Altana already listed above.
+  - name: Kharon
+    category: Trade & Supply Chain
+    ats: manual                       # sanctions/export-control risk data
+    careers_url: https://www.kharon.com/careers
+
+  - name: Recorded Future
+    category: Trade & Supply Chain
+    require_domain: true   # mostly cyber; only geopolitical/China/sanctions titles
+    ats: greenhouse
+    slug: recordedfuture              # confirmed; mostly cyber threat intel,
+                                       # filters keep the geopolitical/research roles
+
+  - name: Strider Technologies
+    category: Trade & Supply Chain
+    ats: manual                       # China state-linked supply chain intel;
+                                       # Cloudflare blocks automated requests
+    careers_url: https://www.striderintel.com/careers/
+
+  - name: C4ADS
+    category: Trade & Supply Chain
+    ats: greenhouse
+    slug: c4ads                       # confirmed; nonprofit, sanctions evasion /
+                                       # illicit network research, small board
+
+  # ---- Commodities trading / price reporting ----
+  - name: Trafigura
+    category: Commodities
+    ats: manual                       # bespoke site
+    careers_url: https://www.trafigura.com/careers/
+
+  - name: Glencore
+    category: Commodities
+    ats: manual
+    careers_url: https://www.glencore.com/careers
+
+  - name: Mercuria
+    category: Commodities
+    ats: manual
+    careers_url: https://mercuria.com/careers/
+
+  - name: Vitol
+    category: Commodities
+    ats: smartrecruiters
+    slug: vitol                       # confirmed
+
+  - name: Freepoint Commodities
+    category: Commodities
+    ats: manual
+    careers_url: https://freepoint.com/careers/
+
+  - name: Gunvor
+    category: Commodities
+    ats: manual                       # Cloudflare blocks automated requests
+    careers_url: https://gunvorgroup.com/careers/
+
+  - name: Castleton Commodities International
+    category: Commodities
+    ats: manual
+    careers_url: https://www.cci.com/careers/
+
+  - name: Hartree Partners
+    category: Commodities
+    ats: manual                       # Cloudflare blocks automated requests
+    careers_url: https://www.hartreepartners.com/careers/
+
+  - name: Fastmarkets
+    category: Commodities
+    ats: smartrecruiters
+    slug: fastmarkets                 # confirmed; metals/battery-materials price
+                                       # reporting, hires analysts + price reporters
+
+  - name: Benchmark Mineral Intelligence
+    category: Commodities
+    ats: manual                       # lithium/graphite/rare-earth price + supply
+                                       # chain data, strong China-minerals fit
+    careers_url: https://www.benchmarkminerals.com/join-us
+
+  - name: Argus Media
+    category: Commodities
+    ats: manual
+    careers_url: https://www.argusmedia.com/en/careers
+
+  - name: CRU Group
+    category: Commodities
+    ats: manual
+    careers_url: https://www.crugroup.com/about-cru/careers/
+
+  # ---- Corporate strategy / gov affairs at mining, battery, EV cos ----
+  # Albemarle, MP Materials, Lithium Americas etc. already listed above.
+  - name: Freeport-McMoRan
+    category: Industry Strategy
+    ats: manual
+    careers_url: https://fcx.com/careers
+
+  - name: General Motors
+    category: Industry Strategy
+    require_domain: true   # huge board; only energy/minerals/policy titles
+    ats: workday
+    workday:
+      host: generalmotors.wd5.myworkdayjobs.com   # confirmed; huge board,
+      tenant: generalmotors                        # keyword/exclude filters
+      site: Careers_GM                             # keep it to strategy/policy
+
+  - name: Tesla
+    category: Industry Strategy
+    ats: manual                       # bespoke, Cloudflare blocks automated requests
+    careers_url: https://www.tesla.com/careers/search
+
+  - name: Ford
+    category: Industry Strategy
+    ats: manual
+    careers_url: https://www.careers.ford.com/
+
+  - name: Rivian
+    category: Industry Strategy
+    ats: manual
+    careers_url: https://careers.rivian.com/
+
+  # ---- Political risk / geopolitical advisory ----
+  - name: Eurasia Group
+    category: Political Risk
+    ats: manual
+    careers_url: https://www.eurasiagroup.net/careers
+
+  - name: Control Risks
+    category: Political Risk
+    ats: manual
+    careers_url: https://www.controlrisks.com/careers
+
+  - name: Teneo
+    category: Political Risk
+    ats: greenhouse
+    slug: teneo                       # confirmed; global board, US-only gate trims it
+
+  - name: The Asia Group
+    category: Political Risk
+    ats: manual                       # Asia-focused advisory, DC; Cloudflare blocks
+    careers_url: https://theasiagroup.com/careers/
+
+  - name: DGA Group (Albright Stonebridge)
+    category: Political Risk
+    ats: manual                       # "dga" lever slug is the Democratic
+                                       # Governors Association, not this firm
+    careers_url: https://dgagroup.com/careers/
+
+  - name: Kroll
+    category: Political Risk
+    ats: manual                       # investigations / due diligence practice
+    careers_url: https://careers.kroll.com/
+
+  # ---- Trade compliance / export controls / sanctions ----
+  # Federal BIS/OFAC postings also come through USAJobs (see filters.yaml).
+  - name: Commerce BIS
+    category: Trade Law & Compliance
+    ats: manual
+    careers_url: https://www.bis.gov/about-bis/careers
+
+  - name: Treasury (OFAC)
+    category: Trade Law & Compliance
+    ats: manual
+    careers_url: https://home.treasury.gov/about/careers-at-treasury
+
+  - name: Akin
+    category: Trade Law & Compliance
+    ats: manual                       # big intl trade / sanctions practice
+    careers_url: https://www.akingump.com/en/careers
+
+  - name: Steptoe
+    category: Trade Law & Compliance
+    ats: manual
+    careers_url: https://www.steptoe.com/en/careers.html
+
+  - name: Covington & Burling
+    category: Trade Law & Compliance
+    ats: manual
+    careers_url: https://www.cov.com/en/careers
+
+  - name: Wiley Rein
+    category: Trade Law & Compliance
+    ats: manual                       # trade remedies, China-heavy
+    careers_url: https://www.wiley.law/careers
+
+  - name: Crowell & Moring
+    category: Trade Law & Compliance
+    ats: manual
+    careers_url: https://www.crowell.com/en/careers
+
+  - name: King & Spalding
+    category: Trade Law & Compliance
+    ats: manual
+    careers_url: https://www.kslaw.com/pages/careers
+
+  - name: Baker McKenzie
+    category: Trade Law & Compliance
+    ats: manual
+    careers_url: https://careers.bakermckenzie.com/
+
+  # ---- China policy shops (same bucket as CSIS/Rhodium) ----
+  - name: U.S.-China Economic and Security Review Commission
+    category: Foreign Policy
+    ats: manual                       # hires research analysts on China econ/tech
+    careers_url: https://www.uscc.gov/job-opportunities
+
+  - name: US-China Business Council
+    category: Foreign Policy
+    ats: manual
+    careers_url: https://www.uschina.org/careers
+
+  - name: National Committee on U.S.-China Relations
+    category: Foreign Policy
+    ats: manual
+    careers_url: https://www.ncuscr.org/employment/
+
+  - name: Asia Society Policy Institute
+    category: Foreign Policy
+    ats: manual
+    careers_url: https://asiasociety.org/careers
+
+  # ---- Congress (no feeds; weekly eyeball) ----
+  - name: House Employment Bulletin
+    category: Congress
+    ats: manual                       # weekly House vacancy bulletin
+    careers_url: https://www.house.gov/employment
+
+  - name: Senate Employment Bulletin
+    category: Congress
+    ats: manual
+    careers_url: https://www.senate.gov/employment/po/positions.htm
+
+  - name: House Select Committee on the CCP
+    category: Congress
+    ats: manual
+    careers_url: https://selectcommitteeontheccp.house.gov/
+
+  - name: Tom Manatos Jobs
+    category: Congress
+    ats: manual                       # Hill job board (paid tier for full list)
+    careers_url: https://www.tommanatosjobs.com
