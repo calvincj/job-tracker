@@ -8,7 +8,6 @@ postings from these; check by hand weekly regardless.
 - [BlocPower](https://www.blocpower.io/careers)
 - [Climeworks](https://climeworks.com/careers-search)
 - [EN Engineering](https://www.enengineering.com/careers)
-- [Fervo Energy](https://fervoenergy.com/careers/)
 - [Iberdrola](https://www.iberdrola.com/careers)
 - [Lilac Solutions](https://lilacsolutions.com/careers)
 - [NextEra Energy](https://jobs.nexteraenergy.com/)
@@ -17,7 +16,9 @@ postings from these; check by hand weekly regardless.
 ### Climate Data
 
 - [CarbonPlan](https://carbonplan.org/jobs)
+- [Climate X](https://www.climate-x.com/careers)
 - [ClimateAI](https://climateai.com/careers)
+- [Cloverly](https://www.cloverly.com/careers)
 - [Kayrros](https://www.kayrros.com/careers/)
 - [Persefoni](https://www.persefoni.com/careers)
 - [WattTime](https://www.watttime.org/about-us/careers/)
@@ -74,6 +75,7 @@ postings from these; check by hand weekly regardless.
 - [Analysis Group](https://www.analysisgroup.com/careers/)
 - [Berkeley Research Group](https://jobs.jobvite.com/brg/jobs)
 - [Christensen Associates Energy Consulting](https://www.caenergy.com/careers)
+- [Compass Lexecon](https://www.compasslexecon.com/careers/)
 - [Concentric Energy Advisors](https://ceadvisors.com/careers/)
 - [E Source](https://www.esource.com/careers)
 - [Edgeworth Economics](https://edgewortheconomics.com/careers/)
@@ -210,6 +212,7 @@ postings from these; check by hand weekly regardless.
 
 ### Trade & Supply Chain
 
+- [Everstream Analytics](https://www.everstream.ai/careers/)
 - [Interos](https://www.interos.ai/careers/)
 - [Kharon](https://www.kharon.com/careers)
 - [Strider Technologies](https://www.striderintel.com/careers/)
