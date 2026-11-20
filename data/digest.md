@@ -1,8 +1,8 @@
 # Job digest - 2026-11-20
 
-**69 open roles** across 41 firms.
+**66 open roles** across 39 firms.
 
-### New-grad / full-time (29)
+### New-grad / full-time (27)
 
 - **Base Power** (Cleantech) - [Market Analyst](https://jobs.ashbyhq.com/base-power/5427e135-c24f-4ddd-8c1a-0eeabee17ca4) - Austin, TX
 - **Crusoe Energy** (Cleantech) - [Associate, Capital Markets](https://jobs.ashbyhq.com/Crusoe/f581dfe7-d2c4-4a22-9974-b9d93e8c3293) - New York, NY - US; San Francisco, CA - US
@@ -10,8 +10,6 @@
 - **Crusoe Energy** (Cleantech) - [People Science Consultant](https://jobs.ashbyhq.com/Crusoe/07a5c2e7-f4f0-4201-8942-db9bb69a6731) - Denver, CO - US; San Francisco, CA - US
 - **Fervo Energy** (Cleantech) - [Energy Associate, Geoblock](https://job-boards.greenhouse.io/fervoenergy/jobs/4432673009) - Houston, TX; Oakland, CA; Reno, NV
 - **ON.energy** (Cleantech) - [Corporate Development Associate](https://job-boards.greenhouse.io/onenergy/jobs/4465949009) - United States
-- **Redwood Materials** (Cleantech) - [Electrical Engineering Associate, Energy Storage](https://boards.greenhouse.io/redwoodmaterials/jobs/6223627004?gh_jid=6223627004) - Carson City, NV
-- **Redwood Materials** (Cleantech) - [Logistics Analyst (Inbound/Outbound)](https://boards.greenhouse.io/redwoodmaterials/jobs/6222749004?gh_jid=6222749004) - McCarran, NV
 - **Crux Climate** (Climate Finance) - [Associate, Structuring (Debt Capital Markets)](https://jobs.ashbyhq.com/cruxclimate/e28f7f75-3d91-4664-b332-1978cb8ea8de) - REMOTE
 - **Deloitte** (Consulting) - [Project Analyst, Sanctions Forensics and Investigations](https://www.adzuna.com/details/5891642866?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 - **Keystone Strategy** (Consulting) - [Summer Consultant, MBA (2027)](https://www.keystone.com/careers?gh_jid=8400450) - Boston, New York, San Francisco, Seattle, Washington D.C.
@@ -29,9 +27,9 @@
 - **Clearway Energy** (Renewable Developer) - [Associate, EPC Procurement](https://job-boards.greenhouse.io/clearwayjobs/jobs/5250819007) - Houston, Texas, United States
 - **Nexamp** (Renewable Developer) - [Capital Markets Associate](https://nexamp.com//careers?gh_jid=8684508002#Open%20Roles) - Boston, MA; Chicago, IL
 - **Origis Energy** (Renewable Developer) - [Capital Markets Associate](https://job-boards.greenhouse.io/origisenergy/jobs/6252846004) - White Plains, New York, United States
-- **Flexport** (Trade & Supply Chain) - [Customs Associate](https://job-boards.greenhouse.io/flexport/jobs/8329610) - Atlanta, Georgia, United States; Bellevue, Washington, United States
-- **Flexport** (Trade & Supply Chain) - [Rotational Development Program](https://job-boards.greenhouse.io/flexport/jobs/8172300) - Atlanta, Georgia, United States; Dallas, Texas, United States; Chicago, Illinois, United States; Los Angeles, California, United States; Los Angeles, California, United States; New York City, New York, United States
-- **Flexport** (Trade & Supply Chain) - [Solutions Consultant](https://job-boards.greenhouse.io/flexport/jobs/8241586) - Chicago, Illinois, United States; San Francisco, California, United States
+- **Flexport** (Trade & Supply Chain) - [Customs Associate](https://job-boards.greenhouse.io/flexport/jobs/8263427) - Atlanta, Georgia, United States; Bellevue, Washington, United States
+- **Flexport** (Trade & Supply Chain) - [Rotational Development Program](https://job-boards.greenhouse.io/flexport/jobs/8224715) - Atlanta, Georgia, United States; Dallas, Texas, United States; Chicago, Illinois, United States; Los Angeles, California, United States; Los Angeles, California, United States; New York City, New York, United States
+- **Flexport** (Trade & Supply Chain) - [Solutions Consultant](https://job-boards.greenhouse.io/flexport/jobs/8241588) - Chicago, Illinois, United States; San Francisco, California, United States
 - **Flexport** (Trade & Supply Chain) - [Trade Advisory Associate](https://job-boards.greenhouse.io/flexport/jobs/8384698) - Atlanta, Georgia, United States; Dallas, Texas, United States; Bellevue, Washington, United States; New York City, New York, United States; San Francisco, California, United States; Chicago, Illinois, United States; Los Angeles, California, United States
 
 ### Internships (5)
@@ -49,7 +47,7 @@
 - **Watershed** (Climate Data) - [Sustainability data advisor, fixed-term (US) ](https://jobs.ashbyhq.com/Watershed/f7ae632a-a586-409a-ad09-2923ed5dd371) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000160679513) - REMOTE
 
-### Other matches (31)
+### Other matches (30)
 
 - **** (Cleantech) - [Customs Compliance Specialist](https://www.adzuna.com/details/5972185088?utm_medium=api&utm_source=7de842cf) - US
 - **** (Cleantech) - [Customs Compliance Specialist (EU)](https://www.adzuna.com/details/5972185081?utm_medium=api&utm_source=7de842cf) - US
@@ -61,7 +59,6 @@
 - **Fervo Energy** (Cleantech) - [Supply Chain Specialist, Power Plant ](https://job-boards.greenhouse.io/fervoenergy/jobs/4459214009) - Houston, TX
 - **Fervo Energy** (Cleantech) - [Supply Chain Specialist, Steel and Piping](https://job-boards.greenhouse.io/fervoenergy/jobs/4459446009) - Houston, TX
 - **Keystone Strategy** (Consulting) - [Full Time Economist 2027](https://www.keystone.com/careers?gh_jid=8147819) - Boston, New York City, San Francisco, Seattle, Washington D.C.
-- **World Resources Institute** (Energy Policy) - [Project Specialist, GHG Protocol](https://wri.wd501.myworkdayjobs.com/en-US/WRI/job/Washington-DC-United-States/Project-Specialist--GHG-Protocol_2026-JR100528) - Washington, D.C., United States
 - **WSP** (Env Consulting) - [Energy Efficiency & Sustainability Specialist](https://www.adzuna.com/details/5946759418?utm_medium=api&utm_source=7de842cf) - Financial District, San Francisco
 - **Air Mobility Command** (Government) - [LOGISTICS MANAGEMENT SPECIALIST](https://www.usajobs.gov:443/job/893065700) - Scott AFB, Illinois
 - **Bonneville Power Administration** (Government) - [Industry Economist (Data Scientist)](https://www.usajobs.gov:443/job/892310400) - Portland, Oregon
@@ -84,9 +81,10 @@
 - **Akin** (Trade Law & Compliance) - [Public Law and Policy Fellow (FARA)](https://www.adzuna.com/details/5945558558?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 
 ---
-_Companies checked: 99, errors: 16, total open matches: 99._
+_Companies checked: 99, errors: 19, total open matches: 96._
 
 Companies that failed this run (check slug/config):
+- Redwood Materials: ReadTimeout: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=20)
 - Duke Energy: HTTPError: 429 Client Error: Too Many Requests for url: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/Search/jobs
 - ERCOT: HTTPError: 429 Client Error: Too Many Requests for url: https://ercot.wd1.myworkdayjobs.com/wday/cxs/ercot/ercot_careers/jobs
 - Baker Tilly: HTTPError: 429 Client Error: Too Many Requests for url: https://bakertilly.wd5.myworkdayjobs.com/wday/cxs/bakertilly/BTCareers/jobs
@@ -97,9 +95,11 @@ Companies that failed this run (check slug/config):
 - Wood Mackenzie: HTTPError: 429 Client Error: Too Many Requests for url: https://woodmac.wd3.myworkdayjobs.com/wday/cxs/woodmac/woodmaccareers/jobs
 - FTI Consulting: HTTPError: 429 Client Error: Too Many Requests for url: https://fticonsulting.wd108.myworkdayjobs.com/wday/cxs/fticonsulting/FTIConsultingCareers/jobs
 - RMI: HTTPError: 429 Client Error: Too Many Requests for url: https://rockymountain.wd1.myworkdayjobs.com/wday/cxs/rockymountain/RMI/jobs
+- World Resources Institute: HTTPError: 429 Client Error: Too Many Requests for url: https://wri.wd501.myworkdayjobs.com/wday/cxs/wri/WRI/jobs
 - Environmental Defense Fund: HTTPError: 429 Client Error: Too Many Requests for url: https://osv-edf.wd5.myworkdayjobs.com/wday/cxs/osv_edf/EDF_External_Careers/jobs
 - National Laboratory of the Rockies (NLR, formerly NREL): HTTPError: 429 Client Error: Too Many Requests for url: https://nrel.wd5.myworkdayjobs.com/wday/cxs/nrel/NLR/jobs
 - Albemarle: HTTPError: 429 Client Error: Too Many Requests for url: https://albemarle.wd5.myworkdayjobs.com/wday/cxs/albemarle/External/jobs
 - Lithium Americas: HTTPError: 429 Client Error: Too Many Requests for url: https://lithiumamericas.wd108.myworkdayjobs.com/wday/cxs/lithiumamericas/External_Careers_SG/jobs
+- Cornerstone Research: HTTPError: 429 Client Error: Too Many Requests for url: https://cornerstone.wd501.myworkdayjobs.com/wday/cxs/cornerstone/CornerstoneResearch_Careers/jobs
 - Sunrun: HTTPError: 429 Client Error: Too Many Requests for url: https://sunrun.wd5.myworkdayjobs.com/wday/cxs/sunrun/Sunrun_Careers/jobs
 - General Motors: HTTPError: 429 Client Error: Too Many Requests for url: https://generalmotors.wd5.myworkdayjobs.com/wday/cxs/generalmotors/Careers_GM/jobs
