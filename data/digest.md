@@ -1,6 +1,6 @@
 # Job digest - 2026-11-21
 
-**69 open roles** across 40 firms.
+**68 open roles** across 39 firms.
 
 ### New-grad / full-time (28)
 
@@ -33,10 +33,9 @@
 - **Flexport** (Trade & Supply Chain) - [Solutions Consultant](https://job-boards.greenhouse.io/flexport/jobs/8241586) - Chicago, Illinois, United States; San Francisco, California, United States
 - **Flexport** (Trade & Supply Chain) - [Trade Advisory Associate](https://job-boards.greenhouse.io/flexport/jobs/8385664) - Atlanta, Georgia, United States; Dallas, Texas, United States; Bellevue, Washington, United States; New York City, New York, United States; San Francisco, California, United States; Chicago, Illinois, United States; Los Angeles, California, United States
 
-### Internships (5)
+### Internships (4)
 
 - **Keystone Strategy** (Consulting) - [2027 Summer Interns - Associates and Consultants ](https://www.keystone.com/careers?gh_jid=8201221) - Boston, New York, San Francisco, Seattle, Washington D.C.
-- **USA Rare Earth** (Critical Minerals) - [Mining Engineering Intern (Summer 2027)](https://www.adzuna.com/details/5913887386?utm_medium=api&utm_source=7de842cf) - US
 - **The Brattle Group** (Energy Consulting) - [Energy Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735999005) - Boston, Massachusetts, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735518005) - Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735674005) - Washington, District of Columbia, United States
@@ -84,7 +83,7 @@
 - **Akin** (Trade Law & Compliance) - [Public Law and Policy Fellow (FARA)](https://www.adzuna.com/details/5945558558?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 
 ---
-_Companies checked: 99, errors: 17, total open matches: 98._
+_Companies checked: 99, errors: 16, total open matches: 97._
 
 Companies that failed this run (check slug/config):
 - Duke Energy: HTTPError: 429 Client Error: Too Many Requests for url: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/Search/jobs
@@ -101,6 +100,5 @@ Companies that failed this run (check slug/config):
 - National Laboratory of the Rockies (NLR, formerly NREL): HTTPError: 429 Client Error: Too Many Requests for url: https://nrel.wd5.myworkdayjobs.com/wday/cxs/nrel/NLR/jobs
 - Albemarle: HTTPError: 429 Client Error: Too Many Requests for url: https://albemarle.wd5.myworkdayjobs.com/wday/cxs/albemarle/External/jobs
 - Lithium Americas: HTTPError: 429 Client Error: Too Many Requests for url: https://lithiumamericas.wd108.myworkdayjobs.com/wday/cxs/lithiumamericas/External_Careers_SG/jobs
-- Cornerstone Research: HTTPError: 429 Client Error: Too Many Requests for url: https://cornerstone.wd501.myworkdayjobs.com/wday/cxs/cornerstone/CornerstoneResearch_Careers/jobs
 - Sunrun: HTTPError: 429 Client Error: Too Many Requests for url: https://sunrun.wd5.myworkdayjobs.com/wday/cxs/sunrun/Sunrun_Careers/jobs
 - General Motors: HTTPError: 429 Client Error: Too Many Requests for url: https://generalmotors.wd5.myworkdayjobs.com/wday/cxs/generalmotors/Careers_GM/jobs
