@@ -1,6 +1,6 @@
-# Job digest - 2026-11-23
+# Job digest - 2026-11-24
 
-**68 open roles** across 40 firms.
+**69 open roles** across 41 firms.
 
 ### New-grad / full-time (28)
 
@@ -28,8 +28,8 @@
 - **Clearway Energy** (Renewable Developer) - [Associate, EPC Procurement](https://job-boards.greenhouse.io/clearwayjobs/jobs/5250819007) - Houston, Texas, United States
 - **Nexamp** (Renewable Developer) - [Capital Markets Associate](https://nexamp.com//careers?gh_jid=8684508002#Open%20Roles) - Boston, MA; Chicago, IL
 - **Origis Energy** (Renewable Developer) - [Capital Markets Associate](https://job-boards.greenhouse.io/origisenergy/jobs/6252846004) - White Plains, New York, United States
-- **Flexport** (Trade & Supply Chain) - [Customs Associate](https://job-boards.greenhouse.io/flexport/jobs/8263427) - Atlanta, Georgia, United States; Bellevue, Washington, United States
-- **Flexport** (Trade & Supply Chain) - [Rotational Development Program](https://job-boards.greenhouse.io/flexport/jobs/8353044) - Atlanta, Georgia, United States; Dallas, Texas, United States; Chicago, Illinois, United States; Los Angeles, California, United States; Los Angeles, California, United States; New York City, New York, United States
+- **Flexport** (Trade & Supply Chain) - [Customs Associate](https://job-boards.greenhouse.io/flexport/jobs/8329610) - Atlanta, Georgia, United States; Bellevue, Washington, United States
+- **Flexport** (Trade & Supply Chain) - [Rotational Development Program](https://job-boards.greenhouse.io/flexport/jobs/8172300) - Atlanta, Georgia, United States; Dallas, Texas, United States; Chicago, Illinois, United States; Los Angeles, California, United States; Los Angeles, California, United States; New York City, New York, United States
 - **Flexport** (Trade & Supply Chain) - [Solutions Consultant](https://job-boards.greenhouse.io/flexport/jobs/8241588) - Chicago, Illinois, United States; San Francisco, California, United States
 - **Flexport** (Trade & Supply Chain) - [Trade Advisory Associate](https://job-boards.greenhouse.io/flexport/jobs/8385664) - Atlanta, Georgia, United States; Dallas, Texas, United States; Bellevue, Washington, United States; New York City, New York, United States; San Francisco, California, United States; Chicago, Illinois, United States; Los Angeles, California, United States
 
@@ -48,7 +48,7 @@
 - **Watershed** (Climate Data) - [Sustainability data advisor, fixed-term (US) ](https://jobs.ashbyhq.com/Watershed/f7ae632a-a586-409a-ad09-2923ed5dd371) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000160679513) - REMOTE
 
-### Other matches (31)
+### Other matches (32)
 
 - **** (Cleantech) - [Customs Compliance Specialist](https://www.adzuna.com/details/5972185088?utm_medium=api&utm_source=7de842cf) - US
 - **** (Cleantech) - [Customs Compliance Specialist (EU)](https://www.adzuna.com/details/5972185081?utm_medium=api&utm_source=7de842cf) - US
@@ -75,6 +75,7 @@
 - **Export-Import Bank of the United States** (Government) - [Business Development Specialist (Export Finance & Global Business Development)](https://www.usajobs.gov:443/job/893937600) - Washington, District of Columbia
 - **Federal Communications Commission** (Government) - [Industry Economist](https://www.usajobs.gov:443/job/893075600) - Multiple Locations
 - **Office of Management and Budget** (Government) - [Economist](https://www.usajobs.gov:443/job/892694500) - Washington, District of Columbia
+- **Office of the Inspector General, USPS** (Government) - [Student Cooperative for the Research and Insights Solution Center (RISC) (PAID)](https://www.usajobs.gov:443/job/893983700) - Arlington, Virginia
 - **Risk Management Agency** (Government) - [Investigator](https://www.usajobs.gov:443/job/893436200) - Location Negotiable After Selection
 - **Securities and Exchange Commission** (Government) - [Financial Economist](https://www.usajobs.gov:443/job/885040000) - Washington, District of Columbia
 - **CAISO** (Grid) - [Policy and Process Quality Specialist (Hybrid)](https://jobs.smartrecruiters.com/CaliforniaISO/744000162616350) - Folsom, CA, United States
@@ -83,7 +84,7 @@
 - **Akin** (Trade Law & Compliance) - [Public Law and Policy Fellow (FARA)](https://www.adzuna.com/details/5945558558?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 
 ---
-_Companies checked: 99, errors: 15, total open matches: 96._
+_Companies checked: 99, errors: 16, total open matches: 97._
 
 Companies that failed this run (check slug/config):
 - Duke Energy: HTTPError: 429 Client Error: Too Many Requests for url: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/Search/jobs
@@ -99,5 +100,6 @@ Companies that failed this run (check slug/config):
 - Environmental Defense Fund: HTTPError: 429 Client Error: Too Many Requests for url: https://osv-edf.wd5.myworkdayjobs.com/wday/cxs/osv_edf/EDF_External_Careers/jobs
 - National Laboratory of the Rockies (NLR, formerly NREL): HTTPError: 429 Client Error: Too Many Requests for url: https://nrel.wd5.myworkdayjobs.com/wday/cxs/nrel/NLR/jobs
 - Albemarle: HTTPError: 429 Client Error: Too Many Requests for url: https://albemarle.wd5.myworkdayjobs.com/wday/cxs/albemarle/External/jobs
+- Cornerstone Research: HTTPError: 429 Client Error: Too Many Requests for url: https://cornerstone.wd501.myworkdayjobs.com/wday/cxs/cornerstone/CornerstoneResearch_Careers/jobs
 - Sunrun: HTTPError: 429 Client Error: Too Many Requests for url: https://sunrun.wd5.myworkdayjobs.com/wday/cxs/sunrun/Sunrun_Careers/jobs
 - General Motors: HTTPError: 429 Client Error: Too Many Requests for url: https://generalmotors.wd5.myworkdayjobs.com/wday/cxs/generalmotors/Careers_GM/jobs
