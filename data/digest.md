@@ -1,6 +1,6 @@
-# Job digest - 2026-11-26
+# Job digest - 2026-11-27
 
-**64 open roles** across 39 firms.
+**62 open roles** across 38 firms.
 
 ### New-grad / full-time (30)
 
@@ -35,10 +35,9 @@
 - **Flexport** (Trade & Supply Chain) - [Solutions Consultant](https://job-boards.greenhouse.io/flexport/jobs/8241588) - Chicago, Illinois, United States; San Francisco, California, United States
 - **Flexport** (Trade & Supply Chain) - [Trade Advisory Associate](https://job-boards.greenhouse.io/flexport/jobs/8385664) - Atlanta, Georgia, United States; Dallas, Texas, United States; Bellevue, Washington, United States; New York City, New York, United States; San Francisco, California, United States; Chicago, Illinois, United States; Los Angeles, California, United States
 
-### Internships (5)
+### Internships (4)
 
 - **Keystone Strategy** (Consulting) - [2027 Summer Interns - Associates and Consultants ](https://www.keystone.com/careers?gh_jid=8201221) - Boston, New York, San Francisco, Seattle, Washington D.C.
-- **USA Rare Earth** (Critical Minerals) - [Mining Engineering Intern (Summer 2027)](https://www.adzuna.com/details/5913887386?utm_medium=api&utm_source=7de842cf) - US
 - **The Brattle Group** (Energy Consulting) - [Energy Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735999005) - Boston, Massachusetts, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735674005) - Washington, District of Columbia, United States
@@ -50,11 +49,10 @@
 - **Watershed** (Climate Data) - [Sustainability data advisor, fixed-term (US) ](https://jobs.ashbyhq.com/Watershed/f7ae632a-a586-409a-ad09-2923ed5dd371) - REMOTE
 - **CAISO** (Grid) - [Energy Data Acquisition Specialist (Hybrid or Remote)](https://jobs.smartrecruiters.com/CaliforniaISO/744000160679513) - REMOTE
 
-### Other matches (25)
+### Other matches (24)
 
 - **Base Power** (Cleantech) - [Power Trader](https://jobs.ashbyhq.com/base-power/dd151cc3-4e6b-4d59-952a-4158d64b87d5) - Austin, TX
 - **Base Power** (Cleantech) - [New Markets Growth, Utility Partnerships](https://jobs.ashbyhq.com/base-power/f7d60b6b-45fa-4deb-b86e-423ffb92f387) - Austin, TX
-- **Base Power** (Cleantech) - [Capital Markets](https://jobs.ashbyhq.com/base-power/44c5d31a-3ca7-4ab9-a77f-86132ffd34c5) - Austin, TX
 - **Fervo Energy** (Cleantech) - [Supply Chain Specialist, Power Plant ](https://job-boards.greenhouse.io/fervoenergy/jobs/4459214009) - Houston, TX
 - **Keystone Strategy** (Consulting) - [Full-Time Economist 2027 ](https://www.keystone.com/careers?gh_jid=8147819) - Boston, New York City, San Francisco, Seattle, Washington D.C.
 - **WSP** (Env Consulting) - [Energy Efficiency & Sustainability Specialist](https://www.adzuna.com/details/5946759418?utm_medium=api&utm_source=7de842cf) - Financial District, San Francisco
@@ -79,7 +77,7 @@
 - **Akin** (Trade Law & Compliance) - [Public Law and Policy Fellow (FARA)](https://www.adzuna.com/details/5945558558?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 
 ---
-_Companies checked: 99, errors: 16, total open matches: 86._
+_Companies checked: 99, errors: 16, total open matches: 84._
 
 Companies that failed this run (check slug/config):
 - Duke Energy: HTTPError: 429 Client Error: Too Many Requests for url: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/Search/jobs
