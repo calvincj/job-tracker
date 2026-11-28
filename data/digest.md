@@ -1,8 +1,8 @@
 # Job digest - 2026-11-28
 
-**63 open roles** across 40 firms.
+**60 open roles** across 37 firms.
 
-### New-grad / full-time (30)
+### New-grad / full-time (27)
 
 - **Base Power** (Cleantech) - [Market Analyst](https://jobs.ashbyhq.com/base-power/5427e135-c24f-4ddd-8c1a-0eeabee17ca4) - Austin, TX
 - **Crusoe Energy** (Cleantech) - [Associate, Capital Markets](https://jobs.ashbyhq.com/Crusoe/f581dfe7-d2c4-4a22-9974-b9d93e8c3293) - New York, NY - US; San Francisco, CA - US
@@ -16,11 +16,8 @@
 - **Keystone Strategy** (Consulting) - [Summer Consultant, MBA (2027)](https://www.keystone.com/careers?gh_jid=8400450) - Boston, New York, San Francisco, Seattle, Washington D.C.
 - **Charles River Associates** (Energy Consulting) - [Associate (Financial Economics practice)](https://job-boards.greenhouse.io/charlesriverassociates/jobs/585839) - Washington, DC, United States
 - **Charles River Associates** (Energy Consulting) - [Consulting Associate (Antitrust & Competition Economics practice) - Job ID 21761.67.14 ](https://job-boards.greenhouse.io/charlesriverassociates/jobs/8383863) - Oakland, CA, United States
-- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4726468005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
-- **World Resources Institute** (Energy Policy) - [Clean Energy Associate](https://wri.wd501.myworkdayjobs.com/en-US/WRI/job/Washington-DC-United-States/Clean-Energy-Associate_2026-JR100592) - Washington, D.C., United States
+- **The Brattle Group** (Energy Consulting) - [Associate, MBA - Economics/Finance](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4725704005) - Boston, Massachusetts, United States, Chicago, Illinois, United States, New York, New York, United States + 2 more
 - **Bureau of Economic Analysis** (Government) - [Economist (Recent Graduate)](https://www.usajobs.gov:443/job/889011200) - Suitland, Maryland
-- **Bureau of Industry and Security** (Government) - [Trade and Industry Analyst](https://www.usajobs.gov:443/job/893569000) - Washington, District of Columbia
-- **Federal Energy Regulatory Commission** (Government) - [Energy Industry Analyst](https://www.usajobs.gov:443/job/893138800) - Washington, District of Columbia
 - **Nuclear Regulatory Commission** (Government) - [Import/Export Analyst](https://www.usajobs.gov:443/job/892746300) - Rockville, Maryland
 - **Kpler** (Market Intelligence) - [Power Market Analyst](https://jobs.lever.co/kpler/5a0bc87b-fe06-4a53-9e7d-99aa0fb0b857) - Colorado
 - **Kpler** (Market Intelligence) - [Research Analyst, Fuel Oil](https://jobs.lever.co/kpler/b798471d-3b3e-47cb-b8db-77bc819e9551) - Dubai
@@ -32,15 +29,15 @@
 - **Origis Energy** (Renewable Developer) - [Capital Markets Associate](https://job-boards.greenhouse.io/origisenergy/jobs/6252846004) - White Plains, New York, United States
 - **Flexport** (Trade & Supply Chain) - [Customs Associate](https://job-boards.greenhouse.io/flexport/jobs/8263427) - Atlanta, Georgia, United States
 - **Flexport** (Trade & Supply Chain) - [Rotational Development Program](https://job-boards.greenhouse.io/flexport/jobs/8224715) - Atlanta, Georgia, United States; Dallas, Texas, United States; Chicago, Illinois, United States; Los Angeles, California, United States; Los Angeles, California, United States; New York City, New York, United States
-- **Flexport** (Trade & Supply Chain) - [Solutions Consultant](https://job-boards.greenhouse.io/flexport/jobs/8241586) - Chicago, Illinois, United States; San Francisco, California, United States
-- **Flexport** (Trade & Supply Chain) - [Trade Advisory Associate](https://job-boards.greenhouse.io/flexport/jobs/8384698) - Atlanta, Georgia, United States; Dallas, Texas, United States; Bellevue, Washington, United States; New York City, New York, United States; San Francisco, California, United States; Chicago, Illinois, United States; Los Angeles, California, United States
+- **Flexport** (Trade & Supply Chain) - [Solutions Consultant](https://job-boards.greenhouse.io/flexport/jobs/8241588) - Chicago, Illinois, United States; San Francisco, California, United States
+- **Flexport** (Trade & Supply Chain) - [Trade Advisory Associate](https://job-boards.greenhouse.io/flexport/jobs/8385664) - Atlanta, Georgia, United States; Dallas, Texas, United States; Bellevue, Washington, United States; New York City, New York, United States; San Francisco, California, United States; Chicago, Illinois, United States; Los Angeles, California, United States
 
 ### Internships (5)
 
 - **Keystone Strategy** (Consulting) - [2027 Summer Interns - Associates and Consultants ](https://www.keystone.com/careers?gh_jid=8201221) - Boston, New York, San Francisco, Seattle, Washington D.C.
 - **USA Rare Earth** (Critical Minerals) - [Mining Engineering Intern (Summer 2027)](https://www.adzuna.com/details/5913887386?utm_medium=api&utm_source=7de842cf) - US
 - **The Brattle Group** (Energy Consulting) - [Energy Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735999005) - Boston, Massachusetts, United States
-- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735792005) - Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
+- **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics & Finance) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735791005) - Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States
 - **The Brattle Group** (Energy Consulting) - [Research Analyst Intern (Economics) - Summer 2027](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735674005) - Washington, District of Columbia, United States
 
 ### Remote (school-year workable) (4)
@@ -59,7 +56,7 @@
 - **McKinsey & Company** (Consulting) - [Specialist - Metals and Critical Minerals](https://www.adzuna.com/details/5945532880?utm_medium=api&utm_source=7de842cf) - Boston, Suffolk County
 - **WSP** (Env Consulting) - [Energy Efficiency & Sustainability Specialist](https://www.adzuna.com/details/5946759418?utm_medium=api&utm_source=7de842cf) - Financial District, San Francisco
 - **Bureau of Economic Analysis** (Government) - [Economist](https://www.usajobs.gov:443/job/889011800) - Suitland, Maryland
-- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/893386300) - Cleveland, Ohio, Los Angeles, California, Pittsburgh, Pennsylvania + 2 more
+- **Bureau of Labor Statistics** (Government) - [Economic Assistant (Part-time)](https://www.usajobs.gov:443/job/893386300) - Cleveland, Ohio; Pittsburgh, Pennsylvania; Springfield, Massachusetts; Yuma, Arizona
 - **Bureau of Labor Statistics** (Government) - [Economic Assistant (Spanish) - Part-Time](https://www.usajobs.gov:443/job/893680400) - Chicago, Illinois
 - **Bureau of Ocean Energy Management** (Government) - [Economist](https://www.usajobs.gov:443/job/893022400) - Sterling, Virginia
 - **Commodity Futures Trading Commission** (Government) - [International Economist– Global Markets](https://www.usajobs.gov:443/job/893657800) - Washington, District of Columbia
@@ -78,7 +75,7 @@
 - **Akin** (Trade Law & Compliance) - [Public Law and Policy Fellow (FARA)](https://www.adzuna.com/details/5945558558?utm_medium=api&utm_source=7de842cf) - Rosslyn, Arlington County
 
 ---
-_Companies checked: 99, errors: 17, total open matches: 85._
+_Companies checked: 99, errors: 17, total open matches: 80._
 
 Companies that failed this run (check slug/config):
 - Duke Energy: HTTPError: 429 Client Error: Too Many Requests for url: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/Search/jobs
@@ -91,10 +88,10 @@ Companies that failed this run (check slug/config):
 - Wood Mackenzie: HTTPError: 429 Client Error: Too Many Requests for url: https://woodmac.wd3.myworkdayjobs.com/wday/cxs/woodmac/woodmaccareers/jobs
 - FTI Consulting: HTTPError: 429 Client Error: Too Many Requests for url: https://fticonsulting.wd108.myworkdayjobs.com/wday/cxs/fticonsulting/FTIConsultingCareers/jobs
 - RMI: HTTPError: 429 Client Error: Too Many Requests for url: https://rockymountain.wd1.myworkdayjobs.com/wday/cxs/rockymountain/RMI/jobs
+- World Resources Institute: HTTPError: 429 Client Error: Too Many Requests for url: https://wri.wd501.myworkdayjobs.com/wday/cxs/wri/WRI/jobs
 - Environmental Defense Fund: HTTPError: 429 Client Error: Too Many Requests for url: https://osv-edf.wd5.myworkdayjobs.com/wday/cxs/osv_edf/EDF_External_Careers/jobs
 - National Laboratory of the Rockies (NLR, formerly NREL): HTTPError: 429 Client Error: Too Many Requests for url: https://nrel.wd5.myworkdayjobs.com/wday/cxs/nrel/NLR/jobs
 - Albemarle: HTTPError: 429 Client Error: Too Many Requests for url: https://albemarle.wd5.myworkdayjobs.com/wday/cxs/albemarle/External/jobs
 - Lithium Americas: HTTPError: 429 Client Error: Too Many Requests for url: https://lithiumamericas.wd108.myworkdayjobs.com/wday/cxs/lithiumamericas/External_Careers_SG/jobs
-- Urban Institute: HTTPError: 429 Client Error: Too Many Requests for url: https://urban.wd115.myworkdayjobs.com/wday/cxs/urban/Urban-Careers/jobs
 - Sunrun: HTTPError: 429 Client Error: Too Many Requests for url: https://sunrun.wd5.myworkdayjobs.com/wday/cxs/sunrun/Sunrun_Careers/jobs
 - General Motors: HTTPError: 429 Client Error: Too Many Requests for url: https://generalmotors.wd5.myworkdayjobs.com/wday/cxs/generalmotors/Careers_GM/jobs
